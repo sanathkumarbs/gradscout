@@ -25,22 +25,14 @@ class University(object):
         return soup
 
     def get_name(self):
-        if self.has_namee():
-            name = self.has_namee()
+        if self.has_name():
+            name = self.has_name()
             return name
         else:
             print 'WARNING: University Name was not parsed'
             return None
 
     def has_name(self):
-        name_regex = r"<h1>([\w+\s+]+)<\/h1>"
-        match = re.match(name_regex, self.html, re.UNICODE)
-        if match:
-            return match.group(0)
-        else:
-            None
-
-    def has_namee(self):
         match = self.soup.select('h1')
         if match and len(match) == 1:
             return match[0].text
