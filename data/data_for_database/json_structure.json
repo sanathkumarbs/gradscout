@@ -1,0 +1,58 @@
+{
+    "admission_rate": 0.0569,
+    "research": {
+        "carnegie_basic_id" : 15,
+        "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "fees": {
+        "in_state": 42690,
+        "out_of_state": 63000
+    },
+    "academic_requirements" : {
+        "gpa": 3,
+        "gre": {
+            "quant": 167,
+            "verbal": 159
+        }
+    },
+    "living_expenditure": {
+        "boarding": 14601,
+        "books": 1425,
+        "other": 3325,
+        "overall": 19351
+    },
+    "location": {
+        "city": "Stanford",
+        "lat": 37.426967,
+        "lon": -122.168826,
+        "region_id": 8,
+        "region_name": "Far West",
+        "state": "CA",
+        "zip": 94305
+    },
+    "ownership": {
+        "id" : 2,
+        "name" : "Public"
+    },
+    "program": {
+        "department": "Department of Computer Science",
+        "id": 1,
+        "length": 24,
+        "name": "Master of Science in Computer Science",
+        "school": "School of Engineering",
+        "website": "http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1240861"
+    },
+    "rank": {
+        "cwur": 2,
+        "cwur_score": 98.25,
+        "forbes": 1,
+        "overall": 10,
+        "times": 2,
+        "usnews": 5,
+        "usnews_score": 95
+    },
+    "university" : {
+        "id": 1,
+        "name": "Stanford University"
+    }
+}
