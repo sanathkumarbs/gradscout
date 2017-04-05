@@ -1,0 +1,33 @@
+First import the Firebase database class
+
+> from database import Firebase
+
+
+Initialize the Firebase Class
+
+> firebase = Firebase()
+
+
+Request the needed data using the existing endpoints
+
+For Example: To get the Program Research Details for a given Program
+
+> program_id = '0'
+> result = firebase.get_program_research(program_id)
+
+
+
+All Available End Points:
+
+get_detailed_program
+get_program_acad
+get_program_admission_rate
+get_program_count
+get_program_details
+get_program_fees
+get_program_living
+get_program_location
+get_program_ownership
+get_program_rank
+get_program_research
+get_program_university

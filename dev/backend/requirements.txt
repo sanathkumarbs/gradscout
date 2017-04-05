@@ -1,0 +1,6 @@
+# Initial Requirements Manager
+
+# Might require sudo access
+
+pip install requests==1.1.0
+pip install python-firebase

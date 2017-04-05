@@ -1,0 +1,3423 @@
+{
+  "programs" : [ {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 167,
+        "verbal" : 159
+      }
+    },
+    "admission_rate" : 0.0569,
+    "fees" : {
+      "in_state" : 42690,
+      "out_of_state" : 63000
+    },
+    "living_expenditure" : {
+      "boarding" : 14601,
+      "books" : 1425,
+      "other" : 3325,
+      "overall" : 19351
+    },
+    "location" : {
+      "city" : "Stanford",
+      "lat" : 37.426967,
+      "lon" : -122.168826,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 94305
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 0,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "School of Engineering",
+      "website" : "http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1240861"
+    },
+    "rank" : {
+      "cwur" : 2,
+      "cwur_score" : 98.25,
+      "forbes" : 1,
+      "overall" : 10,
+      "times" : 2,
+      "usnews" : 5,
+      "usnews_score" : 95
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 1,
+      "name" : "Stanford University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.8,
+      "gre" : {
+        "quant" : 167,
+        "verbal" : 160
+      }
+    },
+    "admission_rate" : 0.0584,
+    "fees" : {
+      "in_state" : 38888,
+      "out_of_state" : 45000
+    },
+    "living_expenditure" : {
+      "boarding" : 15951,
+      "books" : 1000,
+      "other" : 8375,
+      "overall" : 25326
+    },
+    "location" : {
+      "city" : "Cambridge",
+      "lat" : 42.374429,
+      "lon" : -71.118177,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "MA",
+      "zip" : 2138
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Institute for Applied Computational Science",
+      "id" : 1,
+      "length" : 12,
+      "name" : "Master of Science in Computational Science and Engineering",
+      "school" : "John A. Paulson School of Engineering & Applied Sciences",
+      "website" : "http://www.seas.harvard.edu/programs/graduate/computational-science-and-engineering/master-of-science-in-cse"
+    },
+    "rank" : {
+      "cwur" : 1,
+      "cwur_score" : 100,
+      "forbes" : 4,
+      "overall" : 11,
+      "times" : 4,
+      "usnews" : 2,
+      "usnews_score" : 98
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 2,
+      "name" : "Harvard University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.75,
+      "gre" : {
+        "quant" : 166,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.0741,
+    "fees" : {
+      "in_state" : 47220,
+      "out_of_state" : 47220
+    },
+    "living_expenditure" : {
+      "boarding" : 14770,
+      "books" : 1050,
+      "other" : 3250,
+      "overall" : 19070
+    },
+    "location" : {
+      "city" : "Princeton",
+      "lat" : 40.34853,
+      "lon" : -74.663603,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NJ",
+      "zip" : 8544
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 2,
+      "length" : 24,
+      "name" : "Master of Science in Engineering",
+      "school" : "School of Engineering and Applied Science",
+      "website" : "https://www.cs.princeton.edu/grad/degrees"
+    },
+    "rank" : {
+      "cwur" : 7,
+      "cwur_score" : 88.72,
+      "forbes" : 3,
+      "overall" : 16,
+      "times" : 5,
+      "usnews" : 1,
+      "usnews_score" : 100
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 3,
+      "name" : "Princeton University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 2.7,
+      "gre" : {
+        "quant" : 167,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.0815,
+    "fees" : {
+      "in_state" : 77000,
+      "out_of_state" : 77000
+    },
+    "living_expenditure" : {
+      "boarding" : 14210,
+      "books" : 1000,
+      "other" : 1816,
+      "overall" : 17026
+    },
+    "location" : {
+      "city" : "Cambridge",
+      "lat" : 42.360095,
+      "lon" : -71.092115,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "MA",
+      "zip" : 2139
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 3,
+      "length" : 12,
+      "name" : "Master of Business Analytics",
+      "school" : "Sloan School of Management",
+      "website" : "http://mitsloan.mit.edu/master-of-business-analytics/admissions/"
+    },
+    "rank" : {
+      "cwur" : 3,
+      "cwur_score" : 97.12,
+      "forbes" : 5,
+      "overall" : 18,
+      "times" : 3,
+      "usnews" : 7,
+      "usnews_score" : 94
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 4,
+      "name" : "Massachusetts Institute of Technology"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 161,
+        "verbal" : 155
+      }
+    },
+    "admission_rate" : 0.0705,
+    "fees" : {
+      "in_state" : 68500,
+      "out_of_state" : 68500
+    },
+    "living_expenditure" : {
+      "boarding" : 15170,
+      "books" : 3580,
+      "other" : 720,
+      "overall" : 19470
+    },
+    "location" : {
+      "city" : "New Haven",
+      "lat" : 41.311158,
+      "lon" : -72.926688,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "CT",
+      "zip" : 6520
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 4,
+      "length" : 12,
+      "name" : "Master of Science in Computer Science",
+      "school" : "None",
+      "website" : "http://cpsc.yale.edu/academics/graduate-program/master-science"
+    },
+    "rank" : {
+      "cwur" : 8,
+      "cwur_score" : 85.83,
+      "forbes" : 6,
+      "overall" : 25,
+      "times" : 8,
+      "usnews" : 3,
+      "usnews_score" : 97
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 5,
+      "name" : "Yale University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 2.7,
+      "gre" : {
+        "quant" : 166,
+        "verbal" : 155
+      }
+    },
+    "admission_rate" : 0.0742,
+    "fees" : {
+      "in_state" : 55740,
+      "out_of_state" : 55740
+    },
+    "living_expenditure" : {
+      "boarding" : 13244,
+      "books" : 1223,
+      "other" : 2062,
+      "overall" : 16529
+    },
+    "location" : {
+      "city" : "New York",
+      "lat" : 40.808286,
+      "lon" : -73.961885,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NY",
+      "zip" : 10027
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 5,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "The Fu Foundation School of Engineering and Applied Science",
+      "website" : "http://www.cs.columbia.edu/education/ms/"
+    },
+    "rank" : {
+      "cwur" : 4,
+      "cwur_score" : 94.12,
+      "forbes" : 16,
+      "overall" : 36,
+      "times" : 11,
+      "usnews" : 5,
+      "usnews_score" : 95
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 6,
+      "name" : "Columbia University in the City of New York"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 166,
+        "verbal" : 155
+      }
+    },
+    "admission_rate" : 0.0742,
+    "fees" : {
+      "in_state" : 55740,
+      "out_of_state" : 55740
+    },
+    "living_expenditure" : {
+      "boarding" : 13244,
+      "books" : 1223,
+      "other" : 2062,
+      "overall" : 16529
+    },
+    "location" : {
+      "city" : "New York",
+      "lat" : 40.808286,
+      "lon" : -73.961885,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NY",
+      "zip" : 10027
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : [ "Department of Biomedical Informatics", "Department of Computer Science", "Department of Statistics", "School of Continuing Education" ],
+      "id" : 6,
+      "length" : 24,
+      "name" : "Master of Science in Data Science",
+      "school" : "Data Science Institute",
+      "website" : "http://datascience.columbia.edu/master-of-science-in-data-science"
+    },
+    "rank" : {
+      "cwur" : 4,
+      "cwur_score" : 94.12,
+      "forbes" : 16,
+      "overall" : 36,
+      "times" : 11,
+      "usnews" : 5,
+      "usnews_score" : 95
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 6,
+      "name" : "Columbia University in the City of New York"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 2.7,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 155
+      }
+    },
+    "admission_rate" : 0.1224,
+    "fees" : {
+      "in_state" : 35800,
+      "out_of_state" : 67500
+    },
+    "living_expenditure" : {
+      "boarding" : 14536,
+      "books" : 1280,
+      "other" : 2060,
+      "overall" : 17876
+    },
+    "location" : {
+      "city" : "Philadelphia",
+      "lat" : 39.951002,
+      "lon" : -75.193618,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 19104
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer and Information Science",
+      "id" : 7,
+      "length" : 24,
+      "name" : "Master of Science in Engineering in Computer & Information Science",
+      "school" : "School of Engineering and Applied Science",
+      "website" : "http://www.cis.upenn.edu/prospective-students/graduate/mse.php"
+    },
+    "rank" : {
+      "cwur" : 11,
+      "cwur_score" : 77.6,
+      "forbes" : 11,
+      "overall" : 39,
+      "times" : 9,
+      "usnews" : 8,
+      "usnews_score" : 92
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 7,
+      "name" : "University of Pennsylvania"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 2.7,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 155
+      }
+    },
+    "admission_rate" : 0.1224,
+    "fees" : {
+      "in_state" : 35800,
+      "out_of_state" : 67500
+    },
+    "living_expenditure" : {
+      "boarding" : 14536,
+      "books" : 1280,
+      "other" : 2060,
+      "overall" : 17876
+    },
+    "location" : {
+      "city" : "Philadelphia",
+      "lat" : 39.951002,
+      "lon" : -75.193618,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 19104
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer and Information Science",
+      "id" : 8,
+      "length" : 24,
+      "name" : "Master of Computer and Information Technology",
+      "school" : "School of Engineering and Applied Science",
+      "website" : "http://www.cis.upenn.edu/prospective-students/graduate/mcit.php"
+    },
+    "rank" : {
+      "cwur" : 11,
+      "cwur_score" : 77.6,
+      "forbes" : 11,
+      "overall" : 39,
+      "times" : 9,
+      "usnews" : 8,
+      "usnews_score" : 92
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 7,
+      "name" : "University of Pennsylvania"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.1532,
+    "fees" : {
+      "in_state" : 55000,
+      "out_of_state" : 65000
+    },
+    "living_expenditure" : {
+      "boarding" : 15489,
+      "books" : 1620,
+      "other" : 2532,
+      "overall" : 19641
+    },
+    "location" : {
+      "city" : "Evanston",
+      "lat" : 42.058377,
+      "lon" : -87.673653,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 60208
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : [ "Department of Industrial Engineering and Management Sciences", "Department of Electrical Engineering and Computer Science", "Kellogg School of Management", "Medill School of Journalism, Media, Integrated Marketing Communications" ],
+      "id" : 9,
+      "length" : 15,
+      "name" : "Master of Science in Analytics",
+      "school" : "McCormick School of Engineering",
+      "website" : "http://www.mccormick.northwestern.edu/analytics/"
+    },
+    "rank" : {
+      "cwur" : 17,
+      "cwur_score" : 66.14,
+      "forbes" : 15,
+      "overall" : 59,
+      "times" : 15,
+      "usnews" : 12,
+      "usnews_score" : 89
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 8,
+      "name" : "Northwestern University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.1532,
+    "fees" : {
+      "in_state" : 55000,
+      "out_of_state" : 65000
+    },
+    "living_expenditure" : {
+      "boarding" : 15489,
+      "books" : 1620,
+      "other" : 2532,
+      "overall" : 19641
+    },
+    "location" : {
+      "city" : "Evanston",
+      "lat" : 42.058377,
+      "lon" : -87.673653,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 60208
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Electrical Engineering and Computer Science",
+      "id" : 10,
+      "length" : 15,
+      "name" : "Master of Science in Computer Science",
+      "school" : "McCormick School of Engineering",
+      "website" : "http://www.mccormick.northwestern.edu/eecs/computer-science/graduate/masters/"
+    },
+    "rank" : {
+      "cwur" : 17,
+      "cwur_score" : 66.14,
+      "forbes" : 15,
+      "overall" : 59,
+      "times" : 15,
+      "usnews" : 12,
+      "usnews_score" : 89
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 8,
+      "name" : "Northwestern University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.1532,
+    "fees" : {
+      "in_state" : 37448,
+      "out_of_state" : 47448
+    },
+    "living_expenditure" : {
+      "boarding" : 15489,
+      "books" : 1620,
+      "other" : 2532,
+      "overall" : 19641
+    },
+    "location" : {
+      "city" : "Evanston",
+      "lat" : 42.058377,
+      "lon" : -87.673653,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 60208
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Electrical Engineering and Computer Science",
+      "id" : 11,
+      "length" : 15,
+      "name" : "Master of Science in Information Technology",
+      "school" : "McCormick School of Engineering",
+      "website" : "http://www.mccormick.northwestern.edu/information-technology/"
+    },
+    "rank" : {
+      "cwur" : 17,
+      "cwur_score" : 66.14,
+      "forbes" : 15,
+      "overall" : 59,
+      "times" : 15,
+      "usnews" : 12,
+      "usnews_score" : 89
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 8,
+      "name" : "Northwestern University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.1532,
+    "fees" : {
+      "in_state" : 54832,
+      "out_of_state" : 64832
+    },
+    "living_expenditure" : {
+      "boarding" : 15489,
+      "books" : 1620,
+      "other" : 2532,
+      "overall" : 19641
+    },
+    "location" : {
+      "city" : "Evanston",
+      "lat" : 42.058377,
+      "lon" : -87.673653,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 60208
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Design Innovation",
+      "id" : 12,
+      "length" : 15,
+      "name" : "Master of Science, Engineering Design Innovation",
+      "school" : "McCormick School of Engineering",
+      "website" : "http://segal.northwestern.edu/programs/graduate/engineering-design-innovation/"
+    },
+    "rank" : {
+      "cwur" : 17,
+      "cwur_score" : 66.14,
+      "forbes" : 15,
+      "overall" : 59,
+      "times" : 15,
+      "usnews" : 12,
+      "usnews_score" : 89
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 8,
+      "name" : "Northwestern University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 162
+      }
+    },
+    "admission_rate" : 0.1532,
+    "fees" : {
+      "in_state" : 40000,
+      "out_of_state" : 50000
+    },
+    "living_expenditure" : {
+      "boarding" : 15489,
+      "books" : 1620,
+      "other" : 2532,
+      "overall" : 19641
+    },
+    "location" : {
+      "city" : "Evanston",
+      "lat" : 42.058377,
+      "lon" : -87.673653,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 60208
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : [ "School of Professional Studies", "Department of Electrical Engineering and Computer Science", "Feinberg School of Medicine" ],
+      "id" : 13,
+      "length" : 24,
+      "name" : "Master of Science in Information Systems",
+      "school" : "School of Professional Studies",
+      "website" : "http://sps.northwestern.edu/program-areas/graduate/information-systems/index.php"
+    },
+    "rank" : {
+      "cwur" : 17,
+      "cwur_score" : 66.14,
+      "forbes" : 15,
+      "overall" : 59,
+      "times" : 15,
+      "usnews" : 12,
+      "usnews_score" : 89
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 8,
+      "name" : "Northwestern University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 166,
+        "verbal" : 154
+      }
+    },
+    "admission_rate" : 0.1556,
+    "fees" : {
+      "in_state" : 60000,
+      "out_of_state" : 60000
+    },
+    "living_expenditure" : {
+      "boarding" : 13900,
+      "books" : 910,
+      "other" : 1850,
+      "overall" : 16660
+    },
+    "location" : {
+      "city" : "Ithaca",
+      "lat" : 42.447199,
+      "lon" : -76.483489,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NY",
+      "zip" : 14853
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computing and Information Science",
+      "id" : 14,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Graduate School",
+      "website" : "http://gradschool.cornell.edu/academics/fields-of-study/subject/331"
+    },
+    "rank" : {
+      "cwur" : 10,
+      "cwur_score" : 81.74,
+      "forbes" : 29,
+      "overall" : 68,
+      "times" : 14,
+      "usnews" : 15,
+      "usnews_score" : 85
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 9,
+      "name" : "Cornell University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 166,
+        "verbal" : 152
+      }
+    },
+    "admission_rate" : 0.1342,
+    "fees" : {
+      "in_state" : 51480,
+      "out_of_state" : 51480
+    },
+    "living_expenditure" : {
+      "boarding" : 14438,
+      "books" : 1260,
+      "other" : 2996,
+      "overall" : 18694
+    },
+    "location" : {
+      "city" : "Durham",
+      "lat" : 36.00159,
+      "lon" : -78.94226,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "NC",
+      "zip" : 27708
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 15,
+      "length" : 9,
+      "name" : "Master of Science in Computer Science",
+      "school" : "The Graduate School",
+      "website" : "https://gradschool.duke.edu/academics/programs-degrees/computer-science"
+    },
+    "rank" : {
+      "cwur" : 22,
+      "cwur_score" : 61.32,
+      "forbes" : 26,
+      "overall" : 69,
+      "times" : 13,
+      "usnews" : 8,
+      "usnews_score" : 92
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 10,
+      "name" : "Duke University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.5,
+      "gre" : {
+        "quant" : 165,
+        "verbal" : 157
+      }
+    },
+    "admission_rate" : 0.18,
+    "fees" : {
+      "in_state" : 49936,
+      "out_of_state" : 74424
+    },
+    "living_expenditure" : {
+      "boarding" : 15115,
+      "books" : 1240,
+      "other" : 5132,
+      "overall" : 21487
+    },
+    "location" : {
+      "city" : "Berkeley",
+      "lat" : 37.871969,
+      "lon" : -122.260423,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 94720
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 16,
+      "length" : 24,
+      "name" : "Master of Information Management and Systems",
+      "school" : "School of Information",
+      "website" : "https://www.ischool.berkeley.edu/programs/mims"
+    },
+    "rank" : {
+      "cwur" : 5,
+      "cwur_score" : 91.35,
+      "forbes" : 40,
+      "overall" : 71,
+      "times" : 6,
+      "usnews" : 20,
+      "usnews_score" : 78
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 11,
+      "name" : "University of California-Berkeley"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 165,
+        "verbal" : 157
+      }
+    },
+    "admission_rate" : 0.18,
+    "fees" : {
+      "in_state" : 103056,
+      "out_of_state" : 109544
+    },
+    "living_expenditure" : {
+      "boarding" : 15115,
+      "books" : 1240,
+      "other" : 5132,
+      "overall" : 21487
+    },
+    "location" : {
+      "city" : "Berkeley",
+      "lat" : 37.871969,
+      "lon" : -122.260423,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 94720
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Electrical Engineering and Computer Sciences",
+      "id" : 17,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "None",
+      "website" : "http://grad.berkeley.edu/program/computer-science/"
+    },
+    "rank" : {
+      "cwur" : 5,
+      "cwur_score" : 91.35,
+      "forbes" : 40,
+      "overall" : 71,
+      "times" : 6,
+      "usnews" : 20,
+      "usnews_score" : 78
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 11,
+      "name" : "University of California-Berkeley"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 165,
+        "verbal" : 154
+      }
+    },
+    "admission_rate" : 0.2199,
+    "fees" : {
+      "in_state" : 62854,
+      "out_of_state" : 32650
+    },
+    "living_expenditure" : {
+      "boarding" : 15069,
+      "books" : 1635,
+      "other" : 2277,
+      "overall" : 18981
+    },
+    "location" : {
+      "city" : "Los Angeles",
+      "lat" : 34.068892,
+      "lon" : -118.443901,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 90095
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Information Studies",
+      "id" : 18,
+      "length" : 24,
+      "name" : "Master of Library and Information Sciences",
+      "school" : "Graduate School of Education & Information Studies",
+      "website" : "https://is.gseis.ucla.edu/programs/mlis-degree/"
+    },
+    "rank" : {
+      "cwur" : 12,
+      "cwur_score" : 75.23,
+      "forbes" : 46,
+      "overall" : 92,
+      "times" : 10,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 12,
+      "name" : "University of California-Los Angeles"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 165,
+        "verbal" : 154
+      }
+    },
+    "admission_rate" : 0.2199,
+    "fees" : {
+      "in_state" : 62854,
+      "out_of_state" : 32650
+    },
+    "living_expenditure" : {
+      "boarding" : 15069,
+      "books" : 1635,
+      "other" : 2277,
+      "overall" : 18981
+    },
+    "location" : {
+      "city" : "Los Angeles",
+      "lat" : 34.068892,
+      "lon" : -118.443901,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 90095
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 19,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Henry Samueli School of Engineering and Applied Science",
+      "website" : "http://www.cs.ucla.edu/graduate-program/"
+    },
+    "rank" : {
+      "cwur" : 12,
+      "cwur_score" : 75.23,
+      "forbes" : 46,
+      "overall" : 92,
+      "times" : 10,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 12,
+      "name" : "University of California-Los Angeles"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 152,
+        "verbal" : 152
+      }
+    },
+    "admission_rate" : 0.0918,
+    "fees" : {
+      "in_state" : 52231,
+      "out_of_state" : 52231
+    },
+    "living_expenditure" : {
+      "boarding" : 13200,
+      "books" : 1540,
+      "other" : 2000,
+      "overall" : 16740
+    },
+    "location" : {
+      "city" : "Providence",
+      "lat" : 41.827605,
+      "lon" : -71.404467,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "RI",
+      "zip" : 2912
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : [ "Department of Biostatistics", "Department of Computer Science", "Department of Mathematics", "Division of Applied Mathematics" ],
+      "id" : 20,
+      "length" : 12,
+      "name" : "Master's in Data Science",
+      "school" : "Data Science Initiative",
+      "website" : "https://www.brown.edu/initiatives/data-science/academic-programs/masters-data-science"
+    },
+    "rank" : {
+      "cwur" : 51,
+      "cwur_score" : 51.74,
+      "forbes" : 8,
+      "overall" : 99,
+      "times" : 26,
+      "usnews" : 14,
+      "usnews_score" : 87
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 13,
+      "name" : "Brown University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 152,
+        "verbal" : 152
+      }
+    },
+    "admission_rate" : 0.0918,
+    "fees" : {
+      "in_state" : 50224,
+      "out_of_state" : 50224
+    },
+    "living_expenditure" : {
+      "boarding" : 13200,
+      "books" : 1540,
+      "other" : 2000,
+      "overall" : 16740
+    },
+    "location" : {
+      "city" : "Providence",
+      "lat" : 41.827605,
+      "lon" : -71.404467,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "RI",
+      "zip" : 2912
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 21,
+      "length" : 12,
+      "name" : "Master of Science in Computer Science",
+      "school" : "The Graduate School",
+      "website" : "https://www.brown.edu/academics/gradschool/programs/computer-science-0"
+    },
+    "rank" : {
+      "cwur" : 51,
+      "cwur_score" : 51.74,
+      "forbes" : 8,
+      "overall" : 99,
+      "times" : 26,
+      "usnews" : 14,
+      "usnews_score" : 87
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 13,
+      "name" : "Brown University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 150,
+        "verbal" : 150
+      }
+    },
+    "admission_rate" : 0.0978,
+    "fees" : {
+      "in_state" : 62352,
+      "out_of_state" : 62352
+    },
+    "living_expenditure" : {
+      "boarding" : 15141,
+      "books" : 1260,
+      "other" : 2648,
+      "overall" : 19049
+    },
+    "location" : {
+      "city" : "Hanover",
+      "lat" : 43.70408,
+      "lon" : -72.289951,
+      "region_id" : 1,
+      "region_name" : "New England",
+      "state" : "NH",
+      "zip" : 3755
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 22,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "School of Graduate and Advanced Studies",
+      "website" : "http://web.cs.dartmouth.edu/graduate/programs/applying-ms-program"
+    },
+    "rank" : {
+      "cwur" : 33,
+      "cwur_score" : 55.16,
+      "forbes" : 17,
+      "overall" : 99,
+      "times" : 38,
+      "usnews" : 11,
+      "usnews_score" : 90
+    },
+    "research" : {
+      "carnegie_basic_id" : 16,
+      "name" : "Doctoral Universities: Higher Research Activity"
+    },
+    "university" : {
+      "id" : 14,
+      "name" : "Dartmouth College"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 145,
+        "verbal" : 145
+      }
+    },
+    "admission_rate" : 0.1813,
+    "fees" : {
+      "in_state" : 50410,
+      "out_of_state" : 50410
+    },
+    "living_expenditure" : {
+      "boarding" : 14976,
+      "books" : 1220,
+      "other" : 1746,
+      "overall" : 17942
+    },
+    "location" : {
+      "city" : "Baltimore",
+      "lat" : 39.32838,
+      "lon" : -76.620799,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 21218
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 23,
+      "length" : 18,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Whiting School of Engineering",
+      "website" : "https://www.cs.jhu.edu/graduate-studies/masters-program/"
+    },
+    "rank" : {
+      "cwur" : 13,
+      "cwur_score" : 70.44,
+      "forbes" : 66,
+      "overall" : 101,
+      "times" : 12,
+      "usnews" : 10,
+      "usnews_score" : 91
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 15,
+      "name" : "Johns Hopkins University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 160,
+        "verbal" : 153
+      }
+    },
+    "admission_rate" : 0.1813,
+    "fees" : {
+      "in_state" : 66500,
+      "out_of_state" : 66500
+    },
+    "living_expenditure" : {
+      "boarding" : 14976,
+      "books" : 1220,
+      "other" : 1746,
+      "overall" : 17942
+    },
+    "location" : {
+      "city" : "Baltimore",
+      "lat" : 39.32838,
+      "lon" : -76.620799,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 21218
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Information Security Institute",
+      "id" : 24,
+      "length" : 18,
+      "name" : "Master of Science in Security Informatics",
+      "school" : "None",
+      "website" : "http://e-catalog.jhu.edu/departments-program-requirements-and-courses/engineering/information-security-institute/#graduatetext"
+    },
+    "rank" : {
+      "cwur" : 13,
+      "cwur_score" : 70.44,
+      "forbes" : 66,
+      "overall" : 101,
+      "times" : 12,
+      "usnews" : 10,
+      "usnews_score" : 91
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 15,
+      "name" : "Johns Hopkins University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 145,
+        "verbal" : 145
+      }
+    },
+    "admission_rate" : 0.1813,
+    "fees" : {
+      "in_state" : 66500,
+      "out_of_state" : 66500
+    },
+    "living_expenditure" : {
+      "boarding" : 14976,
+      "books" : 1220,
+      "other" : 1746,
+      "overall" : 17942
+    },
+    "location" : {
+      "city" : "Baltimore",
+      "lat" : 39.32838,
+      "lon" : -76.620799,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 21218
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 25,
+      "length" : 24,
+      "name" : "Master of Science in Enterprise Risk Management",
+      "school" : "Carey Business School",
+      "website" : "http://carey.jhu.edu/academics/master-of-science/ms-in-enterprise-risk-management/"
+    },
+    "rank" : {
+      "cwur" : 13,
+      "cwur_score" : 70.44,
+      "forbes" : 66,
+      "overall" : 101,
+      "times" : 12,
+      "usnews" : 10,
+      "usnews_score" : 91
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 15,
+      "name" : "Johns Hopkins University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 145,
+        "verbal" : 145
+      }
+    },
+    "admission_rate" : 0.1813,
+    "fees" : {
+      "in_state" : 66500,
+      "out_of_state" : 66500
+    },
+    "living_expenditure" : {
+      "boarding" : 14976,
+      "books" : 1220,
+      "other" : 1746,
+      "overall" : 17942
+    },
+    "location" : {
+      "city" : "Baltimore",
+      "lat" : 39.32838,
+      "lon" : -76.620799,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 21218
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 26,
+      "length" : 24,
+      "name" : "Master of Science in Information Systems",
+      "school" : "Carey Business School",
+      "website" : "http://carey.jhu.edu/academics/master-of-science/ms-in-information-systems"
+    },
+    "rank" : {
+      "cwur" : 13,
+      "cwur_score" : 70.44,
+      "forbes" : 66,
+      "overall" : 101,
+      "times" : 12,
+      "usnews" : 10,
+      "usnews_score" : 91
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 15,
+      "name" : "Johns Hopkins University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 155,
+        "verbal" : 160
+      }
+    },
+    "admission_rate" : 0.3326,
+    "fees" : {
+      "in_state" : 10733,
+      "out_of_state" : 21673
+    },
+    "living_expenditure" : {
+      "boarding" : 10872,
+      "books" : 1048,
+      "other" : 2454,
+      "overall" : 14374
+    },
+    "location" : {
+      "city" : "Ann Arbor",
+      "lat" : 42.276061,
+      "lon" : -83.743121,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "MI",
+      "zip" : 48109
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 27,
+      "length" : 24,
+      "name" : "Master of Science in  Information",
+      "school" : "School of Information",
+      "website" : "https://www.si.umich.edu/content/msi"
+    },
+    "rank" : {
+      "cwur" : 16,
+      "cwur_score" : 66.6,
+      "forbes" : 44,
+      "overall" : 103,
+      "times" : 16,
+      "usnews" : 27,
+      "usnews_score" : 74
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 16,
+      "name" : "University of Michigan-Ann Arbor"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 165,
+        "verbal" : 158
+      }
+    },
+    "admission_rate" : 0.2759,
+    "fees" : {
+      "in_state" : 5803,
+      "out_of_state" : 14409
+    },
+    "living_expenditure" : {
+      "boarding" : 11218,
+      "books" : 1442,
+      "other" : 3404,
+      "overall" : 16064
+    },
+    "location" : {
+      "city" : "Chapel Hill",
+      "lat" : 35.912165,
+      "lon" : -79.050969,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "NC",
+      "zip" : 27599
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 28,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "College of Arts and Sciences",
+      "website" : "http://cs.unc.edu/academics/graduate/"
+    },
+    "rank" : {
+      "cwur" : 25,
+      "cwur_score" : 57.4,
+      "forbes" : 47,
+      "overall" : 131,
+      "times" : 29,
+      "usnews" : 30,
+      "usnews_score" : 71
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 17,
+      "name" : "University of North Carolina at Chapel Hill"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 153,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2759,
+    "fees" : {
+      "in_state" : 5803,
+      "out_of_state" : 14409
+    },
+    "living_expenditure" : {
+      "boarding" : 11218,
+      "books" : 1442,
+      "other" : 3404,
+      "overall" : 16064
+    },
+    "location" : {
+      "city" : "Chapel Hill",
+      "lat" : 35.912165,
+      "lon" : -79.050969,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "NC",
+      "zip" : 27599
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 29,
+      "length" : 24,
+      "name" : "Master of Science in Information Science",
+      "school" : "School of Information and Library Science",
+      "website" : "http://sils.unc.edu"
+    },
+    "rank" : {
+      "cwur" : 25,
+      "cwur_score" : 57.4,
+      "forbes" : 47,
+      "overall" : 131,
+      "times" : 29,
+      "usnews" : 30,
+      "usnews_score" : 71
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 17,
+      "name" : "University of North Carolina at Chapel Hill"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 153,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2759,
+    "fees" : {
+      "in_state" : 5803,
+      "out_of_state" : 14409
+    },
+    "living_expenditure" : {
+      "boarding" : 11218,
+      "books" : 1442,
+      "other" : 3404,
+      "overall" : 16064
+    },
+    "location" : {
+      "city" : "Chapel Hill",
+      "lat" : 35.912165,
+      "lon" : -79.050969,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "NC",
+      "zip" : 27599
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 30,
+      "length" : 24,
+      "name" : "Master of Science in Library Science",
+      "school" : "School of Information and Library Science",
+      "website" : "https://sils.unc.edu/programs"
+    },
+    "rank" : {
+      "cwur" : 25,
+      "cwur_score" : 57.4,
+      "forbes" : 47,
+      "overall" : 131,
+      "times" : 29,
+      "usnews" : 30,
+      "usnews_score" : 71
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 17,
+      "name" : "University of North Carolina at Chapel Hill"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 162,
+        "verbal" : 153
+      }
+    },
+    "admission_rate" : 0.2549,
+    "fees" : {
+      "in_state" : 64500,
+      "out_of_state" : 64500
+    },
+    "living_expenditure" : {
+      "boarding" : 13270,
+      "books" : 2400,
+      "other" : 472,
+      "overall" : 16142
+    },
+    "location" : {
+      "city" : "Pittsburgh",
+      "lat" : 40.444616,
+      "lon" : -79.942914,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 15213
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 31,
+      "length" : 18,
+      "name" : "Master of Science in Computer Science",
+      "school" : "School of Computer Science",
+      "website" : "http://www.csd.cs.cmu.edu/education/master/index.html"
+    },
+    "rank" : {
+      "cwur" : 42,
+      "cwur_score" : 53.04,
+      "forbes" : 63,
+      "overall" : 146,
+      "times" : 17,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 18,
+      "name" : "Carnegie Mellon University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.4,
+      "gre" : {
+        "quant" : 151,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2549,
+    "fees" : {
+      "in_state" : 64500,
+      "out_of_state" : 64500
+    },
+    "living_expenditure" : {
+      "boarding" : 13270,
+      "books" : 2400,
+      "other" : 472,
+      "overall" : 16142
+    },
+    "location" : {
+      "city" : "Pittsburgh",
+      "lat" : 40.444616,
+      "lon" : -79.942914,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 15213
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "School of Information Systems & Management",
+      "id" : 32,
+      "length" : 12,
+      "name" : "Master of Information Systems Management",
+      "school" : "Heinz College",
+      "website" : "http://www.heinz.cmu.edu/school-of-information-systems-and-management/information-systems-management-mism/index.aspx"
+    },
+    "rank" : {
+      "cwur" : 42,
+      "cwur_score" : 53.04,
+      "forbes" : 63,
+      "overall" : 146,
+      "times" : 17,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 18,
+      "name" : "Carnegie Mellon University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.4,
+      "gre" : {
+        "quant" : 151,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2549,
+    "fees" : {
+      "in_state" : 68782,
+      "out_of_state" : 68782
+    },
+    "living_expenditure" : {
+      "boarding" : 13270,
+      "books" : 2400,
+      "other" : 472,
+      "overall" : 16142
+    },
+    "location" : {
+      "city" : "Pittsburgh",
+      "lat" : 40.444616,
+      "lon" : -79.942914,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 15213
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "School of Information Systems & Management",
+      "id" : 33,
+      "length" : 16,
+      "name" : "Master of Information Systems Management",
+      "school" : "Heinz College",
+      "website" : "http://www.heinz.cmu.edu/school-of-information-systems-and-management/information-systems-management-mism/index.aspx"
+    },
+    "rank" : {
+      "cwur" : 42,
+      "cwur_score" : 53.04,
+      "forbes" : 63,
+      "overall" : 146,
+      "times" : 17,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 18,
+      "name" : "Carnegie Mellon University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.4,
+      "gre" : {
+        "quant" : 151,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2549,
+    "fees" : {
+      "in_state" : 103955,
+      "out_of_state" : 103955
+    },
+    "living_expenditure" : {
+      "boarding" : 13270,
+      "books" : 2400,
+      "other" : 472,
+      "overall" : 16142
+    },
+    "location" : {
+      "city" : "Pittsburgh",
+      "lat" : 40.444616,
+      "lon" : -79.942914,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 15213
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "School of Information Systems & Management",
+      "id" : 34,
+      "length" : 21,
+      "name" : "Master of Information Systems Management",
+      "school" : "Heinz College",
+      "website" : "http://www.heinz.cmu.edu/school-of-information-systems-and-management/information-systems-management-mism/index.aspx"
+    },
+    "rank" : {
+      "cwur" : 42,
+      "cwur_score" : 53.04,
+      "forbes" : 63,
+      "overall" : 146,
+      "times" : 17,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 18,
+      "name" : "Carnegie Mellon University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.2,
+      "gre" : {
+        "quant" : 153,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.2549,
+    "fees" : {
+      "in_state" : 113894,
+      "out_of_state" : 113894
+    },
+    "living_expenditure" : {
+      "boarding" : 13270,
+      "books" : 2400,
+      "other" : 472,
+      "overall" : 16142
+    },
+    "location" : {
+      "city" : "Pittsburgh",
+      "lat" : 40.444616,
+      "lon" : -79.942914,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "PA",
+      "zip" : 15213
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "School of Information Systems & Management",
+      "id" : 35,
+      "length" : 24,
+      "name" : "Master of Science in Information Security Policy and Management",
+      "school" : "Heinz College",
+      "website" : "http://www.heinz.cmu.edu/school-of-information-systems-and-management/information-security-policy-management-msispm/index.aspx"
+    },
+    "rank" : {
+      "cwur" : 42,
+      "cwur_score" : 53.04,
+      "forbes" : 63,
+      "overall" : 146,
+      "times" : 17,
+      "usnews" : 24,
+      "usnews_score" : 75
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 18,
+      "name" : "Carnegie Mellon University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 163,
+        "verbal" : 149
+      }
+    },
+    "admission_rate" : 0.3239,
+    "fees" : {
+      "in_state" : 51930,
+      "out_of_state" : 51930
+    },
+    "living_expenditure" : {
+      "boarding" : 17578,
+      "books" : 1070,
+      "other" : 4044,
+      "overall" : 22692
+    },
+    "location" : {
+      "city" : "New York",
+      "lat" : 40.729452,
+      "lon" : -73.997264,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NY",
+      "zip" : 10012
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Computer Science & Engineering",
+      "id" : 36,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Tandon School of Engineering",
+      "website" : "http://engineering.nyu.edu/academics/programs/computer-science-ms"
+    },
+    "rank" : {
+      "cwur" : 18,
+      "cwur_score" : 66.11,
+      "forbes" : 77,
+      "overall" : 150,
+      "times" : 19,
+      "usnews" : 36,
+      "usnews_score" : 66
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 19,
+      "name" : "New York University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 163,
+        "verbal" : 149
+      }
+    },
+    "admission_rate" : 0.3239,
+    "fees" : {
+      "in_state" : 62316,
+      "out_of_state" : 62316
+    },
+    "living_expenditure" : {
+      "boarding" : 17578,
+      "books" : 1070,
+      "other" : 4044,
+      "overall" : 22692
+    },
+    "location" : {
+      "city" : "New York",
+      "lat" : 40.729452,
+      "lon" : -73.997264,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "NY",
+      "zip" : 10012
+    },
+    "ownership" : {
+      "id" : 2,
+      "name" : "Private nonprofit"
+    },
+    "program" : {
+      "department" : "Department of Technology Management and Innovation",
+      "id" : 37,
+      "length" : 24,
+      "name" : "Master of Science in Management of Technology",
+      "school" : "Tandon School of Engineering",
+      "website" : "http://engineering.nyu.edu/academics/programs/management-technology-ms"
+    },
+    "rank" : {
+      "cwur" : 18,
+      "cwur_score" : 66.11,
+      "forbes" : 77,
+      "overall" : 150,
+      "times" : 19,
+      "usnews" : 36,
+      "usnews_score" : 66
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 19,
+      "name" : "New York University"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 161,
+        "verbal" : 156
+      }
+    },
+    "admission_rate" : 0.6792,
+    "fees" : {
+      "in_state" : 22405,
+      "out_of_state" : 47393
+    },
+    "living_expenditure" : {
+      "boarding" : 10446,
+      "books" : 1200,
+      "other" : 3160,
+      "overall" : 14806
+    },
+    "location" : {
+      "city" : "Madison",
+      "lat" : 43.073858,
+      "lon" : -89.405356,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "WI",
+      "zip" : 53706
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 38,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "None",
+      "website" : "https://www.cs.wisc.edu/academics/graduate-programs"
+    },
+    "rank" : {
+      "cwur" : 19,
+      "cwur_score" : 64.04,
+      "forbes" : 69,
+      "overall" : 155,
+      "times" : 23,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 20,
+      "name" : "University of Wisconsin-Madison"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 161,
+        "verbal" : 156
+      }
+    },
+    "admission_rate" : 0.6792,
+    "fees" : {
+      "in_state" : 22405,
+      "out_of_state" : 47393
+    },
+    "living_expenditure" : {
+      "boarding" : 10446,
+      "books" : 1200,
+      "other" : 3160,
+      "overall" : 14806
+    },
+    "location" : {
+      "city" : "Madison",
+      "lat" : 43.073858,
+      "lon" : -89.405356,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "WI",
+      "zip" : 53706
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Statistics",
+      "id" : 39,
+      "length" : 24,
+      "name" : "Master of Science in Data Science",
+      "school" : "None",
+      "website" : "https://www.stat.wisc.edu/ms-degree-data-science-option-ms-ds"
+    },
+    "rank" : {
+      "cwur" : 19,
+      "cwur_score" : 64.04,
+      "forbes" : 69,
+      "overall" : 155,
+      "times" : 23,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 20,
+      "name" : "University of Wisconsin-Madison"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 140,
+        "verbal" : 140
+      }
+    },
+    "admission_rate" : 0.6792,
+    "fees" : {
+      "in_state" : 29116,
+      "out_of_state" : 61600
+    },
+    "living_expenditure" : {
+      "boarding" : 10446,
+      "books" : 1200,
+      "other" : 3160,
+      "overall" : 14806
+    },
+    "location" : {
+      "city" : "Madison",
+      "lat" : 43.073858,
+      "lon" : -89.405356,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "WI",
+      "zip" : 53706
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 40,
+      "length" : 24,
+      "name" : "Master of Arts in Library and Information Studies",
+      "school" : "School of Library and Information Studies",
+      "website" : "http://www.slis.wisc.edu/"
+    },
+    "rank" : {
+      "cwur" : 19,
+      "cwur_score" : 64.04,
+      "forbes" : 69,
+      "overall" : 155,
+      "times" : 23,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 20,
+      "name" : "University of Wisconsin-Madison"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 140,
+        "verbal" : 140
+      }
+    },
+    "admission_rate" : 0.6239,
+    "fees" : {
+      "in_state" : 26000,
+      "out_of_state" : 38000
+    },
+    "living_expenditure" : {
+      "boarding" : 11308,
+      "books" : 1200,
+      "other" : 2840,
+      "overall" : 15348
+    },
+    "location" : {
+      "city" : "Champaign",
+      "lat" : 40.108864,
+      "lon" : -88.230309,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 61820
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 41,
+      "length" : 24,
+      "name" : "Master of Science in Library and Information Science",
+      "school" : "School of Information Sciences",
+      "website" : "https://ischool.illinois.edu/academics/degrees/mslis"
+    },
+    "rank" : {
+      "cwur" : 24,
+      "cwur_score" : 59.83,
+      "forbes" : 72,
+      "overall" : 161,
+      "times" : 21,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 21,
+      "name" : "University of Illinois at Urbana-Champaign"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 140,
+        "verbal" : 140
+      }
+    },
+    "admission_rate" : 0.6239,
+    "fees" : {
+      "in_state" : 23667,
+      "out_of_state" : 37019
+    },
+    "living_expenditure" : {
+      "boarding" : 11308,
+      "books" : 1200,
+      "other" : 2840,
+      "overall" : 15348
+    },
+    "location" : {
+      "city" : "Champaign",
+      "lat" : 40.108864,
+      "lon" : -88.230309,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 61820
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 42,
+      "length" : 18,
+      "name" : "Master of Science in Information Management",
+      "school" : "School of Information Sciences",
+      "website" : "https://ischool.illinois.edu/academics/degrees/msim"
+    },
+    "rank" : {
+      "cwur" : 24,
+      "cwur_score" : 59.83,
+      "forbes" : 72,
+      "overall" : 161,
+      "times" : 21,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 21,
+      "name" : "University of Illinois at Urbana-Champaign"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 140,
+        "verbal" : 140
+      }
+    },
+    "admission_rate" : 0.6239,
+    "fees" : {
+      "in_state" : 27084,
+      "out_of_state" : 51495
+    },
+    "living_expenditure" : {
+      "boarding" : 11308,
+      "books" : 1200,
+      "other" : 2840,
+      "overall" : 15348
+    },
+    "location" : {
+      "city" : "Champaign",
+      "lat" : 40.108864,
+      "lon" : -88.230309,
+      "region_id" : 3,
+      "region_name" : "Great Lakes",
+      "state" : "IL",
+      "zip" : 61820
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 43,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Thomas M. Siebel Center for Computer Science",
+      "website" : "https://cs.illinois.edu/academics/graduate/ms-program"
+    },
+    "rank" : {
+      "cwur" : 24,
+      "cwur_score" : 59.83,
+      "forbes" : 72,
+      "overall" : 161,
+      "times" : 21,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 21,
+      "name" : "University of Illinois at Urbana-Champaign"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.2,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 151
+      }
+    },
+    "admission_rate" : 0.5523,
+    "fees" : {
+      "in_state" : 44775,
+      "out_of_state" : 44775
+    },
+    "living_expenditure" : {
+      "boarding" : 11691,
+      "books" : 825,
+      "other" : 2679,
+      "overall" : 15195
+    },
+    "location" : {
+      "city" : "Seattle",
+      "lat" : 47.656213,
+      "lon" : -122.313115,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "WA",
+      "zip" : 98195
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : [ "Department of Applied Mathematics", "Department of Biostatistics", "Department of Computer Science & Engineering", "Department of Human Centered Design & Engineering", "Department of Statistics", "Information School" ],
+      "id" : 44,
+      "length" : 18,
+      "name" : "Master of Science in Data Science",
+      "school" : "Multi-School",
+      "website" : "https://www.datasciencemasters.uw.edu/"
+    },
+    "rank" : {
+      "cwur" : 20,
+      "cwur_score" : 63.38,
+      "forbes" : 75,
+      "overall" : 167,
+      "times" : 18,
+      "usnews" : 54,
+      "usnews_score" : 61
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 22,
+      "name" : "University of Washington-Seattle Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 130,
+        "verbal" : 130
+      }
+    },
+    "admission_rate" : 0.5523,
+    "fees" : {
+      "in_state" : 39160,
+      "out_of_state" : 39160
+    },
+    "living_expenditure" : {
+      "boarding" : 11691,
+      "books" : 825,
+      "other" : 2679,
+      "overall" : 15195
+    },
+    "location" : {
+      "city" : "Seattle",
+      "lat" : 47.656213,
+      "lon" : -122.313115,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "WA",
+      "zip" : 98195
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Human Centered Design & Engineering",
+      "id" : 45,
+      "length" : 18,
+      "name" : "Master of Science in Human Centered Design & Engineering",
+      "school" : "None",
+      "website" : "http://www.hcde.washington.edu/ms"
+    },
+    "rank" : {
+      "cwur" : 20,
+      "cwur_score" : 63.38,
+      "forbes" : 75,
+      "overall" : 167,
+      "times" : 18,
+      "usnews" : 54,
+      "usnews_score" : 61
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 22,
+      "name" : "University of Washington-Seattle Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 130,
+        "verbal" : 130
+      }
+    },
+    "admission_rate" : 0.5523,
+    "fees" : {
+      "in_state" : 48715,
+      "out_of_state" : 48715
+    },
+    "living_expenditure" : {
+      "boarding" : 11691,
+      "books" : 825,
+      "other" : 2679,
+      "overall" : 15195
+    },
+    "location" : {
+      "city" : "Seattle",
+      "lat" : 47.656213,
+      "lon" : -122.313115,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "WA",
+      "zip" : 98195
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : [ "Department of Computer Science & Engineering", "Department of Human Centered Design & Engineering", "Information School", "Division of Design in the School of Art + Art History + Design" ],
+      "id" : 46,
+      "length" : 11,
+      "name" : "Master of Human-Computer Interaction and Design",
+      "school" : "Multi-School",
+      "website" : "https://mhcid.washington.edu/"
+    },
+    "rank" : {
+      "cwur" : 20,
+      "cwur_score" : 63.38,
+      "forbes" : 75,
+      "overall" : 167,
+      "times" : 18,
+      "usnews" : 54,
+      "usnews_score" : 61
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 22,
+      "name" : "University of Washington-Seattle Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 153
+      }
+    },
+    "admission_rate" : 0.5523,
+    "fees" : {
+      "in_state" : 34412,
+      "out_of_state" : 34412
+    },
+    "living_expenditure" : {
+      "boarding" : 11691,
+      "books" : 825,
+      "other" : 2679,
+      "overall" : 15195
+    },
+    "location" : {
+      "city" : "Seattle",
+      "lat" : 47.656213,
+      "lon" : -122.313115,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "WA",
+      "zip" : 98195
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 47,
+      "length" : 12,
+      "name" : "Master of Science in Information Systems",
+      "school" : "Michael G. Foster School of Business",
+      "website" : "http://foster.uw.edu/academics/degree-programs/master-of-science-in-information-systems/"
+    },
+    "rank" : {
+      "cwur" : 20,
+      "cwur_score" : 63.38,
+      "forbes" : 75,
+      "overall" : 167,
+      "times" : 18,
+      "usnews" : 54,
+      "usnews_score" : 61
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 22,
+      "name" : "University of Washington-Seattle Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 145,
+        "verbal" : 145
+      }
+    },
+    "admission_rate" : 0.5523,
+    "fees" : {
+      "in_state" : 49725,
+      "out_of_state" : 49725
+    },
+    "living_expenditure" : {
+      "boarding" : 11691,
+      "books" : 825,
+      "other" : 2679,
+      "overall" : 15195
+    },
+    "location" : {
+      "city" : "Seattle",
+      "lat" : 47.656213,
+      "lon" : -122.313115,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "WA",
+      "zip" : 98195
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 48,
+      "length" : 21,
+      "name" : "Master of Science in Information Management",
+      "school" : "Information School",
+      "website" : "https://ischool.uw.edu/academics/msim"
+    },
+    "rank" : {
+      "cwur" : 20,
+      "cwur_score" : 63.38,
+      "forbes" : 75,
+      "overall" : 167,
+      "times" : 18,
+      "usnews" : 54,
+      "usnews_score" : 61
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 22,
+      "name" : "University of Washington-Seattle Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 153
+      }
+    },
+    "admission_rate" : 0.5493,
+    "fees" : {
+      "in_state" : 58896,
+      "out_of_state" : 42912
+    },
+    "living_expenditure" : {
+      "boarding" : 11088,
+      "books" : 1200,
+      "other" : 2500,
+      "overall" : 14788
+    },
+    "location" : {
+      "city" : "Atlanta",
+      "lat" : 33.773732,
+      "lon" : -84.396019,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "GA",
+      "zip" : 30332
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : [ "Scheller College of Business", "College of Computing", "College of Engineering" ],
+      "id" : 49,
+      "length" : 12,
+      "name" : "Master of Science in Analytics",
+      "school" : "Multi-School",
+      "website" : "https://analytics.gatech.edu/"
+    },
+    "rank" : {
+      "cwur" : 50,
+      "cwur_score" : 51.75,
+      "forbes" : 89,
+      "overall" : 193,
+      "times" : 20,
+      "usnews" : 34,
+      "usnews_score" : 67
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 23,
+      "name" : "Georgia Institute of Technology-Main Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 155,
+        "verbal" : 153
+      }
+    },
+    "admission_rate" : 0.5493,
+    "fees" : {
+      "in_state" : 34860,
+      "out_of_state" : 16830
+    },
+    "living_expenditure" : {
+      "boarding" : 11088,
+      "books" : 1200,
+      "other" : 2500,
+      "overall" : 14788
+    },
+    "location" : {
+      "city" : "Atlanta",
+      "lat" : 33.773732,
+      "lon" : -84.396019,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "GA",
+      "zip" : 30332
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 50,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "College of Computing",
+      "website" : "http://www.cc.gatech.edu/future/masters/mscs"
+    },
+    "rank" : {
+      "cwur" : 50,
+      "cwur_score" : 51.75,
+      "forbes" : 89,
+      "overall" : 193,
+      "times" : 20,
+      "usnews" : 34,
+      "usnews_score" : 67
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 23,
+      "name" : "Georgia Institute of Technology-Main Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 158,
+        "verbal" : 158
+      }
+    },
+    "admission_rate" : 0.5493,
+    "fees" : {
+      "in_state" : 41808,
+      "out_of_state" : 20178
+    },
+    "living_expenditure" : {
+      "boarding" : 11088,
+      "books" : 1200,
+      "other" : 2500,
+      "overall" : 14788
+    },
+    "location" : {
+      "city" : "Atlanta",
+      "lat" : 33.773732,
+      "lon" : -84.396019,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "GA",
+      "zip" : 30332
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : [ "School of Interactive Computing", "School of Literature, Media, and Communication", "School of Psychology" ],
+      "id" : 51,
+      "length" : 21,
+      "name" : "Master of Science in Human-Computer Interaction",
+      "school" : "Multi-School",
+      "website" : "http://mshci.gatech.edu/"
+    },
+    "rank" : {
+      "cwur" : 50,
+      "cwur_score" : 51.75,
+      "forbes" : 89,
+      "overall" : 193,
+      "times" : 20,
+      "usnews" : 34,
+      "usnews_score" : 67
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 23,
+      "name" : "Georgia Institute of Technology-Main Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.5,
+      "gre" : {
+        "quant" : 160,
+        "verbal" : 160
+      }
+    },
+    "admission_rate" : 0.5493,
+    "fees" : {
+      "in_state" : 37184,
+      "out_of_state" : 17952
+    },
+    "living_expenditure" : {
+      "boarding" : 11088,
+      "books" : 1200,
+      "other" : 2500,
+      "overall" : 14788
+    },
+    "location" : {
+      "city" : "Atlanta",
+      "lat" : 33.773732,
+      "lon" : -84.396019,
+      "region_id" : 5,
+      "region_name" : "Southeast",
+      "state" : "GA",
+      "zip" : 30332
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 52,
+      "length" : 21,
+      "name" : "Master of Science in Information Security",
+      "school" : "College of Computing",
+      "website" : "http://www.cc.gatech.edu/academics/degree-programs/masters/information-security"
+    },
+    "rank" : {
+      "cwur" : 50,
+      "cwur_score" : 51.75,
+      "forbes" : 89,
+      "overall" : 193,
+      "times" : 20,
+      "usnews" : 34,
+      "usnews_score" : 67
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 23,
+      "name" : "Georgia Institute of Technology-Main Campus"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 2.7,
+      "gre" : {
+        "quant" : 145,
+        "verbal" : 145
+      }
+    },
+    "admission_rate" : 0.375,
+    "fees" : {
+      "in_state" : 16630,
+      "out_of_state" : 31732
+    },
+    "living_expenditure" : {
+      "boarding" : 10976,
+      "books" : 1502,
+      "other" : 4235,
+      "overall" : 16713
+    },
+    "location" : {
+      "city" : "La Jolla",
+      "lat" : 32.876598,
+      "lon" : -117.237793,
+      "region_id" : 8,
+      "region_name" : "Far West",
+      "state" : "CA",
+      "zip" : 92093
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science & Engineering",
+      "id" : 53,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "Jacobs School of Engineering",
+      "website" : "http://cse.ucsd.edu/graduate/degree-programs/ms-program"
+    },
+    "rank" : {
+      "cwur" : 14,
+      "cwur_score" : 67.59,
+      "forbes" : 117,
+      "overall" : 197,
+      "times" : 22,
+      "usnews" : 44,
+      "usnews_score" : 63
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 24,
+      "name" : "University of California-San Diego"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.8,
+      "gre" : {
+        "quant" : 167,
+        "verbal" : 159
+      }
+    },
+    "admission_rate" : 0.4019,
+    "fees" : {
+      "in_state" : 14040,
+      "out_of_state" : 27438
+    },
+    "living_expenditure" : {
+      "boarding" : 11456,
+      "books" : 750,
+      "other" : 4310,
+      "overall" : 16516
+    },
+    "location" : {
+      "city" : "Austin",
+      "lat" : 30.286598,
+      "lon" : -97.73924,
+      "region_id" : 6,
+      "region_name" : "Southwest",
+      "state" : "TX",
+      "zip" : 78712
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 54,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "College of Natural Sciences",
+      "website" : "https://login.cs.utexas.edu/graduate-program/masters-program?"
+    },
+    "rank" : {
+      "cwur" : 23,
+      "cwur_score" : 60.17,
+      "forbes" : 93,
+      "overall" : 197,
+      "times" : 25,
+      "usnews" : 56,
+      "usnews_score" : 60
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 25,
+      "name" : "The University of Texas at Austin"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.8,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 157
+      }
+    },
+    "admission_rate" : 0.4019,
+    "fees" : {
+      "in_state" : 22044,
+      "out_of_state" : 39860
+    },
+    "living_expenditure" : {
+      "boarding" : 11456,
+      "books" : 750,
+      "other" : 4310,
+      "overall" : 16516
+    },
+    "location" : {
+      "city" : "Austin",
+      "lat" : 30.286598,
+      "lon" : -97.73924,
+      "region_id" : 6,
+      "region_name" : "Southwest",
+      "state" : "TX",
+      "zip" : 78712
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 55,
+      "length" : 24,
+      "name" : "Master of Science in Information Studies",
+      "school" : "School of Information",
+      "website" : "http://www.ischool.utexas.edu/programs/"
+    },
+    "rank" : {
+      "cwur" : 23,
+      "cwur_score" : 60.17,
+      "forbes" : 93,
+      "overall" : 197,
+      "times" : 25,
+      "usnews" : 56,
+      "usnews_score" : 60
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 25,
+      "name" : "The University of Texas at Austin"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3.5,
+      "gre" : {
+        "quant" : 163,
+        "verbal" : 158
+      }
+    },
+    "admission_rate" : 0.4699,
+    "fees" : {
+      "in_state" : 34414,
+      "out_of_state" : 49914
+    },
+    "living_expenditure" : {
+      "boarding" : 11758,
+      "books" : 1200,
+      "other" : 2604,
+      "overall" : 15562
+    },
+    "location" : {
+      "city" : "College Park",
+      "lat" : 38.985379,
+      "lon" : -76.939494,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 20742
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "Department of Computer Science",
+      "id" : 56,
+      "length" : 24,
+      "name" : "Master of Science in Computer Science",
+      "school" : "A. James Clark School of Engineering",
+      "website" : "https://www.cs.umd.edu/grad/foo"
+    },
+    "rank" : {
+      "cwur" : 43,
+      "cwur_score" : 52.99,
+      "forbes" : 82,
+      "overall" : 218,
+      "times" : 33,
+      "usnews" : 60,
+      "usnews_score" : 59
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 26,
+      "name" : "University of Maryland-College Park"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 149
+      }
+    },
+    "admission_rate" : 0.4699,
+    "fees" : {
+      "in_state" : 21672,
+      "out_of_state" : 46728
+    },
+    "living_expenditure" : {
+      "boarding" : 11758,
+      "books" : 1200,
+      "other" : 2604,
+      "overall" : 15562
+    },
+    "location" : {
+      "city" : "College Park",
+      "lat" : 38.985379,
+      "lon" : -76.939494,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 20742
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 57,
+      "length" : 24,
+      "name" : "Master of Library and Information Science",
+      "school" : "College of Information Studies",
+      "website" : "https://ischool.umd.edu/mlis"
+    },
+    "rank" : {
+      "cwur" : 43,
+      "cwur_score" : 52.99,
+      "forbes" : 82,
+      "overall" : 218,
+      "times" : 33,
+      "usnews" : 60,
+      "usnews_score" : 59
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 26,
+      "name" : "University of Maryland-College Park"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 149
+      }
+    },
+    "admission_rate" : 0.4699,
+    "fees" : {
+      "in_state" : 21672,
+      "out_of_state" : 46728
+    },
+    "living_expenditure" : {
+      "boarding" : 11758,
+      "books" : 1200,
+      "other" : 2604,
+      "overall" : 15562
+    },
+    "location" : {
+      "city" : "College Park",
+      "lat" : 38.985379,
+      "lon" : -76.939494,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 20742
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 58,
+      "length" : 24,
+      "name" : "Master of Information Management",
+      "school" : "College of Information Studies",
+      "website" : "https://ischool.umd.edu/mim"
+    },
+    "rank" : {
+      "cwur" : 43,
+      "cwur_score" : 52.99,
+      "forbes" : 82,
+      "overall" : 218,
+      "times" : 33,
+      "usnews" : 60,
+      "usnews_score" : 59
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 26,
+      "name" : "University of Maryland-College Park"
+    }
+  }, {
+    "academic_requirements" : {
+      "gpa" : 3,
+      "gre" : {
+        "quant" : 156,
+        "verbal" : 149
+      }
+    },
+    "admission_rate" : 0.4699,
+    "fees" : {
+      "in_state" : 18060,
+      "out_of_state" : 38940
+    },
+    "living_expenditure" : {
+      "boarding" : 11758,
+      "books" : 1200,
+      "other" : 2604,
+      "overall" : 15562
+    },
+    "location" : {
+      "city" : "College Park",
+      "lat" : 38.985379,
+      "lon" : -76.939494,
+      "region_id" : 2,
+      "region_name" : "Mid East",
+      "state" : "MD",
+      "zip" : 20742
+    },
+    "ownership" : {
+      "id" : 1,
+      "name" : "Public"
+    },
+    "program" : {
+      "department" : "None",
+      "id" : 59,
+      "length" : 24,
+      "name" : "Master of Science in Human-Computer Interaction",
+      "school" : "College of Information Studies",
+      "website" : "https://ischool.umd.edu/hcim"
+    },
+    "rank" : {
+      "cwur" : 43,
+      "cwur_score" : 52.99,
+      "forbes" : 82,
+      "overall" : 218,
+      "times" : 33,
+      "usnews" : 60,
+      "usnews_score" : 59
+    },
+    "research" : {
+      "carnegie_basic_id" : 15,
+      "name" : "Doctoral Universities: Highest Research Activity"
+    },
+    "university" : {
+      "id" : 26,
+      "name" : "University of Maryland-College Park"
+    }
+  } ]
+}
