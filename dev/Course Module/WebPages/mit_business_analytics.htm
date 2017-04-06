@@ -1,0 +1,869 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="msvalidate.01" content="6849DC9B0C4F8D128EE873F68FD0E081" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?Ektron=V9&amp;id=-1759591071+813942724+1961952300+-300771134+1985268503+-1228755533" /><script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?Ektron=V9&amp;id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845+-537790564+-1812681594+-757423247+-1960414653"></script><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script><script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?Ektron=V9&amp;id=-1793043690+561009152+1762586108+1881432062+1080084488+-1562465382"></script>
+    <!--<link media="print" rel="stylesheet" href="/StyleSheetsV9/print.css" /><link media="all" rel="stylesheet" href="/StyleSheetsV9/site.css" />-->
+
+    <!-- Rebranding project -->
+    <link media="all" rel="stylesheet" href="/Styles/css/main.css" /><link rel="icon" href="/Styles/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Temporary fonts -->
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/184112b4-d589-4ecb-be2c-262bc63cad78.js"></script>
+
+
+    <script src="/shared/scripts/MIT_Sloan_gatc.js" type="text/javascript"></script>
+    <style type="text/css">
+        .jcf-unselectable {
+            -moz-user-select: none;
+            -webkit-tap-highlight-color: rgba(255,255,255,0);
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    </style>
+    
+    
+   
+    <script>var jQuery = $;</script>
+    <script src="/ScriptsV9/jquery.cleditor.min.js"></script>
+    <script src="/ScriptsV9/jquery.cleditor.table.min.js"></script>
+    <link href="/ScriptsV9/colorbox.css" rel="stylesheet" />
+    <script src="/ScriptsV9/jquery.colorbox-min.js"></script>
+    <script src="/ScriptsV9/npsCleditorConfig.js"></script>
+    <script src="/ScriptsV9/npsEditorGenerator.js"></script>
+    <link href="/StyleSheetsV9/npsEditors.css" rel="stylesheet" />
+    <link href="/ScriptsV9/jquery.cleditor.css" rel="stylesheet" />
+<title>
+
+</title></head>
+<body id="march4th_home">
+    <form method="post" action="/master-of-business-analytics/program-components/curriculum/" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,813942724,-537790564,-1812681594,-757423247,1961952300,-1960414653,1803481222,-713605568,-1793043690,-300771134,1985268503,-1228755533,561009152,1762586108,1881432062,1080084488,-1562465382" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTg4ODIwMTA5OA9kFgJmD2QWAgIDEGRkFgYCAg9kFgJmDxYCHgtfIUl0ZW1Db3VudAIFFgpmD2QWBGYPFQYAPDxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL3Byb2dyYW0tY29tcG9uZW50cy8iPhJQcm9ncmFtIENvbXBvbmVudHMEPC9hPvoCPGEgaHJlZj0namF2YXNjcmlwdDp2b2lkKDApJyBjbGFzcz0nc2hvdy1zZWNvbmQtbGV2ZWwnIHN0eWxlPSdkaXNwbGF5Om5vbmUnPjxzcGFuIGNsYXNzPSdmYS1zdGFjayBmYS1mdyc+PGkgY2xhc3M9J2ZhIGZhLWNpcmNsZS10aGluIGZhLXN0YWNrLTJ4Jz48L2k+PGkgY2xhc3M9J2ZhIGZhLXBsdXMgZmEtc3RhY2stMXgnPjwvaT48L3NwYW4+PC9hPjxhIGhyZWY9J2phdmFzY3JpcHQ6dm9pZCgwKScgY2xhc3M9J2hpZGUtc2Vjb25kLWxldmVsJz48c3BhbiBjbGFzcz0nZmEtc3RhY2sgZmEtZncnPjxpIGNsYXNzPSdmYSBmYS1jaXJjbGUtdGhpbiBmYS1zdGFjay0yeCc+PC9pPjxpIGNsYXNzPSdmYSBmYS1taW51cyBmYS1zdGFjay0xeCc+PC9pPjwvc3Bhbj48L2E+AGQCAQ8WAh8AAgEWAmYPZBYEZg8VBA5jbGFzcz0iYWN0aXZlIkc8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9wcm9ncmFtLWNvbXBvbmVudHMvY3VycmljdWx1bS8iPgpDdXJyaWN1bHVtBDwvYT5kAgEPFgIfAAICFgRmD2QWAmYPFQQAVzxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL3Byb2dyYW0tY29tcG9uZW50cy9jdXJyaWN1bHVtL2FjdGlvbi1sZWFybmluZy8iPg9BY3Rpb24gTGVhcm5pbmcEPC9hPmQCAQ9kFgJmDxUEAFo8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9wcm9ncmFtLWNvbXBvbmVudHMvY3VycmljdWx1bS9hbmFseXRpY3MtY2Fwc3RvbmUvIj4SQW5hbHl0aWNzIENhcHN0b25lBDwvYT5kAgEPZBYEZg8VBgA4PGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvY2FyZWVyLXN1cHBvcnQvIj4OQ2FyZWVyIFN1cHBvcnQEPC9hPvoCPGEgaHJlZj0namF2YXNjcmlwdDp2b2lkKDApJyBjbGFzcz0nc2hvdy1zZWNvbmQtbGV2ZWwnPjxzcGFuIGNsYXNzPSdmYS1zdGFjayBmYS1mdyc+PGkgY2xhc3M9J2ZhIGZhLWNpcmNsZS10aGluIGZhLXN0YWNrLTJ4Jz48L2k+PGkgY2xhc3M9J2ZhIGZhLXBsdXMgZmEtc3RhY2stMXgnPjwvaT48L3NwYW4+PC9hPjxhIGhyZWY9J2phdmFzY3JpcHQ6dm9pZCgwKScgY2xhc3M9J2hpZGUtc2Vjb25kLWxldmVsJyBzdHlsZT0nZGlzcGxheTpub25lJz48c3BhbiBjbGFzcz0nZmEtc3RhY2sgZmEtZncnPjxpIGNsYXNzPSdmYSBmYS1jaXJjbGUtdGhpbiBmYS1zdGFjay0yeCc+PC9pPjxpIGNsYXNzPSdmYSBmYS1taW51cyBmYS1zdGFjay0xeCc+PC9pPjwvc3Bhbj48L2E+FHN0eWxlPSdkaXNwbGF5Om5vbmUnZAIBDxYCHwACAhYEZg9kFgRmDxUEAEk8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9jYXJlZXItc3VwcG9ydC9jYXJlZXItcmVzb3VyY2VzLyI+EENhcmVlciBSZXNvdXJjZXMEPC9hPmQCAQ8WAh8AZmQCAQ9kFgRmDxUEAEc8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9jYXJlZXItc3VwcG9ydC9hbHVtbmktbmV0d29yay8iPg5BbHVtbmkgTmV0d29yawQ8L2E+ZAIBDxYCHwBmZAICD2QWBGYPFQYAPTxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL21pdC1zbG9hbi1jb21tdW5pdHkvIj4TTUlUIFNsb2FuIENvbW11bml0eQQ8L2E++gI8YSBocmVmPSdqYXZhc2NyaXB0OnZvaWQoMCknIGNsYXNzPSdzaG93LXNlY29uZC1sZXZlbCc+PHNwYW4gY2xhc3M9J2ZhLXN0YWNrIGZhLWZ3Jz48aSBjbGFzcz0nZmEgZmEtY2lyY2xlLXRoaW4gZmEtc3RhY2stMngnPjwvaT48aSBjbGFzcz0nZmEgZmEtcGx1cyBmYS1zdGFjay0xeCc+PC9pPjwvc3Bhbj48L2E+PGEgaHJlZj0namF2YXNjcmlwdDp2b2lkKDApJyBjbGFzcz0naGlkZS1zZWNvbmQtbGV2ZWwnIHN0eWxlPSdkaXNwbGF5Om5vbmUnPjxzcGFuIGNsYXNzPSdmYS1zdGFjayBmYS1mdyc+PGkgY2xhc3M9J2ZhIGZhLWNpcmNsZS10aGluIGZhLXN0YWNrLTJ4Jz48L2k+PGkgY2xhc3M9J2ZhIGZhLW1pbnVzIGZhLXN0YWNrLTF4Jz48L2k+PC9zcGFuPjwvYT4Uc3R5bGU9J2Rpc3BsYXk6bm9uZSdkAgEPFgIfAAIDFgZmD2QWBGYPFQQAUjxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL21pdC1zbG9hbi1jb21tdW5pdHkvY2x1YnMtYW5kLWFjdGl2aXRpZXMvIj4UQ2x1YnMgYW5kIEFjdGl2aXRpZXMEPC9hPmQCAQ8WAh8AAgEWAmYPZBYCZg8VBABlPGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvbWl0LXNsb2FuLWNvbW11bml0eS9jbHVicy1hbmQtYWN0aXZpdGllcy9zdHVkZW50LWxlYWRlcnNoaXAvIj4SU3R1ZGVudCBMZWFkZXJzaGlwBDwvYT5kAgEPZBYEZg8VBABUPGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvbWl0LXNsb2FuLWNvbW11bml0eS9ldmVudHMtYW5kLWNvbXBldGl0aW9uLyI+F0V2ZW50cyBhbmQgQ29tcGV0aXRpb25zBDwvYT5kAgEPFgIfAGZkAgIPZBYEZg8VBABOPGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvbWl0LXNsb2FuLWNvbW11bml0eS9jYW1wdXMtcmVzb3VyY2VzLyI+EENhbXB1cyBSZXNvdXJjZXMEPC9hPmQCAQ8WAh8AZmQCAw9kFgRmDxUGADQ8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9hZG1pc3Npb25zLyI+CkFkbWlzc2lvbnMEPC9hPvoCPGEgaHJlZj0namF2YXNjcmlwdDp2b2lkKDApJyBjbGFzcz0nc2hvdy1zZWNvbmQtbGV2ZWwnPjxzcGFuIGNsYXNzPSdmYS1zdGFjayBmYS1mdyc+PGkgY2xhc3M9J2ZhIGZhLWNpcmNsZS10aGluIGZhLXN0YWNrLTJ4Jz48L2k+PGkgY2xhc3M9J2ZhIGZhLXBsdXMgZmEtc3RhY2stMXgnPjwvaT48L3NwYW4+PC9hPjxhIGhyZWY9J2phdmFzY3JpcHQ6dm9pZCgwKScgY2xhc3M9J2hpZGUtc2Vjb25kLWxldmVsJyBzdHlsZT0nZGlzcGxheTpub25lJz48c3BhbiBjbGFzcz0nZmEtc3RhY2sgZmEtZncnPjxpIGNsYXNzPSdmYSBmYS1jaXJjbGUtdGhpbiBmYS1zdGFjay0yeCc+PC9pPjxpIGNsYXNzPSdmYSBmYS1taW51cyBmYS1zdGFjay0xeCc+PC9pPjwvc3Bhbj48L2E+FHN0eWxlPSdkaXNwbGF5Om5vbmUnZAIBDxYCHwACBBYIZg9kFgRmDxUEADo8YSBocmVmPSIvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9hZG1pc3Npb25zL2FwcGx5LyI+BUFwcGx5BDwvYT5kAgEPFgIfAAIDFgZmD2QWAmYPFQQAUzxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL2FkbWlzc2lvbnMvYXBwbHkvYXBwbGljYXRpb24taW5zdHJ1Y3Rpb25zLyI+GEFwcGxpY2F0aW9uIEluc3RydWN0aW9ucwQ8L2E+ZAIBD2QWAmYPFQQAUDxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL2FkbWlzc2lvbnMvYXBwbHkvYXBwbGljYXRpb24tZGVhZGxpbmVzLyI+FUFwcGxpY2F0aW9uIERlYWRsaW5lcwQ8L2E+ZAICD2QWAmYPFQQARTxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL2FkbWlzc2lvbnMvYXBwbHkvaW50ZXJ2aWV3cy8iPgpJbnRlcnZpZXdzBDwvYT5kAgEPZBYEZg8VBABGPGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvYWRtaXNzaW9ucy9hZG1pc3Npb25zLWV2ZW50cy8iPhFBZG1pc3Npb25zIEV2ZW50cwQ8L2E+ZAIBDxYCHwBmZAICD2QWBGYPFQQAODxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL2FkbWlzc2lvbnMvZmFxLyI+A0ZBUQQ8L2E+ZAIBDxYCHwBmZAIDD2QWBGYPFQQATjxhIGhyZWY9Ii9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzL2FkbWlzc2lvbnMvdHVpdGlvbi1hbmQtZmluYW5jaWFsLWFpZC8iPhlUdWl0aW9uIGFuZCBGaW5hbmNpYWwgQWlkBDwvYT5kAgEPFgIfAGZkAgQPZBYEZg8VBgA0PGEgaHJlZj0iL21hc3Rlci1vZi1idXNpbmVzcy1hbmFseXRpY3MvY29udGFjdC11cy8iPgpDb250YWN0IFVzBDwvYT4AFHN0eWxlPSdkaXNwbGF5Om5vbmUnZAIBDxYCHwBmZAIDD2QWCAIDD2QWAgIBDxYCHwACAhYEZg9kFgJmDxUCHS9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzHE1BU1RFUiBPRiBCVVNJTkVTUyBBTkFMWVRJQ1NkAgEPZBYCZg8VAjAvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9wcm9ncmFtLWNvbXBvbmVudHMSUFJPR1JBTSBDT01QT05FTlRTZAIHD2QWAgIBDxYCHwACAhYEZg9kFgJmDxUCHS9tYXN0ZXItb2YtYnVzaW5lc3MtYW5hbHl0aWNzHE1BU1RFUiBPRiBCVVNJTkVTUyBBTkFMWVRJQ1NkAgEPZBYCZg8VAjAvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9wcm9ncmFtLWNvbXBvbmVudHMSUFJPR1JBTSBDT01QT05FTlRTZAILD2QWAmYPZBYEZg9kFgICAw9kFgJmD2QWAgIBDxYCHgVjbGFzcwUQZHJvcHpvbmUgUEJDbGVhcmQCAQ9kFgICAQ9kFgJmD2QWAgIBD2QWAgIBDxYCHwACARYCZg9kFgZmDxUCFCBzdHlsZT0nd2lkdGg6NTQ5cHgnAGQCAQ8WAh4HVmlzaWJsZWhkAgMPFgIfAAIBFgJmD2QWAgIBD2QWAmYPZBYCAgEPZBYCAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPZBYCZg9kFgQCAQ8PFgIeBFRleHQFEzxoMT5DVVJSSUNVTFVNPC9oMT5kZAIDDw8WAh8DBfgUPHAgZGF0YS1la3Ryb24tcHJlc2VydmU9InRydWUiPlRoZSBNYXN0ZXIgb2YgQnVzaW5lc3MKQW5hbHl0aWNzIHByb2dyYW0gZW5zdXJlcyB0aGF0IHN0dWRlbnRzIGhhdmUgYSBzdHJvbmcgdW5kZXJzdGFuZGluZyBvZiB0aGUKZnVuZGFtZW50YWxzIG9mIGFuYWx5dGljcywgYWxvbmcgd2l0aCB0aGUKZXhwZXJpZW5jZSB0byBtZWV0IHRoZWlyIGNhcmVlciBhbmQgcGVyc29uYWwgZ29hbHMuPC9wPgoKPHAgZGF0YS1la3Ryb24tcHJlc2VydmU9InRydWUiPjxiPkZBTEwgVEVSTTo8L2I+PC9wPgoKPHVsPgo8bGk+V2VsY29tZQpPcmllbnRhdGlvbjwvbGk+CjxsaT5Tb2Z0d2FyZSBUb29scwpQYXJ0IDE6Jm5ic3A7PHVsPgo8bGk+TW9kdWxlIFNUMToKSW50cm9kdWN0aW9uIHRvIFI8L2xpPgo8bGk+TW9kdWxlIFNUMjoKRGF0YSBXcmFuZ2xpbmcgaW4gUjwvbGk+CjwvdWw+PC9saT4KPGxpPjE1LjA5M0ovNi4yNTVKOgpPcHRpbWl6YXRpb24gTWV0aG9kczwvbGk+CjxsaT4xNS4wNzk6CkludHJvZHVjdGlvbiBBcHBsaWVkIFByb2JhYmlsaXR5IG9yIDYuNDMxIEFwcGxpZWQgUHJvYmFiaWxpdHk8L2xpPgo8bGk+MTUuMDYyOiBEYXRhCm1pbmluZzogRmluZGluZyB0aGUgRGF0YSBhbmQgTW9kZWxzIHRoYXQgQ3JlYXRlIFZhbHVlIDE1LjU3MjogQW5hbHl0aWNzCkxhYjwvbGk+CjxsaT5FbGVjdGl2ZSAxPC9saT4KPC91bD48cCBkYXRhLWVrdHJvbi1wcmVzZXJ2ZT0idHJ1ZSI+PGI+RkFMTCBTTE9BTiBJTk5PVkFUSU9OIFBFUklPRDo8L2I+PC9wPgoKPHVsPgo8bGk+U29mdHdhcmUgVG9vbHMKUGFydCAyOiZuYnNwOzx1bD4KPGxpPk1vZHVsZSBTVDM6ClZpc3VhbGl6YXRpb248L2xpPgo8bGk+TW9kdWxlIFNUNDoKTGluZWFyIE9wdGltaXphdGlvbjwvbGk+CjwvdWw+PC9saT4KPGxpPkZyb20gQW5hbHl0aWNzCnRvIEFjdGlvbjogTW9kdWxlcyBvbiBPcmdhbml6YXRpb25zLCBMZWFkZXJzaGlwIGFuZCBFdGhpY3M8L2xpPgo8L3VsPjxwIGRhdGEtZWt0cm9uLXByZXNlcnZlPSJ0cnVlIj48Yj5KQU5VQVJZIElOREVQRU5ERU5UIEFDVElWSVRJRVMgUEVSSU9EOjwvYj48L3A+Cgo8dWw+CjxsaT5QcmVwYXJhdGlvbiBmb3IKQW5hbHl0aWNzIFByb2plY3QgQ291cnNlPC9saT4KPGxpPlNvZnR3YXJlIFRvb2xzClBhcnQgMzombmJzcDs8dWw+CjxsaT5Nb2R1bGUgU1Q1OgpPcHRpbWl6YXRpb24mbmJzcDs8L2xpPgo8bGk+TW9kdWxlIFNUNjoKSGFuZGxpbmcgQmlnIERhdGE8L2xpPgo8L3VsPjwvbGk+CjwvdWw+PHAgZGF0YS1la3Ryb24tcHJlc2VydmU9InRydWUiPjxiPlNQUklORyBURVJNOjwvYj48L3A+Cgo8dWw+CjxsaT4xNS4wNzE6IFRoZQpBbmFseXRpY3MgRWRnZTwvbGk+CjxsaT5FbGVjdGl2ZSAyPC9saT4KPGxpPkVsZWN0aXZlIDM8L2xpPgo8bGk+QW5hbHl0aWNzClByb2plY3QgQ291cnNlPC9saT4KPC91bD48cCBkYXRhLWVrdHJvbi1wcmVzZXJ2ZT0idHJ1ZSI+PGI+U1VNTUVSIENBUFNUT05FOjwvYj48L3A+Cgo8cCBkYXRhLWVrdHJvbi1wcmVzZXJ2ZT0idHJ1ZSI+VGhlIGN1bG1pbmF0aW9uIG9mIHRoZSBwcm9ncmFtIGlzIHRoZSBhbmFseXRpY3Mgc3VtbWVyIGNhcHN0b25lCnByb2plY3QsIHdoaWNoIGdpdmVzIHN0dWRlbnRzIGFuIG9wcG9ydHVuaXR5IHRvIHdvcmsgb24gcmVhbC1saWZlIGRhdGEgc2NpZW5jZQpwcm9ibGVtcy4gSW4gU2VwdGVtYmVyLCB1cG9uIGNvbXBsZXRpb24gb2YgdGhlIHN1bW1lciBjYXBzdG9uZSwgc3R1ZGVudHMgd2lsbAplYXJuIHRoZWlyIGZvcm1hbCBkZWdyZWUuPC9wPgoKPHAgZGF0YS1la3Ryb24tcHJlc2VydmU9InRydWUiPjxiPkFQUFJPVkVEIEVMRUNUSVZFUzwvYj48L3A+Cgo8cCBkYXRhLWVrdHJvbi1wcmVzZXJ2ZT0idHJ1ZSI+QXBwcm92ZWQgZWxlY3RpdmVzIGluY2x1ZGUgYnV0IGFyZSBub3QgbGltaXRlZCB0byB0aGUgZm9sbG93aW5nOjwvcD4KCjx1bD4KPGxpPjxiPkUtQ29tbWVyY2U6PC9iPiZuYnNwOzE1LjU2NywKMTUuNTcwLCAxNS41NzEsIDYuOTMyLzE1LjM3N0o8L2xpPgo8bGk+PGI+RmluYW5jZTo8L2I+Jm5ic3A7MTUuNDMzLAoxNS40MzcsIDE1LjQzOSwgMTUuNDUwPC9saT4KPGxpPjxiPk1hbmFnZXJpYWwKRWNvbm9taWNzOjwvYj4mbmJzcDsxNS4wMzQ8L2xpPgo8bGk+PGI+TWFya2V0aW5nOjwvYj4mbmJzcDsxNS44MTAvMTUuODEyLAoxNS44MTgsIE1hcmtldGluZyBBbmFseXRpY3M8L2xpPgo8bGk+PGI+T006PC9iPiZuYnNwOzE1Ljc2MSwKMTUuNzYySiwgMTUuNzY0SiwgMTUuNzY3PC9saT4KPGxpPjxiPk9SL1N0YXRpc3RpY3M6PC9iPiZuYnNwOzYuODY3LAoxNS4wNjgsIDE1LjA5NDwvbGk+CjwvdWw+PHAgZGF0YS1la3Ryb24tcHJlc2VydmU9InRydWUiPlN1YmplY3QgbGlzdGluZ3MgYXJlIGludGVuZGVkIHRvIHByb3ZpZGUgYQp3aW5kb3cgaW50byBNSVQgb2ZmZXJpbmdzLiBOYW1lcywgbnVtYmVycywgaW5zdHJ1Y3RvcnMsIGFuZCBkZXNjcmlwdGlvbnMgYXJlCnN1YmplY3QgdG8gY2hhbmdlLiBGb3IgdGhlIG1vc3QgdXAtdG8tZGF0ZSBpbmZvcm1hdGlvbiwgcGxlYXNlIHNlZSB0aGUgPGEgaHJlZj0iaHR0cDovL3N0dWRlbnQubWl0LmVkdS9jYXRhbG9nL20xNWEuaHRtbCIgZGF0YS1la3Ryb24tdXJsPSJodHRwOi8vc3R1ZGVudC5taXQuZWR1L2NhdGFsb2cvbTE1YS5odG1sIj5NSVQKc3ViamVjdCBjYXRhbG9nPC9hPi48L3A+PGJyPmRkAg8PZBYCZg9kFgRmD2QWAgIDD2QWAmYPZBYCAgEPFgIfAQUQZHJvcHpvbmUgUEJDbGVhcmQCAQ9kFgICAQ9kFgJmD2QWAgIBD2QWAgIBDxYCHwACARYCZg9kFgZmDxUCFCBzdHlsZT0nd2lkdGg6MTc1cHgnAGQCAQ8WAh8CaGQCAw8WAh8AAgEWAmYPZBYCAgEPZBYCZg9kFgICAQ9kFgICAQ9kFgJmD2QWAgIBD2QWAmYPZBYCZg9kFgJmD2QWAmYPFgIfAAICFgRmD2QWAmYPFQJNaHR0cDovL21pdHNsb2FuLm1pdC5lZHUvbWFzdGVyLW9mLWJ1c2luZXNzLWFuYWx5dGljcy9hZG1pc3Npb25zLWlucXVpcnktZm9ybS8WUkVHSVNURVIgVE8gTEVBUk4gTU9SRWQCAQ9kFgJmDxUCWWh0dHA6Ly9taXRzbG9hbi5taXQuZWR1L3VwbG9hZGVkRmlsZXNWOS9NYXN0ZXJfb2ZfQnVzaW5lc3NfQW5hbHl0aWNzL01lZGlhL01CQW4gRmluYWwucGRmEURPV05MT0FEIEJST0NIVVJFZAIED2QWCGYPDxYCHghJbWFnZVVybAUtL3VwbG9hZGVkSW1hZ2VzVjkvQ29udGVudC9sb2dvX21pdC5naWY/bj03MDY3ZGQCAw8PFgYeCV9kYXRhSXRlbTKwRwABAAAA/////wEAAAAAAAAADAIAAABcRWt0cm9uLkNtcy5GcmFtZXdvcmsuVUksIFZlcnNpb249OS4wLjAuMjQ5LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTU1OWEyYzRmYTIxZTYzYmUFAQAAAChFa3Ryb24uQ21zLkZyYW1ld29yay5VSS5Nb2RlbHMuTWVudU1vZGVsBQAAABM8SWQ+a19fQmFja2luZ0ZpZWxkGTxNZW51TGlzdD5rX19CYWNraW5nRmllbGQWPEl0ZW1zPmtfX0JhY2tpbmdGaWVsZBY8RXJyb3I+a19fQmFja2luZ0ZpZWxkGDxDYW5FZGl0PmtfX0JhY2tpbmdGaWVsZAADBAEACaQBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tFa3Ryb24uQ21zLk9yZ2FuaXphdGlvbi5NZW51QmFzZURhdGEsIEVrdHJvbi5DbXMuQ29udHJhY3RzLCBWZXJzaW9uPTkuMC4wLjI0OSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01NTlhMmM0ZmEyMWU2M2JlXV0vRWt0cm9uLkNtcy5GcmFtZXdvcmsuVUkuVHJlZS5UcmVlTm9kZUNvbGxlY3Rpb24CAAAAAQIAAABTAAAAAAAAAAkDAAAACQQAAAAKAAwFAAAAWUVrdHJvbi5DbXMuQ29udHJhY3RzLCBWZXJzaW9uPTkuMC4wLjI0OSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01NTlhMmM0ZmEyMWU2M2JlBAMAAACkAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbRWt0cm9uLkNtcy5Pcmdhbml6YXRpb24uTWVudUJhc2VEYXRhLCBFa3Ryb24uQ21zLkNvbnRyYWN0cywgVmVyc2lvbj05LjAuMC4yNDksIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NTU5YTJjNGZhMjFlNjNiZV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAmRWt0cm9uLkNtcy5Pcmdhbml6YXRpb24uTWVudUJhc2VEYXRhW10FAAAACAgJBgAAAAEAAAABAAAABQQAAAAvRWt0cm9uLkNtcy5GcmFtZXdvcmsuVUkuVHJlZS5UcmVlTm9kZUNvbGxlY3Rpb24DAAAADUxpc3RgMStfaXRlbXMMTGlzdGAxK19zaXplD0xpc3RgMStfdmVyc2lvbgQAAChFa3Ryb24uQ21zLkZyYW1ld29yay5VSS5UcmVlLklUcmVlTm9kZVtdAgAAAAgIAgAAAAkHAAAABgAAAAYAAAAHBgAAAAABAAAABAAAAAQkRWt0cm9uLkNtcy5Pcmdhbml6YXRpb24uTWVudUJhc2VEYXRhBQAAAAkIAAAADQMHBwAAAAABAAAACAAAAAQmRWt0cm9uLkNtcy5GcmFtZXdvcmsuVUkuVHJlZS5JVHJlZU5vZGUCAAAACQkAAAAJCgAAAAkLAAAACQwAAAAJDQAAAAkOAAAADQIMDwAAAFZFa3Ryb24uQ21zLkNvbW1vbiwgVmVyc2lvbj05LjAuMC4yNDksIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NTU5YTJjNGZhMjFlNjNiZQUIAAAAIEVrdHJvbi5DbXMuT3JnYW5pemF0aW9uLk1lbnVEYXRhEQAAABk8VGVtcGxhdGU+a19fQmFja2luZ0ZpZWxkGTxGb2xkZXJJZD5rX19CYWNraW5nRmllbGQiPEFzc29jaWF0ZWRGb2xkZXJzPmtfX0JhY2tpbmdGaWVsZCQ8QXNzb2NpYXRlZFRlbXBsYXRlcz5rX19CYWNraW5nRmllbGQaPEltYWdlUGF0aD5rX19CYWNraW5nRmllbGQePEltYWdlT3ZlcnJpZGU+a19fQmFja2luZ0ZpZWxkIk1lbnVCYXNlRGF0YSs8VGV4dD5rX19CYWNraW5nRmllbGQiTWVudUJhc2VEYXRhKzxUeXBlPmtfX0JhY2tpbmdGaWVsZCJNZW51QmFzZURhdGErPEhyZWY+a19fQmFja2luZ0ZpZWxkJE1lbnVCYXNlRGF0YSs8VGFyZ2V0PmtfX0JhY2tpbmdGaWVsZChNZW51QmFzZURhdGErPEFuY2VzdG9ySWQ+a19fQmFja2luZ0ZpZWxkKU1lbnVCYXNlRGF0YSs8RGVzY3JpcHRpb24+a19fQmFja2luZ0ZpZWxkJU1lbnVCYXNlRGF0YSs8T3JkaW5hbD5rX19CYWNraW5nRmllbGQjTWVudUJhc2VEYXRhKzxJdGVtcz5rX19CYWNraW5nRmllbGQnTWVudUJhc2VEYXRhKzxJbWFnZVBhdGg+a19fQmFja2luZ0ZpZWxkK01lbnVCYXNlRGF0YSs8SW1hZ2VPdmVycmlkZT5rX19CYWNraW5nRmllbGQdQ21zRGF0YWAxKzxJZD5rX19CYWNraW5nRmllbGQBAAMDAQABBAEBAAEAAwEAAAl+U3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tTeXN0ZW0uSW50NjQsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1df1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0BLEVrdHJvbi5DbXMuQ29tbW9uLkVrRW51bWVyYXRpb24rTWVudUl0ZW1UeXBlDwAAAAkIpQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0VrdHJvbi5DbXMuT3JnYW5pemF0aW9uLklNZW51SXRlbURhdGEsIEVrdHJvbi5DbXMuQ29udHJhY3RzLCBWZXJzaW9uPTkuMC4wLjI0OSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01NTlhMmM0ZmEyMWU2M2JlXV0BCQUAAAAGEAAAAAAAAAAAAAAAAAkRAAAACRIAAAAJEAAAAAEGFAAAAAZGb290ZXIF6////yxFa3Ryb24uQ21zLkNvbW1vbi5Fa0VudW1lcmF0aW9uK01lbnVJdGVtVHlwZQEAAAAHdmFsdWVfXwAIDwAAAAMAAAAJEAAAAApTAAAAAAAAAAkQAAAAAAAAAAkXAAAACgBTAAAAAAAAAAwYAAAAbkVrdHJvbi5DbXMuRnJhbWV3b3JrLlVJLkNvbnRyb2xzLkVrdHJvblVJLCBWZXJzaW9uPTkuMC4wLjI0OSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01NTlhMmM0ZmEyMWU2M2JlBQkAAAA2RWt0cm9uLkNtcy5GcmFtZXdvcmsuVUkuQ29udHJvbHMuRWt0cm9uVUkuTWVudVRyZWVOb2RlKAAAABw8RGVzY3JpcHRpb24+a19fQmFja2luZ0ZpZWxkHjxJbWFnZU92ZXJyaWRlPmtfX0JhY2tpbmdGaWVsZBo8SW1hZ2VQYXRoPmtfX0JhY2tpbmdGaWVsZBg8T3JkaW5hbD5rX19CYWNraW5nRmllbGQXPFRhcmdldD5rX19CYWNraW5nRmllbGQXPEl0ZW1JZD5rX19CYWNraW5nRmllbGQZPFRlbXBsYXRlPmtfX0JhY2tpbmdGaWVsZCI8QXNzb2NpYXRlZEZvbGRlcnM+a19fQmFja2luZ0ZpZWxkJDxBc3NvY2lhdGVkVGVtcGxhdGVzPmtfX0JhY2tpbmdGaWVsZBk8Rm9sZGVySWQ+a19fQmFja2luZ0ZpZWxkHDxDb250ZW50VHlwZT5rX19CYWNraW5nRmllbGQZPExpbmtUeXBlPmtfX0JhY2tpbmdGaWVsZBJUcmVlTm9kZStfY2hpbGRyZW4VVHJlZU5vZGUrX2hhc0NoaWxkcmVuG1RyZWVOb2RlK19jaGlsZHJlbk5vdExvYWRlZBxUcmVlTm9kZSs8SWQ+a19fQmFja2luZ0ZpZWxkIlRyZWVOb2RlKzxQYXJlbnRJZD5rX19CYWNraW5nRmllbGQgVHJlZU5vZGUrPFJvb3RJZD5rX19CYWNraW5nRmllbGQeVHJlZU5vZGUrPFBhdGg+a19fQmFja2luZ0ZpZWxkH1RyZWVOb2RlKzxMZXZlbD5rX19CYWNraW5nRmllbGQeVHJlZU5vZGUrPFJhbms+a19fQmFja2luZ0ZpZWxkKVRyZWVOb2RlKzxDYW5IYXZlQ2hpbGRyZW4+a19fQmFja2luZ0ZpZWxkHlRyZWVOb2RlKzxUZXh0PmtfX0JhY2tpbmdGaWVsZB5UcmVlTm9kZSs8VHlwZT5rX19CYWNraW5nRmllbGQhVHJlZU5vZGUrPFN1YlR5cGU+a19fQmFja2luZ0ZpZWxkIFRyZWVOb2RlKzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkIVRyZWVOb2RlKzxFbmFibGVkPmtfX0JhY2tpbmdGaWVsZCFUcmVlTm9kZSs8VmlzaWJsZT5rX19CYWNraW5nRmllbGQiVHJlZU5vZGUrPFNlbGVjdGVkPmtfX0JhY2tpbmdGaWVsZB5UcmVlTm9kZSs8TW9yZT5rX19CYWNraW5nRmllbGQoVHJlZU5vZGUrPE5leHRQYWdlTnVtYmVyPmtfX0JhY2tpbmdGaWVsZCJUcmVlTm9kZSs8RXhwYW5kZWQ+a19fQmFja2luZ0ZpZWxkJVRyZWVOb2RlKzxDb21tYW5kTmFtZT5rX19CYWNraW5nRmllbGQpVHJlZU5vZGUrPENvbW1hbmRBcmd1bWVudD5rX19CYWNraW5nRmllbGQnVHJlZU5vZGUrPFNlbGVjdGlvbk1vZGU+a19fQmFja2luZ0ZpZWxkJVRyZWVOb2RlKzxOYXZpZ2F0ZVVybD5rX19CYWNraW5nRmllbGQnVHJlZU5vZGUrPE9uQ2xpZW50Q2xpY2s+a19fQmFja2luZ0ZpZWxkLVRyZWVOb2RlKzxDbGlja0NhdXNlc1Bvc3RiYWNrPmtfX0JhY2tpbmdGaWVsZCBUcmVlTm9kZSs8Q3VzdG9tPmtfX0JhY2tpbmdGaWVsZCJUcmVlTm9kZSs8VG9wTGV2ZWw+a19fQmFja2luZ0ZpZWxkAQABAAEBAQMDAAEBBAAAAQEBAQAAAAEBAQEAAAAAAAABAQQBAQADAAEIflN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLkludDY0LCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXX9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCS9Fa3Ryb24uQ21zLkZyYW1ld29yay5VSS5UcmVlLlRyZWVOb2RlQ29sbGVjdGlvbgIAAAABAQgJAQEBAQEIAS5Fa3Ryb24uQ21zLkZyYW1ld29yay5VSS5UcmVlLlRyZWVTZWxlY3Rpb25Nb2RlAgAAAAEcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQEYAAAACRAAAAABCRAAAAABAAAABhoAAAAFX3NlbGYGGwAAAAI4NAkQAAAACR0AAAAJHgAAAAAAAAAAAAAACgoJHwAAAAAABiAAAAACODQGIQAAAAI4MwYiAAAAAjgzBiMAAAAFODNeODQBAAAAAgAAAAAAAAABBiQAAAAHU2l0ZW1hcAYlAAAAB1N1Yk1lbnUKCgEBAAAAAAAAAAoKBdr///8uRWt0cm9uLkNtcy5GcmFtZXdvcmsuVUkuVHJlZS5UcmVlU2VsZWN0aW9uTW9kZQEAAAAHdmFsdWVfXwAIAgAAAAAAAAAGJwAAAAkvc2l0ZW1hcC8KAAoAAQoAAAAJAAAACRAAAAABCRAAAAACAAAACRoAAAAGKgAAAAI4NQkQAAAACSwAAAAJLQAAAAAAAAAAAAAACgoJLgAAAAAABi8AAAACODUGMAAAAAI4MwkiAAAABjIAAAAFODNeODUBAAAAAwAAAAAAAAABBjMAAAAKQ29udGFjdCBVcwklAAAACgoBAQAAAAAAAAAKCgHL////2v///wAAAAAGNgAAAAkvY29udGFjdC8KAAoAAQsAAAAJAAAACRAAAAABCRAAAAAEAAAACRoAAAAGOQAAAAI4NwkQAAAACTsAAAAJPAAAAAAAAAAAAAAACgoJPQAAAAAABj4AAAACODcGPwAAAAI4MwkiAAAABkEAAAAFODNeODcBAAAABAAAAAAAAAABBkIAAAAITXkgU2xvYW4JJQAAAAoKAQEAAAAAAAAACgoBvP///9r///8AAAAABkUAAAAjaHR0cDovL21pdHNsb2FuLm1pdC5lZHUvbXlzbG9hbi5waHAKAAoAAQwAAAAJAAAACRAAAAABCRAAAAAFAAAACRoAAAAGSAAAAAI4OAkQAAAACUoAAAAJSwAAAAAAAAAAAAAACgoJTAAAAAAABk0AAAACODgGTgAAAAI4MwkiAAAABlAAAAAFODNeODgBAAAABQAAAAAAAAABBlEAAAARRmFjdWx0eSBEaXJlY3RvcnkJJQAAAAoKAQEAAAAAAAAACgoBrf///9r///8AAAAABlQAAAAtaHR0cDovL21pdHNsb2FuLm1pdC5lZHUvZmFjdWx0eS9kaXJlY3RvcnkucGhwCgAKAAENAAAACQAAAAkQAAAAAQkQAAAABgAAAAkaAAAABlcAAAACODkJEAAAAAlZAAAACVoAAAAAAAAAAAAAAAoKCVsAAAAAAAZcAAAAAjg5Bl0AAAACODMJIgAAAAZfAAAABTgzXjg5AQAAAAYAAAAAAAAAAQZgAAAAD1N0YWZmIERpcmVjdG9yeQklAAAACgoBAQAAAAAAAAAKCgGe////2v///wAAAAAGYwAAACsvYWJvdXQtbWl0LXNsb2FuL2RpcmVjdG9yeS9zdGFmZi1kaXJlY3RvcnkvCgAKAAEOAAAACQAAAAkQAAAAAQkQAAAABwAAAAkaAAAABmYAAAACOTAJEAAAAAloAAAACWkAAAAAAAAAAAAAAAoKCWoAAAAAAAZrAAAAAjkwBmwAAAACODMJIgAAAAZuAAAABTgzXjkwAQAAAAcAAAAAAAAAAQZvAAAAEUdpdmUgdG8gTUlUIFNsb2FuCSUAAAAKCgEBAAAAAAAAAAoKAY/////a////AAAAAAZyAAAAJGh0dHA6Ly9taXRzbG9hbi5taXQuZWR1L2FsdW1uaS9naXZlLwoACgAEEQAAAH5TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5JbnQ2NCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgcAAAkICAlzAAAAAAAAAAAAAAAEEgAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAICAl0AAAAAAAAAAAAAAAEFwAAAKUBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tFa3Ryb24uQ21zLk9yZ2FuaXphdGlvbi5JTWVudUl0ZW1EYXRhLCBFa3Ryb24uQ21zLkNvbnRyYWN0cywgVmVyc2lvbj05LjAuMC4yNDksIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NTU5YTJjNGZhMjFlNjNiZV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAnRWt0cm9uLkNtcy5Pcmdhbml6YXRpb24uSU1lbnVJdGVtRGF0YVtdBQAAAAgICXUAAAAGAAAABgAAAAEdAAAAEQAAAAlzAAAAAAAAAAAAAAABHgAAABIAAAAJdAAAAAAAAAAAAAAAAR8AAAAEAAAACXgAAAAAAAAAAAAAAAEsAAAAEQAAAAlzAAAAAAAAAAAAAAABLQAAABIAAAAJdAAAAAAAAAAAAAAAAS4AAAAEAAAACXgAAAAAAAAAAAAAAAE7AAAAEQAAAAlzAAAAAAAAAAAAAAABPAAAABIAAAAJdAAAAAAAAAAAAAAAAT0AAAAEAAAACXgAAAAAAAAAAAAAAAFKAAAAEQAAAAlzAAAAAAAAAAAAAAABSwAAABIAAAAJdAAAAAAAAAAAAAAAAUwAAAAEAAAACXgAAAAAAAAAAAAAAAFZAAAAEQAAAAlzAAAAAAAAAAAAAAABWgAAABIAAAAJdAAAAAAAAAAAAAAAAVsAAAAEAAAACXgAAAAAAAAAAAAAAAFoAAAAEQAAAAlzAAAAAAAAAAAAAAABaQAAABIAAAAJdAAAAAAAAAAAAAAAAWoAAAAEAAAACXgAAAAAAAAAAAAAAA9zAAAAAAAAAAkRdAAAAAAAAAAHdQAAAAABAAAACAAAAAQlRWt0cm9uLkNtcy5Pcmdhbml6YXRpb24uSU1lbnVJdGVtRGF0YQUAAAAJiAAAAAmJAAAACYoAAAAJiwAAAAmMAAAACY0AAAANAgd4AAAAAAEAAAAAAAAABCZFa3Ryb24uQ21zLkZyYW1ld29yay5VSS5UcmVlLklUcmVlTm9kZQIAAAAFiAAAACNFa3Ryb24uQ21zLk9yZ2FuaXphdGlvbi5TdWJNZW51RGF0YRMAAAAXPEl0ZW1JZD5rX19CYWNraW5nRmllbGQZPFBhcmVudElkPmtfX0JhY2tpbmdGaWVsZCJNZW51RGF0YSs8VGVtcGxhdGU+a19fQmFja2luZ0ZpZWxkIk1lbnVEYXRhKzxGb2xkZXJJZD5rX19CYWNraW5nRmllbGQrTWVudURhdGErPEFzc29jaWF0ZWRGb2xkZXJzPmtfX0JhY2tpbmdGaWVsZC1NZW51RGF0YSs8QXNzb2NpYXRlZFRlbXBsYXRlcz5rX19CYWNraW5nRmllbGQjTWVudURhdGErPEltYWdlUGF0aD5rX19CYWNraW5nRmllbGQnTWVudURhdGErPEltYWdlT3ZlcnJpZGU+a19fQmFja2luZ0ZpZWxkIk1lbnVCYXNlRGF0YSs8VGV4dD5rX19CYWNraW5nRmllbGQiTWVudUJhc2VEYXRhKzxUeXBlPmtfX0JhY2tpbmdGaWVsZCJNZW51QmFzZURhdGErPEhyZWY+a19fQmFja2luZ0ZpZWxkJE1lbnVCYXNlRGF0YSs8VGFyZ2V0PmtfX0JhY2tpbmdGaWVsZChNZW51QmFzZURhdGErPEFuY2VzdG9ySWQ+a19fQmFja2luZ0ZpZWxkKU1lbnVCYXNlRGF0YSs8RGVzY3JpcHRpb24+a19fQmFja2luZ0ZpZWxkJU1lbnVCYXNlRGF0YSs8T3JkaW5hbD5rX19CYWNraW5nRmllbGQjTWVudUJhc2VEYXRhKzxJdGVtcz5rX19CYWNraW5nRmllbGQnTWVudUJhc2VEYXRhKzxJbWFnZVBhdGg+a19fQmFja2luZ0ZpZWxkK01lbnVCYXNlRGF0YSs8SW1hZ2VPdmVycmlkZT5rX19CYWNraW5nRmllbGQdQ21zRGF0YWAxKzxJZD5rX19CYWNraW5nRmllbGQAAAEAAwMBAAEEAQEAAQADAQAACQkJflN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLkludDY0LCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXX9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dASxFa3Ryb24uQ21zLkNvbW1vbi5Fa0VudW1lcmF0aW9uK01lbnVJdGVtVHlwZQ8AAAAJCKUBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tFa3Ryb24uQ21zLk9yZ2FuaXphdGlvbi5JTWVudUl0ZW1EYXRhLCBFa3Ryb24uQ21zLkNvbnRyYWN0cywgVmVyc2lvbj05LjAuMC4yNDksIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NTU5YTJjNGZhMjFlNjNiZV1dAQkFAAAAVAAAAAAAAABTAAAAAAAAAAkQAAAAAAAAAAAAAAAJHQAAAAkeAAAACRAAAAABCSQAAAABbf///+v///8EAAAABpQAAAAIc2l0ZW1hcC8JGgAAAFMAAAAAAAAACRAAAAABAAAACZcAAAAKAFQAAAAAAAAAAYkAAACIAAAAVQAAAAAAAABTAAAAAAAAAAkQAAAAAAAAAAAAAAAJLAAAAAktAAAACRAAAAABCTMAAAABY////+v///8EAAAABp4AAAAIY29udGFjdC8JGgAAAFMAAAAAAAAACRAAAAACAAAACaEAAAAKAFUAAAAAAAAAAYoAAACIAAAAVwAAAAAAAABTAAAAAAAAAAkQAAAAAAAAAAAAAAAJOwAAAAk8AAAACRAAAAABCUIAAAABWf///+v///8EAAAACUUAAAAJGgAAAFMAAAAAAAAACRAAAAAEAAAACasAAAAKAFcAAAAAAAAAAYsAAACIAAAAWAAAAAAAAABTAAAAAAAAAAkQAAAAAAAAAAAAAAAJSgAAAAlLAAAACRAAAAABCVEAAAABT////+v///8EAAAACVQAAAAJGgAAAFMAAAAAAAAACRAAAAAFAAAACbUAAAAKAFgAAAAAAAAAAYwAAACIAAAAWQAAAAAAAABTAAAAAAAAAAkQAAAAAAAAAAAAAAAJWQAAAAlaAAAACRAAAAABCWAAAAABRf///+v///8EAAAABrwAAAAqYWJvdXQtbWl0LXNsb2FuL2RpcmVjdG9yeS9zdGFmZi1kaXJlY3RvcnkvCRoAAABTAAAAAAAAAAkQAAAABgAAAAm/AAAACgBZAAAAAAAAAAGNAAAAiAAAAFoAAAAAAAAAUwAAAAAAAAAJEAAAAAAAAAAAAAAACWgAAAAJaQAAAAkQAAAAAQlvAAAAATv////r////BAAAAAlyAAAACRoAAABTAAAAAAAAAAkQAAAABwAAAAnJAAAACgBaAAAAAAAAAAGXAAAAFwAAAAnKAAAAAAAAAAAAAAABoQAAABcAAAAJygAAAAAAAAAAAAAAAasAAAAXAAAACcoAAAAAAAAAAAAAAAG1AAAAFwAAAAnKAAAAAAAAAAAAAAABvwAAABcAAAAJygAAAAAAAAAAAAAAAckAAAAXAAAACcoAAAAAAAAAAAAAAAfKAAAAAAEAAAAAAAAABCVFa3Ryb24uQ21zLk9yZ2FuaXphdGlvbi5JTWVudUl0ZW1EYXRhBQAAAAseC18hRGF0YUJvdW5kZx8AAgZkFgJmD2QWAgIBD2QWDGYPZBYCZg8VAgkvc2l0ZW1hcC8HU2l0ZW1hcGQCAQ9kFgJmDxUCCS9jb250YWN0LwpDb250YWN0IFVzZAICD2QWAmYPFQIjaHR0cDovL21pdHNsb2FuLm1pdC5lZHUvbXlzbG9hbi5waHAITXkgU2xvYW5kAgMPZBYCZg8VAi1odHRwOi8vbWl0c2xvYW4ubWl0LmVkdS9mYWN1bHR5L2RpcmVjdG9yeS5waHARRmFjdWx0eSBEaXJlY3RvcnlkAgQPZBYCZg8VAisvYWJvdXQtbWl0LXNsb2FuL2RpcmVjdG9yeS9zdGFmZi1kaXJlY3RvcnkvD1N0YWZmIERpcmVjdG9yeWQCBQ9kFgJmDxUCJGh0dHA6Ly9taXRzbG9hbi5taXQuZWR1L2FsdW1uaS9naXZlLxFHaXZlIHRvIE1JVCBTbG9hbmQCBA8WAh8AAgYWDGYPZBYCZg8VBwhmYWNlYm9vayFodHRwczovL3d3dy5mYWNlYm9vay5jb20vTUlUU2xvYW4IZmFjZWJvb2sHIGZhIGZhLQhmYWNlYm9vawctc3F1YXJlCGZhY2Vib29rZAIBD2QWAmYPFQcHdHdpdHRlchxodHRwczovL3R3aXR0ZXIuY29tL21pdHNsb2FuB3R3aXR0ZXIHIGZhIGZhLQd0d2l0dGVyAAd0d2l0dGVyZAICD2QWAmYPFQcHeW91dHViZSRodHRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZXIvTUlUU2xvYW4HeW91dHViZQcgZmEgZmEtB3lvdXR1YmUAB3lvdXR1YmVkAgMPZBYCZg8VBwlpbnN0YWdyYW0daHR0cDovL2luc3RhZ3JhbS5jb20vbWl0c2xvYW4JaW5zdGFncmFtBiBpY29uLQlpbnN0YWdyYW0ACWluc3RhZ3JhbWQCBA9kFgJmDxUHCGxpbmtlZGluP2h0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9jb21wYW55L21pdC1zbG9hbi1zY2hvb2wtb2YtbWFuYWdlbWVudAhsaW5rZWRpbgcgZmEgZmEtCGxpbmtlZGluBy1zcXVhcmUIbGlua2VkaW5kAgUPZBYCZg8VBwNyc3MSL25ld3Nyb29tL2ZlZWQucGhwA3JzcwcgZmEgZmEtA3JzcwAIUlNTIEZlZWRkAgUPFgIfAwUqJmNvcHk7IDIwMTUgTUlUIFNsb2FuIFNjaG9vbCBvZiBNYW5hZ2VtZW50ZBgHBVtjdGwwMCRjb250ZW50JERyb3Bab25lMSR1eENvbHVtbkRpc3BsYXkkY3RsMDAkdXhDb250cm9sQ29sdW1uJGN0bDAwJHV4V2lkZ2V0SG9zdCR1eFVYU3dpdGNoDw9kAgFkBSJjdGwwMCRjb250ZW50JERyb3Bab25lMSR1eFVYU3dpdGNoDw9kAgFkBSJjdGwwMCRjb250ZW50JERyb3Bab25lMiR1eFVYU3dpdGNoDw9kAgFkBVtjdGwwMCRjb250ZW50JERyb3Bab25lMiR1eENvbHVtbkRpc3BsYXkkY3RsMDAkdXhDb250cm9sQ29sdW1uJGN0bDAwJHV4V2lkZ2V0SG9zdCR1eFVYU3dpdGNoDw9kAgFkBWxjdGwwMCRjb250ZW50JERyb3Bab25lMSR1eENvbHVtbkRpc3BsYXkkY3RsMDAkdXhDb250cm9sQ29sdW1uJGN0bDAwJHV4V2lkZ2V0SG9zdCR1eFdpZGdldEhvc3Rfd2lkZ2V0JFZpZXdTZXQPD2RmZAUiY3RsMDAkY29udGVudCRQYWdlSG9zdDEkdXhVWFN3aXRjaA8PZAIBZAVsY3RsMDAkY29udGVudCREcm9wWm9uZTIkdXhDb2x1bW5EaXNwbGF5JGN0bDAwJHV4Q29udHJvbENvbHVtbiRjdGwwMCR1eFdpZGdldEhvc3QkdXhXaWRnZXRIb3N0X3dpZGdldCRWaWV3U2V0Dw9kZmRRLfOt6UxWKC2RYlKCBMXiNpsdhPlEmxJwVXY0+QvHWQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?Ektron=V9&amp;d=WqYn2JxjhOKwtRZw2J13AaMdDbFHk0dDkTy5V5RWaLPbJoisQyOCrgFNimTNfIHyMJlImX3-nWMsfiU8nwEHjiKT-iOJ-tgDjWfw1y1QaHQ1&amp;t=635116777265614829" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?Ektron=V9&amp;d=3hm_lHXlmorYZeYHdSu2oiWuTt6cR7AfnowBYHIR9RktfpmWoUHkr1Ozv_T3waVt7N8KcNATsovi76kCAMc1xxe-XOsMIwM7UQR8UfBxF6IP2HHnh1XDdQwKCmO4cxqbQAEUDsRGcvTrowF6a_ucPWP8R6f4ZdVyPAo6zD_Q5xc9syw1Ad1Rtlp7GDPoGeDn0&amp;t=26dfbc01" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?Ektron=V9&amp;d=KzsrPfCraYwAytGy35OYig4jQ3VpGlyWvpj0Ahz0zwbvuZVU7I99x6V3A-q4-h0-NhN49xfGLlYCcnjDdRR0U96vcBB5QGGr9gI8vnysQgFvD8uq2JKyT3bXl3plhR-1R8dsmDOoAMK0FdvNSkgb4PguA-N5ki4CvQS26W_ccGZwR11W-vGFuuDfv25TFASZ0&amp;t=26dfbc01" type="text/javascript"></script>
+        <div id="wrapper">
+            <!-- header -->
+            <div class="header"> 
+                <div id="menu_wrapper" class="container">
+                    <div id="logo">
+                        <a href="/">
+                            <svg width="118" height="69">
+                              <image xlink:href="/Styles/images/mit_logo.svg" src="/Styles/images/mit_logo.png" width="118" height="69" />
+                            </svg>
+                        </a>
+                    </div>
+                    <span id="ctl00_uxFlexMenu"><ul id="sfmenu"><li class="Academic Programs"><a href="/academic/">Academic Programs</a><ul><li><a href="/mba/" class="title">MBA Program</a></li><li><a href="http://lgo.mit.edu/" class="title">Leaders For Global Operations (LGO)</a></li><li><a href="/mfin/" class="title">Master of Finance</a></li><li><a href="http://mitsloan.mit.edu/master-of-business-analytics/" class="title">Master of Business Analytics</a></li><li><a href="/msms/" class="title">Master of Science in Management Studies</a></li><li><a href="http://sdm.mit.edu/" class="title">System Design and Management (SDM)</a></li><li><a href="/phd/" class="title">PhD Program</a></li><li><a href="http://mitsloan.mit.edu/fellows/" class="title">MIT Sloan Fellows Program</a></li><li><a href="http://emba.mit.edu/" class="title">MIT Executive MBA</a></li><li><a href="http://executive.mit.edu/?utm_source=sloan_website&amp;utm_medium=affiliate&amp;utm_content=top_nav_acad_prog&amp;utm_campaign=execed_home" class="title">Executive Education</a></li><li><a href="/undergrad/" class="title">Undergraduate Programs</a></li><li><a href="/visiting-fellows/" class="title">Visiting Fellows Program</a></li><li><a href="/office-of-international-programs/" class="title">Office of International Programs</a></li><li><a href="/admissions/" class="title">Admissions</a></li></ul></li><li class="Faculty &amp; Research"><a href="/faculty-and-research/">Faculty &amp; Research</a><ul><li><a href="/faculty-and-research/academic-groups/" class="title">Academic Groups</a></li><li><a href="/faculty-and-research/faculty-news-and-honors/" class="title">Faculty News and Honors</a></li><li><a href="/faculty-and-research/centers-and-initiatives/" class="title">Centers &amp; Initiatives</a></li><li><a href="http://mitsloan.mit.edu/LearningEdge/" class="title">LearningEdge</a></li><li><a href="http://sloanreview.mit.edu/" class="title">MIT Sloan Management Review</a></li><li><a href="/faculty-and-research/faculty-directory/" class="title">Faculty Directory</a></li></ul></li><li class="Alumni"><a href="http://mitsloan.mit.edu/alumni/">Alumni</a><ul><li><a href="http://mitsloan.mit.edu/alumni/directory/" class="title">Directory</a></li><li><a href="http://mitsloan.mit.edu/alumni/get-involved/" class="title">Get Involved</a></li><li><a href="http://mitsloan.mit.edu/alumni/events/" class="title">Events</a></li><li><a href="http://mitsloan.mit.edu/alumni/publications/" class="title">Publications</a></li><li><a href="http://mitsloan.mit.edu/alumni/news/" class="title">News</a></li><li><a href="http://mitsloan.mit.edu/alumni/resources/" class="title">Resources</a></li><li><a href="http://mitsloan.mit.edu/alumni/give/" class="title">Give</a></li><li><a href="http://mitsloan.mit.edu/alumni/contact-us/" class="title">Contact Us</a></li></ul></li><li class="Executive Programs"><a href="/executive/">Executive Programs</a><ul><li><a href="http://emba.mit.edu/" class="title">MIT Executive MBA</a></li><li><a href="http://mitsloan.mit.edu/fellows/?utm_source=sloan_website&amp;utm_medium=affiliate&amp;utm_content=top_nav_exec_prog&amp;utm_campaign=sf_home" class="title">MIT Sloan Fellows Program (MBA or SM)</a></li><li><a href="http://executive.mit.edu/?utm_source=sloan_website&amp;utm_medium=affiliate&amp;utm_content=top_nav_exec_prog&amp;utm_campaign=execed_home" class="title">Executive Programs &amp; Certificates</a></li></ul></li><li class="Corporate Connection"><a href="/corporate/">Corporate Connection</a><ul></ul></li><li class="Newsroom"><a href="/newsroom/">Newsroom</a><ul><li><a href="/newsroom/articles/" class="title">Articles</a></li><li><a href="/newsroom/press-releases/" class="title">Press Releases</a></li><li><a href="/newsroom/media-highlights/" class="title">Media Highlights</a></li><li><a href="http://mitsloan.mit.edu/expertiseguide/" class="title">Expertise Guide</a></li><li><a href="/newsroom/publications/" class="title">Publications</a></li><li><a href="/newsroom/rss-feeds/" class="title">RSS Feeds</a></li></ul></li><li class="e"><a href="/about-mit-sloan/">About MIT Sloan</a><ul><li><a href="/about-mit-sloan/facts-and-figures/" class="title">Facts and Figures</a></li><li><a href="/about-mit-sloan/campus-life/" class="title">Campus Life</a></li><li><a href="/about-mit-sloan/leadership/" class="title">Leadership</a></li><li><a href="/about-mit-sloan/global-reach/" class="title">Global Reach</a></li><li><a href="/about-mit-sloan/history/" class="title">History</a></li><li><a href="/about-mit-sloan/visit-mit-sloan/" class="title">Visit MIT Sloan</a></li><li><a href="/about-mit-sloan/work-at-mit-sloan/" class="title">Work At MIT Sloan</a></li><li><a href="/about-mit-sloan/directory/" class="title">Directory</a></li><li><a href="/about-mit-sloan/commitment-to-diversity/" class="title">Commitment to Diversity</a></li></ul></li></ul></span>
+                    <!-- added for centering -->
+                    <div id="search">
+                        <!---->
+                        <a href="#" id="searchtoggle"><i class="fa fa-search fa-1x"></i></a>
+                    </div>
+                    <!-- END search -->
+                    <div id="mit-logo">
+                        <a href="http://www.mit.edu/">
+                            <svg width="72" height="38">
+                                <image xlink:href="/Styles/images/MIT-logo-gray-ltgray-72x38.svg" src="/Styles/images/MIT72x38.png" width="72" height="38" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- header -->
+            <!-- searchbar -->
+            <div id="searchbar-wrapper">
+                <div id="searchbar" class="clearfix">
+                    <form id="searchform" method="get" action="searchpage.php">
+                        
+<script type="text/javascript" src="/Styles/js/labels.js"></script>
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () {
+        $('#submit1').click(function () {
+            var searchUrl = createSearchURL();
+            window.location = searchUrl;
+            return false;
+        });
+
+        $(".gsInput").focus(function () {
+            $(this).attr("style", "background-image:none;")
+        });
+
+        $('.gsInput').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                $('#submit1').click();
+            }
+        });
+    });
+
+    function createSearchURL() {
+        var cx = $(".cx").val();
+        var cof = $(".cof").val();
+        var q = $(".gsInput").val();
+
+        var searchURL = "/search-results/?cx=" + cx + "&cof=" + cof + "&q=" + q;
+
+        return searchURL;
+    }
+
+</script>
+    <div id="cse">
+		    <p>
+                <input type="hidden" class="cx" name="cx" value="006060196262724722479:ioyiuv1df-c" />
+                <input type="hidden" class="cof" name="cof" value="FORID:11" />
+                <label class="input">
+                    <span>SEARCH MIT MANAGEMENT</span>
+                    <input type="text" class="gsInput" name="q" size="14" autocomplete="off" />
+                </label>          
+                <button type="submit" id="submit1"></button>
+			</p>
+	</div>
+
+    <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=our_search_box&amp;lang=en"></script>
+
+                    </form>
+                </div>
+            </div>
+            <!-- .searchbar -->
+
+            <!-- main -->
+            <div id="main">
+                <div class="heading">
+                    <h1 class="section-title container"><a href="/master-of-business-analytics/">Master of Business Analytics</a></h1>
+                </div>
+                <div class="container">
+                    <div class="col-lg-8">
+                        
+<script src="/ScriptsV9/LeftMenu.js"></script>
+
+<ul class="leftNavigationMenu ">
+    
+    
+
+    <ul class="first-level">
+        
+                <li >
+                    <h3 style="position:relative">
+                        <a href="/master-of-business-analytics/program-components/">
+                        Program Components</a>
+                        </a>
+                        
+                        
+                        <a href='javascript:void(0)' class='show-second-level' style='display:none'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-plus fa-stack-1x'></i></span></a><a href='javascript:void(0)' class='hide-second-level'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-minus fa-stack-1x'></i></span></a>
+                    </h3>
+                    <ul class="second-level" >
+                        
+                                <li class="active">
+                                    <a href="/master-of-business-analytics/program-components/curriculum/">
+                                    Curriculum</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                                <li >
+                                                    <a href="/master-of-business-analytics/program-components/curriculum/action-learning/">
+                                                    Action Learning</a>
+                                                    </a>
+                                                </li>
+                                            
+                                                <li >
+                                                    <a href="/master-of-business-analytics/program-components/curriculum/analytics-capstone/">
+                                                    Analytics Capstone</a>
+                                                    </a>
+                                                </li>
+                                            
+                                    </ul>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li >
+                    <h3 style="position:relative">
+                        <a href="/master-of-business-analytics/career-support/">
+                        Career Support</a>
+                        </a>
+                        
+                        
+                        <a href='javascript:void(0)' class='show-second-level'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-plus fa-stack-1x'></i></span></a><a href='javascript:void(0)' class='hide-second-level' style='display:none'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-minus fa-stack-1x'></i></span></a>
+                    </h3>
+                    <ul class="second-level" style='display:none'>
+                        
+                                <li >
+                                    <a href="/master-of-business-analytics/career-support/career-resources/">
+                                    Career Resources</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/career-support/alumni-network/">
+                                    Alumni Network</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li >
+                    <h3 style="position:relative">
+                        <a href="/master-of-business-analytics/mit-sloan-community/">
+                        MIT Sloan Community</a>
+                        </a>
+                        
+                        
+                        <a href='javascript:void(0)' class='show-second-level'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-plus fa-stack-1x'></i></span></a><a href='javascript:void(0)' class='hide-second-level' style='display:none'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-minus fa-stack-1x'></i></span></a>
+                    </h3>
+                    <ul class="second-level" style='display:none'>
+                        
+                                <li >
+                                    <a href="/master-of-business-analytics/mit-sloan-community/clubs-and-activities/">
+                                    Clubs and Activities</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                                <li >
+                                                    <a href="/master-of-business-analytics/mit-sloan-community/clubs-and-activities/student-leadership/">
+                                                    Student Leadership</a>
+                                                    </a>
+                                                </li>
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/mit-sloan-community/events-and-competition/">
+                                    Events and Competitions</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/mit-sloan-community/campus-resources/">
+                                    Campus Resources</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li >
+                    <h3 style="position:relative">
+                        <a href="/master-of-business-analytics/admissions/">
+                        Admissions</a>
+                        </a>
+                        
+                        
+                        <a href='javascript:void(0)' class='show-second-level'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-plus fa-stack-1x'></i></span></a><a href='javascript:void(0)' class='hide-second-level' style='display:none'><span class='fa-stack fa-fw'><i class='fa fa-circle-thin fa-stack-2x'></i><i class='fa fa-minus fa-stack-1x'></i></span></a>
+                    </h3>
+                    <ul class="second-level" style='display:none'>
+                        
+                                <li >
+                                    <a href="/master-of-business-analytics/admissions/apply/">
+                                    Apply</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                                <li >
+                                                    <a href="/master-of-business-analytics/admissions/apply/application-instructions/">
+                                                    Application Instructions</a>
+                                                    </a>
+                                                </li>
+                                            
+                                                <li >
+                                                    <a href="/master-of-business-analytics/admissions/apply/application-deadlines/">
+                                                    Application Deadlines</a>
+                                                    </a>
+                                                </li>
+                                            
+                                                <li >
+                                                    <a href="/master-of-business-analytics/admissions/apply/interviews/">
+                                                    Interviews</a>
+                                                    </a>
+                                                </li>
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/admissions/admissions-events/">
+                                    Admissions Events</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/admissions/faq/">
+                                    FAQ</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li >
+                                    <a href="/master-of-business-analytics/admissions/tuition-and-financial-aid/">
+                                    Tuition and Financial Aid</a>
+                                    </a>
+                                   
+                                    <ul>
+                                        
+                                    </ul>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li >
+                    <h3 style="position:relative">
+                        <a href="/master-of-business-analytics/contact-us/">
+                        Contact Us</a>
+                        </a>
+                        
+                        
+                        
+                    </h3>
+                    <ul class="second-level" style='display:none'>
+                        
+                    </ul>
+                </li>
+            
+    </ul>
+</ul>
+
+                    </div><!-- left column -->
+                    <div class="col-lg-28">
+                        <!-- two-columns -->
+                        
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$content$PageHost1$ctl04', 'aspnetForm', ['tctl00$content$DropZone1$uxUpdatePanel','','tctl00$content$DropZone2$uxUpdatePanel','','tctl00$content$DropZone1$uxColumnDisplay$ctl00$uxControlColumn$ctl00$uxWidgetHost$uxUpdatePanel','','tctl00$content$DropZone2$uxColumnDisplay$ctl00$uxControlColumn$ctl00$uxWidgetHost$uxUpdatePanel',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+    <script type="text/javascript">
+        Ektron.PBSettings = { 'dontClose': false }
+    </script>
+
+
+
+
+        <div class="ektron-ux-UITheme ux-app-siteApppageBuilder-setSizeTemplate">
+            
+        </div>
+        <script id="EktronScriptBlockksdss" type="text/javascript">
+
+Ektron.ready(function(event, eventName){
+
+                $ektron(".ux-app-siteApppageBuilder-setSizeTemplate .ui-dialog-buttonpane a").button();
+                $ektron(".ux-app-siteApppageBuilder-setSizeTemplate .framework").accordion({
+                    heightStyle: "content",
+                    activate: function(event, ui){
+                        $ektron(ui).closest(".ui-accordion").accordion("refresh");
+                    }
+                });
+                $ektron(".ux-app-siteApppageBuilder-setSizeTemplate").draggable({ handle: "div.ui-dialog-titlebar ", containment: $ektron("body") });
+            
+});
+
+
+</script>
+        
+        
+    
+    
+    <div class="two-column">
+        
+        <!-- content -->
+        <div id="content">
+
+            
+<span class="breadcrumb">
+    <a href="/">HOME</a>
+    
+            | <a href="/master-of-business-analytics">MASTER OF BUSINESS ANALYTICS</a>
+        
+            | <a href="/master-of-business-analytics/program-components">PROGRAM COMPONENTS</a>
+        
+</span>
+<script>
+    //$(".breadcrumb a:last").attr('disabled', true).addClass('disabled');
+</script>
+            
+
+            <div class="main-body col-lg-26">
+                
+<span class="breadcrumb">
+    <a href="/">HOME</a>
+    
+            | <a href="/master-of-business-analytics">MASTER OF BUSINESS ANALYTICS</a>
+        
+            | <a href="/master-of-business-analytics/program-components">PROGRAM COMPONENTS</a>
+        
+</span>
+<script>
+    //$(".breadcrumb a:last").attr('disabled', true).addClass('disabled');
+</script>
+                <!-- article-main -->
+                
+                    
+        <div id="ctl00_content_DropZone1_uxUpdatePanel" class="">
+	
+                <div id="ctl00_content_DropZone1_uxDropZone" data-ux-pagebuilder="DropZone">
+                    
+                            <div data-ux-pagebuilder="Column" style='width:549px'>
+                                
+                                <ul>
+                                    
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_content_DropZone1_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxUpdatePanel">
+		
+                <div data-ux-pagebuilder="Widget">
+                    
+                    <div class="widgetBody">
+                        
+        <article class="article-main">
+                <span id="ctl00_content_DropZone1_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxWidgetHost_widget_ux_Title"><h1>CURRICULUM</h1></span>
+            <span id="ctl00_content_DropZone1_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxWidgetHost_widget_ux_Description"><p data-ektron-preserve="true">The Master of Business
+Analytics program ensures that students have a strong understanding of the
+fundamentals of analytics, along with the
+experience to meet their career and personal goals.</p>
+
+<p data-ektron-preserve="true"><b>FALL TERM:</b></p>
+
+<ul>
+<li>Welcome
+Orientation</li>
+<li>Software Tools
+Part 1:&nbsp;<ul>
+<li>Module ST1:
+Introduction to R</li>
+<li>Module ST2:
+Data Wrangling in R</li>
+</ul></li>
+<li>15.093J/6.255J:
+Optimization Methods</li>
+<li>15.079:
+Introduction Applied Probability or 6.431 Applied Probability</li>
+<li>15.062: Data
+mining: Finding the Data and Models that Create Value 15.572: Analytics
+Lab</li>
+<li>Elective 1</li>
+</ul><p data-ektron-preserve="true"><b>FALL SLOAN INNOVATION PERIOD:</b></p>
+
+<ul>
+<li>Software Tools
+Part 2:&nbsp;<ul>
+<li>Module ST3:
+Visualization</li>
+<li>Module ST4:
+Linear Optimization</li>
+</ul></li>
+<li>From Analytics
+to Action: Modules on Organizations, Leadership and Ethics</li>
+</ul><p data-ektron-preserve="true"><b>JANUARY INDEPENDENT ACTIVITIES PERIOD:</b></p>
+
+<ul>
+<li>Preparation for
+Analytics Project Course</li>
+<li>Software Tools
+Part 3:&nbsp;<ul>
+<li>Module ST5:
+Optimization&nbsp;</li>
+<li>Module ST6:
+Handling Big Data</li>
+</ul></li>
+</ul><p data-ektron-preserve="true"><b>SPRING TERM:</b></p>
+
+<ul>
+<li>15.071: The
+Analytics Edge</li>
+<li>Elective 2</li>
+<li>Elective 3</li>
+<li>Analytics
+Project Course</li>
+</ul><p data-ektron-preserve="true"><b>SUMMER CAPSTONE:</b></p>
+
+<p data-ektron-preserve="true">The culmination of the program is the analytics summer capstone
+project, which gives students an opportunity to work on real-life data science
+problems. In September, upon completion of the summer capstone, students will
+earn their formal degree.</p>
+
+<p data-ektron-preserve="true"><b>APPROVED ELECTIVES</b></p>
+
+<p data-ektron-preserve="true">Approved electives include but are not limited to the following:</p>
+
+<ul>
+<li><b>E-Commerce:</b>&nbsp;15.567,
+15.570, 15.571, 6.932/15.377J</li>
+<li><b>Finance:</b>&nbsp;15.433,
+15.437, 15.439, 15.450</li>
+<li><b>Managerial
+Economics:</b>&nbsp;15.034</li>
+<li><b>Marketing:</b>&nbsp;15.810/15.812,
+15.818, Marketing Analytics</li>
+<li><b>OM:</b>&nbsp;15.761,
+15.762J, 15.764J, 15.767</li>
+<li><b>OR/Statistics:</b>&nbsp;6.867,
+15.068, 15.094</li>
+</ul><p data-ektron-preserve="true">Subject listings are intended to provide a
+window into MIT offerings. Names, numbers, instructors, and descriptions are
+subject to change. For the most up-to-date information, please see the <a href="http://student.mit.edu/catalog/m15a.html" data-ektron-url="http://student.mit.edu/catalog/m15a.html">MIT
+subject catalog</a>.</p><br></span>
+        </article>
+        <span class="flag"></span>
+        <script >
+            $(document).ready(function () {
+                if ($(".two-column").length > 0) {
+                    //$(".flag").closest(".PBItem").css("padding-bottom", "36px");
+                }
+            });
+        </script>
+    
+                    </div>
+                </div>
+            
+	</div>
+    
+                                            </li>
+                                        
+                                </ul>
+                            </div>
+                        
+                </div>
+            
+</div>
+    
+                <div id="ctl00_content_FormBlock1">
+	<input type="hidden" id="ApplicationAPI0" name="ApplicationAPI0" value="postback" />
+<input type="hidden" name="EktFormId" value="0" />
+<input type="hidden" name="EktFormTitle" value="" />
+<input type="hidden" name="EktFormDescription" value="" />
+<input type="hidden" name="EktFormLang" value="0" />
+<input type="hidden" name="EktFormPublishDate" value="1/1/0001 12:00:00 AM" />
+<script type="text/javascript" language="javascript">
+<!-- 
+function EkFmValidate(formObj) {
+	var strError=''; var e=null;
+if ("object" == typeof Ektron && Ektron && Ektron.SmartForm && "function" == typeof Ektron.SmartForm.onsubmitForm) {
+    return Ektron.SmartForm.onsubmitForm(formObj);
+}
+if (strError=='' && 'function' == typeof design_validateHtmlForm) {
+ e = design_validateHtmlForm(formObj);
+ if (e) { strError = e.title; }
+}
+	if (strError==''){return true;}
+	else {
+		alert(strError);
+		if ('function' == typeof e.scrollIntoView || 'object' == typeof e.scrollIntoView) e.scrollIntoView();
+		if ('function' == typeof design_canElementReceiveFocus) {
+         if (design_canElementReceiveFocus(e)) e.focus();
+     } else { e.focus(); }
+		return false;
+	}
+}
+// --> 
+</script>
+<script id="EktronScriptBlockmexmo" type="text/javascript">
+	
+	Ektron.ready(function(event, eventName){
+Ektron.Controls.FormBlock.Utility.RedirectLink.init();
+});
+	
+	
+	</script>
+</div>
+            </div><!-- .col-lg-9 -->
+            <div class="col-lg-10">
+                <!-- sidebar -->
+                <aside id="sidebar">
+                    
+        <div id="ctl00_content_DropZone2_uxUpdatePanel" class="">
+	
+                <div id="ctl00_content_DropZone2_uxDropZone" data-ux-pagebuilder="DropZone">
+                    
+                            <div data-ux-pagebuilder="Column" style='width:175px'>
+                                
+                                <ul>
+                                    
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_content_DropZone2_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxUpdatePanel">
+		
+                <div data-ux-pagebuilder="Widget">
+                    
+                    <div class="widgetBody">
+                        
+        <article class="article-main">
+            <style>
+                .widget.buttons a:active {
+            border: #b22e5b solid 1px;
+        }
+
+        .widget.buttons a:active, .widget.buttons a:hover {
+            background: #b22e5b; 
+        }
+                .widget.buttons a { 
+                background: #970033; 
+                }
+                        
+            </style>
+            <div class="widget buttons">
+                
+                        <span><a href="http://mitsloan.mit.edu/master-of-business-analytics/admissions-inquiry-form/">REGISTER TO LEARN MORE</a></span>
+                    
+                        <span><a href="http://mitsloan.mit.edu/uploadedFilesV9/Master_of_Business_Analytics/Media/MBAn Final.pdf">DOWNLOAD BROCHURE</a></span>
+                    
+
+            </div>
+        </article>
+    
+
+                    </div>
+                </div>
+            
+	</div>
+    
+                                            </li>
+                                        
+                                </ul>
+                            </div>
+                        
+                </div>
+            
+</div>
+    
+
+                </aside>
+
+            </div><!-- .col-lg-3 -->
+        </div><!-- #content -->
+    </div><!-- .two-column -->
+            <script>
+                $(document).ready(function () {
+                    $(".apcolorboxlink").colorbox({ inline: true, width: "848px", height: "auto", scrolling: false });
+                    setTimeout(function () { $(".apcolorboxlink").colorbox.resize() }, 100);
+                });
+    </script>
+
+                    </div><!-- right column -->
+                </div>
+                               
+            </div>
+            <!-- footer -->
+            
+<div class="scrollup" style="display: none;">
+   <a class="icon"></a>
+   <div id="log"></div>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="col-lg-3">
+            <strong class="footer-logo">
+                   <a href="/">
+                       <!--<img id="ctl00_uxFooter_imageFooterLogo" src="/uploadedImagesV9/Content/logo_mit.gif?n=7067" />-->
+                       <!--<svg width="149" height="87">
+                           <image xlink:href="/Styles/images/mit_logo.svg" src="/Styles/images/mit_logo.png" width="149" height="87" />
+                       </svg>-->
+                       <img src="/Styles/images/mit_footer_logo.png" width="149" height="87" />
+            </a></strong>
+        </div>
+        <div class="col-lg-9">
+            <div class="col-lg-4">
+
+                <span id="ctl00_uxFooter_uxFlexMenu"><ul id="sfmenufooter"><li class="Academic Programs"><a href="/academic/">Academic Programs</a></li><li class="Faculty &amp; Research"><a href="/faculty-and-research/">Faculty &amp; Research</a></li><li class="Alumni"><a href="http://mitsloan.mit.edu/alumni/">Alumni</a></li><li class="Executive Programs"><a href="/executive/">Executive Programs</a></li><li class="Corporate Connection"><a href="/corporate/">Corporate Connection</a></li><li class="Newsroom"><a href="/newsroom/">Newsroom</a></li><li class="e"><a href="/about-mit-sloan/">About MIT Sloan</a></li></ul></span>
+            </div>
+            <div class="col-lg-4">
+                
+                    
+                            <ul class="footer-nav">
+                                
+                            <li class=""><a href="/sitemap/">Sitemap</a>
+                                
+                            </li>
+                        
+                            <li class=""><a href="/contact/">Contact Us</a>
+                                
+                            </li>
+                        
+                            <li class=""><a href="http://mitsloan.mit.edu/mysloan.php">My Sloan</a>
+                                
+                            </li>
+                        
+                            <li class=""><a href="http://mitsloan.mit.edu/faculty/directory.php">Faculty Directory</a>
+                                
+                            </li>
+                        
+                            <li class=""><a href="/about-mit-sloan/directory/staff-directory/">Staff Directory</a>
+                                
+                            </li>
+                        
+                            <li class=""><a href="http://mitsloan.mit.edu/alumni/give/">Give to MIT Sloan</a>
+                                
+                            </li>
+                        
+                            </ul>
+                        
+            </div>
+            <div class="col-lg-4">
+                <ul class="sicial-networks">
+                
+                    
+                        <li class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/MITSloan">
+                            
+                                <i class="facebook fa fa-facebook-square"></i> 
+                                    facebook
+                                </a>
+                        </li>
+                    
+                    
+                        <li class="twitter">
+                            <a target="_blank" href="https://twitter.com/mitsloan">
+                            
+                                <i class="twitter fa fa-twitter"></i> 
+                                    twitter
+                                </a>
+                        </li>
+                    
+                    
+                        <li class="youtube">
+                            <a target="_blank" href="http://www.youtube.com/user/MITSloan">
+                            
+                                <i class="youtube fa fa-youtube"></i> 
+                                    youtube
+                                </a>
+                        </li>
+                    
+                    
+                        <li class="instagram">
+                            <a target="_blank" href="http://instagram.com/mitsloan">
+                            
+                                <i class="instagram icon-instagram"></i> 
+                                    instagram
+                                </a>
+                        </li>
+                    
+                    
+                        <li class="linkedin">
+                            <a target="_blank" href="https://www.linkedin.com/company/mit-sloan-school-of-management">
+                            
+                                <i class="linkedin fa fa-linkedin-square"></i> 
+                                    linkedin
+                                </a>
+                        </li>
+                    
+                    
+                        <li class="rss">
+                            <a target="_blank" href="/newsroom/feed.php">
+                            
+                                <i class="rss fa fa-rss"></i> 
+                                    RSS Feed
+                                </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div><!-- .container -->
+</div>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="col-1">
+        </div>
+        <div class="col-lg-3">
+            <a href="http://web.mit.edu/">
+                <img src="/Styles/images/mit_logo_small.png" />
+            </a>
+        </div><!-- .col-lg-3 -->
+        <div class="col-lg-9">
+            <p class="copyright" align="right"><!--&copy; 2015 MIT Sloan School of Management-->&copy; 2017 MIT SLOAN SCHOOL OF MANAGEMENT</p>
+        </div><!-- .col-lg-9 -->
+    </div><!-- .container -->
+</div><!-- .footer-bottom -->           
+           
+    
+    
+    
+        
+        </div>
+    </form>
+    <script src="/ScriptsV9/html5shiv.js"></script>
+    <script type="text/javascript" src="/ScriptsV9/EktronPageBuilderLib.js"></script>
+    <script type="text/javascript" src="/ScriptsV9/moth/menu.js"></script>
+    <script type="text/javascript" src="/ScriptsV9/nps.js"></script>
+    <script type="text/javascript" src="/Styles/js/main.js"></script>
+    <script type="text/javascript" src="/Styles/js/jquery.cycle.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (navigator.appName == 'Microsoft Internet Explorer') {
+                var ua = navigator.userAgent;
+                var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                if (re.exec(ua) != null) rv = parseFloat(RegExp.$1);
+                if (re < 9) { $("#content *:last-child, #sidebar *:last-child").addClass('last'); }
+            }
+            //if (navigator.userAgent.toLowerCase().indexOf('safari') != -1 && navigator.userAgent.toLowerCase().indexOf('chrome') == -1 ) {
+            //$("h2").css("margin-top", "0");
+            //    $("h3").css("margin-top", "0");
+            //}
+
+        });
+    </script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

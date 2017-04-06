@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-us" xml:lang="en-us">
+<head>
+    <title>Courses in Computer Science</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Courses in Computer Science" />
+<link rel="stylesheet" type="text/css" href="https://ccle.ucla.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://ccle.ucla.edu/theme/styles.php/uclashared/1487071339/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/ccle.ucla.edu","sesskey":"jOdCtAW4rT","loadingicon":"https:\/\/ccle.ucla.edu\/theme\/image.php\/uclashared\/core\/1487071339\/i\/loading_small","themerev":"1487071339","slasharguments":1,"theme":"uclashared","jsrev":"1487071339","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?m\/1487071339\/","combine":true,"comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","ext":false,"root":"m\/1487071339\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_mediagallery-mediabox":{"requires":["base","node","selector-css3"]},"moodle-mod_mediagallery-base":{"requires":["base","node","selector-css3","dd-constrain","dd-proxy","dd-drop","dd-plugin","moodle-core-notification","event"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-limitchoices":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_ucla_my_sites-usagelog":{"requires":["base","node"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_editrolesbycap-capabilityformfield":{"requires":["base","dom","event","cookie"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bsgrid-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_chemrender-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_computing-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_kalturamedia-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_mediagallery-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_poodll-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-local_kaltura-lticontainer":{"requires":["base","node"]},"moodle-local_kaltura-ltitinymcepanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_kaltura-ltiservice":{"requires":["base","node","node-event-simulate"]},"moodle-local_kaltura-ltipanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_ucla-availabilityconditions":{"requires":["moodle-core-tooltip"]},"moodle-local_ucla-gradebooktable":{"requires":["node","event","node-event-simulate","moodle-block_ucla_help-doc_loader"]},"moodle-local_ucla_support_tools-usagelog":{"requires":["base","node"]},"moodle-local_ucla_support_tools-categoryorganizer":{"requires":["base","node","moodle-local_ucla_support_tools-dialog","dial","slider","event-valuechange","color","io","arraylist","moodle-local_ucla_support_tools-dragdrop","moodle-local_ucla_support_tools-filter","node-event-simulate"]},"moodle-local_ucla_support_tools-filter":{"requires":["autocomplete-base","autocomplete-filters","node-event-simulate"]},"moodle-local_ucla_support_tools-favorite":{"requires":["base","node"]},"moodle-local_ucla_support_tools-dialog":{"requires":["base","node","panel","event-key"]},"moodle-local_ucla_support_tools-toolorganizer":{"requires":["base","node","panel","io","autocomplete","autocomplete-filters","autocomplete-highlighters","moodle-local_ucla_support_tools-filter"]}}},"gallery":{"name":"gallery","base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1487071339\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1487071339\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1487071339\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="shortcut icon" href="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1487071339/favicon" /> 
+<link rel="apple-touch-icon" href="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1487071339/apple-touch-icon" />
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,900" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="print" href="https://ccle.ucla.edu/theme/uclashared/style/print.css" />
+</head>
+<body id="page-site-index" class="format-site course path-site safari dir-ltr lang-en_us yui-skin-sam yui3-skin-sam ccle-ucla-edu pagelayout-coursecategory course-1 context-2 notloggedin theme-uclashared">
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript" src="https://ccle.ucla.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1487071339/mcore-min.js"></script><script type="text/javascript" src="https://ccle.ucla.edu/lib/javascript.php/1487071339/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://ccle.ucla.edu/theme/javascript.php/uclashared/1487071339/head"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page" class="env-prod">
+
+
+    <header id="page-header" class="container-fluid ">
+        <div class="header-border visible-xs"></div>
+        <div class="header-main row">
+            <div class="header-logo">
+                <a href="https://ccle.ucla.edu"><img class="logo-ucla" src="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1487071339/ucla-logo" alt="UCLA CCLE Common Collaboration and Learning Environment" /><span class="logo-ccle">CCLE</span><span class="logo-ccle-sub hidden-xs hidden-sm"><span class="logo-cc">common collaboration</span><span class="logo-le">& learning environment</span></span></a>            </div>
+            <div class="header-login">
+                <div class="header-btn-group logininfo" >
+                    <span class="help-dropdown"><a class="btn-header btn-help-feedback" href="https://ccle.ucla.edu/blocks/ucla_help/index.php"><span>Need Help</span><i class="fa fa-question-circle fa-fw"></i></a><ul class="help-dropdown-menu hidden" role="menu"><li><a href="https://ccle.ucla.edu/blocks/ucla_help/index.php"><span class="arrow-up"></span>Submit a help request</a></li><li><a href="https://docs.ccle.ucla.edu/">View self help articles</a></li><li><a href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">Read tips & updates</a></li><li><a href="https://ccle.ucla.edu/course/request.php">Request a site</a></li></ul></span><span class="btn-header-text visible-md-inline-block visible-lg-inline-block">You are not logged in.</span><a class="btn-header btn-login" href="https://ccle.ucla.edu/login/index.php">Log in</a>                </div>
+            </div>
+        </div>
+        <div class="header-system row" >
+            <div class="col-sm-4">
+                <a class="header-system-name" href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=924">Shared system</a>            </div>
+            <div class="col-sm-8">
+                <div class="weeks-display label-winter"><span class="session">Winter 2017</span><span class="week">Week 7</span></div>            </div>
+        </div>
+    </header>
+<div class="navbar container-fluid">
+    <div class="row">
+        <div class="navbar-breadcrumb col-sm-5 col-md-6">
+            <span class="accesshide" id="navbar-label">Page path</span><nav aria-labelledby="navbar-label"><ul class="breadcrumb"><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://ccle.ucla.edu/"><span itemprop="title">Home</span></a></span> <span class="divider"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25B6;&#xFE0E;</span> </span></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?term=17W&amp;type=subjarea"><span itemprop="title">Subject areas</span></a></span> <span class="divider"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25B6;&#xFE0E;</span> </span></li><li><span tabindex="0">Courses in Computer Science</span></li></ul></nav>        </div>
+        <div class="navbar-controls col-sm-7 col-md-6" >
+            <div class="navbutton navbar-control">
+                            </div>
+                    </div>
+    </div>
+</div>
+
+    <div id="page-content">
+        
+        <div id="region-main-box">
+            <div id="region-post-box">
+            
+                <div id="region-main-wrap" >
+                    <div id="region-main">
+                        <div class="region-content">
+                            <span id="maincontent"></span><h1 class="headingblock">Courses in Computer Science</h1><div id="browsebymain"><div class="term_selector">Term:<div class="urlselect"><form method="post" action="https://ccle.ucla.edu/course/jumpto.php" id="url_select_f58ab82b1e22b51"><div><input type="hidden" name="sesskey" value="jOdCtAW4rT" /><select id="url_select58ab82b1e22b52" class="select autosubmit urlselect" name="jump"><option value="">Choose...</option><option value="/blocks/ucla_browseby/view.php?term=171&amp;type=course&amp;subjarea=COM%20SCI">Summer 2017</option><option value="/blocks/ucla_browseby/view.php?term=17S&amp;type=course&amp;subjarea=COM%20SCI">Spring 2017</option><option selected="selected" value="/blocks/ucla_browseby/view.php?term=17W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2017</option><option value="/blocks/ucla_browseby/view.php?term=16F&amp;type=course&amp;subjarea=COM%20SCI">Fall 2016</option><option value="/blocks/ucla_browseby/view.php?term=161&amp;type=course&amp;subjarea=COM%20SCI">Summer 2016</option><option value="/blocks/ucla_browseby/view.php?term=16S&amp;type=course&amp;subjarea=COM%20SCI">Spring 2016</option><option value="/blocks/ucla_browseby/view.php?term=16W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2016</option><option value="/blocks/ucla_browseby/view.php?term=15F&amp;type=course&amp;subjarea=COM%20SCI">Fall 2015</option><option value="/blocks/ucla_browseby/view.php?term=151&amp;type=course&amp;subjarea=COM%20SCI">Summer 2015</option><option value="/blocks/ucla_browseby/view.php?term=15S&amp;type=course&amp;subjarea=COM%20SCI">Spring 2015</option><option value="/blocks/ucla_browseby/view.php?term=15W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2015</option><option value="/blocks/ucla_browseby/view.php?term=14F&amp;type=course&amp;subjarea=COM%20SCI">Fall 2014</option><option value="/blocks/ucla_browseby/view.php?term=141&amp;type=course&amp;subjarea=COM%20SCI">Summer 2014</option><option value="/blocks/ucla_browseby/view.php?term=14S&amp;type=course&amp;subjarea=COM%20SCI">Spring 2014</option><option value="/blocks/ucla_browseby/view.php?term=14W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2014</option><option value="/blocks/ucla_browseby/view.php?term=13F&amp;type=course&amp;subjarea=COM%20SCI">Fall 2013</option><option value="/blocks/ucla_browseby/view.php?term=131&amp;type=course&amp;subjarea=COM%20SCI">Summer 2013</option><option value="/blocks/ucla_browseby/view.php?term=13S&amp;type=course&amp;subjarea=COM%20SCI">Spring 2013</option><option value="/blocks/ucla_browseby/view.php?term=13W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2013</option><option value="/blocks/ucla_browseby/view.php?term=12F&amp;type=course&amp;subjarea=COM%20SCI">Fall 2012</option><option value="/blocks/ucla_browseby/view.php?term=12W&amp;type=course&amp;subjarea=COM%20SCI">Winter 2012 or earlier</option></select><noscript class="inline"><div><input type="submit" value="Go" /></div></noscript></div></form></div></div><table class="generaltable" id="browsebycourseslist">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Syllabus</th>
+<th class="header c1" style="" scope="col">Course</th>
+<th class="header c2" style="" scope="col">Instructors</th>
+<th class="header c3 lastcol" style="" scope="col">Course title</th>
+</tr>
+</thead>
+<tbody><tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43059"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a name="ugrad"></a><a href="https://ccle.ucla.edu/course/view/17W-COMSCI31-1">COM SCI 31-1</a></td>
+<td class="cell c2" style="">Stahl, Howard</td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Science I</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43060"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI32-1">COM SCI 32-1</a></td>
+<td class="cell c2" style="">Nachenberg, Carey</td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Science II</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43060"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI32-1">COM SCI 32-2</a></td>
+<td class="cell c2" style="">Smallberg, David A.</td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Science II</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43060"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI32-1">COM SCI 32-3</a></td>
+<td class="cell c2" style="">Smallberg, David A.</td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Science II</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43061"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI33-1">COM SCI 33-1</a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://cs.ucla.edu/~tjn">Nowatzki, Anthony</a></td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Organization</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-1</a></td>
+<td class="cell c2" style="">Garip, Mevlut Turker</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-2</a></td>
+<td class="cell c2" style="">Kabre, Ameya</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-3</a></td>
+<td class="cell c2" style="">Zhou, Mushi</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-4</a></td>
+<td class="cell c2" style="">Verma, Isha</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-5</a></td>
+<td class="cell c2" style="">Vu, Thuy</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-6</a></td>
+<td class="cell c2" style="">Doshi, Heenal</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43115"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI35L-1">COM SCI 35L-8</a></td>
+<td class="cell c2" style="">Prabhakar, Sucharitha</td>
+<td class="cell c3 lastcol" style="">Software Construction Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43062"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM51A-1">COM SCI M51A-1</a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.cs.ucla.edu/~milos/">Ercegovac, Milos D.</a></td>
+<td class="cell c3 lastcol" style="">Logic Design of Digital Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43063"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI111-1">COM SCI 111-1</a></td>
+<td class="cell c2" style="">Eggert, Paul R.</td>
+<td class="cell c3 lastcol" style="">Operating Systems Principles</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43064"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI111-80">COM SCI 111-80</a></td>
+<td class="cell c2" style="">Reiher, Peter L.</td>
+<td class="cell c3 lastcol" style="">Operating Systems Principles</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43065"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI112-1">COM SCI 112-1</a></td>
+<td class="cell c2" style="">Sanadidi, Mohammad</td>
+<td class="cell c3 lastcol" style="">Modeling Uncertainty in Information Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43066"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM117-1">COM SCI M117-1</a></td>
+<td class="cell c2" style="">Dzhanidze, Revaz P.</td>
+<td class="cell c3 lastcol" style="">Computer Networks: Physical Layer</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43067"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI118-1">COM SCI 118-1</a></td>
+<td class="cell c2" style="">Lu, Songwu</td>
+<td class="cell c3 lastcol" style="">Computer Network Fundamentals</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43068"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCICM122-1">COM SCI CM122-1</a></td>
+<td class="cell c2" style="">Eskin, Eleazar</td>
+<td class="cell c3 lastcol" style="">Algorithms in Bioinformatics and Systems Biology</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43069"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI130-1">COM SCI 130-1</a></td>
+<td class="cell c2" style="">Farrell, James / Foucher, Trevor</td>
+<td class="cell c3 lastcol" style="">Software Engineering</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43070"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI131-1">COM SCI 131-1</a></td>
+<td class="cell c2" style="">Eggert, Paul R.</td>
+<td class="cell c3 lastcol" style="">Programming Languages</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43071"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI136-1">COM SCI 136-1</a></td>
+<td class="cell c2" style="">Reiher, Peter L.</td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Security</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI143-1">COM SCI 143-1</a></td>
+<td class="cell c2" style="">Condie, Tyson</td>
+<td class="cell c3 lastcol" style="">Database Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43073"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI144-1">COM SCI 144-1</a></td>
+<td class="cell c2" style="">Cho, Junghoo</td>
+<td class="cell c3 lastcol" style="">Web Applications</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43074"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM151B-1">COM SCI M151B-1</a></td>
+<td class="cell c2" style="">Reinman, Glenn D.</td>
+<td class="cell c3 lastcol" style="">Computer Systems Architecture</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43075"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-1">COM SCI M152A-1</a></td>
+<td class="cell c2" style="">Gu, Hongxiang</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43076"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-2">COM SCI M152A-2</a></td>
+<td class="cell c2" style="">Guo, Jia</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43077"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-3">COM SCI M152A-3</a></td>
+<td class="cell c2" style="">Choi, Young-Kyu</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43078"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-4">COM SCI M152A-4</a></td>
+<td class="cell c2" style="">Li, Luna</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43079"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-5">COM SCI M152A-5</a></td>
+<td class="cell c2" style="">Jain, Shuktika</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43080"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM152A-6">COM SCI M152A-6</a></td>
+<td class="cell c2" style="">Mittal, Shubham</td>
+<td class="cell c3 lastcol" style="">Introductory Digital Design Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43081"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI152B-1">COM SCI 152B-1</a></td>
+<td class="cell c2" style="">Sarrafzadeh, Majid</td>
+<td class="cell c3 lastcol" style="">Digital Design Project Laboratory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43082"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI161-1">COM SCI 161-1</a></td>
+<td class="cell c2" style="">van Den Broeck, Guy</td>
+<td class="cell c3 lastcol" style="">Fundamentals of Artificial Intelligence</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43084"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI174A-1">COM SCI 174A-1</a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.idre.ucla.edu">Friedman, Scott A.</a></td>
+<td class="cell c3 lastcol" style="">Introduction to Computer Graphics</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43085"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI180-1">COM SCI 180-1</a></td>
+<td class="cell c2" style="">Meka, Raghu</td>
+<td class="cell c3 lastcol" style="">Introduction to Algorithms and Complexity</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=45369"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI180-2">COM SCI 180-2</a></td>
+<td class="cell c2" style="">Gafni, Eliezer</td>
+<td class="cell c3 lastcol" style="">Introduction to Algorithms and Complexity</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43086"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI181-1">COM SCI 181-1</a></td>
+<td class="cell c2" style="">Sahai, Amit</td>
+<td class="cell c3 lastcol" style="">Introduction to Formal Languages and Automata Theory</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43087"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM185-1">COM SCI M185-1</a></td>
+<td class="cell c2" style="">Distefano, Joseph / Suchard, Marc</td>
+<td class="cell c3 lastcol" style="">Research Opportunities in Computational and Systems Biology</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43088"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCICM186-1">COM SCI CM186-1</a></td>
+<td class="cell c2" style="">Distefano, Joseph / Savage, Van</td>
+<td class="cell c3 lastcol" style="">Computational Systems Biology: Modeling and Simulation of Biological Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI188-1">COM SCI 188-1</a></td>
+<td class="cell c2" style="">Sankararaman, Sriram</td>
+<td class="cell c3 lastcol" style="">Special Courses in Computer Science: Introduction to Machine Learning</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI188-81">COM SCI 188-81</a></td>
+<td class="cell c2" style="">Ford, Diana</td>
+<td class="cell c3 lastcol" style="">Special Courses in Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI188SB-1">COM SCI 188SB-1</a></td>
+<td class="cell c2" style="">Reiher, Peter L.</td>
+<td class="cell c3 lastcol" style="">Individual Studies for USIE Facilitators</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43091"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a name="grad"></a><a href="https://ccle.ucla.edu/course/view/17W-COMSCI201-1">COM SCI 201-1</a></td>
+<td class="cell c2" style="">Sankararaman, Sriram</td>
+<td class="cell c3 lastcol" style="">Computer Science Seminar</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI205-1">COM SCI 205-1</a></td>
+<td class="cell c2" style="">Sarrafzadeh, Majid</td>
+<td class="cell c3 lastcol" style="">Health Analytics</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM213B-1">COM SCI M213B-1</a></td>
+<td class="cell c2" style="">Srivastava, Mani</td>
+<td class="cell c3 lastcol" style="">Energy-Aware Computing and Cyber-Physical Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43094"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI217A-1">COM SCI 217A-1</a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.cs.ucla.edu/~lixia/">Zhang, Lixia</a></td>
+<td class="cell c3 lastcol" style="">Internet Architecture and Protocols</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43095"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI217A-80">COM SCI 217A-80</a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.cs.ucla.edu/~lixia/">Zhang, Lixia</a> / Shang, Wentao</td>
+<td class="cell c3 lastcol" style="">Internet Architecture and Protocols</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43068"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCICM122-1">COM SCI CM222-1</a></td>
+<td class="cell c2" style="">Eskin, Eleazar</td>
+<td class="cell c3 lastcol" style="">Algorithms in Bioinformatics and Systems Biology</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43097"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM225-1">COM SCI M225-1</a></td>
+<td class="cell c2" style="">Ernst, Jason / Pasaniuc, Bogdan</td>
+<td class="cell c3 lastcol" style="">Computational Methods in Genomics</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43098"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI239-1">COM SCI 239-1</a></td>
+<td class="cell c2" style="">Kim, Miryung</td>
+<td class="cell c3 lastcol" style="">Current Topics in Computer Science: Programming Languages and Systems: Data Science in Software Engineering</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI239-2">COM SCI 239-2</a></td>
+<td class="cell c2" style="">Millstein, Todd</td>
+<td class="cell c3 lastcol" style="">Current Topics in Computer Science: Programming Languages and Systems: Program Verification with Interactive Theorem Provers</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI240A-80">COM SCI 240A-80</a></td>
+<td class="cell c2" style="">Parker, Douglas</td>
+<td class="cell c3 lastcol" style="">Databases and Knowledge Bases</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43101"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI240B-1">COM SCI 240B-1</a></td>
+<td class="cell c2" style="">Zaniolo, Carlo</td>
+<td class="cell c3 lastcol" style="">Advanced Data and Knowledge Bases</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43102"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI249-1">COM SCI 249-1</a></td>
+<td class="cell c2" style="">Wang, Wei / Das, Ariyam / Huang, Xinxin</td>
+<td class="cell c3 lastcol" style="">Current Topics in Data Structures</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI249-2">COM SCI 249-2</a></td>
+<td class="cell c2" style="">Sun, Yizhou</td>
+<td class="cell c3 lastcol" style="">Current Topics in Data Structures: Mining Information and Social Networks</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43104"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/private.png" alt="Restricted syllabus (only enrolled students)" title="Restricted syllabus (only enrolled students)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI249-80">COM SCI 249-80</a></td>
+<td class="cell c2" style="">Wang, Wei / Lee, Jae</td>
+<td class="cell c3 lastcol" style="">Current Topics in Data Structures</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI251B-1">COM SCI 251B-1</a></td>
+<td class="cell c2" style="">Tamir, Yuval</td>
+<td class="cell c3 lastcol" style="">Parallel Computer Architectures</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43107"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI259-3">COM SCI 259-3</a></td>
+<td class="cell c2" style="">Cong, Jason</td>
+<td class="cell c3 lastcol" style="">Current Topics in Computer Science: System Design/Architecture: Customized Computing for Big-Data Applications</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI260-1">COM SCI 260-1</a></td>
+<td class="cell c2" style="">Talwalkar, Ameet</td>
+<td class="cell c3 lastcol" style="">Machine Learning Algorithms</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI262A-1">COM SCI 262A-1</a></td>
+<td class="cell c2" style="">Darwiche, Adnan / Oztok, Umut</td>
+<td class="cell c3 lastcol" style="">Learning and Reasoning with Bayesian Networks</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43109"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM266A-1">COM SCI M266A-1</a></td>
+<td class="cell c2" style="">Zhu, Song-Chun</td>
+<td class="cell c3 lastcol" style="">Statistical Modeling and Learning in Vision and Cognition</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43110"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI269-1">COM SCI 269-1</a></td>
+<td class="cell c2" style="">Soatto, Stefano</td>
+<td class="cell c3 lastcol" style="">Seminar: Current Topics in Artificial Intelligence</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCI280D-1">COM SCI 280D-1</a></td>
+<td class="cell c2" style="">Gafni, Eliezer</td>
+<td class="cell c3 lastcol" style="">Algorithms</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCIM282B-1">COM SCI M282B-1</a></td>
+<td class="cell c2" style="">Ostrovsky, Rafail</td>
+<td class="cell c3 lastcol" style="">Cryptographic Protocols</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""><a href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=43113"><img src="https://ccle.ucla.edu/local/ucla_syllabus/pix/public_ucla.png" alt="Syllabus (login required)" title="Syllabus (login required)"></img></a></td>
+<td class="cell c1" style=""><a href="https://ccle.ucla.edu/course/view/17W-COMSCICM286-1">COM SCI CM286-1</a></td>
+<td class="cell c2" style="">Distefano, Joseph / Savage, Van</td>
+<td class="cell c3 lastcol" style="">Computational Systems Biology: Modeling and Simulation of Biological Systems</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-1 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581201&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Smallberg, David A.</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-2 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581202&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Bagrodia, Rajive</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-3 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581203&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Cardenas, Alfonso</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-4 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581204&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Cho, Junghoo</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-5 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581205&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Chu, Wesley</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-6 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581206&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Condie, Tyson</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-7 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581207&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Cong, Jason</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-8 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581208&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Darwiche, Adnan</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-9 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581209&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Distefano, Joseph</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-10 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581210&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Eggert, Paul R.</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-11 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581211&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.cs.ucla.edu/~milos/">Ercegovac, Milos D.</a></td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-12 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581212&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Ernst, Jason</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-13 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581213&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Gafni, Eliezer</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-14 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581214&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Gerla, Mario</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-15 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581215&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Halperin, Eran</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-16 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581216&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Klinger, Allen</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-17 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581217&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Korf, Richard</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-18 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581218&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Lu, Songwu</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-19 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581219&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Meka, Raghu</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-20 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581220&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Millstein, Todd</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-21 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581221&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://cs.ucla.edu/~tjn">Nowatzki, Anthony</a></td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-22 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581222&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Ostrovsky, Rafail</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-23 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581223&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Palsberg, Jens</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-24 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581224&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Parker, Douglas</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-25 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581225&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Pau, Giovanni</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-26 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581226&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Pearl, Judea</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-27 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581227&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Potkonjak, Miodrag</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-28 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581228&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Ramezani, Ramin</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-29 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581229&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Reiher, Peter L.</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-30 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581230&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Reinman, Glenn D.</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-31 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581231&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Sahai, Amit</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-32 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581232&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Sanadidi, Mohammad</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-33 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581233&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Sankararaman, Sriram</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-34 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581234&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Sarrafzadeh, Majid</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-35 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581235&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://web.cs.ucla.edu/~sherstov/">Sherstov, Alexander</a></td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-36 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581236&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Soatto, Stefano</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-37 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581237&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Srivastava, Mani</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-38 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581238&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Sun, Yizhou</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-39 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581239&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Talwalkar, Ameet</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-40 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581240&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Tamir, Yuval</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-41 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581241&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Terzopoulos, Demetri</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-42 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581242&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">van Den Broeck, Guy</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-43 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581243&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Varghese, George</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-44 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581244&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Wang, Wei</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-45 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581245&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Zaniolo, Carlo</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-46 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581246&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style=""><a target="_blank" href="http://www.cs.ucla.edu/~lixia/">Zhang, Lixia</a></td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style=""></td>
+<td class="cell c1" style="">COM SCI 298-47 <a href="https://sa.ucla.edu/ro/public/soc/Results?t=17W&amp;sBy=classidnumber&amp;id=587581247&amp;btnIsInIndex=btn_inIndex"><span class="registrar-link">(Registrar)</span></a></td>
+<td class="cell c2" style="">Zhu, Song-Chun</td>
+<td class="cell c3 lastcol" style="">Research Seminar: Computer Science</td>
+</tr>
+</tbody>
+</table>
+</div>                        </div>
+                    </div>
+                </div>
+                
+                                <div id="region-pre" class="block-region">
+                    <div class="region-content">
+                        <a class="skip skip-block" id="fsb-1" href="#sb-1">Skip Browse by</a><div id="inst222" class="block_ucla_browseby  block block_ucla_course_menu block_navigation" role="navigation" data-block="ucla_browseby" data-instanceid="222" aria-labelledby="instance-222-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-222-header">Browse by</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_structure depth_1 item_with_icon" aria-labelledby="label_1_1"><p class="tree_item hasicon" role="treeitem" data-collapsible="false"><a tabindex="-1" id="label_1_1" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=subjarea"><img class="smallicon navicon" alt="" src="https://ccle.ucla.edu/theme/image.php/uclashared/core/1487071339/i/navigationitem" /><span class="item-content-wrap">Subject area</span></a></p></li><li class="type_structure depth_1 item_with_icon" aria-labelledby="label_1_2"><p class="tree_item hasicon" role="treeitem" data-collapsible="false"><a tabindex="-1" id="label_1_2" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=division"><img class="smallicon navicon" alt="" src="https://ccle.ucla.edu/theme/image.php/uclashared/core/1487071339/i/navigationitem" /><span class="item-content-wrap">Division</span></a></p></li><li class="type_structure depth_1 item_with_icon" aria-labelledby="label_1_3"><p class="tree_item hasicon" role="treeitem" data-collapsible="false"><a tabindex="-1" id="label_1_3" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=instructor"><img class="smallicon navicon" alt="" src="https://ccle.ucla.edu/theme/image.php/uclashared/core/1487071339/i/navigationitem" /><span class="item-content-wrap">Instructor</span></a></p></li><li class="type_structure depth_1 item_with_icon" aria-labelledby="label_1_4"><p class="tree_item hasicon" role="treeitem" data-collapsible="false"><a tabindex="-1" id="label_1_4" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=collab"><img class="smallicon navicon" alt="" src="https://ccle.ucla.edu/theme/image.php/uclashared/core/1487071339/i/navigationitem" /><span class="item-content-wrap">Collaboration sites</span></a></p></li></ul></div></div><span class="skip-block-to" id="sb-1"></span><a class="skip skip-block" id="fsb-2" href="#sb-2">Skip Search sites</a><div id="inst4421" class="block_ucla_search  block" role="complementary" data-block="ucla_search" data-instanceid="4421" aria-labelledby="instance-4421-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-4421-header">Search sites</h2></div></div><div class="content"><div class="ucla-search block-search"><form class="" action="https://ccle.ucla.edu/course/search.php"><span>Show:</span><fieldset class=""><div><label class="checkbox-inline"><input type="checkbox" value="1" name="collab" checked="checked" /> Collab</label><label class="checkbox-inline"><input type="checkbox" value="1" name="course" checked="checked" /> Course</label></div></fieldset><div class="well well-sm"><span>Filter by:</span><fieldset class=""><div><label class="checkbox-inline"><input type="checkbox" value="1" name="bytitle" checked="checked" /> Title</label><label class="checkbox-inline"><input type="checkbox" value="1" name="bydescription" checked="checked" /> Description</label></div></fieldset></div><input id="ucla-search" type="text" class="form-control ucla-search-input" name="search" placeholder="Search..." /></form></div></div></div><span class="skip-block-to" id="sb-2"></span>                    </div>
+                </div>
+                                
+                                <div id="region-post" class="block-region">
+                    <div class="region-content">
+                        <div id="inst10913" class="block_ucla_alert  block no-header block-ucla-alert ucla-alert" role="complementary" data-block="ucla_alert" data-instanceid="10913" aria-label="Course alerts"><div class="content"><div class="block_action notitle"></div><div><div class="header-box alert-header-default"><div class="header-title">CCLE System</div>
+</div>
+<div class="box-boundary"><div class="box-section-title"></div>
+<div class="box-boundary"><div class="box-title">Video player speed</div>
+<div class="box-text"><br/>Variable-speed playback on the CCLE video player is currently not functioning as expected. Play videos at regular speed 1x. If you have other playback issues, please contact local support.<br/></div>
+</div>
+<div class="box-boundary"><div class="box-title">Tips and Updates</div>
+<div class="box-link"><a href="https://docs.ccle.ucla.edu/w/Tips_and_Updates#February_14.2C_2017">* Switch role to student's view to see what course materials are available</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box-boundary"><div class="box-section-title">CCLE notices</div>
+<div class="box-boundary"><div class="box-title">Can't find your class?</div>
+<div class="box-text">If you don't see your class site, it may be hosted elsewhere. The My screen will show any courses you are enrolled in. Login to My.UCLA or go to the Registrars site:<br/></div>
+<div class="box-link"><a href="http://my.ucla.edu">My.UCLA</a>
+</div>
+<div class="box-link"><a href="http://www.registrar.ucla.edu">Registrar</a>
+</div>
+</div>
+<div class="box-boundary"><div class="box-title">Couns/PsychSvc(CAPS)</div>
+<div class="box-text">Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment.<br/></div>
+<div class="box-link"><a href="http://www.counseling.ucla.edu/">www.counseling.ucla.edu</a>
+</div>
+<div class="box-list">310-825-0768</div>
+</div>
+<div class="box-boundary"><div class="box-title">Center for Accessible Education (CAE)</div>
+<div class="box-text">The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:<br/></div>
+<div class="box-link"><a href="http://www.cae.ucla.edu">www.cae.ucla.edu</a>
+</div>
+<div class="box-list">TDD 310-206-6083</div>
+</div>
+</div>
+</div></div>                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="page-footer" >
+        <!--
+            <p class="helplink"></p>
+        -->
+        <span id="copyright-info">
+            &copy; 2017 UC Regents        </span>
+
+        <span id="footer-links">
+            &nbsp;<a href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=926">Contact</a>&nbsp;<a href="https://ccle.ucla.edu/course/view/aboutccle?section=0">About</a>&nbsp;<a href="https://ccle.ucla.edu/theme/uclashared/view.php?page=privacy">Privacy</a>&nbsp;<a href="https://ccle.ucla.edu/theme/uclashared/view.php?page=copyright">Copyright</a>&nbsp;<a href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=6996">UCLA links</a>&nbsp; | &nbsp;<a href="http://www.ucla.edu/" target="_blank">UCLA</a>&nbsp;<a href="http://www.registrar.ucla.edu/" target="_blank">Registrar</a>&nbsp;<a href="http://my.ucla.edu/" target="_blank">MyUCLA</a>&nbsp;<a href="http://www.cae.ucla.edu/" target="_blank">Disability</a>&nbsp;<a href="http://www.counseling.ucla.edu/" target="_blank">Couns/PsychSvc (CAPS)</a>        </span>
+
+            </div>
+
+    <script type="text/javascript">
+        // Loads headroom.js for auto-hiding header: http://wicky.nillia.ms/headroom.js/
+        var header = document.querySelector(".header-main");
+
+        // You can add some tolerance to the amount a user must scroll before header animates.
+        // scroll-up: 5px
+        // scroll down: immediate
+        var headroom  = new Headroom(header, {
+            tolerance : {
+                up : 5,
+                down : 0
+            }
+        });
+
+        // initialise
+        headroom.init();
+
+    </script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50836333-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://ccle.ucla.edu/lib/requirejs.php/1487071339/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://ccle.ucla.edu/lib/javascript.php/1487071339/lib/jquery/jquery-1.12.1.min',
+        jqueryui: 'https://ccle.ucla.edu/lib/javascript.php/1487071339/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'https://ccle.ucla.edu/lib/javascript.php/1487071339/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://ccle.ucla.edu/lib/javascript.php/1487071339/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["block_navigation/navblock"], function(amd) { amd.init("222"); });;
+require(["block_settings/settingsblock"], function(amd) { amd.init("5", null); });;
+require(["core/notification"], function(amd) { amd.init(2, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://ccle.ucla.edu/theme/javascript.php/uclashared/1487071339/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","viewallcourses":"View all courses","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"local_ucla":{"logincheck_success":"You're logged in.  You can now submit this form.","longincheck_login":"Your session has timed out. In order to save \n         your work login again and save your changes.","logincheck_idfail":"Your user ID does not match!  This form has been disabled in order to prevent an erroneous submission. Save your work and reload this page.","logincheck_networkfail":"There was no response from the server. You might be disconnected from your network. Please reconnect and try again."}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"url_select58ab82b1e22b52","nothing":""});
+});
+Y.use("moodle-block_ucla_search-search",function() {M.ucla_search.init({"name":"block-search"});
+});
+Y.use("moodle-local_ucla-logincheck",function() {M.local_ucla.logincheck.init({"userid":0});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+ M.util.js_pending('random58ab82b1e22b513'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random58ab82b1e22b513'); });
+})();
+//]]>
+</script>
+</body>
+</html>
