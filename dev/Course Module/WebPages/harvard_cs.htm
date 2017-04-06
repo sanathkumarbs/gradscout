@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="http://www.seas.harvard.edu/favicon.ico" type="image/vnd.microsoft.icon" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
+<meta name="description" content="CSE Core Courses Applied Math 205 - Advanced Scientific Computing: Numerical Methods Christopher Rycroft, Assistant Professor. Fall Term, Tues/Thurs 10:00 - 11:30 AM." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.seas.harvard.edu/programs/graduate/computational-science-and-engineering/cse-courses" />
+<link rel="shortlink" href="http://www.seas.harvard.edu/node/27001" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://www.seas.harvard.edu/programs/graduate/computational-science-and-engineering/cse-courses" />
+<meta name="twitter:title" content="CSE courses" />
+<meta name="twitter:description" content="CSE Core Courses Applied Math 205 - Advanced Scientific Computing: Numerical Methods Christopher Rycroft, Assistant Professor. Fall Term, Tues/Thurs 10:00 - 11:30 AM." />
+<meta name="dcterms.title" content="CSE courses" />
+<meta name="dcterms.date" content="2013-05-07" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="http://www.seas.harvard.edu/programs/graduate/computational-science-and-engineering/cse-courses" />
+<meta name="pagetype" content="Content" />
+<meta name="pagetags" content="CSE Courses, data science, IACS, Institute for Applied Computational Science, Data Science Courses" />
+  <title>CSE courses | Harvard John A. Paulson School of Engineering and Applied Sciences</title>  
+  <link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__BVK3MsqV725V49Sf85fuVgFB3zALY1vcdbzZKiq482Q__nBpV3Zd2TwkMQygaG4H_-KCkK9-invGqS8VH-XeUcS4__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__AOn_U0g1T4byAZkUuaOkiiAFUoPxum9mYa91EYxZ6DY__deIXkmJdcOrRSELzzpJlAL6uN3wYMWw-40GerJiObL4__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__GuWWXSF0l64dkv4HhKlx2h0g1VgA2H3MTCxpg_LjahY___xtdkrLE0BeGBCIOEMcNvDnjKmTFTLh3zOng1LVYjA0__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__X7Mk_v03lTe10zGV_leWq5ResAp8xmDbeT5CbfT4B3c__YCJGOg9-XZc2oji-GbqeIeFIf2135zsLr7otf3K3G0g__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600,700,800|Open+Sans+Condensed:700|Oswald:700|Rambla:regular|Roboto+Condensed:700&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__nTNcCW_riRxXHfuhBfYI4mwto8UVfEvhovCHbeTFWLQ__1Swxy3x-hj1DJOXNVnQ3nhIl_1vDFxmxoAISb3UE4-M__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/all/themes/omega/seas2013/css/seas-alpha-default-narrow.css?onva0d" media="all" />
+<![endif]-->
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/all/themes/omega/seas2013/css/seas-alpha-default-normal.css?onva0d" media="all" />
+<![endif]-->
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/all/themes/omega/seas2013/css/ie.css?onva0d" media="all" />
+<![endif]-->
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/all/themes/omega/seas2013/css/ie6.css?onva0d" media="all" />
+<![endif]-->
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__aU8PWFMho6vAsdeUeoTCEwpU3cntpaPr5fiT3H6-lCc__ZwpoDITEa3oYmoVDK-NpZW06Gj53wOKCSsMXJt5UhT0__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="//www.seas.harvard.edu/sites/default/files/advagg_css/css__9riiN29FmfkXHGDUzvtQoRa7sjskduLlaPbe_ryqrtU__c4HoI0vDSlnWTdhCbLsx5NtlgXodhvrQfdwXsCweNww__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.cookie = 'adaptive_image=' + Math.max(screen.width, screen.height) + '; path=/';
+//--><!]]>
+</script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__zlP_G92Vv9IzbElR725ovoWUkwub30P27WjQd7mu8ug__5TxyCYXswcwoBkNauGABDcgKYNqqKolJsPEUp1AXvZo__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__MHuIcVWerYyS5uJx8Zgtn-zPYxqiZjesKvMwzQkIbcY__L9yjp3xh3QrRG1rZBfx7l4GIvV6ovN4Coa2ArnN6AkQ__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"seas2013","theme_token":"-qyCxgRBRAI8CDDWDw0NQoqFRUHUxyOHLFz0zfGVwDA","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/adaptive_image\/css\/adaptive-image.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/seas_academic_vis_json\/css\/acadvis.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"http:\/\/fonts.googleapis.com\/css?family=Open+Sans:300,600,700,800|Open+Sans+Condensed:700|Oswald:700|Rambla:regular|Roboto+Condensed:700\u0026subset=latin":1,"sites\/all\/themes\/omega\/seas2013\/css\/global.css":1,"sites\/all\/themes\/omega\/seas2013\/css\/seas-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/seas2013\/css\/seas-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/seas2013\/css\/ie.css":1,"sites\/all\/themes\/omega\/seas2013\/css\/ie6.css":1,"ie::normal::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default.css":1,"ie::normal::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default.css":1,"narrow::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default.css":1,"normal::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default.css":1,"wide::sites\/all\/themes\/omega\/seas2013\/css\/seas2013-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1},"js":{"sites\/all\/libraries\/jquery\/jquery-1.8.3.min.js":1,"sites\/all\/libraries\/hoverintent\/jquery.hoverIntent.minified.js":1,"sites\/all\/modules\/jqmulti\/js\/switch.js":1,"sites\/all\/modules\/gss\/scripts\/autocomplete.js":1,"sites\/all\/libraries\/scrolldepth\/jquery.scrolldepth.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/omega\/seas2013\/js\/jquery.cycle.all.js":1,"sites\/all\/themes\/omega\/seas2013\/js\/seas.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.menu.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.autocomplete.min.js":1,"sites\/all\/modules\/waypoints\/waypoints.min.js":1}},"chartbeat":{"uid":7516,"domain":"www.seas.harvard.edu","useCanonical":true,"noCookies":false},"gss":{"key":"017820767913562127041:jeuc3kjer_y"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/programs\/graduate\/computational-science-and-engineering\/cse-courses":true},"ogContext":{"groupType":"node","gid":"76426"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 979px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-27001 node-type-g-content og-context og-context-node og-context-node-76426 context-programs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>  <div class="page clearfix" id="page">
+	<div id="headerwrapper">
+					<header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="block block-delta-blocks block-logo block-delta-blocks-logo odd block-without-title" id="block-delta-blocks-logo">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="logo-img"><a href="/" id="logo" title="Return to the Harvard John A. Paulson School of Engineering and Applied Sciences home page"><img src="http://www.seas.harvard.edu/sites/default/files/seaslogo_temp_spaced.png" alt="Harvard John A. Paulson School of Engineering and Applied Sciences" /></a></div>    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="gss" action="/programs/graduate/computational-science-and-engineering/cse-courses" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><div id="edit-searchtype" class="form-radios"><div class="form-item form-type-radio form-item-searchtype">
+ <input type="radio" id="edit-searchtype-0" name="searchtype" value="0" checked="checked" class="form-radio" />  <label class="option" for="edit-searchtype-0">Site </label>
+
+</div>
+<div class="form-item form-type-radio form-item-searchtype">
+ <input type="radio" id="edit-searchtype-1" name="searchtype" value="1" class="form-radio" />  <label class="option" for="edit-searchtype-1">People </label>
+
+</div>
+</div><input type="hidden" name="form_build_id" value="form-yhmQcfe4DzqGmxlxehen1UezYF04y11Q4BnIuqbFBRM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div><div class="block block-block block-56 block-block-56 odd block-without-title" id="block-block-56">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="phone-link"><a href="/menu" class="view-menu"><span>Menu</span></a></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+          </div>
+</div>
+  </div>
+</div></header>			</div>
+	
+			<section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-second" id="region-preface-second">
+  <div class="region-inner region-preface-second-inner">
+    <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu"><li class="first expanded" id="main-menuAboutSEAS"><a href="/about-seas" title=""><span class="outer"><span class="inner">About SEAS</span></span></a><ul class="menu"><li class="first leaf" id="main-menuHistory"><a href="/about-seas/history-seas" title=""><span class="outer"><span class="inner">History</span></span></a></li>
+<li class="leaf" id="main-menuLeadership"><a href="/administration/leadership" title=""><span class="outer"><span class="inner">Leadership</span></span></a></li>
+<li class="leaf" id="main-menuTeachingAreas"><a href="/about-seas/teaching-areas" title=""><span class="outer"><span class="inner">Teaching Areas</span></span></a></li>
+<li class="leaf" id="main-menuDirectory"><a href="http://www.seas.harvard.edu/directory" title=""><span class="outer"><span class="inner">Directory</span></span></a></li>
+<li class="leaf" id="main-menuVisitUs"><a href="/visit-us" title=""><span class="outer"><span class="inner">Visit Us</span></span></a></li>
+<li class="last leaf" id="main-menuEmploymentOpportunities"><a href="/about-seas/employment" title=""><span class="outer"><span class="inner">Employment Opportunities</span></span></a></li>
+</ul></li>
+<li class="expanded" id="main-menuAcademics"><a href="/academics" title=""><span class="outer"><span class="inner">Academics</span></span></a><ul class="menu"><li class="first leaf" id="main-menuUndergraduatePrograms"><a href="/academics/undergraduate" title=""><span class="outer"><span class="inner">Undergraduate Programs</span></span></a></li>
+<li class="leaf" id="main-menuGraduatePrograms"><a href="/academics/graduate" title=""><span class="outer"><span class="inner">Graduate Programs</span></span></a></li>
+<li class="leaf" id="main-menuCourses"><a href="/academics/courses" title=""><span class="outer"><span class="inner">Courses</span></span></a></li>
+<li class="last leaf" id="main-menuApply"><a href="/academics/how-to-apply" title=""><span class="outer"><span class="inner">Apply</span></span></a></li>
+</ul></li>
+<li class="expanded" id="main-menuFacultyResearch"><a href="/faculty-research" title=""><span class="outer"><span class="inner">Faculty & Research</span></span></a><ul class="menu"><li class="first leaf" id="main-menuPeople"><a href="/faculty-research/people" title=""><span class="outer"><span class="inner">People</span></span></a></li>
+<li class="leaf" id="main-menuResearchInterests"><a href="/faculty-research/research" title=""><span class="outer"><span class="inner">Research Interests</span></span></a></li>
+<li class="leaf" id="main-menuCentersInitiatives"><a href="/faculty-research/centers-initiatives" title=""><span class="outer"><span class="inner">Centers & Initiatives</span></span></a></li>
+<li class="last leaf" id="main-menuUndergraduateResearch"><a href="/faculty-research/research-opportunities" title=""><span class="outer"><span class="inner">Undergraduate Research</span></span></a></li>
+</ul></li>
+<li class="expanded" id="main-menuNewsEvents"><a href="/news" title=""><span class="outer"><span class="inner">News & Events</span></span></a><ul class="menu"><li class="first leaf" id="main-menuCalendarsColloquia"><a href="/events" title=""><span class="outer"><span class="inner">Calendars & Colloquia</span></span></a></li>
+<li class="last leaf" id="main-menuFortheMedia"><a href="/news-events/for-the-media" title=""><span class="outer"><span class="inner">For the Media</span></span></a></li>
+</ul></li>
+<li class="expanded" id="main-menuOfficesServices"><a href="/offices-services" title=""><span class="outer"><span class="inner">Offices & Services</span></span></a><ul class="menu"><li class="first leaf" id="main-menuOfficeoftheDean"><a href="/deans-office" title=""><span class="outer"><span class="inner">Office of the Dean</span></span></a></li>
+<li class="leaf" id="main-menuComputing"><a href="/computing-office" title=""><span class="outer"><span class="inner">Computing</span></span></a></li>
+<li class="leaf" id="main-menuHumanResources"><a href="/human-resources" title=""><span class="outer"><span class="inner">Human Resources</span></span></a></li>
+<li class="leaf" id="main-menuAcademicPrograms"><a href="/office-academic-programs" title=""><span class="outer"><span class="inner">Academic Programs</span></span></a></li>
+<li class="leaf" id="main-menuFinance"><a href="/finance" title=""><span class="outer"><span class="inner">Finance</span></span></a></li>
+<li class="last leaf" id="main-menuMoreOffices"><a href="/offices-services" title=""><span class="outer"><span class="inner">More Offices...</span></span></a></li>
+</ul></li>
+<li class="last expanded" id="main-menuMakeaGift"><a href="http://campaign.harvard.edu/fas/priority/school-of-engineering-and-applied-sciences" title=""><span class="outer"><span class="inner">Make a Gift</span></span></a><ul class="menu"><li class="first last leaf" id="main-menuLearnhowyourgiftsupportsinnovativeteachingandcuttingedgeresearchatSEAS"><span title="" class="nolink"><span class="outer"><span class="inner">Learn how your gift supports innovative teaching and cutting-edge research at SEAS.</span></span></span></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-6 push-3 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-delta-blocks block-breadcrumb block-delta-blocks-breadcrumb odd block-without-title" id="block-delta-blocks-breadcrumb">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="breadcrumb" class="clearfix"><ul class="breadcrumb"><li class="depth-1 odd first"><a href="/">Home</a></li><li class="depth-2 even"><a href="/programs/graduate/computational-science-and-engineering">Computational Science and Engineering</a></li><li class="depth-3 odd last"><a href="/programs/graduate/computational-science-and-engineering/cse-courses" class="active">CSE courses</a></li></ul></div>    </div>
+  </div>
+</div><div class="block block-delta-blocks block-page-title block-delta-blocks-page-title even block-without-title" id="block-delta-blocks-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h1 id="page-title" class="title">CSE courses</h1>    </div>
+  </div>
+</div><div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  id="node-g-content-27001" class="ds-1col node node-g-content view-mode-full node-not-promoted node-not-sticky author-dweinsto odd clearfix clearfix">
+
+  
+  <div class="field field-name-two-column-content field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h3>CSE Core Courses</h3>
+
+<hr />
+<p><a href="http://iacs-courses.seas.harvard.edu/courses/am205/"><strong>Applied Math 205</strong>&nbsp;-&nbsp;<strong>Advanced Scientific Computing: Numerical Methods</strong></a><br />
+Christopher Rycroft, Assistant Professor. <em>Fall Term, Tues/Thurs 10:00 - 11:30 AM</em>.</p>
+
+<p>An examination of the mathematical foundations of a range of well-established numerical algorithms, exploring their use through practical examples drawn from a range of scientific and engineering disciplines. Emphasizes theory and numerical analysis to elucidate the concepts that underpin each algorithm. There will be a significant programming component. Students will be expected to implement a range of numerical methods through individual and group-based project work to get hands-on experience with modern scientific computing.</p>
+
+<p><a href="https://am207.github.io/2017/"><strong><strong>Applied Math 207&nbsp;- Advanced Scientific Computing: Stochastic Methods for Data Analysis, Inference and Optimization</strong></strong></a><br />
+Rahul Dave, Lecturer. <em>Spring Term, Tues/Thurs 11:30 AM - 1:00 PM</em>.</p>
+
+<p>Develops skills for computational research with focus on stochastic approaches, emphasizing implementation and examples. Stochastic methods make it feasible to tackle very diverse problems when the solution space is too large to explore systematically, or when microscopic rules are known, but not the macroscopic behavior of a complex system. Methods will be illustrated with examples from a wide variety of fields, like biology, finance, and physics.</p>
+
+<p><a href="https://canvas.harvard.edu/courses/26247"><strong>Computer Science 205</strong>&nbsp;-&nbsp;<strong>Computing Foundations for Computational Science</strong></a><br />
+Muniyappa Manjunathaiah, Visiting Assistant Professor.<br />
+<em>Spring Term, Tues/Thurs 2:30 - 4:00 PM.</em></p>
+
+<p>An applications course highlighting the use of computers in solving scientific problems. Students will be exposed to fundamental computer science concepts such as computer architectures, data structures, algorithms, and parallel computing. Fundamentals of scientific computing including abstract thinking, algorithmic development, and assessment of computational approaches. Students will learn to use open source tools and libraries and apply them to data analysis, modeling, and visualization of real scientific problems. Emphasizes parallel programming and "parallel thinking."</p>
+
+<p><strong><a href="https://iacs-cs207.github.io/cs207-2016/"><strong>Computer Science 207 - Systems Development for Computational Science</strong></a>&nbsp;</strong><br />
+Rahul Dave, Lecturer. <em>Fall Term, Mon/Wed 2:30 - 4:00 PM</em>.</p>
+
+<p>This is a project-based course emphasizing designing, building, testing, maintaining and modifying software for scientific computing. Students will work in groups on a number of projects, ranging from small data-transformation utilities to large-scale systems. Students will learn to use a variety of tools and languages, as well as various techniques for organizing teams. Most important, students will learn to fit tools and approaches to the problem being solved.</p>
+
+<p><strong>&nbsp;</strong></p>
+
+<h3><strong>Courses in Applied Computation</strong></h3>
+
+<hr />
+<p>Applied Computation courses can be found in the <a href="https://courses.my.harvard.edu/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH">Harvard course catalog</a> by searching for&nbsp;APCOMP. &nbsp;Applied Computation courses&nbsp;are a category of courses developed by IACS which&nbsp;apply the methods of computational science and engineering to a domain or class of problems.</p>
+
+<p><a href="https://canvas.harvard.edu/courses/12656"><strong><strong>Applied Computation 209a - Data Science 1: Introduction to Data Science</strong></strong></a><br />
+Pavlos Protopapas, Lecturer, and Kevin Rader, Preceptor. <em>Fall Term</em>, <em>Mon/Wed 1:00 - 2:30 PM</em>.</p>
+
+<div>
+<p>Data Science 1 is the first half of a one-year introduction to data science. The course will focus on the analysis of messy, real life data to perform predictions using statistical and machine learning methods. Material covered will integrate the five key facets of an investigation using data: (1) data collection - data wrangling, cleaning, and sampling to get a suitable data set;&nbsp; (2) data management - accessing data quickly and reliably; (3) exploratory data analysis – generating hypotheses and building intuition; (4) prediction or statistical learning; and (5) communication – summarizing results through visualization, stories, and interpretable summaries.<em> Note:</em>&nbsp;Only one of CS 109a, AC 209a, or Stat 121a can be taken for credit. Students who have previously taken CS 109, AC 209, or Stat 121 cannot take CS 109a, AC 209a, or Stat 121a for credit. Programming knowledge at the level of CS 50 or above, and statistics knowledge at the level of Stat 100 or above (Stat 110 recommended).</p>
+
+<p><a href="https://canvas.harvard.edu/courses/22060"><strong><strong>Applied Computation 209b - Data Science 2: Advanced Topics in Data Science</strong></strong></a><br />
+Hanspeter Pfister,&nbsp;Professor, and&nbsp;Mark Glickman and Verena Kaynig-Fittkau, Lecturers. <em>Spring Term</em>, <em>Mon/Wed 1:00 - 2:30 PM</em>.</p>
+
+<div>
+<p>Data Science 2 is the second half of a one-year introduction to data science. Building upon the material in Data Science 1, the course introduces advanced methods for data wrangling, data visualization, and statistical modeling and prediction. Topics include big data and database management, interactive visualizations, nonlinear statistical models, and deep learning.<em> Note:</em>&nbsp;Can only be taken after successful completion of CS 109a, AC 209a, Stat 121a, or equivalent. Students who have previously taken CS 109, AC 209, or Stat 121 cannot take CS 109b, AC 209b, or Stat 121b for credit. CS 109a, AC 209a, or Stat 121a required.</p>
+</div>
+</div>
+
+<p><a href="http://projects.iq.harvard.edu/ac274_2016/"><strong><strong><strong>Applied Computation 274 - Computational Physics</strong></strong></strong></a><br />
+Sauro Succi, Visiting Professor. <em>Fall Term, Wed/Fri 10:00 AM - 12:00 PM</em>.</p>
+
+<p>The course will describe major computational techniques for fluid flows, as described by the Navier-Stokes equations of continuum mechanics. In addition, the course will cover a new class of mesoscale techniques for complex flows and soft matter systems, which do not fit within the continuum Navier-Stokes description. The latter encompass a broad class of flowing materials of special interest to micro-nano engineering and biology.</p>
+
+<p><strong><strong><a href="https://canvas.harvard.edu/courses/7154">[Applied Computation 290&nbsp;- Extreme Computing: Project-based High Performance Distributed and Parallel Systems]</a></strong></strong><br />
+Not offered 2016-17<br />
+<br />
+Predictive computer simulations will play a critical role in scientific discoveries, national competitiveness, and in solving societal problems. For such predictions of real problems, the ability to scale the solution techniques, algorithms, and software to large-scale is necessary. This course will explore the techniques used for extreme computing (distributed cloud computing, scaling, performance, etc), supporting infrastructure (distributed file systems, replication, web services etc) and algorithms (MapReduce, Graph Methods, Kinetic Monte Carlo etc). Specifically, the course will identify three areas from physical, natural and social sciences that could be addressed by these techniques. The social sciences module will focus on customer reviews and influencing; the bio/health module will focus on cancer modeling; the materials module will focus on battery modeling. The faculty from Harvard, in collaboration with the visitors from National Cancer Institute and Argonne National Laboratories, will conduct the lectures and computer labs.&nbsp; Computing resources will be provided for the class projects.</p>
+
+<p><a href="http://iacs-courses.seas.harvard.edu/courses/ac297r/"><strong><strong><strong>Applied Computation 297r - Computational Science and Engineering Capstone Project</strong>&nbsp;</strong></strong></a><br />
+Pavlos Protopapas, Lecturer.&nbsp;<em>Spring Term, Tues 4:00&nbsp;- 6:00 PM</em>.</p>
+
+<p>The CSE capstone project is intended to integrate and apply the skills and ideas CSE students acquire in their core courses and electives. By requiring students to complete a substantial and challenging collaborative project, the capstone course will prepare students for the professional world and ensure that they are trained to conduct research. There will be no homework or lectures. Students will be dealing with real-world problems, messy data sets, and the chance to work on an end-to-end solution to a problem using computational methods.</p>
+
+<p><strong><strong><a href="https://canvas.harvard.edu/courses/5074">Applied Computation 298r - Interdisciplinary Seminar in Computational Science and Engineering</a>&nbsp;</strong></strong><br />
+Daniel Weinstock, Lecturer.&nbsp;<em>Fall term, Fri 12:00 – 3:00 PM.</em></p>
+
+<p>This course, centered on the Institute for Applied Computation Science (IACS) seminar series, will provide broad exposure to cutting-edge topics, applications, and unifying concepts in Computational Science &amp; Engineering. Students will read, present and discuss journal articles related to IACS talks, attend the seminars and meet with visiting speakers. Possible topics to be covered include scientific visualization, computational approaches to disease, mathematical neuroscience, computational archeology, and computational finance.</p>
+
+<p><strong><strong>&nbsp;</strong></strong></p>
+
+<h3><strong><strong><a name="CSE-electives"></a>CSE Applied Math &amp; Computer Science Electives List</strong></strong></h3>
+
+<hr />
+<p>The CSE Program Committee has approved the following courses for inclusion as AM and CS electives in SM, ME, and Secondary Field plans of study. This list is not meant to limit students' elective choices. In particular, students who have taken a course listed here (or its equivalent) and wish deeper exploration are encouraged to propose more advanced courses. &nbsp;<em>Note:</em>&nbsp;Many, but not&nbsp;all, courses are offered every year.</p>
+
+<p>&nbsp;</p>
+
+<table class="listing vertical">
+	<tbody>
+		<tr>
+			<th>Approved CSE Applied Math electives</th>
+			<th>&nbsp;</th>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td>AM 201&nbsp;Physical Mathematics I</td>
+			<td>fall&nbsp;</td>
+		</tr>
+		<tr>
+			<td>[AM 202&nbsp;Physical Mathematics II]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+		<tr>
+			<td>[AM 221&nbsp;Advanced Optimization]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+		<tr>
+			<td>AC 274&nbsp;&nbsp;Computational Modeling of Fluids and Soft Matter&nbsp;</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>AC 275 &nbsp;Computational Design of Materials</td>
+			<td>spring&nbsp;</td>
+		</tr>
+		<tr>
+			<td>STAT 139&nbsp;Statistical Sleuthing Through Linear Models*</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>STAT 149&nbsp;Statistical Sleuthing Through Genereralized Linear Models*</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>STAT 170&nbsp;Quantitative Analysis of Capital Markets*</td>
+			<td>fall&nbsp;</td>
+		</tr>
+		<tr>
+			<td>STAT 183&nbsp;Learning From Big Data*</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>STAT 210&nbsp;Probability I</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>STAT 220&nbsp;Bayesian Data Analysis</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>STAT 221&nbsp;Statistical Computing and Learning</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>STAT 225&nbsp;Spatial Statistics</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>STAT 285r Statistical Machine Learning</td>
+			<td>spring</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table class="listing vertical">
+	<tbody>
+		<tr>
+			<th>Approved CSE Computer Science electives</th>
+			<th>&nbsp;</th>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td>AC 209a Introduction to Data Science</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>AC 209b Advanced Topics in Data Science</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>CS 124&nbsp;Data Structures and Algorithms*</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>CS 165&nbsp;Data Systems*</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>CS 171&nbsp;Visualization*</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>CS 181 Machine Learning*</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td>[CS 221&nbsp;Computational Complexity]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+		<tr>
+			<td>CS 222&nbsp;Algorithms at the Ends of the Wire</td>
+			<td>fall</td>
+		</tr>
+		<tr>
+			<td>CS 226r&nbsp;Efficient Algorithms</td>
+			<td>TBA</td>
+		</tr>
+		<tr>
+			<td>[CS 228&nbsp;Computational Learning Theory]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+		<tr>
+			<td>CS 246&nbsp;Advanced Computer Architecture</td>
+			<td>spring</td>
+		</tr>
+		<tr>
+			<td>[CS 262&nbsp;Distributed Computing]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+		<tr>
+			<td>[CS 281&nbsp;Advanced Machine Learning]</td>
+			<td>not offered 2016-17</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>*Master's students can include up to two 100-level courses in their Plans of Study. Secondary Field students generally need to have only 200 level courses in the Plans of Study but may petition to have include one 100-level course.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>&nbsp;</strong></p>
+</div></div></div></div>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 pull-6 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-og-menu block-og-single-menu-block block-og-menu-og-single-menu-block odd block-without-title" id="block-og-menu-og-single-menu-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last expanded active-trail"><a href="/programs/graduate/computational-science-and-engineering" class="active-trail">Computational Science and Engineering</a><ul class="menu"><li class="first collapsed"><a href="/programs/graduate/computational-science-and-engineering/master-of-science-in-cse">Master of Science in CSE</a></li>
+<li class="collapsed"><a href="/programs/graduate/computational-science-and-engineering/master-of-engineering-in-cse">Master of Engineering in CSE</a></li>
+<li class="collapsed"><a href="/programs/graduate/computational-science-and-engineering/secondary-field-in-cse">Secondary Field in CSE</a></li>
+<li class="leaf active-trail"><a href="/programs/graduate/computational-science-and-engineering/cse-courses" class="active-trail active">CSE courses</a></li>
+<li class="leaf"><a href="/programs/graduate/computational-science-and-engineering/after-your-masters">After Your Master&#039;s</a></li>
+<li class="collapsed"><a href="/programs/graduate/computational-science-and-engineering/computefest" title="Computefest">Computefest</a></li>
+<li class="last collapsed"><a href="/programs/graduate/computational-science-and-engineering/2014-2015-iacs-seminars" title="IACS Seminar Series">IACS Seminar Series</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</aside><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-cck-blocks block-field-sidebar block-cck-blocks-field-sidebar odd block-without-title" id="block-cck-blocks-field-sidebar">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="field field-name-field-sidebar field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p> </p>
+
+<p> </p>
+</div></div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-12 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-seas-feedback block-custom-feedback-block block-seas-feedback-custom-feedback-block odd block-without-title" id="block-seas-feedback-custom-feedback-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p id="groupcontact"><a href="http://www.seas.harvard.edu/feedback/27001"><em>Send feedback on this page</em></a></p>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></section>	  
+	
+			<footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-block block-26 block-block-26 odd block-without-title" id="block-block-26">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><img src="/sites/default/files/seaslogo_small_temp_spaced.png" /></p>
+    </div>
+  </div>
+</div><div class="block block-block block-61 block-block-61 even block-without-title" id="block-block-61">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p class="address">Harvard Paulson School<br />
+29 Oxford Street<br />
+Cambridge, MA 02138</p>
+
+<p class="footermap"><a href="https://maps.google.com/maps?q=29+Oxford+Street,+Cambridge,+MA&amp;hl=en&amp;ll=42.378614,-71.116583&amp;spn=0.009606,0.021329&amp;sll=42.378472,-71.116519&amp;sspn=0.009606,0.021329&amp;hnear=29+Oxford+St,+Cambridge,+Massachusetts+02138&amp;t=m&amp;z=16"><img alt="Google Map" src="/sites/default/files/google-map.png" /></a></p>
+
+<ul><li><a href="http://www.harvard.edu/">Harvard University</a></li>
+	<li><a href="http://trademark.harvard.edu/pages/trademark-notice">Trademark Notice</a></li>
+	<li><a href="/privacy-policy">Privacy Policy</a></li>
+</ul>    </div>
+  </div>
+</div><div class="block block-block block-36 block-block-36 odd block-without-title" id="block-block-36">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a class="red-twitter" href="https://twitter.com/hseas">Twitter</a> <a class="red-fb" href="https://www.facebook.com/hseas">Facebook</a> <a class="red-youtube" href="http://www.youtube.com/c/harvardengineering">YouTube</a> <a class="red-rss" href="/news.xml">RSS News</a> <a class="red-tumblr" href="http://harvardseas.tumblr.com/">Tumblr</a> <a class="red-linkedin" href="http://www.linkedin.com/company/harvard-school-of-engineering-and-applied-sciences">LinkedIn</a></p>
+
+<p>© 2017 President and Fellows of Harvard College</p>
+    </div>
+  </div>
+</div><div class="block block-block block-71 block-block-71 even block-without-title" id="block-block-71">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a href="/academic-affairs/faculty-research-lecturer-positions" title="Faculty Positions">Faculty, Researcher, and Lecturer Positions</a> - <a href="/academic-affairs/postdoctoral-fellow-positions" title="Postdoctoral Positions">Postdoctoral &amp; Fellowship Positions</a> - <a href="https://sjobs.brassring.com/1033/ASP/TG/cim_searchresults.asp?PartnerId=25240&amp;SiteId=5341&amp;Function=LinkQuery&amp;LinkId=1246">Staff Positions</a></p>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>	</div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+    <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>  </div>
+</div><script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__Ccf-Jr-jt7ATZMvr3bqRdkxcTjGwQYUVpohrsYa0I7E__-UagLnp8K8-TyKWgKPe65iPqmdqp2zBSKrivrGqEZno__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__QwkAkZUm4E4Xwmrrrv2LsBrXUFeqhptsVvTJn_4oJMM__pLZFGivtmrvo6UjT9h6QKAKyOY0gW0ZXbyRIjbbt1Sg__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__uo5mhxyStyMoE-RgKrHx0l5j1MCGIWX8tzUijl-ppcU__UpfvtHjdXJow7DRD-macwdELMKax-6_pi_V6SMaCsxg__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__DX0BICQraLIk_-y24QLYU46I77SfJZ-eB1e3Vxh3tvc__6wCxOKdvh9g8p-O63QicqmKkxA4S0-IC1S4pMftawVI__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__IfDBhJlJ0oV0q2aeMLhMkhuLRGu87rT5npkFmYcE8zQ__lsgMCiv5uBrjYyi3p199km26KhKL_rDNRf4xqJ6nvaQ__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-8171972-4", {"cookieDomain":"auto","siteSpeedSampleRate":100});ga("set", "anonymizeIp", true);ga("send", "pageview");jQuery(function() { 
+  jQuery.scrollDepth({
+    elements: ['#block-views-related-news-generic-block-3'] // Tracks when a visitor reaches the block at the bottom of a news article.
+  }); 
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//www.seas.harvard.edu/sites/default/files/advagg_js/js__a6NQUDI-6YWnMTKdTrZs_PvPoLdkMgM9SBo7IyqqfeQ__-PopjtTrGfogEWOvcdf2PhGe_3LeuJhDl_OD9k3JjTo__FObGi6ebzF5cQTkETdXA8vif0_-MVzAPTJgBI_fYsPI.js"></script>
+</body>
+</html>

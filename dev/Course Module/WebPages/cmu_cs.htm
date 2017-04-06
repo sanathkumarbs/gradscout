@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+<title>Computer Science Department Courses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="google-site-verification" content="C4a08iPu_5dUk4lWlyazg0KdyXo9KyRdjuNunowU11I" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Carnegie-Mellon Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link href="/cmucatalog.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+<link href="/cmucatalogmobile.css" type="text/css" rel="stylesheet" media="only screen and (max-width: 854px)" />
+<link rel="stylesheet" href="/js/lfjs.css" type="text/css" title="no title" charset="utf-8" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script>
+	function getElementsByClassName(className, tag) {
+		var ret = [];
+		if (document.getElementsByClassName) {
+			var els = document.getElementsByClassName(className);
+			var nodere = (tag)? new RegExp("\\b" + tag + "\\b", "i") : null;
+			for(var i=0; i < els.length; i++) {
+				if(nodere.test(els[i].nodeName)) {
+					ret[ret.length] = els[i];
+				}
+			}
+		} else {
+			var els = document.getElementsByTagName(tag);
+			for(var i=0; i < els.length; i++) {
+				if(els[i].className == className)
+					ret[ret.length] = els[i];
+			}
+		}
+		return ret;
+	}
+	function showNav() {
+		var els = getElementsByClassName("topnav", "a");
+		for(var i=0; i < els.length; i++) {
+			els[i].style.display = "block";
+		}
+	}
+	function hideNav() {
+		var els = getElementsByClassName("topnav", "a");
+		for(var i=0; i < els.length; i++) {
+			els[i].style.display = "none";
+		}
+	}
+	function loaded() {
+		if(window.location.hash.length > 0 && window.location.hash != "#top" && window.location.hash != "top")
+			showNav();
+		else
+			hideNav();
+	}
+	function showPDF() {
+		var new_win = window.open("/courseleaf/getpdf.cgi?page=/schoolofcomputerscience/courses/index.html",
+			"pdf", "resizable,height=800,width=1000,scrollbars");
+		new_win.focus();
+		return false;
+	}
+function goURL(selEl) {
+	if (selEl.value.length) {
+		if (selEl.value.indexOf("#") == 0) {
+			showNav();
+			window.top.location.hash = selEl.value;
+		} else
+			window.top.location.href = selEl.value ;
+	}
+}
+</script>
+
+</head>
+
+<body onLoad="loaded();">
+
+
+<!--htdig_noindex-->
+<a name="top"></a>
+<div id="header">
+	<table width="100%" cellpadding="0" cellspacing="0">
+    	<tbody>
+        	<tr>
+				<td class="first"><img src="/depts/header_15.png"></td>
+            </tr>
+        </tbody>
+    </table>
+	<div class="mobile">2016-2017 Undergraduate Catalog</div>
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" id="layout-table">
+	<tr>
+		<td valign="top">
+			<div id="navigation">
+				<ul>
+					<li class="first"><a href="/">Catalog Home</a></li>
+					<li><a href="/azindex/">A-Z Directory</a></li>
+					<li><a href="/catalogcontents/">Catalog Contents</a></li>
+					<li><a href="/previous/">Previous Catalogs</a></li>
+					<!--<li><a href="/1213_catalog.pdf" title="2012-2013 Catalog">PDF version</a></li>-->
+				</ul>
+				<div style="clear: left;"></div>
+			</div>
+			<form method="get" action="/search/" id="search-formmobile" class="mobile">
+				<h4>Search | <a href="#" onclick="showPrintDialog(); return false;">Print Options</a></h4>
+				<input type="text" id="search-input" name="P" size="32" maxlength="256" value="" />
+				<input type="image" align="absmiddle" src="/images/btn_go.gif" id="search-submit"/>
+			</form>
+			<p id="breadcrumbs">
+<a href="/">Catalog Home</a> &gt; <a href="/schoolofcomputerscience/" class="breadcrumb">School of Computer Science</a> &gt; Computer Science Department Courses			</p>
+		</td>
+		<td valign="top">
+			<form method="get" action="/search/" id="search-form">
+				<h4>Search | <a href="#" onclick="showPrintDialog(); return false;">Print Options</a></h4>
+                <input type="text" id="search-input" name="P" size="32" maxlength="256" value="" />
+				<input type="image" align="absmiddle" src="/images/btn_go.gif" id="search-submit"/>
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" id="left-col">
+<div id="content">
+<!--/htdig_noindex-->
+<!-- ***startbody*** -->
+
+			<h1 class="page-title">Computer Science Department Courses</h1>
+
+<p></p>
+
+ <h6>Note on Course Numbers</h6> <p>Each Carnegie Mellon course number begins with a two-digit prefix which designates the department offering the course (76-xxx courses are offered by the Department of English, etc.). Although each department maintains its own course numbering practices, typically the first digit after the prefix indicates the class level: xx-1xx courses are freshmen-level, xx-2xx courses are sophomore level, etc. xx-6xx courses may be either undergraduate senior-level or graduate-level, depending on the department. xx-7xx courses and higher are graduate-level. Please consult the <a href="https://enr-apps.as.cmu.edu/open/SOC/SOCServlet" target="_blank">Schedule of Classes </a>each semester for course offerings and for any necessary pre-requisites or co-requisites.</p>
+<a name="courseinventory"> </a>
+<div class="courses">
+<a name="15courses"></a>
+
+
+<dl class="courseblock">
+<dt class="keepwithnext">15-050 Study Abroad</dt>
+<dd>All Semesters<br />Students who are interested in studying abroad should first contact the Office of International Education. More information on Study Abroad is available on OIE's Study Abroad page and at the CS Undergraduate Office.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-075 Computer Science Co-Op</dt>
+<dd>Fall and Spring<br />This course is meant for CS undergraduate students with a full-time internship that encompasses a summer and a contiguous semester, either Spring-Summer or Summer-Fall who wish to have this recorded on their academic transcript. Units posted for this course do not count toward any requirement for the CS undergraduate degree including free elective units. This course is not available to international students; consult with the Office for International Education for more information.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-090 Computer Science Practicum</dt>
+<dd>Summer: 3 units<br />This course is for Computer Science students who wish to have an  internship experience as part of their curriculum. Students are required  to write a one-page summary statement prior to registration that  explains how their internship connects with their CS curriculum,  specifically on how it uses material they have learned as well as  prepares them for future courses. Near the end of the internship,  students will be required to submit a reflection paper that describes  the work they did in more detail, including lessons learned about the  work experience and how they utilized their CS education to work  effectively. International students should consult with the Office of  International Education for appropriate paperwork and additional  requirements before registration. Units earned count toward the total  required units necessary for degree completion; students should speak  with an academic advisor for details. This course may be taken at most 3  times for a total of 9 units maximum. Students normally register for  this course for use during the summer semester.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-104 Introduction to Computing for Creative Practice</dt>
+<dd>Fall: 10 units<br />[IDeATe portal course] An introduction to fundamental computing principles and programming techniques for creative cultural practices, with special consideration to applications in music, design and the visual arts. Intended for students with little to no prior programming experience, the course develops skills and understanding of text-based programming in a procedural style, including idioms of sequencing, selection, iteration, and recursion. Topics include data organization (arrays, files, trees), interfaces and abstraction (modular software design, using sensor data and software libraries), basic algorithms (searching and sorting), and computational principles (randomness, concurrency, complexity). Intended for students following an IDEATE concentration or minor who have not taken <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a>.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-110 Principles of Computing</dt>
+<dd>Fall: 10 units<br />A course in fundamental computing principles for students with minimal or no  computing background. Programming constructs: sequencing, selection,  iteration, and recursion. Data organization: arrays and lists. Use of  abstraction in computing: data representation, computer organization,  computer networks, functional decomposition, and application programming  interfaces. Use of computational principles in problem-solving: divide and conquer, randomness, and concurrency. Classification of computational problems  based on complexity, non-computable functions, and using heuristics to  find reasonable solutions to complex problems. Social, ethical and legal  issues associated with the development of new computational artifacts will  also be discussed.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-112 Fundamentals of Programming and Computer Science</dt>
+<dd>All Semesters: 12 units<br />A technical introduction to the fundamentals of programming with an emphasis  on producing clear, robust, and reasonably efficient code using top-down  design, informal analysis, and effective testing and debugging. Starting  from first principles, we will cover a large subset of the Python  programming language, including its standard libraries and programming  paradigms.  We will also target numerous deployment scenarios, including  standalone programs, shell scripts, and web-based applications.  This course assumes no prior programming experience. Even so, it is a  fast-paced and rigorous preparation for <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a>.  Students seeking a more  gentle introduction to computer science should consider first taking <a href="/search/?P=15-110" title="15-110" class="bubblelink code" onclick="return showCourse(this, '15-110');">15-110</a>.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-121 Introduction to Data Structures</dt>
+<dd>Fall and Spring: 10 units<br />A continuation of the process of program design and analysis for  students with some prior programming experience (functions, loops, and  arrays, not necessarily in Java). The course reinforces object-oriented  programming techniques in Java and covers data aggregates, data  structures (e.g., linked lists, stacks, queues, trees, and graphs), and  an introduction to the analysis of algorithms that operate on those data  structures.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-122 Principles of Imperative Computation</dt>
+<dd>Fall and Spring: 10 units<br />For students with a basic understanding of programming (variables, expressions, loops, arrays, functions). Teaches imperative programming and methods for ensuring the correctness of programs.  Students will learn the process and concepts needed to go from high-level descriptions of algorithms to correct imperative implementations, with specific application to basic data structures and algorithms.  Much of the course will be conducted in a subset of C amenable to verification, with a transition to full C near the end. This course prepares students for <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> and <a href="/search/?P=15-210" title="15-210" class="bubblelink code" onclick="return showCourse(this, '15-210');">15-210</a>.  NOTE: students must achieve a C or better in order to use  this course to satisfy the pre-requisite for any subsequent Computer  Science course.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />Corequisites: <a href="/search/?P=15-151" title="15-151" class="bubblelink code" onclick="return showCourse(this, '15-151');">15-151</a> and <a href="/search/?P=21-127" title="21-127" class="bubblelink code" onclick="return showCourse(this, '21-127');">21-127</a><br/>Course Website: <a href="http://www.cs.cmu.edu/~15122" target="_blank">http://www.cs.cmu.edu/~15122</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-128 Freshman Immigration Course</dt>
+<dd>Fall: 1 unit<br />The Freshman Immigration Course is taken by first-semester Computer Science majors on the Pittsburgh campus. The course is designed to acquaint incoming majors with computer science at CMU. Talks range from historical perspectives in the field to descriptions of the cutting edge research being conducted in the School of Computer Science. Enrollment is limited to SCS Freshmen ONLY.<br />
+<br/>Course Website: <a href="http://www.andrew.cmu.edu/course/15-128/" target="_blank">http://www.andrew.cmu.edu/course/15-128/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-129 Freshman Immigration II</dt>
+<dd>Fall: 3 units<br />This course is ONLY offered at Carnegie Mellon in Qatar.    Students and instructors will solve different problems each week by searching the Web and other likely places for answers. The problems will be submitted by other faculty who will grade the quality of the answers. Students will learn strategies and techniques for finding information on the Web more efficiently; learn when to start with a search engine, a subject-oriented directory, or other tools; explore and practice using advanced search syntax for major search engines; experience specialized search engines for images, sound, multimedia, newsgroups, and discussion lists as well as subject-specific search engines; discover valuable resources to help keep you up-to-date in this fast-changing environment.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-131 Great Practical Ideas for Computer Scientists</dt>
+<dd>2 units<br />THIS COURSE IS OPEN TO CS FRESHMAN ONLY. Throughout your education as a Computer Scientist at Carnegie Mellon, you will take courses on programming, theoretical ideas, logic, systems, etc. As you progress, you will be expected to pick up the so-called "tools of the trade." This course is intended to help you learn what you need to know in a friendly, low-stress, high-support way. We will discuss UNIX, LaTeX, debugging and many other essential tools. Laptop required. (Laptops will be available for those without their own laptops.)<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-150 Principles of Functional Programming</dt>
+<dd>Fall and Spring: 10 units<br />An introduction to programming based on a "functional" model of computation.  The functional model is a natural generalization of algebra in which programs are formulas that describe the output of a computation in terms of its inputs&#8212;-that is, as a function.  But instead of being confined to real- or complex-valued functions, the functional model extends the algebraic view to a very rich class of data types, including not only aggregates built up from other types, but also functions themselves as values.  This course is an introduction to programming that is focused on the central concepts of function and type.  One major theme is the interplay between inductive types, which are built up incrementally; recursive functions, which compute over inductive types by decomposition; and proof by structural induction, which is used to prove the correctness and time complexity of a recursive function.  Another major theme is the role of types in structuring large programs into separate modules, and the integration of imperative programming through the introduction of data types whose values may be altered during computation.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course.<br />Prerequisites: (<a href="/search/?P=15-151" title="15-151" class="bubblelink code" onclick="return showCourse(this, '15-151');">15-151</a> Min. grade C or <a href="/search/?P=21-127" title="21-127" class="bubblelink code" onclick="return showCourse(this, '21-127');">21-127</a> Min. grade C) and <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-151 Mathematical Foundations for Computer Science</dt>
+<dd>Fall: 10 units<br />This course is offered to incoming Computer Science freshmen and focuses on the fundamental concepts in Mathematics that are of particular interest to Computer Science such as logic, sets,induction, functions, and combinatorics. These topics are used as a context in which students learn to formalize arguments using the methods of mathematical proof.  This course uses experimentation and collaboration as ways to gain better understanding of the material.  Open to CS freshmen only. NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer Science course.<br />Corequisite: 15-152<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-199 Special Topics: Discovering Logic</dt>
+<dd>Intermittent: 3 units<br />This course is ONLY offered at Carnegie Mellon in Qatar.  This course has the purpose of introducing first-year Computer Science students to elements of formal logic as well as to the historical context in which this discipline developed. As all subsequent courses in the CS curriculum rely on students having mastered basic logical notions and skills, it will test and enhance your preparation, thereby putting you in a better position to succeed in the program. It will also help you understand and appreciate how CS came about since Computer Science grew out of logic. The specific knowledge and skills you will learn in is course include: an enhanced ability to research topics, give presentations and write technical prose, some elementary logic, some historical depth into Computer Science, mathematics and logic itself. This course is open to Computer Science freshmen only.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-210 Parallel and Sequential Data Structures and Algorithms</dt>
+<dd>Fall and Spring: 12 units<br />Teaches students about how to design, analyze, and program algorithms and data structures.  The course emphasizes parallel algorithms and analysis, and how sequential algorithms can be considered a special case.  The course goes into more theoretical content on algorithm analysis than <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> and <a href="/search/?P=15-150" title="15-150" class="bubblelink code" onclick="return showCourse(this, '15-150');">15-150</a> while still including a significant programming component and covering a variety of practical applications such as problems in data analysis, graphics, text processing, and the computational sciences.  NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer  Science course.<br />Prerequisites: <a href="/search/?P=15-150" title="15-150" class="bubblelink code" onclick="return showCourse(this, '15-150');">15-150</a> Min. grade C and <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-213 Introduction to Computer Systems</dt>
+<dd>Fall and Spring: 12 units<br />This course provides a programmer's view of how computer systems execute programs, store information, and communicate. It enables students to become more effective programmers, especially in dealing with issues of performance, portability and robustness. It also serves as a foundation for courses on compilers, networks, operating systems, and computer architecture, where a deeper understanding of systems-level issues is required. Topics covered include: machine-level code and its generation by optimizing compilers, performance evaluation and optimization, computer arithmetic, memory organization and management, networking technology and protocols, and supporting concurrent computation. NOTE FOR GRADUATE STUDENTS: This course is not open to graduate students beginning Spring 2015. Graduate students must register for 15-513 instead.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-214 Principles of Software Construction: Objects, Design, and Concurrency</dt>
+<dd>Fall and Spring: 12 units<br />Software engineers today are less likely to design data structures and algorithms from scratch and more likely to build systems from library and framework components. In this course, students engage with concepts related to the construction of software systems at scale, building on their understanding of the basic building blocks of data structures, algorithms, program structures, and computer structures. The course covers technical topics in four areas: (1) concepts of design for complex systems, (2) object oriented programming, (3) static and dynamic analysis for programs, and (4) concurrent and distributed software. Student assignments involve engagement with complex software such as distributed massively multi-player game systems and frameworks for graphical user interaction.<br />Prerequisites: (<a href="/search/?P=15-121" title="15-121" class="bubblelink code" onclick="return showCourse(this, '15-121');">15-121</a> Min. grade C or <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C) and (<a href="/search/?P=15-151" title="15-151" class="bubblelink code" onclick="return showCourse(this, '15-151');">15-151</a> Min. grade C or <a href="/search/?P=21-127" title="21-127" class="bubblelink code" onclick="return showCourse(this, '21-127');">21-127</a> Min. grade C)<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-221 Technical Communication for Computer Scientists</dt>
+<dd>All Semesters: 9 units<br />The course is designed for sophomore computer science majors to improve their  abilities in practical, professional communications (both written and oral).  It aims to help students compose clear, concise technical writings and oral  presentations for multi-level audiences.  Assignments include technical  definitions, descriptions, instructions, process explanations, abstracts,  memos, and research reports.  Assignments may incorporate recent computer  science research at Carnegie Mellon, projects in related technical courses,  and professional case studies.  Sophomores will likely find the course more useful if they have either had an internship or faculty-supervised research, including SURG projects prior to enrollment.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-237 Special Topic: Cross-Platform Mobile Web Apps</dt>
+<dd>12 units<br />An introduction to writing cross-platform mobile web apps.  Using a tool chain based on HTML5, CSS3, JavaScript, and a variety of supporting frameworks, we will write apps that are effectively designed both for desktop and mobile browsers, and which can be converted into native apps for Android, iOS, and Windows Phone 7 devices.  Additional topics will include designing user interfaces for mobile devices, accessing mobile device API's (such as accelerometer, GPS, compass, or camera), and power management issues.  While this course focuses on browser-side technologies, we will briefly explore JavaScript-based server-side technologies (though students should consider <a href="/search/?P=15-437" title="15-437" class="bubblelink code" onclick="return showCourse(this, '15-437');">15-437</a> for extensive treatment of server-side topics).  Note that we will not be writing native apps in Objective-C for iOS nor in Java for Android, though we may include some brief exposure to these technologies near the end of the course.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-251 Great Theoretical Ideas in Computer Science</dt>
+<dd>Fall and Spring: 12 units<br />This course is about how to use theoretical ideas to formulate and solve problems in computer science. It integrates mathematical material with general problem solving techniques and computer science applications. Examples are drawn from algorithms, complexity theory, game theory, probability theory, graph theory, automata theory, algebra, cryptography, and combinatorics. Assignments involve both mathematical proofs and programming.  NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer Science course.<br />Prerequisites: (<a href="/search/?P=15-150" title="15-150" class="bubblelink code" onclick="return showCourse(this, '15-150');">15-150</a> Min. grade C or <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C) and (<a href="/search/?P=15-151" title="15-151" class="bubblelink code" onclick="return showCourse(this, '15-151');">15-151</a> Min. grade C or <a href="/search/?P=21-127" title="21-127" class="bubblelink code" onclick="return showCourse(this, '21-127');">21-127</a> Min. grade C)<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~15251" target="_blank">http://www.cs.cmu.edu/~15251</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-294 Special Topic: Rapid Prototyping Technologies</dt>
+<dd>Intermittent: 5 units<br />This mini-course introduces students to rapid prototyping technologies with a focus on laser cutting and 3D printing.  The course has three components: 1) A survey of rapid prototyping and additive manufacturing technologies, the maker and open source movements, and societal impacts of these technologies; 2) An introduction to the computer science behind these technologies: CAD tools, file formats, slicing algorithms; 3) Hands-on experience with SolidWorks, laser cutting, and 3D printing, culminating in student projects (e.g. artistic creations, functional objects, replicas of famous calculating machines, etc.). Please note that there will be a usage/materials fee for this course.<br />Prerequisites: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C or <a href="/search/?P=15-104" title="15-104" class="bubblelink code" onclick="return showCourse(this, '15-104');">15-104</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-295 Competition Programming and Problem Solving</dt>
+<dd>Fall and Spring: 5 units<br />Each year, Carnegie Mellon fields two teams for participation in the ACM-ICPC Regional Programming Contest. During many recent years, one of those teams has earned the right to represent Carnegie Mellon at the ACM-ICPC World Finals.  This course is a vehicle for those who consistently and rigorously train in preparation for the contests to earn course credit for their effort and achievement.  Preparation involves the study of algorithms, the practice of programming and debugging, the development of test sets, and the growth of team, communication, and problem solving skills.  Neither the course grade nor the number of units earned are dependent on ranking in any contest.  Students are not required to earn course credit to participate in practices or to compete in ACM-ICPC events.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-300 Research and Innovation in Computer Science</dt>
+<dd>Fall: 9 units<br />This Fall course is the first part of a two-course sequence that is designed to help prepare students to invent the future state-of-the-art in the field of computer science. Course topics will include the following: an overview of important things to know about how research and innovation works in the field of computer science; a survey of the current cutting- edge of computer science research, both here at Carnegie Mellon and elsewhere; critical thinking skills when reading research publications that disagree with each other; strategies for coping with open-ended problems; and technical communication skills for computer scientists. Students will also match up with a faculty mentor for a potential Technology Innovation Project (to be performed in the Spring), put together a detailed plan of attack for that project, and start to get up to speed (including background reading, etc.). This course can be used to satisfy the Technical Communications requirement for the CS major.<br />Prerequisites: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C and <a href="/search/?P=15-210" title="15-210" class="bubblelink code" onclick="return showCourse(this, '15-210');">15-210</a> Min. grade C and <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C and <a href="/search/?P=76-101" title="76-101" class="bubblelink code" onclick="return showCourse(this, '76-101');">76-101</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-312 Foundations of Programming Languages</dt>
+<dd>Spring: 12 units<br />This course discusses in depth many of the concepts underlying the design, definition, implementation, and use of modern programming languages. Formal approaches to defining the syntax and semantics are used to describe the fundamental concepts underlying programming languages. A variety of programming paradigms are covered such as imperative, functional, logic, and concurrent programming. In addition to the formal studies, experience with programming in the languages is used to illustrate how different design goals can lead to radically different languages and models of computation.<br />Prerequisites: (<a href="/search/?P=15-210" title="15-210" class="bubblelink code" onclick="return showCourse(this, '15-210');">15-210</a> Min. grade C and <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C) or 15-212 Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-313 Foundations of Software Engineering</dt>
+<dd>Fall: 12 units<br />Students gain exposure to the fundamentals of modern software  engineering.  This includes both core CS technical knowledge and  the means by which this knowledge can be applied in the practical  engineering of complex software.  Topics related to software  artifacts include design models, patterns, coding, static and  dynamic analysis, testing and inspection, measurement, and  software architecture and frameworks.  Topics related to software  process include modeling, requirements engineering, process models  and evaluation, team development, and supply chain issues  including outsourcing and open source.  This course has a strong  technical focus, and will include both written and programming  assignments.  Students will get experience with modern software  engineering tools.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-314 Special Topic: Programming Language Semantics</dt>
+<dd>Spring: 12 units<br />This course is designed for advanced undergraduates with interests in  the mathematical and logical foundations of programming languages. The  course introduces the foundational concepts and fundamental techniques  of the most prominent and successful approaches to programming language  semantics that have been developed. Broadly speaking, semantics is  concerned with the provision of mathematical meanings to programs, at an  appropriate level of abstraction, to allow formalization of program  behavior and facilitate proofs of correctness. Our aim is to demonstrate  the utility of a scientific approach to programming and languages. We  focus on the most important and most general frameworks for semantic  description: denotational and operational semantics. These frameworks  are widely applicable and offer complementary approaches to language  definition, with various advantages. We also discuss formal  specifications, and logics of program correctness. We make extensive use  of mathematical and structural induction, and computational induction.  We use semantics to describe program behavior, guide the development of  correct programs, specify and prove the correctness of a compiler,  validate program logics, and derive laws of program equivalence. We  discuss imperative and functional languages, sequential and parallel,  high-level and low-level, as time permits.<br />Prerequisites: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C and <a href="/search/?P=15-150" title="15-150" class="bubblelink code" onclick="return showCourse(this, '15-150');">15-150</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-316 Software Foundations of Security and Privacy</dt>
+<dd>Spring: 9 units<br />Security and privacy issues in computer systems continue to be a pervasive issue in technology and society. Understanding the security and privacy needs of software, and being able to rigorously demonstrate that those needs are met, is key to eliminating vulnerabilities that cause these issues. Students who take this course will learn the principles needed to make these assurances about software, and some of the key strategies used to make sure that they are correctly implemented in practice. Topics include: policy models and mechanisms for confidentiality, integrity, and availability, language-based techniques for detecting and preventing security threats, mechanisms for enforcing privacy guarantees, and the interaction between software and underlying systems that can give rise to practical security threats. Students will also gain experience applying many of these techniques to write code that is secure by construction.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-317 Constructive Logic</dt>
+<dd>Fall: 9 units<br />This multidisciplinary junior-level course is designed to provide a thorough introduction to modern constructive logic, its roots in philosophy, its numerous applications in computer science, and its mathematical properties. Some of the topics to be covered are intuitionistic logic, inductive definitions, functional programming, type theory, realizability, connections between classical and constructive logic, decidable classes.<br />Prerequisite: <a href="/search/?P=15-150" title="15-150" class="bubblelink code" onclick="return showCourse(this, '15-150');">15-150</a> Min. grade C<br />
+<br/>Course Website: <a href="http://symbolaris.com/course/constlog16.html" target="_blank">http://symbolaris.com/course/constlog16.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-319 Cloud Computing</dt>
+<dd>Fall and Spring: 9 units<br />This course gives students an overview of Cloud Computing, which is the delivery of computing as a service over a network, whereby distributed resources are rented, rather than owned, by an end user as a utility. Students will study its enabling technologies, building blocks, and gain hands-on experience through projects utilizing public cloud infrastructures.  Cloud computing services are widely adopted by many organizations across domains.  The course will introduce the cloud and cover the topics of data centers, software stack, virtualization, software defined networks and storage, cloud storage, and programming models. We will start by discussing the clouds motivating factors, benefits, challenges, service models, SLAs and security. We will describe several concepts behind data center design and management, which enable the economic and technological benefits of the cloud paradigm. Next, we will study how CPU, memory and I/O resources, network (SDN) and storage (SDS) are virtualized, and the key role of virtualization to enable the cloud. Subsequently, students will study cloud storage concepts like data distribution, durability, consistency and redundancy. We will discuss distributed file systems, NoSQL databases and object storage using HDFS, CephFS, HBASE, MongoDB, Cassandra, DynamoDB, S3, and Swift as case studies. Finally, students will study the MapReduce, Spark and GraphLab programming models. Students will work with Amazon Web Services and Microsoft Azure, to rent and provision compute resources and then program and deploy applications using these resources. Students will develop and evaluate scaling and load balancing solutions, work with cloud storage systems, and develop applications in several programming paradigms. 15619 students must complete an extra team project which entails designing and implementing a cost- and performance-sensitive web-service for querying big data.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-321 Research Methods for Experimental Computer Science</dt>
+<dd>Fall: 9 units<br />The success or failure of an experiment can turn on the details of how the experiment was performed &#8212; the experimental method. It is critical that the methodology be consistent with whatever research hypothesis is being pursued.  The goal of this project-based course is to give students familiarity with and appreciation for the subtleties of a range of experimental techniques essential to high-quality empirical research.  The course is based on a project that will illustrate important concepts of research methods.  Example topics include user-study design and operation, data gathering, data diagnosis, experiment design and execution, signal detection, performance evaluation, error analysis, reporting results, etc.  The project will explore the challenging open problem of keystroke dynamics, a biometric regime which seeks to identify/authenticate/discriminate users on the basis of their typing styles.  In this context, numerous methodological issues provide the stimulus for learning how to perform empirical research from the beginning to the end of a project.  Lectures will present necessary background material about the problem area and experimental methods; homework assignments and a team project will give students guided, hands-on, research and practical experience.  At the end of the course, students will be acquainted with the basic issues in experimental methods, and will be able to perform independent work using the lessons learned and resources provided.  Enrollment is limited to graduate students, juniors, and seniors. It will be helpful for students to have some experience with scripting languages (e.g., Perl, Python, Tcl, etc), statistically-oriented packages (e.g., R, Matlab, Weka) or other implementations of various machine-learning-type classifiers.  This course can be used to satisfy the Lab requirement for the Computer Science major.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-322 Introduction to Computer Music</dt>
+<dd>Fall: 9 units<br />Computers are used to synthesize sound, process signals, and  compose music. Personal computers have replaced studios full of sound  recording and processing equipment, completing a revolution that began with  recording and electronics. In this course, students will learn the  fundamentals of digital audio, basic sound synthesis algorithms, and  techniques for digital audio effects and processing. Students will apply  their knowledge in programming assignments using a very high-level  programming language for sound synthesis and composition. In a final  project, students will demonstrate their mastery of tools and techniques  through music composition or by the implementation of a significant  sound-processing technique.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-323 Computer Music Systems and Information Processing</dt>
+<dd>Spring: 9 units<br />This course presents concepts and techniques for representing and manipulating discrete music information, both in real time and off line. Representations of music as explicitly timed event sequences will be introduced, and students will learn how to build efficient run-time systems for event scheduling, tempo control, and interactive processing. The MIDI protocol is used to capture real-time performance information and to generate sound. The course will also cover non-real-time processing of music data, including Markov models, style recognition, computer accompaniment, query-by-humming, and algorithmic composition. This course is independent of, and complementary to <a href="/search/?P=15-322" title="15-322" class="bubblelink code" onclick="return showCourse(this, '15-322');">15-322</a>, Introduction to Computer Music, which focuses on sound synthesis and signal processing.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-346 Special Topic: Perspectives in Computer Architecture</dt>
+<dd>Intermittent: 6 units<br />This course is ONLY offered at Carnegie Mellon in Qatar.  This course will provide various perspectives in the field of computer architecture by world renowned scientists. The course will bring together basic architecture principles and designs of uniprocessor and multicore computers. First, we introduce the Von-Neuman architecture and the major hardware components of a modern computer. Students will learn how to describe an architecture design using a Hardware Description Language such as Verilog. Second, we will learn basic architectural techniques including instruction level parallelism, pipelining and cache memory. An overview of multicore architectures, specifically on how they differ from uniprocessor ones, the promises they offer, and the serious challenges they bring, will be provided. We will also discuss cache organization techniques in multicores. Students will gain insight into the designing principles that dominated past processor architectures and how they will continue to change for future processor design targeting emerging technologies such as mobile and wearable computing. The concepts delivered in the lectures will be reinforced and extended through student presentations on multiple directions in computer architecture.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-348 Embedded Systems</dt>
+<dd>Spring: 9 units<br />This course is offered only at Carnegie Mellon's campus in Qatar.  This course covers the broad range of foundational skills that apply across all embedded computer system application areas, from thermostats to self-driving vehicles. The emphasis is at the layer where hardware meets software. Topics include microcontroller hardware, assembly language, embedded C programming, analog I/O, timers, code optimization, interrupts, and concurrency. Real world engineering practices, constraints, and example applications are integrated throughout the course. Weekly hands-on hardware and software experiences with an industry-strength automotive embedded controller are coordinated with the lecture content to reinforce core skills.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-349 Introduction to Computer and Network Security</dt>
+<dd>Fall: 9 units<br />This course is ONLY offered at Carnegie Mellon in Qatar.    This course is meant to offer Computer Science undergraduate students in  their junior or senior year a broad overview of the field of computer  security. Students will learn the basic concepts in computer security  including software vulnerability analysis and defense, networking and  wireless security, applied cryptography, as well as ethical, legal,  social and economic facets of security. Students will also learn the  fundamental methodology for how to design and analyze security critical  systems.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-351 Algorithms and Advanced Data Structures</dt>
+<dd>Fall: 12 units<br />The objective of this course is to study algorithms for general computational problems, with a focus on the principles used to design those algorithms. Efficient data structures will be discussed to support these algorithmic concepts. Topics include: Run time analysis, divide-and-conquer algorithms, dynamic programming algorithms, network flow algorithms, linear and integer programming, large-scale search algorithms and heuristics, efficient data storage and query, and NP-completeness. Although this course may have a few programming assignments, it is primarily not a programming course. Instead, it will focus on the design and analysis of algorithms for general classes of problems. This course is not open to CS graduate students who should consider taking 15-651 instead. THIS COURSE IS NOT OPEN TO COMPUTER SCIENCE MAJORS OR MINORS.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-354 Computational Discrete Mathematics</dt>
+<dd>Intermittent: 12 units<br />This course is about the computational aspects of some of the standard  concepts of discrete mathematics (relations, functions, logic, graphs,  algebra, automata), with emphasis on efficient algorithms.  We begin  with a brief introduction to computability and computational complexity. Other topics include: iteration, orbits and fixed points, order and equivalence relations, propositional logic and satisfiability testing, finite fields and shift register sequences, finite state machines, and cellular automata.    Computational support for some of the material is available in the form of a Mathematica package.<br />Prerequisites: <a href="/search/?P=21-228" title="21-228" class="bubblelink code" onclick="return showCourse(this, '21-228');">21-228</a> Min. grade C or <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~cdm/" target="_blank">http://www.cs.cmu.edu/~cdm/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-355 Modern Computer Algebra</dt>
+<dd>Fall: 9 units<br />The goal of this course is to investigate the relationship between algebra  and computation. The course is designed to expose students to algorithms  used for symbolic computation, as well as to the concepts from modern  algebra which are applied to the development of these algorithms. This  course provides a hands-on introduction to many of the most important ideas  used in symbolic mathematical computation, which involves solving system of  polynomial equations (via Groebner bases), analytic integration, and solving  linear difference equations. Throughout the course the computer algebra system Mathematica will be used for computation.<br />Prerequisites: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C or <a href="/search/?P=21-228" title="21-228" class="bubblelink code" onclick="return showCourse(this, '21-228');">21-228</a> Min. grade C<br />
+<br/>Course Website: <a href="http://www.andrew.cmu.edu/course/15-355/" target="_blank">http://www.andrew.cmu.edu/course/15-355/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-359 Probability and Computing</dt>
+<dd>Spring: 12 units<br />Probability theory has become indispensable in computer science.  In  areas such as artificial intelligence and computer science theory,  probabilistic methods and ideas based on randomization are central.  In other areas such as networks and systems, probability is becoming  an increasingly useful framework for handling uncertainty and modeling  the patterns of data that occur in complex systems.  This course gives  an introduction to probability as it is used in computer science  theory and practice, drawing on applications and current research  developments as motivation and context. Topics include combinatorial  probability and random graphs, heavy tail distributions, concentration  inequalities, various randomized algorithms, sampling random variables  and computer simulation, and Markov chains and their many  applications, from Web search engines to models of network protocols.  The course will assume familiarity with 3-D calculus and linear  algebra.<br />Prerequisite: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~harchol/15359/class.html" target="_blank">http://www.cs.cmu.edu/~harchol/15359/class.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-365 Experimental Animation</dt>
+<dd>Spring: 12 units<br />[IDeATe course] This class will explore animation from the student's perspective with a sense of investigation toward both form and content. Topics in the class will include non-linear narrative, visual music, puppet and non-traditional materials, manipulation of motion and performance capture data, immersive environments.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-369 Special Topics: Perceptual Computing</dt>
+<dd>Intermittent: 9 units<br />This course is ONLY offered at Carnegie Mellon in Qatar.  What can today's computers see, hear, and feel?  This project-based course is designed to provide students exposure to the state-of-the-art in machine perception and the algorithms behind them.  Student groups will design a perceptual computing project around Intel's Creative Camera or Microsoft's Kinect. Students will learn to use tools in face detection and recognition, hand and finger tracking, and speech recognition, along with algorithms to make decisions based on these input modalities.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-381 Artificial Intelligence: Representation and Problem Solving</dt>
+<dd>Fall: 9 units<br />This course is about the theory and practice of Artificial Intelligence. We will study modern techniques for computers to represent task-relevant information and make intelligent (i.e. satisficing or optimal) decisions towards the achievement of goals. The search and problem solving methods are applicable throughout a large range of industrial, civil, medical, financial, robotic, and information systems.  We will investigate questions about AI systems such as: how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal or near-optimal solutions.  We will also explore how to deal with uncertainty in the world, how to learn from experience, and how to learn decision rules from data.  We expect that by the end of the course students will have a thorough understanding of the algorithmic foundations of AI, how probability and AI are closely interrelated, and how automated agents learn.  We also expect students to acquire a strong appreciation of the big-picture aspects of developing fully autonomous intelligent agents.  Other lectures will introduce additional aspects of AI, including natural language processing, web-based search engines, industrial applications, autonomous robotics, and economic/game-theoretic decision making.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-383 Introduction to Text Processing</dt>
+<dd>Fall: 6 units<br />Text processing is a mini-course about text basic techniques of processing human language in text format.  The course has theoretical and hands-on components. In the theoretical component, the course will discuss challenges in processing human languages, and review the  basics of statistics and probability theory and their application to language problems.  In the hands-on part, students will learn about Python programming and use it to process large volumes of text using various  techniques. The processing will range from simple steps such as tokenization and part-of-speech tagging to full-fledged  applications such as  statistical machine translation,  search and document/topic classification.  The course is suited for junior and senior students in CS and IS.<br />Prerequisites: <a href="/search/?P=15-121" title="15-121" class="bubblelink code" onclick="return showCourse(this, '15-121');">15-121</a> Min. grade C or <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-385 Introduction to Computer Vision</dt>
+<dd>Spring: 6 units<br />An introduction to the science and engineering of computer vision,  i.e.  the analysis of the patterns in visual images with the view to  understanding the objects and processes in the world that generate  them.  Major topics include image formation and sensing, fourier  analysis, edge and contour detection, inference of depth, shape and  motion, classification, recognition, tracking, and active vision. The  emphasis is on the learning of fundamental mathematical concepts and  techniques and applying them to solve real vision problems. The  discussion will also include comparison with human and animal vision  from psychological and biological perspectives. Students will learn to  think mathematically and develop skills in translating ideas and  mathematical thoughts into programs to solve real vision problems.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-386 Neural Computation</dt>
+<dd>Spring: 9 units<br />Computational neuroscience is an interdisciplinary science that seeks to understand how the brain computes  to achieve  natural intelligence.  It seeks to understand the computational principles and mechanisms of intelligent behaviors and mental abilities &#8212; such as perception, language, motor control, and learning &#8212; by building artificial systems and computational models with the same capabilities. This course explores how neurons encode and process information, adapt and learn, communicate, cooperate, compete and compute at the individual level as well as at the levels of networks and systems. It will introduce basic concepts in computational modeling, information theory, signal processing, system analysis, statistical and probabilistic inference. Concrete examples will be drawn from the visual system and the motor systems,  and studied from computational, psychological and biological perspectives. Students will learn to perform computational experiments using Matlab and quantitative studies of neurons and neuronal networks.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-387 Computational Perception</dt>
+<dd>Fall: 9 units<br />In this course, we will first cover the biological and psychological foundational knowledge of biological perceptual systems, and then apply computational thinking to investigate the principles and mechanisms underlying natural perception. The course will focus on vision this year, but will also touch upon other sensory modalities. You will learn how to reason scientifically and computationally about problems and issues in perception, how to extract the essential computational properties of those abstract ideas, and finally how to convert these into explicit mathematical models and computational algorithms. Topics include perceptual representation and inference, perceptual organization, perceptual constancy, object recognition, learning and scene analysis. Prerequisites: First year college calculus, some basic knowledge of linear algebra and probability and some programming experience are desirable.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-388 Practical Data Science</dt>
+<dd>Fall: 9 units<br />Data science is the study and practice of how we can extract insight and knowledge from large amounts of data. This course provides a practical introduction to the "full stack" of data science analysis, including data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Topics covered include: collecting and processing data using relational methods, time series approaches, graph and network models, free text analysis, and spatial geographic methods; analyzing the data using a variety of statistical and machine learning methods include linear and non-linear regression and classification, unsupervised learning and anomaly detection, plus advanced machine learning methods like kernel approaches, boosting, or deep learning; visualizing and presenting data, particularly focusing the case of high-dimensional data; and applying these methods to big data settings, where multiple machines and distributed computation are needed to fully leverage the data.Students will complete weekly programming homework that emphasize practical understanding of the methods described in the course. In addition, students will develop a tutorial on an advanced topic, and will complete a group project that applies these data science techniques to a practical application chosen by the team; these two longer assignments will be done in lieu of a midterm or final.<br />Prerequisite: <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+<br/>Course Website: <a href="http://www.datasciencecourse.org" target="_blank">http://www.datasciencecourse.org</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-390 Entrepreneurship for Computer Science</dt>
+<dd>Fall: 9 units<br />This course is designed to develop skills related to entrepreneurship and innovation for non-business undergraduate and graduate students in the School of Computer Science.  The course assumes no background courses in business and is appropriate for those who are interested in bringing innovations to market either through new companies or existing companies.   The course provides an overview of entrepreneurship and innovation, develops an entrepreneurial frame of mind, and provides a framework for learning the rudiments of how to generate ideas.  Students come up with or are presented with potential ideas and learn how to develop these ideas into opportunities, and to explore their potential for becoming viable businesses.  They learn how to do market research, to develop go-to-market strategies, value propositions and to differentiate their products or services from potential competitors.  The focus is on understanding and developing strategies for approaching the key elements of the entrepreneurial process...opportunity, resources and team. The course consists of a balance of lectures, case studies and encounters with entrepreneurs, investors and business professionals.  The students are exposed to financial and intellectual property issues, and encounter a real world perspective on entrepreneurship, innovation and leadership.  The output of the course is a mini-business plan or venture opportunity screening document that can be developed into a business plan in a subsequent course entitled New Venture Creation or through independent study.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-392 Special Topic: Secure Programming</dt>
+<dd>Spring: 9 units<br />This course provides a detailed explanation of common programming errors  in C and C++ and describes how these errors can lead to software systems  that are vulnerable to exploitation. The course concentrates on security  issues intrinsic to the C and C++ programming languages and associated  libraries. It does not emphasize security issues involving interactions  with external systems such as databases and web servers, as these are  rich topics on their own. Topics to be covered include the secure and  insecure use of integers, arrays, strings, dynamic memory, formatted  input/output functions, and file I/O.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+<br/>Course Website: <a href="http://https://www.securecoding.cert.org/confluence/display/sci/15392+Secure+Programming" target="_blank">http://https://www.securecoding.cert.org/confluence/display/sci/15392+Secure+Programming</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-400 Research Practicum in Computer Science</dt>
+<dd>Spring: 12 units<br />This Spring course is the second part of a two-course sequence that is designed to help prepare students to invent the future state-of-the-art in the field of computer science.  Building directly upon <a href="/search/?P=15-300" title="15-300" class="bubblelink code" onclick="return showCourse(this, '15-300');">15-300</a> (the prerequisite for this course), students will conduct a semester-long independent research project, under the guidance of both the course staff and a faculty project mentor.  The course does not meet for lecture or recitations.  Instead, the students will spend their time working on their research projects, and will also meet with course staff on a bi-weekly basis to discuss their progress.  Students will prepare a written report and a poster presentation at the end of the semester to describe what they have accomplished.<br />Prerequisite: <a href="/search/?P=15-300" title="15-300" class="bubblelink code" onclick="return showCourse(this, '15-300');">15-300</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-405 Engineering Distributed Systems</dt>
+<dd>Spring: 9 units<br />This is a course for students with strong design and implementation skills who are likely to pursue careers as software architects and lead engineers.  It may be taken by well-prepared undergraduates with excellent design and implementation skills in low-level systems programing.  The course assumes a high level of proficiency in all aspects of operating system design and implementation.  This course will help students prepare for leadership roles in creating and evolving the complex, large-scale computer systems that society will increasingly depend on in the future.  The course will teach the organizing principles of such systems, identifying a core set of versatile techniques that are applicable across many system layers. Students will acquire the knowledge base, intellectual tools, hands-on skills and modes of thought needed to build well-engineered computer systems that withstand the test of time, growth in scale, and stresses of live use.   Topics covered include: caching, prefetching, damage containment, scale reduction, hints, replication, hash-based techniques, and fragmentation reduction.  A substantial project component is an integral part of the course.  A high level of proficiency in systems programming is expected. If you do not have the <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> prerequisite you will need to get approval from the faculty.<br />Prerequisite: <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> Min. grade B<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-410 Operating System Design and Implementation</dt>
+<dd>Fall and Spring: 15 units<br />Operating System Design and Implementation is a rigorous hands-on introduction to the principles and practice of operating systems. The core experience is writing a small Unix-inspired OS kernel, in C with some x86 assembly language, which runs on a PC hardware simulator (and on actual PC hardware if you wish).  Work is done in two-person teams, and "team programming" skills (source control, modularity, documentation) are emphasized.  The size and scope of the programming assignments typically result in students significantly developing their design, implementation, and debugging abilities. Core concepts include the process model, virtual memory, threads, synchronization, and deadlock; the course also surveys higher-level OS topics including file systems, interprocess communication, networking, and security.  Students, especially graduate students, who have not satisfied the prerequisite at Carnegie Mellon are strongly cautioned - to enter the class you must be able to write a storage allocator in C, use a debugger, understand 2's-complement arithmetic, and translate between C and x86 assembly language.  The instructor may require you to complete a skills assessment exercise before the first week of the semester in order to remain registered in the class.  Auditing:  this course is usually full, and we generally receive many more requests to audit than we can accept.  If you wish to audit, please have your advisor contact us before the semester begins to discuss your educational goals.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-411 Compiler Design</dt>
+<dd>Fall: 15 units<br />This course covers the design and implementation of compiler and run-time systems for high-level languages, and examines the interaction between language design, compiler design, and run-time organization. Topics covered include syntactic and lexical analysis, handling of user-defined types and type-checking, context analysis, code generation and optimization, and memory management and run-time organization.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+<br/>Course Website: <a href="http://symbolaris.com/course/compiler12.html" target="_blank">http://symbolaris.com/course/compiler12.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-412 Operating System Practicum</dt>
+<dd>Fall<br />The goal of this class is for students to acquire hands-on experience with operating-system code as it is developed and deployed in the real world.  Groups of two to four students will select, build, install, and become familiar with an open-source operating system project; propose a significant extension or upgrade to that project; and develop a production-quality implementation meeting the coding standards of that project.  Unless infeasible, the results will be submitted to the project for inclusion in the code base.  Variations on this theme are possible at the discretion of the instructor.  For example, it may be possible to work within the context of a non-operating-system software infrastructure project (window system, web server, or embedded network device kernel) or to extend a <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> student kernel.  In some situations students may work alone.  Group membership and unit count (9 units versus 12) will be decided by the third week of the semester.  Contributing to a real-world project will involve engaging in some mixture of messy, potentially open-ended activities such as: learning a revision control system, writing a short design document, creating and updating a simple project plan, participating in an informal code review, synthesizing scattered information about hardware and software, classifying and/or reading large amounts of code written by various people over a long period of time, etc.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-413 Software Engineering Practicum</dt>
+<dd>Spring: 12 units<br />This course is a project-based course in which students conduct a semester-long project for a real client in small teams. The project defines real world needs for the client in their company. This is not a lecture-based course; after the first few weeks the course consists primarily of weekly team meetings with the course instructors, with teams making regular presentations on their software development process. Teams will give presentations and deliver documents on topics such as:         risk management         project planning         requirements         architecture         detailed design         quality assurance         final product presentations         reflections on the experience Evaluation will be based on the in-class presentations, process and project documentation, how well the teams follow software engineering (SE) practices, and the client's satisfaction with the product. Individual grades will be influenced by peer reviews, individual reflection documents, mentor impressions, and presentation performance. Students will leave the course with a firsthand understanding of the software engineering realities that drive SE practices, will have concrete experience with these practices, and will have engaged in active reflection on this experience. They will have teamwork, process, and product skills to support immediate competency in a software engineering organization, along with a deeper understanding that prepares them to evaluate the new processes and techniques they will encounter in the workplace.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-414 Bug Catching: Automated Program Verification and Testing</dt>
+<dd>Intermittent: 9 units<br />Many CS and ECE students will be developing software and hardware that must be ultra reliable at some point in their careers. Logical errors in such designs can be costly, even life threatening. There have already been a number of well publicized errors like the Intel Pentium floating point error and the Arian 5 crash. In this course we will study tools for finding and preventing logical errors. Three types of tools will be studied: automated theorem proving, state exploration techniques like model checking and tools based on static program analysis. Although students will learn the theoretical basis for such tools, the emphasis will be on actually using them on real examples.  This course can be used to satisfy the Logic &amp; Languages requirement for the Computer Science major.<br />Prerequisites: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C and <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-415 Database Applications</dt>
+<dd>Fall: 12 units<br />This course covers the fundamental topics for Database Management  Systems: Database System Architectural Principles (ACID properties; data abstraction; external, conceptual, and internal schemata; data  independence; data definition and data manipulation languages), Data  models (entity-relationship and relational data models; data  structures, integrity constraints, and operations for each data  model; relational query languages: SQL, algebra, calculus), Theory of  database design (functional dependencies; normal forms; dependency  preservation; information loss), Query Optimization (equivalence of  expressions, algebraic manipulation; optimization of selections and  joins), Storage Strategies (indices, B-trees, hashing), Query Processing (execution of sort, join, and aggregation operators), and Transaction Processing (recovery and concurrency control).<br />Prerequisites: <a href="/search/?P=15-210" title="15-210" class="bubblelink code" onclick="return showCourse(this, '15-210');">15-210</a> Min. grade C and <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+<br/>Course Website: <a href="http://15415.courses.cs.cmu.edu/" target="_blank">http://15415.courses.cs.cmu.edu/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-417 HOT Compilation</dt>
+<dd>Intermittent: 12 units<br />The course covers the implementation of compilers for higher-order, typed languages such as ML and Haskell, and gives an introduction to type-preserving compilation.  Topics covered include type inference, elaboration, CPS conversion, closure conversion, garbage collection, phase splitting, and typed assembly language.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-418 Parallel Computer Architecture and Programming</dt>
+<dd>Spring: 12 units<br />The fundamental principles and engineering tradeoffs involved in designing modern parallel computers, as well as the programming techniques to effectively utilize these machines. Topics include naming shared data, synchronizing threads, and the latency and bandwidth associated with communication. Case studies on shared-memory, message-passing, data-parallel and dataflow machines will be used to illustrate these techniques and tradeoffs. Programming assignments will be performed on one or more commercial multiprocessors, and there will be a significant course project.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-421 Information Security and Privacy</dt>
+<dd>Fall: 12 units<br />The objective of this course is to introduce students to the technologies of Web Commerce, Security and Privacy as well as to related business, policy and usability issues. Content: Over the past 15 years, the Web has become an integral part of our daily life, whether at home or at work. This course provides students with an overview of the technologies and practices associated with Web Security, Privacy and Commerce. In the process, students will learn what it takes to design and develop successful web applications and services, reconciling security, privacy, usability and business considerations. The course is organized around two parts: Part I - Web Security &amp; Privacy Technologies The big picture, gentle introduction to cryptography, digital signatures, key management, authentication, Internet security protocols, certificates &amp; PKI, decentralized trust management, privacy enhancing technologies, electronic payments. Part II - Web Commerce The big picture, Internet marketing &amp; personalization, search engines, B2B and electronic markets, P2P, Web 2.0, Mobile Commerce, social networking. Format: Lectures (including guest lectures), discussions, student presentations, and class projects.  Prerequisites: 15122 or 15211<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~sadeh/15%20421.html" target="_blank">http://www.cs.cmu.edu/~sadeh/15%20421.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-423 Special Topic: Digital Signal Processing for Computer Science</dt>
+<dd>Spring: 12 units<br />Digital signals comprise a large fraction of the data analyzed by computer scientists. Sound, e.g. speech and music, images, radar and many other signal types that were conventionally considered to be the domain of the Electrical engineer are now also in the domain of computer scientists, who must analyze them, make inferences, and develop machine learning techinques to analyze, classify and reconstruct such data. In this course we will cover the basics of Digital Signal Processing. We will concentrate on the basic mathematical formulations, rather than in-depth implementation details. We will cover the breadth of topics, beginning with the basics of signals and their representations, the theory of sampling, important transform representations, key processing techniques, and spectral estimation.<br />Prerequisites: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C or <a href="/search/?P=15-112" title="15-112" class="bubblelink code" onclick="return showCourse(this, '15-112');">15-112</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-424 Foundations of Cyber-Physical Systems</dt>
+<dd>Intermittent: 12 units<br />Cyber-physical systems (CPSs) combine cyber effects (computation and/or communication) with physical effects (motion or other physical processes). Designing algorithms to control CPSs, such as those in cars, aircraft and robots, is challenging due to their tight coupling with physical behavior. At the same time, it is vital that these algorithms be correct, since we rely on CPSs for safety-critical tasks like keeping aircraft from colliding.  Students in this course will understand the core principles behind CPSs, develop models and controls, identify safety specifications and critical properties of CPSs, understand abstraction and system architectures, learn how to design by invariant, reason rigorously about CPS models, verify CPS models of appropriate scale, understand the semantics of a CPS model and develop an intuition for operational effects. Students will write hybrid programs (HPs), which capture relevant dynamical aspects of CPSs in a simple programming language with a simple semantics, allowing the programmer to refer to real-valued variables representing real quantities and specify their dynamics as part of the HP.<br />Prerequisites: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C and <a href="/search/?P=21-122" title="21-122" class="bubblelink code" onclick="return showCourse(this, '21-122');">21-122</a> Min. grade C and (<a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C or <a href="/search/?P=21-241" title="21-241" class="bubblelink code" onclick="return showCourse(this, '21-241');">21-241</a> Min. grade C or <a href="/search/?P=18-202" title="18-202" class="bubblelink code" onclick="return showCourse(this, '18-202');">18-202</a> Min. grade C)<br />
+<br/>Course Website: <a href="http://lfcps.org/course/fcps17.html" target="_blank">http://lfcps.org/course/fcps17.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-437 Web Application Development</dt>
+<dd>Fall and Spring: 12 units<br />This course will introduce concepts in programming web application servers. We will study the fundamental architectural elements of programming web sites that produce content dynamically. The primary technology introduced will be the Django framework for Python, but we will cover related topics as necessary so that students can build significant applications. Such topics include: HTTP, HTML, CSS, Javascript, XML, Design Patterns, Relational and Non-relational Databases, Object-Relation Mapping tools, Security, Web Services, Cloud Deployment, Internationalization, and Scalability and Performance Issues.  Students must have programming and software design experience equivalent to about a typical Junior CS major&#8212;-a sequence of three college CS courses or more.  Python-specific experience is not necessary. Students must provide their own computer hardware for this course. Please see the Related URL above for more information.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-440 Distributed Systems</dt>
+<dd>Fall and Spring: 12 units<br />The goals of this course are twofold: First, for students to gain an understanding of the principles and techniques behind the design of distributed systems, such as locking, concurrency, scheduling, and communication across the network. Second, for students to gain practical experience designing, implementing, and debugging real distributed systems.  The major themes this course will teach include scarcity, scheduling, concurrency and concurrent programming, naming, abstraction and modularity, imperfect communication and other types of failure, protection from accidental and malicious harm, optimism, and the use of instrumentation and monitoring and debugging tools in problem solving. As the creation and management of software systems is a fundamental goal of any undergraduate systems course, students will design, implement, and debug large programming projects.   As a consequence, competency in both the C and Java programming languages is required.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-441 Computer Networks</dt>
+<dd>Fall and Spring: 12 units<br />The emphasis in this course will be on the basic performance and engineering trade-offs in the design and implementation of computer networks. To make the issues more concrete, the class includes several multi-week projects requiring significant design and implementation.    The goal is for students to learn not only what computer networks are and how they work today, but also why they are designed the way they are and how they are likely to evolve in the future. We will draw examples primarily from the Internet. Topics to be covered include: network architecture, routing, congestion/flow/error control, naming and addressing,  peer-to-peer and the web, internetworking, and network security.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-445 Database Systems</dt>
+<dd>Fall: 12 units<br />This course is on the design and implementation of database management systems. Topics include data models (relational, document, key/value), storage models (n-ary, decomposition), query languages (SQL, stored procedures), storage architectures (heaps, log-structured), indexing (order preserving trees, hash tables), transaction processing (ACID, concurrency control), recovery (logging, checkpoints), query processing (joins, sorting, aggregation, optimization), and parallel architectures (multi-core, distributed). Case studies on open-source and commercial database systems will be used to illustrate these techniques and trade-offs. The course is appropriate for students with strong systems programming skills.<br />
+<br/>Course Website: <a href="http://15445.courses.cs.cmu.edu" target="_blank">http://15445.courses.cs.cmu.edu</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-449 Engineering Distributed Systems</dt>
+<dd>Spring: 9 units<br />This is a course for students with strong design and implementation skills who are likely to pursue careers as software architects and lead engineers.  It may be taken by well-prepared undergraduates with excellent design and implementation skills in low-level systems programing.  The course assumes a high level of proficiency in all aspects of operating system design and implementation.  This course will help students prepare for leadership roles in creating and evolving the complex, large-scale computer systems that society will increasingly depend on in the future.  The course will teach the organizing principles of such systems, identifying a core set of versatile techniques that are applicable across many system layers. Students will acquire the knowledge base, intellectual tools, hands-on skills and modes of thought needed to build well-engineered computer systems that withstand the test of time, growth in scale, and stresses of live use.   Topics covered include: caching, prefetching, damage containment, scale reduction, hints, replication, hash-based techniques, and fragmentation reduction.  A substantial project component is an integral part of the course.  A high level of proficiency in systems programming is expected. If you do not have the <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> prerequisite you will need to get approval from the faculty.<br />Prerequisite: <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> Min. grade B<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-451 Algorithm Design and Analysis</dt>
+<dd>Fall and Spring: 12 units<br />This course is about the design and analysis of algorithms. We study specific algorithms for a variety of problems, as well as general design and analysis techniques. Specific topics include searching, sorting, algorithms for graph problems, efficient data structures, lower bounds and NP-completeness. A variety of other topics may be covered at the discretion of the instructor. These include parallel algorithms, randomized algorithms, geometric algorithms, low level techniques for efficient programming, cryptography, and cryptographic protocols.<br />Prerequisites: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C and <a href="/search/?P=15-210" title="15-210" class="bubblelink code" onclick="return showCourse(this, '15-210');">15-210</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-453 Formal Languages, Automata, and Computability</dt>
+<dd>Intermittent: 9 units<br />An introduction to the fundamental ideas and models underlying computing: finite automata, regular sets, pushdown automata, context-free grammars, Turing machines, undecidability, and complexity theory.<br />Prerequisites: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C or <a href="/search/?P=21-228" title="21-228" class="bubblelink code" onclick="return showCourse(this, '21-228');">21-228</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-455 Undergraduate Complexity Theory</dt>
+<dd>Intermittent: 9 units<br />Complexity theory is the study of how much of a resource (such as time, space, parallelism, or randomness) is required to perform some of the computations that interest us the most. In a standard algorithms course, one concentrates on giving resource efficient methods to solve interesting problems. In this course, we concentrate on techniques that prove or suggest that there are no efficient methods to solve many important problems.  We will develop the theory of various complexity classes, such as P, NP, co-NP, PH, #P, PSPACE, NC, AC, L, NL, UP, RP, BPP, IP, and PCP. We will study techniques to classify problems according to our available taxonomy. By developing a subtle pattern of reductions between classes we will suggest an (as yet unproven!) picture of how by using limited amounts of various resources, we limit our computational power.<br />Prerequisite: <a href="/search/?P=15-251" title="15-251" class="bubblelink code" onclick="return showCourse(this, '15-251');">15-251</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-456 Computational Geometry</dt>
+<dd>Intermittent: 9 units<br />How do you sort points in space?  What does it even mean?  This course takes the ideas of a traditional algorithms course, sorting, searching, selecting, graphs, and optimization, and extends them to problems on geometric inputs.  We will cover many classical geometric constructions and novel algorithmic methods.  Some of the topics to be covered are convex hulls, Delaunay triangulations, graph drawing, point location, geometric medians, polytopes, configuration spaces, linear programming, and others.  This course is a natural extension to <a href="/search/?P=15-451" title="15-451" class="bubblelink code" onclick="return showCourse(this, '15-451');">15-451</a>, for those who want to learn about algorithmic problems in higher dimensions.<br />Prerequisite: <a href="/search/?P=15-451" title="15-451" class="bubblelink code" onclick="return showCourse(this, '15-451');">15-451</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-457 Special Topics in Theory: Advanced Algorithms</dt>
+<dd>Intermittent: 12 units<br />Selected advanced topics in algorithms and computational  theory. Topics vary from semester to semester.<br />Prerequisite: <a href="/search/?P=15-451" title="15-451" class="bubblelink code" onclick="return showCourse(this, '15-451');">15-451</a> Min. grade B<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-458 Discrete Differential Geometry</dt>
+<dd>Fall: 12 units<br />Geometry plays a vital role in both engineering and scientific discovery, as well as in our everyday lives via emerging technologies like depth cameras and 3D printing.  This course teaches students how to think about three-dimensional shape, both mathematically and computationally.  Students will get a crash course in differential geometry, and will apply this knowledge to design and implement practical algorithms for 3D geometry processing.  Basic geometric concepts (like curvature) are examined via complementary computational and mathematical points of view, with an emphasis on visual intution and real-world applications.  In homework, students will derive and implement core geometry processing algorithms; they will also explore a topic of their choice in a final class project.  MS and PhD students will complete additional written and coding exercises, and will perform a more comprehensive literature review for their final project.  Topics include curves and surfaces, curvature, connections and parallel transport, exterior calculus, simplicial homology, conformal mapping, finite element methods, and numerical linear algebra; applications include approximation of curvature, curve and surface smoothing, surface parameterization, vector field design, and computation of geodesic distance.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-462 Computer Graphics</dt>
+<dd>Fall and Spring: 12 units<br />This course provides a comprehensive introduction to computer graphics modeling, animation, and rendering. Topics covered include basic image processing, geometric transformations, geometric modeling of curves and surfaces, animation, 3-D viewing, visibility algorithms, shading, and ray tracing.<br />Prerequisites: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C or <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C or <a href="/search/?P=18-213" title="18-213" class="bubblelink code" onclick="return showCourse(this, '18-213');">18-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-463 Computational Photography</dt>
+<dd>Fall: 12 units<br />Computational Photography is an emerging new field created by the  convergence of computer graphics, computer vision and  photography. Its role is to overcome the limitations of the  traditional camera by using computational techniques to produce a  richer, more vivid, perhaps more perceptually meaningful  representation of our visual world.    The aim of this advanced undergraduate course is to study ways in  which samples from the real world (images and video) can be used to  generate compelling computer graphics imagery. We will learn how to  acquire, represent, and render scenes from digitized photographs.  Several popular image-based algorithms will be presented, with an  emphasis on using these techniques to build practical systems. This  hands-on emphasis will be reflected in the programming assignments, in  which students will have the opportunity to acquire their own images  of indoor and outdoor scenes and develop the image analysis and  synthesis tools needed to render and view the scenes on the computer.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+<br/>Course Website: <a href="http://graphics.cs.cmu.edu/courses/15-463/" target="_blank">http://graphics.cs.cmu.edu/courses/15-463/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-464 Technical Animation</dt>
+<dd>Spring: 12 units<br />This course introduces techniques for computer animation such as keyframing, procedural methods, motion capture, and simulation. The course also includes a brief overview of story-boarding, scene composition, lighting and sound track generation. The second half of the course will explore current research topics in computer animation such as dynamic simulation of flexible and rigid objects,automatically generated control systems, and evolution of behaviors. The course should be appropriate for graduate students in all areas and for advanced undergraduates.<br />Prerequisite: <a href="/search/?P=15-462" title="15-462" class="bubblelink code" onclick="return showCourse(this, '15-462');">15-462</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-465 Animation Art and Technology</dt>
+<dd>Spring: 12 units<br />Animation Art and Technology is an interdisciplinary course cross-listed between Art and Computer Science. Faculty and teaching assistants from computer science and art teach the class as a team. It is a project-based course in which four to five interdisciplinary teams of students produce animations. Most of the animations have a substantive technical component and the students are challenged to consider innovation with content to be equal with the technical. The class includes basic tutorials for work in Maya leading toward more advanced applications and extensions of the software such as motion capture and algorithms for animating cloth, hair, particles, and grouping behaviors. The first class will meet in CFA room 303.<br />Prerequisites: <a href="/search/?P=18-213" title="18-213" class="bubblelink code" onclick="return showCourse(this, '18-213');">18-213</a> Min. grade C or <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-466 Computer Game Programming</dt>
+<dd>Spring: 12 units<br />The goal of the course is two-fold. The first goal is to teach students some of the higher-level techniques that are necessary to implement interesting computer games. In particular, a large emphasis will be on game AI. The class will also cover such topics as game networking, scheduling of tasks in computationally intensive games, and game design. The class will also briefly cover few selected topics such as collision detection and physically-based animation that are good to know even if one is developing games using a game engine. The second goal of the class is to get students familiar with programming games on various platforms using state-of-the-art game engines. To this end, the course will have a heavy programming focus. It will have a number of projects requiring students to apply the learned material to develop games using Unity 3D game engine. The students will develop games that run on a standalone PC, games that run on an Android platform and games that work in a multi-user mode.  In addition to learning the material and learning how to use game engines, the projects will provide students with portfolios of games they have developed. Such a portfolio is important in getting a job in game industry.    Prerequisite is <a href="/search/?P=15-462" title="15-462" class="bubblelink code" onclick="return showCourse(this, '15-462');">15-462</a> or contact the instructor for permission.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-487 Introduction to Computer &amp; Network Security &amp; Applied Cryptography</dt>
+<dd>Fall: 12 units<br />This course will introduce students to the fundamentals of computer security and applied cryptography. Topics include software security, networking and wireless security, and applied cryptography. Students will also learn the fundamental methodology for how to design and analyze security critical systems.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-491 Special Topic: CMRoboBits: AI and Robots for Daily-Life Problems</dt>
+<dd>Fall: 12 units<br />This course will be a project-based course in which we will look at AI and robotics artifacts and techniques to automate solutions to real-world problems, in particular related to life in cities. The course will start by collecting and brainstorming about real problems biased to ones that involve the physical space in addition to the cyber information space, such as traffic rush hour, noise in cities, 3D building inspection, service and data gathering. We will then formalize the chosen problems and analyze existing real data. The course will proceed by possibly enabling the students to prototype their projects beyond simulation, and using the CORAL lab robots, e.g., the CoBot or NAO robots or drones. The course work will be a single large project, performed by groups of up to 3 students. The projects will be divided in three phases, due at the end of February, March, and the end of the course. Students are expected to have programming experience in C++ or python.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-492 Special Topic: Speech Processing</dt>
+<dd>Fall: 12 units<br />Speech Processing offers a practical and theoretical understanding of how human speech can be processed by computers. It covers speech recognition, speech synthesis and spoken dialog systems. The course involves practicals where the student will build working speech recognition systems, build their own synthetic voice and build a complete telephone spoken dialog system. This work will be based on existing toolkits. Details of algorithms, techniques and limitations of state of the art speech systems will also be presented. This course is designed for students wishing understand how to process real data for real applications, applying statistical and machine learning techniques as well as working with limitations in the technology.<br />Prerequisite: <a href="/search/?P=15-122" title="15-122" class="bubblelink code" onclick="return showCourse(this, '15-122');">15-122</a> Min. grade C<br />
+<br/>Course Website: <a href="http://www.speech.cs.cmu.edu/15-492/" target="_blank">http://www.speech.cs.cmu.edu/15-492/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-494 Cognitive Robotics: The Future of Robot Toys</dt>
+<dd>Spring: 12 units<br />This course will explore the future of robot toys by analyzing and programming Anki Cozmo, a new robot with built-in artificial intelligence algorithms. Como is distinguished from earlier consumer robots by its reliance on vision as the primary sensing mode and its sophisticated use of A.I. Its capabilities include face and object recognition, map building, path planning, and object pushing and stacking. Although marketed as a pre-programmed children's toy, Cozmo's open source Python SDK allows anyone to develop new software for it, which means it can also be used for robotics education and research. The course will cover robot software architecture, human-robot interaction, perception, and planning algorithms for navigation and manipulation. Prior robotics experience is not required, just strong programming skills.<br />Prerequisite: <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade C<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-591 Independent Study in Computer Science</dt>
+<dd>Fall and Spring<br />The School of Computer Science offers Independent Study courses, which allow motivated students to work on projects under the supervision of a faculty advisor while receiving academic credit. Independent studies are usually one semester in duration and require prior approval from the faculty member and the School of Computer Science.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-592 Independent Study in Computer Science</dt>
+<dd>Fall<br />to be determined<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-593 Independent Study in Computer Science</dt>
+<dd>Fall<br />To be determined<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-594 Independent Study in Computer Science</dt>
+<dd>Fall<br />to be determined<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-599 SCS Honors Undergraduate Research Thesis</dt>
+<dd>Fall and Spring<br />Available only to students registered in the CS Senior Research Thesis Program.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-610 Engineering Distributed Systems</dt>
+<dd>Spring: 12 units<br />This is a master's level course for students with strong design and  implementation skills who are likely to pursue careers as software  architects and lead engineers.  It may be taken by well-prepared  undergraduates with excellent design and implementation skills in  low-level systems programing.  The course assumes a high level of  proficiency in all aspects of operating system design and implementation.    This course will help students prepare for leadership roles in creating  and evolving the complex, large-scale computer systems that society will  increasingly depend on in the future.  The course will teach the  organizing principles of such systems, identifying a core set of  versatile techniques that are applicable across many system layers.  Students will acquire the knowledge base, intellectual tools, hands-on  skills and modes of thought needed to build well-engineered computer  systems that withstand the test of time, growth in scale, and stresses of  live use.     Topics covered include: caching, prefetching, damage containment,  scale reduction, hints, replication, hash-based techniques, and  fragmentation reduction.  A substantial project component is an  integral part of the course.    A high level of proficiency in systems programming is expected.<br />Prerequisite: <a href="/search/?P=15-410" title="15-410" class="bubblelink code" onclick="return showCourse(this, '15-410');">15-410</a> Min. grade B<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~15-610" target="_blank">http://www.cs.cmu.edu/~15-610</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-611 Compiler Design</dt>
+<dd>Fall: 15 units<br />This course covers the design and implementation of compiler and run-time systems for high-level languages, and examines the interaction between language design, compiler design, and run-time organization. Topics covered include syntactic and lexical analysis, handling of user-defined types and type-checking, context analysis, code generation and optimization, and memory management and run-time organization.      Prerequisites:  15213 or 15312<br />
+<br/>Course Website: <a href="http://symbolaris.com/course/compiler12.html" target="_blank">http://symbolaris.com/course/compiler12.html</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-617 HOT Compilation</dt>
+<dd>Spring: 12 units<br />The course covers the implementation of compilers for higher-order, typed languages such as ML and Haskell, and gives an introduction to type-preserving compilation.  Topics covered include type inference, elaboration, CPS conversion, closure conversion, garbage collection, phase splitting, and typed assembly language.<br />
+</dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-645 Database Systems</dt>
+<dd>Fall: 12 units<br />This course is on the design and implementation of database management systems. Topics include data models (relational, document, key/value), storage models (n-ary, decomposition), query languages (SQL, stored procedures), storage architectures (heaps, log-structured), indexing (order preserving trees, hash tables), transaction processing (ACID, concurrency control), recovery (logging, checkpoints), query processing (joins, sorting, aggregation, optimization), and parallel architectures (multi-core, distributed). Case studies on open-source and commercial database systems will be used to illustrate these techniques and trade-offs. The course is appropriate for students with strong systems programming skills.<br />
+<br/>Course Website: <a href="http://ttp://15445.courses.cs.cmu.edu" target="_blank">http://ttp://15445.courses.cs.cmu.edu</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-688 Practical Data Science</dt>
+<dd>Fall: 12 units<br />Data science is the study and practice of how we can extract insight and knowledge from large amounts of data. This course provides a practical introduction to the "full stack" of data science analysis, including data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Topics covered include: collecting and processing data using relational methods, time series approaches, graph and network models, free text analysis, and spatial geographic methods; analyzing the data using a variety of statistical and machine learning methods include linear and non-linear regression and classification, unsupervised learning and anomaly detection, plus advanced machine learning methods like kernel approaches, boosting, or deep learning; visualizing and presenting data, particularly focusing the case of high-dimensional data; and applying these methods to big data settings, where multiple machines and distributed computation are needed to fully leverage the data.Students will complete weekly programming homework that emphasize practical understanding of the methods described in the course. In addition, students will develop a tutorial on an advanced topic, and will complete a group project that applies these data science techniques to a practical application chosen by the team; these two longer assignments will be done in lieu of a midterm or final.<br />
+<br/>Course Website: <a href="http://www.datasciencecourse.org" target="_blank">http://www.datasciencecourse.org</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-705 Engineering Distributed Systems</dt>
+<dd>Spring: 12 units<br />This course is for students with strong design and implementation skills who are likely to pursue careers as software architects and lead engineers. It may be taken by well-prepared undergraduates with excellent design and implementation skills in low-level systems programing. The course assumes a high level of proficiency in all aspects of operating system design and implementation. This course will help students prepare for leadership roles in creating and evolving the complex, large-scale computer systems that society will increasingly depend on in the future. The course will teach the organizing principles of such systems, identifying a core set of versatile techniques that are applicable across many system layers. Students will acquire the knowledge base, intellectual tools, hands-on skills and modes of thought needed to build well-engineered computer systems that withstand the test of time, growth in scale, and stresses of live use. Topics covered include: caching, prefetching, damage containment, scale reduction, hints, replication, hash-based techniques, and fragmentation reduction. A substantial project component is an integral part of the course. A high level of proficiency in systems programming is expected.  Please refer to <a href="http://www.cs.cmu.edu/~csd-grad/courseschedules14.html">http://www.cs.cmu.edu/~csd-grad/courseschedules14.html</a> this link for the most recent schedule updates.<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~15-705" target="_blank">http://www.cs.cmu.edu/~15-705</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-719 Advanced Cloud Computing</dt>
+<dd>Spring: 12 units<br />Computing in the cloud has emerged as a leading paradigm for cost-effective, scalable, well-managed computing. Â Users pay for services provided in a broadly shared, power efficient datacenter, enabling dynamic computing needs to be met without paying for more than is needed. Â Actual machines may be virtualized into machine-like services, or more abstract programming platforms, or application-specific services, with the cloud computing infrastructure managing sharing, scheduling, reliability, availability, elasticity, privacy, provisioning and geographic replication.  Please refer to https://www.cs.cmu.edu/~csd-grad/courseschedules17.html for the most recent schedule updates.<br />Prerequisites: 15-513 Min. grade B or <a href="/search/?P=18-213" title="18-213" class="bubblelink code" onclick="return showCourse(this, '18-213');">18-213</a> Min. grade B or <a href="/search/?P=15-213" title="15-213" class="bubblelink code" onclick="return showCourse(this, '15-213');">15-213</a> Min. grade B<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~15719/" target="_blank">http://www.cs.cmu.edu/~15719/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-749 Engineering Distributed Systems</dt>
+<dd>Fall: 12 units<br />Computing has changed beyond recognition in half a century, from the room-filling mainframes of the 1960s to today's smartphones and wearable devices.  Networks have also changed dramatically: from the 300-baud dialup modems of the early networking era to gigabit LANs, Wi-Fi and 4G today.    Who knows what changes are in store for us over the next half century?  Astonishingly, in spite of this tremendous change in hardware technology over time,  a small core set of techniques for building distributed systems has emerged and remained surprisingly stable and applicable across many system layers.    Many flavors of these  techniques exist, and they continously evolve over time to reflect changing trade-offs in the design space.  What are these core techniques, and how can we leverage them in creating distributed systems today and in the future?     That is the central question addressed by this course.  Students will acquire the knowledge base, intellectual tools, hands-on skills and modes of thought needed to build well-engineered distributed systems that withstand the test of time, growth in scale, and stresses of live use. Strong design and implementation skills are expected of all students.  The course assumes a high level of proficiency in all aspects of operating system design and implementation.  A substantial project component is an integral part of the course.  Please refer to <a href="http://www.cs.cmu.edu/~csd-grad/courseschedules14.html">http://www.cs.cmu.edu/~csd-grad/courseschedules14.html</a> this link for the most recent schedule updates.<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~15-749/" target="_blank">http://www.cs.cmu.edu/~15-749/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-751 A Theorist's Toolkit</dt>
+<dd>Intermittent: 12 units<br />Course description: This course will take a random walk through various mathematical topics that come in handy for theoretical computer science. It is intended mainly for students earlier in their graduate studies (or very strong undergraduates) who want to do theory research. The idea for the course comes from other courses by Arora (2002, 2007), Håstad (2004/05), Kelner (2007, 2009), and Tulsiani (2013).  Prerequisites Students should have a solid undergraduate background in math (e.g., elementary combinatorics, graph theory, discrete probability, basic algebra/calculus) and theoretical computer science (running time analysis, big-O/Omega/Theta, P and NP, basic fundamental algorithms). Mathematical maturity is a must. Prerequisites Students should have a solid undergraduate background in math (e.g., elementary combinatorics, graph theory, discrete probability, basic algebra/calculus) and theoretical computer science (running time analysis, big-O/Omega/Theta, P and NP, basic fundamental algorithms). Mathematical maturity is a must.  https://www.cs.cmu.edu/~csd-grad/courseschedulef16.html  CLASSES WILL BEGIN WEEK OF SEPTEMBER 5th.<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/~odonnell/toolkit16/" target="_blank">http://www.cs.cmu.edu/~odonnell/toolkit16/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-769 Special Topics in Graphics:</dt>
+<dd>Intermittent: 12 units<br />Please refer to <a href="http://www.cs.cmu.edu/~csd-grad/courseschedulef17.html">http://www.cs.cmu.edu/~csd-grad/courseschedulef17.html</a> for the most recent schedule updates.  Class will not begin until the week of September 4th.<br />
+<br/>Course Website: <a href="http://graphics.cs.cmu.edu/courses/15869/fall2014/" target="_blank">http://graphics.cs.cmu.edu/courses/15869/fall2014/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-883 Computational Models of Neural Systems</dt>
+<dd>Intermittent: 12 units<br />This course is an in-depth study of information processing in real neural systems from a computer science perspective. We will examine several brain areas, such as the hippocampus and cerebellum, where processing is sufficiently well understood that it can be discussed in terms of specific representations and algorithms. We will focus primarily on computer models of these systems, after establishing the necessary anatomical, physiological, and psychophysical context. There will be some neuroscience tutorial lectures for those with no prior background in this area.     Please refer to <a href="http://www.cs.cmu.edu/~csd-grad/courseschedulef17.html">http://www.cs.cmu.edu/~csd-grad/courseschedulef17.html</a> for the most recent schedule updates.<br />
+<br/>Course Website: <a href="http://www.cs.cmu.edu/afs/cs/academic/class/15883-f13/" target="_blank">http://www.cs.cmu.edu/afs/cs/academic/class/15883-f13/</a></dd>
+</dl><dl class="courseblock">
+<dt class="keepwithnext">15-897 Advanced Topics in Parallel Computing:</dt>
+<dd>Spring: 12 units<br />Section A: In this special topics course on parallel computing, the students will   learn about the foundations of parallel computing and complete a  research project.   The course will cover both theory and  practice. The topics covered will include  basic parallel algorithms  for sequences (e.g., mapping, reductions), trees  (e.g., tree  contraction), and graphs (graph search, connectivity, graph  contraction)  as well as scheduling algorithms (e.g., work stealing)   for mapping parallel computation to hardware for optimal efficiency  and performance.   There will be one midterm, several assignments  (involving programming),  and one project; the project will account for  50% of the grade.      ** Project Ideas **     The project can be theoretical or practical.  The ideal project would  be one that  adds parallelism to the students' current research. For  example, if the student  does research in a field such as  algorithms/graphics/robotics and he or she can   design/analyze/implement a parallel algorithm (possibly for an open  problem);  if the student does research on a field such as programming  languages or databases,  she or he can design/implement language/query  support for parallelism; if the  student does research on machine  learning, he or she can develop a framework  for performing approximate  inference in parallel.   Projects can be done individually or in groups   and will lead to a small paper. We envision the students in the class   to review other project papers (as in a program committee) and provide   feedback to the authors. Please refer to https://www.cs.cmu.edu/~csd-grad/courseschedules17.html for the most recent schedule updates.<br />
+</dd>
+</dl>
+</div>
+
+
+<!-- ***endbody*** -->
+</div>
+	</td>
+		<td valign="top" id="right-col">
+
+<!--htdig_noindex-->
+
+
+
+<!--/htdig_noindex-->
+
+<div id="interpage-nav2"><a name="faculty"></a>
+
+</div>
+
+<!--htdig_noindex-->
+</td></tr>
+<tr><td colspan="2">
+	<div class="mobile" id="facultymobile">
+		<a name="faculty"> </a><a class="topnav" style="float: right;" href="#top">Back To Top</a>
+	</div>
+</td></tr>
+<tr><td>
+	<div class="copyright" style="margin-top: 20px;">
+
+Copyright 2017 <a href="http://www.cmu.edu">Carnegie Mellon University</a>. All rights reserved.<br>Updated July 2016    </div>
+</table>
+
+<!--/htdig_noindex-->
+
+<div id="print-dialog" class="screen">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="courses.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2016-17.pdf">Download a PDF of the 2016-17 Catalog.</a>
+			</div>
+			<p>
+				<em>All Pages in Academic Catalog</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
