@@ -109,8 +109,7 @@ class Firebase(object):
         """
         endpoint = "/programs/" + str(program_id) + '/location'
         result = self.firebase.get(endpoint, None)
-        count = len(result)
-        return count
+        return result
 
     def get_program_ownership(self, program_id):
         """Get the Ownership Details for a given Program ID.
