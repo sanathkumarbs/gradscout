@@ -14,25 +14,19 @@ class FilterSelection(Object):
 		cwur=None,
 		forbes=None,
 		times=None,
-
 		state=None,
 		city=None,
 		zipcode=None,
 		region=None,
-
 		fees_in_state=None,
 		fees_out_of_state=None,
-
 		gpa=None,
 		verbal=None,
 		quant=None,
-
 		boarding=None,
 		books=None,
 		overall_expenses=None,
-
 		admission_rate=None,
-
 		areas_of_interest=None):
 
 
