@@ -10,6 +10,7 @@ import Filters
    to remove the duplicates and return the final list of program ids
 """
 
+<<<<<<< HEAD
 
 class FilterSelection(object):
 	"""Class for Selecting Programs Matching Filters."""
@@ -37,6 +38,29 @@ class FilterSelection(object):
             boarding=None,
             books=None,
             overall_expenses=None,
+=======
+	def __init__(
+		self, 
+		overall_rank=None,
+		usnews=None,
+		cwur=None,
+		forbes=None,
+		times=None,
+		state=None,
+		city=None,
+		zipcode=None,
+		region=None,
+		fees_in_state=None,
+		fees_out_of_state=None,
+		gpa=None,
+		verbal=None,
+		quant=None,
+		boarding=None,
+		books=None,
+		overall_expenses=None,
+		admission_rate=None,
+		areas_of_interest=None):
+>>>>>>> e82a65fec1765e479de5d96ef8a73af7a8e5d4cb
 
             admission_rate=None,
 
