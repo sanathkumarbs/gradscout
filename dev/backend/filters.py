@@ -139,7 +139,7 @@ class Filters(object):
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_fees(pid)
-            if res['out_state'] <= param:
+            if int(res['out_of_state']) <= int(param):
                 fees_out_list.append(pid)
 
         return fees_out_list
@@ -262,21 +262,21 @@ class Filters(object):
         # return list(set(admission_list)&set(filtered_list));
 
     '''
-	def filter_courses(param):
+    def filter_courses(param):
 
-		course_list=[]
-		courses=param.split(" ")
+        course_list=[]
+        courses=param.split(" ")
 
-		for pid in range(0, self.count):
-			res=firebase.get_program_courses(pid)
-			for each in courses:
-				if each in res:
-					course_list.append(pid)
-
-
-		return list(set(course_list)&set(filtered_list));
+        for pid in range(0, self.count):
+            res=firebase.get_program_courses(pid)
+            for each in courses:
+                if each in res:
+                    course_list.append(pid)
 
 
+        return list(set(course_list)&set(filtered_list));
 
 
-	'''
+
+
+    '''
