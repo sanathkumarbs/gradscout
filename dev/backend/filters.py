@@ -5,9 +5,8 @@ class Filters(object):
 
     def __init__(self):
         # filtered_list=[]
-
         self.firebase = Firebase()
-        self.count = self.firebase.get_program_self.count()
+        self.count = self.firebase.get_program_count()
 
     def filter_rank_overall(self, param):
         overall_list = []

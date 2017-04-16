@@ -10,7 +10,6 @@ import Filters
    to remove the duplicates and return the final list of program ids
 """
 
-<<<<<<< HEAD
 
 class FilterSelection(object):
 	"""Class for Selecting Programs Matching Filters."""
@@ -38,29 +37,6 @@ class FilterSelection(object):
             boarding=None,
             books=None,
             overall_expenses=None,
-=======
-	def __init__(
-		self, 
-		overall_rank=None,
-		usnews=None,
-		cwur=None,
-		forbes=None,
-		times=None,
-		state=None,
-		city=None,
-		zipcode=None,
-		region=None,
-		fees_in_state=None,
-		fees_out_of_state=None,
-		gpa=None,
-		verbal=None,
-		quant=None,
-		boarding=None,
-		books=None,
-		overall_expenses=None,
-		admission_rate=None,
-		areas_of_interest=None):
->>>>>>> e82a65fec1765e479de5d96ef8a73af7a8e5d4cb
 
             admission_rate=None,
 
@@ -92,67 +68,144 @@ class FilterSelection(object):
 
         self.areas_of_interest = areas_of_interest
 
-        # creating the object of Filters()class
+        # List of programs matching atleast one of the requested criteria
+        self.unique_programs = None
+
+        # List of programs meeting all requested criteria
+        self.common_programs = []
+
+        # Verbose program dict with all matching info
+        self.matches = None
+
+        # creating the object of Filters class
         self.filters = Filters()
 
-    def run_selected_filters_1(self):
+        # Program Count 
+        self.count = self.filters.count
 
-        final_list = []
+    def filter_programs(self):
+        """Filter the programs"""
+        
+        # Deploy Filter Selection
+        self.run_selected_filters()
 
-        if self.overall_rank != None:
-            final_list.append = filters.filter_rank_overall(overall_rank)
+        # Getting all the unique programs
+        self.unique_programs = list(self.matches.keys())
 
-        if self.usnews != None:
-            final_list.append = filters.filter_rank_usnews(usnews)
+        # Validating we atleast have one program matching one criteria
+        # Fall back to all programs if no match is found
 
-        if self.cwur != None:
-            final_list.append = filters.filter_rank_cwur(cwur)
+        if len(self.unique_programs) < 1:
+            # Setting unique programs to all programs
+            self.unique_programs = []
+            self.unique_programs.extend(range(0,self.count-1))
 
-        if self.forbes != None:
-            final_list.append = filters.filter_rank_forbes(forbes)
+            # Setting all matches to zero
+            self.matches = []
+            self.matches = dict.fromkeys(self.unique_programs, None)
 
-        if self.times != None:
-            final_list.append = filters.filter_rank_times(times)
+            # Setting all common programs to all programs
+            self.common_programs = []
+            self.common_programs = self.common_programs.extend(
+                range(0, self.count-1))
 
-        if self.state != None:
-            final_list.append = filters.filter_location_state(state)
+        return (self.common_programs, self.unique_programs, self.matches)
 
-        if self.city != None:
-            final_list.append = filters.filter_location_city(city)
+    def update_results(self, matching_programs):
+        """Helper method to update matching programs results"""
 
-        if self.zipcode != None:
-            inal_list.append = filters.filter_location_zip(zipcode)
+        # Update the common program list
+        if self.common_programs is not None:
+            common = self.common_programs.intersection(matching_programs)
 
-        if self.region != None:
-            final_list.append = filters.filter_location_region(region)
+            if len(common) > 0:
+                self.common_programs = common
+            else:
+                self.common_programs =[]
 
-        if self.fees_in_state != None:
-            final_list.append = filters.filter_fees_in_state(fees_in_state)
+        elif:
+            self.common_programs = []
+            self.common_programs.extend(matching_programs)
 
-        if self.fees_out_of_state != None:
-            final_list.append = filters.filter_fees_out_state(
+        for program in matching_programs:
+            # Update the verbose program dict of results
+            if self.matches is None:
+                self.matches[program] = 1
+            elif program in self.matches:
+                self.matches[program] += 1
+
+    def run_selected_filters(self):
+
+        if self.overall_rank is not None:
+            matching_programs = self.filters.filter_rank_overall(overall_rank)
+            self.update_results(matching_programs)
+
+        if self.usnews is not None:
+            matching_programs = self.filters.filter_rank_usnews(usnews)
+            self.update_results(matching_programs)
+
+        if self.cwur is not None:
+            matching_programs = self.filters.filter_rank_cwur(cwur)
+            self.update_results(matching_programs)
+
+        if self.forbes is not None:
+            matching_programs = self.filters.filter_rank_forbes(forbes)
+            self.update_results(matching_programs)
+
+        if self.times is not None:
+            matching_programs = self.filters.filter_rank_times(times)
+            self.update_results(matching_programs)
+
+        if self.state is not None:
+            matching_programs = self.filters.filter_location_state(state)
+            self.update_results(matching_programs)
+
+        if self.city is not None:
+            matching_programs = self.filters.filter_location_city(city)
+            self.update_results(matching_programs)
+
+        if self.zipcode is not None:
+            inal_list.append = self.filters.filter_location_zip(zipcode)
+            self.update_results(matching_programs)
+
+        if self.region is not None:
+            matching_programs = self.filters.filter_location_region(region)
+            self.update_results(matching_programs)
+
+        if self.fees_in_state is not None:
+            matching_programs = self.filters.filter_fees_in_state(fees_in_state)
+            self.update_results(matching_programs)
+
+        if self.fees_out_of_state is not None:
+            matching_programs = self.filters.filter_fees_out_state(
                 fees_out_of_state)
+            self.update_results(matching_programs)
 
-        if self.gpa != None:
-            final_list.append = filters.filter_gpa(gpa)
+        if self.gpa is not None:
+            matching_programs = self.filters.filter_gpa(gpa)
+            self.update_results(matching_programs)
 
-        if self.verbal != None:
-            final_list.append = filters.filter_gre_verbal(verbal)
+        if self.verbal is not None:
+            matching_programs = self.filters.filter_gre_verbal(verbal)
+            self.update_results(matching_programs)
 
-        if self.quant != None:
-            final_list.append = filters.filter_gre_quant(quant)
+        if self.quant is not None:
+            matching_programs = self.filters.filter_gre_quant(quant)
+            self.update_results(matching_programs)
 
-        if self.boarding != None:
-            final_list.append = filters.filter_boarding(boarding)
+        if self.boarding is not None:
+            matching_programs = self.filters.filter_boarding(boarding)
+            self.update_results(matching_programs)
 
-        if self.books != None:
-            final_list.append = filters.filter_books(books)
+        if self.books is not None:
+            matching_programs = self.filters.filter_books(books)
+            self.update_results(matching_programs)
 
-        if self.overall_expenses != None:
-            final_list.append = filters.filter_overall_expenses(
+        if self.overall_expenses is not None:
+            matching_programs = self.filters.filter_overall_expenses(
                 overall_expenses)
+            self.update_results(matching_programs)
 
-        if self.admission_rate != None:
-            final_list.append = filters.filter_admission_rate(admission_rate)
-
-        return set(final_list)
+        if self.admission_rate is not None:
+            matching_programs = self.filters.filter_admission_rate(admission_rate)
+            self.update_results(matching_programs)
