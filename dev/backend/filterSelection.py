@@ -151,7 +151,7 @@ class FilterSelection(object):
             self.update_results(matching_programs)
 
         if self.zipcode is not None:
-            inal_list.append = self.filters.filter_location_zip(self.zipcode)
+            matching_programs = self.filters.filter_location_zip(self.zipcode)
             self.update_results(matching_programs)
 
         if self.region is not None:
