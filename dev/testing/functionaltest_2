@@ -1,0 +1,1909 @@
+Last login: Wed Apr  5 17:52:58 on console
+D-173-250-237-45:~ jyothimocherla$ pwd
+/Users/jyothimocherla
+D-173-250-237-45:~ jyothimocherla$ cd Documents/
+D-173-250-237-45:Documents jyothimocherla$ cd Winter\ 2017/
+D-173-250-237-45:Winter 2017 jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017
+D-173-250-237-45:Winter 2017 jyothimocherla$ cd Capstone/
+D-173-250-237-45:Capstone jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone
+D-173-250-237-45:Capstone jyothimocherla$ cd gradscout-website/
+D-173-250-237-45:gradscout-website jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout-website
+D-173-250-237-45:gradscout-website jyothimocherla$ git add .
+D-173-250-237-45:gradscout-website jyothimocherla$ git commit -m "Version 2"
+[master 0b0b12a] Version 2
+ 9 files changed, 270 insertions(+), 248 deletions(-)
+D-173-250-237-45:gradscout-website jyothimocherla$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 5.24 KiB | 0 bytes/s, done.
+Total 17 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas: 100% (13/13), completed with 13 local objects.
+To https://github.com/sanathkumarbs/gradscout-website.git
+   ff1ee17..0b0b12a  master -> master
+D-173-250-237-45:gradscout-website jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout-website
+D-173-250-237-45:gradscout-website jyothimocherla$ git add .
+D-173-250-237-45:gradscout-website jyothimocherla$ git commit -m "Version 3"
+[master 661bbb6] Version 3
+ 741 files changed, 118409 insertions(+)
+ create mode 100644 Website/.DS_Store
+ create mode 100644 Website/assets/.DS_Store
+ create mode 100644 Website/assets/css/.DS_Store
+ create mode 100644 Website/assets/css/background_image_1.jpeg
+ create mode 100644 Website/assets/css/superlist.css
+ create mode 100644 Website/assets/favicon.png
+ create mode 100644 Website/assets/img/.DS_Store
+ create mode 100644 Website/assets/img/logo-white.png
+ create mode 100644 Website/assets/img/logo.png
+ create mode 100644 Website/assets/img/tmp/.DS_Store
+ create mode 100644 Website/assets/img/tmp/Columbia_University.jpg
+ create mode 100644 Website/assets/img/tmp/Cornell_University.jpg
+ create mode 100644 Website/assets/img/tmp/Harvard_University.jpg
+ create mode 100644 Website/assets/img/tmp/Massachusetts_Institute_of_Technology.jpg
+ create mode 100644 Website/assets/img/tmp/Princeton_University.jpg
+ create mode 100644 Website/assets/img/tmp/Stanford_University.jpg
+ create mode 100644 Website/assets/img/tmp/University_of_Washington.jpg
+ create mode 100644 Website/assets/img/tmp/Yale_University.jpg
+ create mode 100644 Website/assets/img/tmp/agent-1.jpg
+ create mode 100644 Website/assets/img/tmp/agent-2.jpg
+ create mode 100644 Website/assets/img/tmp/agent-3.jpg
+ create mode 100644 Website/assets/img/tmp/agent-4.jpg
+ create mode 100644 Website/assets/img/tmp/agent-5.jpg
+ create mode 100644 Website/assets/img/tmp/background_image_1.jpeg
+ create mode 100644 Website/assets/img/tmp/bg-transparent.jpg
+ create mode 100644 Website/assets/img/tmp/blog-1.jpg
+ create mode 100644 Website/assets/img/tmp/detail-banner-1.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-1.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-2.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-3.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-4.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-5.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-6.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-7.jpg
+ create mode 100644 Website/assets/img/tmp/gallery-8.jpg
+ create mode 100644 Website/assets/img/tmp/partner-1.jpg
+ create mode 100644 Website/assets/img/tmp/partner-1.png
+ create mode 100644 Website/assets/img/tmp/partner-2.jpg
+ create mode 100644 Website/assets/img/tmp/partner-2.png
+ create mode 100644 Website/assets/img/tmp/partner-3.jpg
+ create mode 100644 Website/assets/img/tmp/partner-3.png
+ create mode 100644 Website/assets/img/tmp/partner-4.jpg
+ create mode 100644 Website/assets/img/tmp/partner-4.png
+ create mode 100644 Website/assets/img/tmp/partner-5.jpg
+ create mode 100644 Website/assets/img/tmp/partner-5.png
+ create mode 100644 Website/assets/img/tmp/pragmaticmates-logo.png
+ create mode 100644 Website/assets/img/tmp/product-1.jpg
+ create mode 100644 Website/assets/img/tmp/product-10.jpg
+ create mode 100644 Website/assets/img/tmp/product-11.jpg
+ create mode 100644 Website/assets/img/tmp/product-12.jpg
+ create mode 100644 Website/assets/img/tmp/product-13.jpg
+ create mode 100644 Website/assets/img/tmp/product-14.jpg
+ create mode 100644 Website/assets/img/tmp/product-2.jpg
+ create mode 100644 Website/assets/img/tmp/product-3.jpg
+ create mode 100644 Website/assets/img/tmp/product-4.jpg
+ create mode 100644 Website/assets/img/tmp/product-5.jpg
+ create mode 100644 Website/assets/img/tmp/product-6.jpg
+ create mode 100644 Website/assets/img/tmp/product-7.jpg
+ create mode 100644 Website/assets/img/tmp/product-8.jpg
+ create mode 100644 Website/assets/img/tmp/product-9.jpg
+ create mode 100644 Website/assets/img/tmp/slider-1.jpg
+ create mode 100644 Website/assets/img/tmp/slider-2.jpg
+ create mode 100644 Website/assets/img/tmp/slider-3.jpg
+ create mode 100644 Website/assets/img/tmp/slider-large-1.jpg
+ create mode 100644 Website/assets/img/tmp/slider-large-2.jpg
+ create mode 100644 Website/assets/img/tmp/slider-large-3.jpg
+ create mode 100644 Website/assets/img/transparent-marker-image.png
+ create mode 100644 Website/assets/js/.DS_Store
+ create mode 100644 Website/assets/js/jquery.js
+ create mode 100644 Website/assets/js/map.js
+ create mode 100644 Website/assets/js/superlist.js
+ create mode 100644 Website/assets/libraries/.DS_Store
+ create mode 100644 Website/assets/libraries/bootstrap-fileinput/.DS_Store
+ create mode 100644 Website/assets/libraries/bootstrap-fileinput/fileinput.min.css
+ create mode 100644 Website/assets/libraries/bootstrap-fileinput/fileinput.min.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100755 Website/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100755 Website/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100755 Website/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100755 Website/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap-sprockets.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap.min.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/affix.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/button.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/modal.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/popover.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/scrollspy.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-compass.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-mincer.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-sprockets.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/_bootstrap.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_alerts.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_badges.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_breadcrumbs.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_button-groups.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_buttons.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_carousel.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_close.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_code.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_component-animations.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_dropdowns.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_forms.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_glyphicons.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_grid.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_input-groups.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_jumbotron.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_labels.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_list-group.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_media.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_mixins.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_modals.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_navbar.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_navs.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_normalize.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_pager.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_pagination.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_panels.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_popovers.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_print.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_progress-bars.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_responsive-embed.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_responsive-utilities.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_scaffolding.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_tables.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_theme.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_thumbnails.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_tooltip.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_type.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_utilities.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_variables.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_wells.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_alerts.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_background-variant.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_border-radius.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_buttons.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_center-block.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_clearfix.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_forms.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_gradients.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_grid-framework.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_grid.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_hide-text.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_image.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_labels.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_list-group.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_nav-divider.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_nav-vertical-align.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_opacity.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_pagination.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_panels.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_progress-bar.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_reset-filter.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_reset-text.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_resize.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_responsive-visibility.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_size.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_tab-focus.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_table-row.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_text-emphasis.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_text-overflow.scss
+ create mode 100755 Website/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_vendor-prefixes.scss
+ create mode 100755 Website/assets/libraries/bootstrap-select/bootstrap-select.min.css
+ create mode 100755 Website/assets/libraries/bootstrap-select/bootstrap-select.min.js
+ create mode 100644 Website/assets/libraries/colorbox/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/README.md
+ create mode 100755 Website/assets/libraries/colorbox/bower.json
+ create mode 100755 Website/assets/libraries/colorbox/colorbox.ai
+ create mode 100644 Website/assets/libraries/colorbox/content/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/content/ajax.html
+ create mode 100755 Website/assets/libraries/colorbox/content/daisy.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/daisy@2x.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/homer.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/marylou.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/ohoopee1.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/ohoopee2.jpg
+ create mode 100755 Website/assets/libraries/colorbox/content/ohoopee3.jpg
+ create mode 100644 Website/assets/libraries/colorbox/example1/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example1/colorbox.css
+ create mode 100644 Website/assets/libraries/colorbox/example1/images/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example1/images/border.png
+ create mode 100755 Website/assets/libraries/colorbox/example1/images/controls.png
+ create mode 100755 Website/assets/libraries/colorbox/example1/images/loading.gif
+ create mode 100755 Website/assets/libraries/colorbox/example1/images/loading_background.png
+ create mode 100755 Website/assets/libraries/colorbox/example1/images/overlay.png
+ create mode 100755 Website/assets/libraries/colorbox/example1/index.html
+ create mode 100644 Website/assets/libraries/colorbox/example2/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example2/colorbox.css
+ create mode 100644 Website/assets/libraries/colorbox/example2/images/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example2/images/controls.png
+ create mode 100755 Website/assets/libraries/colorbox/example2/images/loading.gif
+ create mode 100755 Website/assets/libraries/colorbox/example2/index.html
+ create mode 100644 Website/assets/libraries/colorbox/example3/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example3/colorbox.css
+ create mode 100644 Website/assets/libraries/colorbox/example3/images/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example3/images/controls.png
+ create mode 100755 Website/assets/libraries/colorbox/example3/images/loading.gif
+ create mode 100755 Website/assets/libraries/colorbox/example3/index.html
+ create mode 100644 Website/assets/libraries/colorbox/example4/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example4/colorbox.css
+ create mode 100644 Website/assets/libraries/colorbox/example4/images/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example4/images/border1.png
+ create mode 100755 Website/assets/libraries/colorbox/example4/images/border2.png
+ create mode 100755 Website/assets/libraries/colorbox/example4/images/loading.gif
+ create mode 100755 Website/assets/libraries/colorbox/example4/index.html
+ create mode 100644 Website/assets/libraries/colorbox/example5/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example5/colorbox.css
+ create mode 100644 Website/assets/libraries/colorbox/example5/images/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/example5/images/border.png
+ create mode 100755 Website/assets/libraries/colorbox/example5/images/controls.png
+ create mode 100755 Website/assets/libraries/colorbox/example5/images/loading.gif
+ create mode 100755 Website/assets/libraries/colorbox/example5/images/loading_background.png
+ create mode 100755 Website/assets/libraries/colorbox/example5/index.html
+ create mode 100644 Website/assets/libraries/colorbox/i18n/.DS_Store
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-ar.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-bg.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-bn.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-ca.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-cs.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-da.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-de.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-es.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-et.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-fa.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-fi.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-fr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-gl.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-gr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-he.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-hr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-hu.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-id.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-it.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-ja.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-kr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-lt.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-lv.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-my.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-nl.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-no.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-pl.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-pt-BR.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-ro.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-ru.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-si.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-sk.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-sr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-sv.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-tr.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-uk.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-zh-CN.js
+ create mode 100755 Website/assets/libraries/colorbox/i18n/jquery.colorbox-zh-TW.js
+ create mode 100755 Website/assets/libraries/colorbox/jquery.colorbox-min.js
+ create mode 100755 Website/assets/libraries/colorbox/jquery.colorbox.js
+ create mode 100755 Website/assets/libraries/colorbox/package.json
+ create mode 100644 Website/assets/libraries/flot/.DS_Store
+ create mode 100644 Website/assets/libraries/flot/jquery.colorhelpers.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.canvas.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.categories.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.crosshair.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.errorbars.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.fillbetween.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.image.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.navigate.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.pie.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.resize.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.selection.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.spline.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.stack.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.symbol.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.threshold.min.js
+ create mode 100644 Website/assets/libraries/flot/jquery.flot.time.min.js
+ create mode 100644 Website/assets/libraries/font-awesome/.DS_Store
+ create mode 100644 Website/assets/libraries/font-awesome/css/.DS_Store
+ create mode 100644 Website/assets/libraries/font-awesome/css/font-awesome.css
+ create mode 100644 Website/assets/libraries/font-awesome/css/font-awesome.min.css
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/.DS_Store
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/FontAwesome.otf
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/fontawesome-webfont.eot
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/fontawesome-webfont.svg
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/fontawesome-webfont.ttf
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff
+ create mode 100644 Website/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff2
+ create mode 100644 Website/assets/libraries/jquery-google-map/.DS_Store
+ create mode 100644 Website/assets/libraries/jquery-google-map/img/.DS_Store
+ create mode 100644 Website/assets/libraries/jquery-google-map/img/marker.png
+ create mode 100644 Website/assets/libraries/jquery-google-map/infobox.js
+ create mode 100644 Website/assets/libraries/jquery-google-map/jquery-google-map.js
+ create mode 100644 Website/assets/libraries/jquery-google-map/markerclusterer.js
+ create mode 100644 Website/assets/libraries/owl.carousel/.DS_Store
+ create mode 100644 Website/assets/libraries/owl.carousel/assets/.DS_Store
+ create mode 100644 Website/assets/libraries/owl.carousel/assets/owl.carousel.css
+ create mode 100644 Website/assets/libraries/owl.carousel/owl.carousel.js
+ create mode 100644 Website/assets/libraries/owl.carousel/owl.carousel.min.js
+ create mode 100644 Website/assets/scss/.DS_Store
+ create mode 100644 Website/assets/scss/helpers/.DS_Store
+ create mode 100644 Website/assets/scss/helpers/_admin.scss
+ create mode 100644 Website/assets/scss/helpers/_buttons.scss
+ create mode 100644 Website/assets/scss/helpers/_card.scss
+ create mode 100644 Website/assets/scss/helpers/_categories.scss
+ create mode 100644 Website/assets/scss/helpers/_colorbox.scss
+ create mode 100644 Website/assets/scss/helpers/_comments.scss
+ create mode 100644 Website/assets/scss/helpers/_commons.scss
+ create mode 100644 Website/assets/scss/helpers/_detail.scss
+ create mode 100644 Website/assets/scss/helpers/_detail_gallery.scss
+ create mode 100644 Website/assets/scss/helpers/_events.scss
+ create mode 100644 Website/assets/scss/helpers/_faq.scss
+ create mode 100644 Website/assets/scss/helpers/_filter.scss
+ create mode 100644 Website/assets/scss/helpers/_footer.scss
+ create mode 100644 Website/assets/scss/helpers/_forms.scss
+ create mode 100644 Website/assets/scss/helpers/_fullscreen.scss
+ create mode 100644 Website/assets/scss/helpers/_header.scss
+ create mode 100644 Website/assets/scss/helpers/_header_nav_user.scss
+ create mode 100644 Website/assets/scss/helpers/_header_statusbar.scss
+ create mode 100644 Website/assets/scss/helpers/_hero_image.scss
+ create mode 100644 Website/assets/scss/helpers/_hero_slider.scss
+ create mode 100644 Website/assets/scss/helpers/_hero_video.scss
+ create mode 100644 Website/assets/scss/helpers/_invoice.scss
+ create mode 100644 Website/assets/scss/helpers/_map.scss
+ create mode 100644 Website/assets/scss/helpers/_pagination.scss
+ create mode 100644 Website/assets/scss/helpers/_partners.scss
+ create mode 100644 Website/assets/scss/helpers/_posts.scss
+ create mode 100644 Website/assets/scss/helpers/_posts_detail.scss
+ create mode 100644 Website/assets/scss/helpers/_pricing.scss
+ create mode 100644 Website/assets/scss/helpers/_promotion.scss
+ create mode 100644 Website/assets/scss/helpers/_reviews.scss
+ create mode 100644 Website/assets/scss/helpers/_social.scss
+ create mode 100644 Website/assets/scss/helpers/_testimonials.scss
+ create mode 100644 Website/assets/scss/helpers/_users.scss
+ create mode 100644 Website/assets/scss/helpers/_variables.scss
+ create mode 100644 Website/assets/scss/helpers/_widgets.scss
+ create mode 100644 Website/assets/scss/superlist.scss
+ create mode 100644 Website/contact-1.html
+ create mode 100644 Website/index.html
+ create mode 100644 Website/listing-detail.html
+ create mode 100644 Website/listing-row.html
+ create mode 100644 superlist-1.0.3 2 copy/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/documentation/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/css/bootstrap.min.css
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/css/documentation.css
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/colors.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/grep.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/inspect.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/inspect2.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/packages-widget-front.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/img/packages-widget.png
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/js/documentation.js
+ create mode 100644 superlist-1.0.3 2 copy/documentation/assets/js/jquery.js
+ create mode 100644 superlist-1.0.3 2 copy/documentation/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/CHANGELOG.txt
+ create mode 100644 superlist-1.0.3 2 copy/superlist/admin-dashboard.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/admin-forms.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/admin-grid.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/admin-notifications.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/admin-tables.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/css/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/css/background_image_1.jpeg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/css/superlist.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/favicon.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/logo-white.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/logo.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Columbia_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Cornell_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Harvard_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Massachusetts_Institute_of_Technology.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Princeton_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Stanford_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/University_of_Washington.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/Yale_University.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/agent-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/agent-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/agent-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/agent-4.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/agent-5.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/background_image_1.jpeg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/bg-transparent.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/blog-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/detail-banner-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-4.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-5.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-6.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-7.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/gallery-8.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-1.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-2.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-3.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-4.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-4.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-5.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/partner-5.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/pragmaticmates-logo.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-10.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-11.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-12.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-13.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-14.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-4.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-5.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-6.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-7.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-8.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/product-9.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-large-1.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-large-2.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/tmp/slider-large-3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/img/transparent-marker-image.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/js/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/js/jquery.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/js/map.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/js/superlist.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-fileinput/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-fileinput/fileinput.min.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-fileinput/fileinput.min.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.eot
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.svg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.ttf
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.woff
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/fonts/bootstrap/glyphicons-halflings-regular.woff2
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap-sprockets.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap.min.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/affix.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/button.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/modal.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/popover.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/scrollspy.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-compass.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-mincer.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/_bootstrap-sprockets.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/_bootstrap.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_alerts.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_badges.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_breadcrumbs.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_button-groups.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_buttons.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_carousel.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_close.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_code.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_component-animations.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_dropdowns.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_forms.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_glyphicons.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_grid.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_input-groups.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_jumbotron.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_labels.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_list-group.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_media.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_mixins.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_modals.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_navbar.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_navs.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_normalize.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_pager.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_pagination.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_panels.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_popovers.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_print.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_progress-bars.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_responsive-embed.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_responsive-utilities.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_scaffolding.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_tables.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_theme.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_thumbnails.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_tooltip.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_type.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_utilities.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_variables.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/_wells.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_alerts.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_background-variant.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_border-radius.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_buttons.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_center-block.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_clearfix.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_forms.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_gradients.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_grid-framework.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_grid.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_hide-text.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_image.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_labels.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_list-group.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_nav-divider.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_nav-vertical-align.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_opacity.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_pagination.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_panels.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_progress-bar.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_reset-filter.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_reset-text.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_resize.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_responsive-visibility.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_size.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_tab-focus.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_table-row.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_text-emphasis.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_text-overflow.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-sass/stylesheets/bootstrap/mixins/_vendor-prefixes.scss
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-select/bootstrap-select.min.css
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/bootstrap-select/bootstrap-select.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/README.md
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/bower.json
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/colorbox.ai
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/ajax.html
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/daisy.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/daisy@2x.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/homer.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/marylou.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/ohoopee1.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/ohoopee2.jpg
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/content/ohoopee3.jpg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/colorbox.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/border.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/controls.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/loading.gif
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/loading_background.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/images/overlay.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example1/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/colorbox.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/images/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/images/controls.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/images/loading.gif
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example2/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/colorbox.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/images/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/images/controls.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/images/loading.gif
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example3/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/colorbox.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/images/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/images/border1.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/images/border2.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/images/loading.gif
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example4/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/colorbox.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/images/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/images/border.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/images/controls.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/images/loading.gif
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/images/loading_background.png
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/example5/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/.DS_Store
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-ar.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-bg.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-bn.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-ca.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-cs.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-da.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-de.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-es.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-et.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-fa.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-fi.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-fr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-gl.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-gr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-he.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-hr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-hu.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-id.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-it.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-ja.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-kr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-lt.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-lv.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-my.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-nl.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-no.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-pl.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-pt-BR.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-ro.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-ru.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-si.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-sk.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-sr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-sv.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-tr.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-uk.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-zh-CN.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/i18n/jquery.colorbox-zh-TW.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/jquery.colorbox-min.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/jquery.colorbox.js
+ create mode 100755 superlist-1.0.3 2 copy/superlist/assets/libraries/colorbox/package.json
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.colorhelpers.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.canvas.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.categories.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.crosshair.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.errorbars.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.fillbetween.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.image.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.navigate.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.pie.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.resize.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.selection.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.spline.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.stack.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.symbol.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.threshold.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/flot/jquery.flot.time.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/css/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/css/font-awesome.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/css/font-awesome.min.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/FontAwesome.otf
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/fontawesome-webfont.eot
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/fontawesome-webfont.svg
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/fontawesome-webfont.ttf
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff2
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/img/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/img/marker.png
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/infobox.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/jquery-google-map.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/jquery-google-map/markerclusterer.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/owl.carousel/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/owl.carousel/assets/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/owl.carousel/assets/owl.carousel.css
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/owl.carousel/owl.carousel.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/libraries/owl.carousel/owl.carousel.min.js
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/.DS_Store
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_admin.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_buttons.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_card.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_categories.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_colorbox.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_comments.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_commons.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_detail.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_detail_gallery.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_events.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_faq.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_filter.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_footer.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_forms.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_fullscreen.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_header.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_header_nav_user.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_header_statusbar.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_hero_image.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_hero_slider.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_hero_video.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_invoice.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_map.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_pagination.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_partners.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_posts.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_posts_detail.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_pricing.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_promotion.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_reviews.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_social.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_testimonials.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_users.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_variables.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/helpers/_widgets.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/assets/scss/superlist.scss
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-boxed.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-condensed.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-detail-left-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-detail-right-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-detail.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-standard-left-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/blog-standard-right-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/change-password.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/contact-1.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/contact-2.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/contact-3.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/error-403.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/error-404.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/error-500.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/faq.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/grid.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-bootstrap-slider.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-google-map-transparent-header.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-google-map.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-image.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-video-transparent-header.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index-video.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/index.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/invoice.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-grid-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-grid.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-map.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-row-sidebar.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-row.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/listing-submit.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/login.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/pricing.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/register.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/sticky-footer.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/terms-conditions.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/testimonials.html
+ create mode 100644 superlist-1.0.3 2 copy/superlist/user-profile-edit.html
+D-173-250-237-45:gradscout-website jyothimocherla$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 5.45 KiB | 0 bytes/s, done.
+Total 13 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To https://github.com/sanathkumarbs/gradscout-website.git
+   0b0b12a..661bbb6  master -> master
+D-173-250-237-45:gradscout-website jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout-website
+D-173-250-237-45:gradscout-website jyothimocherla$ cd ..
+D-173-250-237-45:Capstone jyothimocherla$ ls
+0.DesignProcess.jpg
+1.Home.jpg
+2.User Info.jpg
+3.Priorities.jpg
+4.Tell us More.jpg
+5.Study.jpg
+6.Career.jpg
+Annie.png
+CollegeScorecardDataDictionary_edited.xlsx
+FrontPage_Mockup2.ai
+FrontPage_mockup1.ai
+George.png
+Images
+MSIM_Capstone_StatusReport_Team14.docx
+django_practice
+gradscout
+gradscout-website
+superlist-1.0.3 - Original
+~$CollegeScorecardDataDictionary_edited.xlsx
+D-173-250-237-45:Capstone jyothimocherla$ cd gradscout
+D-173-250-237-45:gradscout jyothimocherla$ ls
+README.md	dev		pm
+data		get-pip.py	ux
+D-173-250-237-45:gradscout jyothimocherla$ git pull
+remote: Counting objects: 305, done.
+remote: Compressing objects: 100% (212/212), done.
+remote: Total 305 (delta 109), reused 283 (delta 87), pack-reused 0
+Receiving objects: 100% (305/305), 4.11 MiB | 1.37 MiB/s, done.
+Resolving deltas: 100% (109/109), completed with 5 local objects.
+From https://github.com/sanathkumarbs/gradscout
+   2e4c81a..4971f29  master     -> origin/master
+ * [new branch]      Amol-branch -> origin/Amol-branch
+Updating 2e4c81a..4971f29
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+	data/.DS_Store
+Please, commit your changes or stash them before you can merge.
+Aborting
+D-173-250-237-45:gradscout jyothimocherla$ rm .DS_Store 
+D-173-250-237-45:gradscout jyothimocherla$ rm data/.DS_Store 
+D-173-250-237-45:gradscout jyothimocherla$ 
+D-173-250-237-45:gradscout jyothimocherla$ git pull
+Updating 2e4c81a..4971f29
+Fast-forward
+ .DS_Store                                          |  Bin 6148 -> 8196 bytes
+ .gitignore                                         |    3 +
+ README.md                                          |   18 +-
+ __init__.py                                        |    0
+ data/.DS_Store                                     |  Bin 8196 -> 0 bytes
+ data/curriculum/.DS_Store                          |  Bin 6148 -> 0 bytes
+ data/data_for_database/college_data.csv            |   61 +
+ data/data_for_database/college_data.json           |  340 +
+ data/data_for_database/college_key_data.xlsx       |  Bin 0 -> 294842 bytes
+ data/data_for_database/firebase.json               | 3421 +++++++
+ data/data_for_database/firebase_export.json        | 3423 +++++++
+ data/data_for_database/json_structure.json         |   58 +
+ data/data_for_database/program_data.json           | 1585 ++++
+ data/program/CIS - MCIT UPenn.htm                  |  323 +
+ data/program/CIS - MSE UPenn.htm                   |  333 +
+ data/program/Computer Science Berkeley.htm         |  362 +
+ data/program/Computer Science Duke.htm             |  536 ++
+ data/program/Computer Science Graduate School.htm  |  440 +
+ data/program/Computer Science M S Cornell.htm      |  422 +
+ .../Computer Science MS Degree Stanford.htm        | 3226 +++++++
+ .../Computer Science Master John Hopkins.htm       | 1059 +++
+ .../Computer Science Princeton University.htm      |  545 ++
+ .../program/Data Science Engineering MSOL UCLA.htm |  555 ++
+ data/program/Graduate Program CS UCLA.htm          |  606 ++
+ data/program/Information Systems MS Cornell.htm    |  421 +
+ data/program/M S Computer Science Columbia.htm     |  798 ++
+ data/program/M.S. Computer Science Dartmouth.htm   |  710 ++
+ data/program/MIDS Berkeley.htm                     |  513 ++
+ data/program/MLIS UCLA.htm                         |  308 +
+ ...agement Johns Hopkins Carey Business School.htm | 1030 +++
+ ... Systems Johns Hopkins Carey Business Schoo.htm | 1033 +++
+ .../Master of Business Analytics Program MIT.htm   |  899 ++
+ ...d Systems UC Berkeley School of Information.htm |  381 +
+ .../program/Master of Science Computer Science.htm |  290 +
+ ...eering Design Innovation (EDI) Northwestern.htm |  338 +
+ ...Master of Science in Analytics Northwestern.htm |  336 +
+ data/program/Master of Science in CSE Harvard.htm  |  445 +
+ .../Master of Science in Data Science Columbia.htm |  501 ++
+ ...formation School _ University of Washington.htm |  449 +
+ ...rmation Systems - Foster School of Business.htm |  840 ++
+ ...ence in Information Technology Northwestern.htm |  379 +
+ data/program/Master's in Data Science Brown.htm    |  382 +
+ ...rs in Information Systems MSIS Northwestern.htm | 1280 +++
+ data/program/UMich CS.htm                          |  452 +
+ data/uni_data/.DS_Store                            |  Bin 6148 -> 0 bytes
+ ....htm => MassachusettsInstituteofTechnology.htm} |    0
+ ...ewYorkUniversity .htm => NewYorkUniversity.htm} |    0
+ ...s .htm => UniversityofCaliforniaLosAngeles.htm} |    0
+ ...ego .htm => UniversityofCaliforniaSanDiego.htm} |    0
+ ...htm => UniversityofIllinoisUrbanaChampaign.htm} |    0
+ ...exasAustin .htm => UniversityofTexasAustin.htm} |    0
+ ...dison .htm => UniversityofWisconsinMadison.htm} |    0
+ .../CSV with Course Names Final-checkpoint.ipynb   |  666 ++
+ .../CSV with Course Names Final.ipynb              |  995 +++
+ .../Courses With Fnalized Program Names.csv        |   58 +
+ dev/Course Module/WebPages/UW_hcde.htm             | 1721 ++++
+ .../WebPages/berkeley_datascience.htm              |  653 ++
+ dev/Course Module/WebPages/berkeley_eecs.htm       | 1258 +++
+ dev/Course Module/WebPages/berkeley_ischool.htm    | 1540 ++++
+ dev/Course Module/WebPages/brown_cs.htm            | 3263 +++++++
+ dev/Course Module/WebPages/brown_datascience.htm   |  442 +
+ dev/Course Module/WebPages/cmu_assurance.htm       | 1261 +++
+ dev/Course Module/WebPages/cmu_bida.htm            | 1293 +++
+ dev/Course Module/WebPages/cmu_cs.htm              |  606 ++
+ dev/Course Module/WebPages/cmu_mism_16.htm         | 1011 +++
+ dev/Course Module/WebPages/cmu_mism_21.htm         | 1160 +++
+ dev/Course Module/WebPages/cmu_mism_one.htm        | 1183 +++
+ dev/Course Module/WebPages/cmu_msispm.htm          | 1160 +++
+ dev/Course Module/WebPages/cmu_msit.htm            | 1248 +++
+ dev/Course Module/WebPages/cmu_software_design.htm | 1247 +++
+ dev/Course Module/WebPages/columbia_cs.htm         | 3164 +++++++
+ dev/Course Module/WebPages/columbia_ds.htm         |  710 ++
+ dev/Course Module/WebPages/cornell_cs.htm          |  475 +
+ dev/Course Module/WebPages/cornell_cs_2.htm        | 1721 ++++
+ dev/Course Module/WebPages/dartmouth_cs.htm        |  694 ++
+ dev/Course Module/WebPages/duke_cs.htm             |  305 +
+ dev/Course Module/WebPages/gatech_analytics.htm    |  400 +
+ .../WebPages/gatech_analytics_engineering.htm      |  400 +
+ dev/Course Module/WebPages/gatech_cs.htm           | 1000 +++
+ dev/Course Module/WebPages/gatech_hci.htm          |  633 ++
+ dev/Course Module/WebPages/gatech_security.htm     |  390 +
+ dev/Course Module/WebPages/harvard_cs.htm          |  541 ++
+ dev/Course Module/WebPages/john_cs.htm             | 1660 ++++
+ dev/Course Module/WebPages/john_cybersecurity.htm  | 1041 +++
+ dev/Course Module/WebPages/john_msis.htm           | 1024 +++
+ dev/Course Module/WebPages/john_risk_mgmt.htm      | 1024 +++
+ dev/Course Module/WebPages/maryland_cs.htm         | 3583 ++++++++
+ dev/Course Module/WebPages/maryland_hcim.htm       |  438 +
+ dev/Course Module/WebPages/maryland_mim.htm        |  452 +
+ dev/Course Module/WebPages/maryland_mlis.htm       |  591 ++
+ .../WebPages/mit_business_analytics.htm            |  869 ++
+ dev/Course Module/WebPages/nwes_analytics.htm      |  288 +
+ dev/Course Module/WebPages/nwes_cs.htm             |  286 +
+ dev/Course Module/WebPages/nwes_design.htm         |  337 +
+ dev/Course Module/WebPages/nwes_msis.htm           | 1280 +++
+ dev/Course Module/WebPages/nwes_msit.htm           |  309 +
+ dev/Course Module/WebPages/nyu_cs.htm              |  202 +
+ dev/Course Module/WebPages/nyu_mot.htm             |  191 +
+ dev/Course Module/WebPages/princeton_cs.htm        |  684 ++
+ dev/Course Module/WebPages/stanford_cs.htm         | 3224 +++++++
+ dev/Course Module/WebPages/ucla_cs.htm             |  916 ++
+ dev/Course Module/WebPages/ucla_datascience.htm    |  555 ++
+ dev/Course Module/WebPages/ucla_mlis.htm           | 3157 +++++++
+ dev/Course Module/WebPages/ucsd_cs.htm             | 1038 +++
+ dev/Course Module/WebPages/uiuc_cs.htm             | 2249 +++++
+ dev/Course Module/WebPages/uiuc_ischool.html       | 9224 +++++++++++++++++++
+ dev/Course Module/WebPages/uiuc_lis.htm            | 9355 ++++++++++++++++++++
+ dev/Course Module/WebPages/umich_cs.htm            | 1442 +++
+ dev/Course Module/WebPages/umich_eecs.htm          |  452 +
+ dev/Course Module/WebPages/umich_information.htm   |  731 ++
+ dev/Course Module/WebPages/unc_chapel_cs.htm       |  854 ++
+ dev/Course Module/WebPages/unc_chapel_is.html      |  522 ++
+ dev/Course Module/WebPages/unc_chapel_lis.htm      |  250 +
+ dev/Course Module/WebPages/unc_chapel_mlis.html    |  250 +
+ dev/Course Module/WebPages/upenn_cs.htm            |  375 +
+ dev/Course Module/WebPages/upenn_mcit.htm          |  365 +
+ dev/Course Module/WebPages/use_cs.htm              |  418 +
+ dev/Course Module/WebPages/ut_austin_msis.htm      |  485 +
+ dev/Course Module/WebPages/utaustin_cs.htm         |  360 +
+ dev/Course Module/WebPages/uw_datascience.htm      |  320 +
+ dev/Course Module/WebPages/uw_datascience_ms.htm   |  371 +
+ dev/Course Module/WebPages/uw_mhcid.htm            |  702 ++
+ dev/Course Module/WebPages/uw_msim.htm             |  560 ++
+ dev/Course Module/WebPages/uw_msis.htm             | 1363 +++
+ dev/Course Module/WebPages/wisc_cs.htm             | 1260 +++
+ dev/Course Module/WebPages/wisc_datascience.htm    |  379 +
+ dev/Course Module/WebPages/wisc_lis.htm            |  399 +
+ dev/Course Module/WebPages/yale_cs.htm             |  923 ++
+ .../Correlation and Normalization-checkpoint.ipynb | 3049 +++++++
+ .../Correlation and Normalization.ipynb            | 3049 +++++++
+ .../University Quantitative Data.csv               |   61 +
+ dev/README.md                                      |    0
+ dev/__init__.py                                    |    0
+ dev/backend/Test/admission_rate_test.py            |   14 +
+ dev/backend/Test/filter_city_test.py               |   17 +
+ dev/backend/Test/filter_zip_test.py                |   17 +
+ dev/backend/Test/gpa_filter_test.py                |   14 +
+ dev/backend/Test/in_state_fees_test.py             |   15 +
+ dev/backend/Test/multicriteria_test.py             |   45 +
+ dev/backend/Test/overall_expenses_test.py          |   14 +
+ dev/backend/Test/overall_rank_test.py              |   25 +
+ dev/backend/Test/verbal_test.py                    |   21 +
+ dev/backend/database.py                            |  226 +
+ dev/backend/database_usage.txt                     |   33 +
+ dev/backend/filterSelection.py                     |  199 +
+ dev/backend/filters.py                             |  282 +
+ dev/backend/matchingAlgo.py                        |   96 +
+ dev/backend/multicriteria_test.py                  |   46 +
+ dev/backend/requirements.txt                       |    6 +
+ dev/entity/__init__.py                             |    0
+ dev/entity/program.py                              |  146 +
+ dev/entity/school.py                               |   53 +
+ dev/entity/university.py                           |  110 +
+ dev/matchingAlgo/correlation.R                     |    8 +
+ dev/utils/UniversityName.txt                       |    1 +
+ dev/utils/__init__.py                              |    0
+ dev/utils/data_scraper.py                          |   12 +-
+ dev/utils/geturls.py                               |   32 +
+ dev/utils/import_data.py                           |  210 +
+ dev/utils/json_builder.py                          |  309 +
+ dev/utils/program_scraper.py                       |   97 +
+ pm/.Rhistory                                       |    0
+ pm/GradScout.mpp                                   |  Bin 0 -> 1242112 bytes
+ pm/MSIM_Capstone_StatusReport_Team14.docx          |  Bin 0 -> 19325 bytes
+ pm/Project Plan_GradScout2.pdf                     |  Bin 0 -> 600721 bytes
+ pm/Project Plan_GradScoutv3.pdf                    |  Bin 0 -> 600501 bytes
+ pm/Project Plan_GradScoutv4.pdf                    |  Bin 0 -> 606758 bytes
+ pm/Project Plan_GradScoutv5.pdf                    |  Bin 0 -> 609856 bytes
+ pm/README.md                                       |    0
+ pm/Team14_Deliverable1.pdf                         |  Bin 0 -> 270512 bytes
+ pm/statusreport4_14.docx.docx                      |  Bin 0 -> 16418 bytes
+ ux/README.md                                       |    0
+ 172 files changed, 125252 insertions(+), 12 deletions(-)
+ mode change 100644 => 100755 README.md
+ create mode 100644 __init__.py
+ delete mode 100644 data/.DS_Store
+ delete mode 100644 data/curriculum/.DS_Store
+ create mode 100644 data/data_for_database/college_data.csv
+ create mode 100644 data/data_for_database/college_data.json
+ create mode 100644 data/data_for_database/college_key_data.xlsx
+ create mode 100644 data/data_for_database/firebase.json
+ create mode 100644 data/data_for_database/firebase_export.json
+ create mode 100644 data/data_for_database/json_structure.json
+ create mode 100644 data/data_for_database/program_data.json
+ create mode 100644 data/program/CIS - MCIT UPenn.htm
+ create mode 100644 data/program/CIS - MSE UPenn.htm
+ create mode 100644 data/program/Computer Science Berkeley.htm
+ create mode 100644 data/program/Computer Science Duke.htm
+ create mode 100644 data/program/Computer Science Graduate School.htm
+ create mode 100644 data/program/Computer Science M S Cornell.htm
+ create mode 100644 data/program/Computer Science MS Degree Stanford.htm
+ create mode 100644 data/program/Computer Science Master John Hopkins.htm
+ create mode 100644 data/program/Computer Science Princeton University.htm
+ create mode 100644 data/program/Data Science Engineering MSOL UCLA.htm
+ create mode 100644 data/program/Graduate Program CS UCLA.htm
+ create mode 100644 data/program/Information Systems MS Cornell.htm
+ create mode 100644 data/program/M S Computer Science Columbia.htm
+ create mode 100644 data/program/M.S. Computer Science Dartmouth.htm
+ create mode 100644 data/program/MIDS Berkeley.htm
+ create mode 100644 data/program/MLIS UCLA.htm
+ create mode 100644 data/program/MS in Enterprise Risk Management Johns Hopkins Carey Business School.htm
+ create mode 100644 data/program/MS in Information Systems Johns Hopkins Carey Business Schoo.htm
+ create mode 100644 data/program/Master of Business Analytics Program MIT.htm
+ create mode 100644 data/program/Master of Information Management and Systems UC Berkeley School of Information.htm
+ create mode 100644 data/program/Master of Science Computer Science.htm
+ create mode 100644 data/program/Master of Science Engineering Design Innovation (EDI) Northwestern.htm
+ create mode 100644 data/program/Master of Science in Analytics Northwestern.htm
+ create mode 100644 data/program/Master of Science in CSE Harvard.htm
+ create mode 100644 data/program/Master of Science in Data Science Columbia.htm
+ create mode 100755 data/program/Master of Science in Information Management _ Information School _ University of Washington.htm
+ create mode 100755 data/program/Master of Science in Information Systems - Foster School of Business.htm
+ create mode 100644 data/program/Master of Science in Information Technology Northwestern.htm
+ create mode 100644 data/program/Master's in Data Science Brown.htm
+ create mode 100644 data/program/Masters in Information Systems MSIS Northwestern.htm
+ create mode 100644 data/program/UMich CS.htm
+ delete mode 100644 data/uni_data/.DS_Store
+ rename data/uni_data/{MassachusettsInstitute ofTechnology.htm => MassachusettsInstituteofTechnology.htm} (100%)
+ rename data/uni_data/{NewYorkUniversity .htm => NewYorkUniversity.htm} (100%)
+ rename data/uni_data/{UniversityofCaliforniaLosAngeles .htm => UniversityofCaliforniaLosAngeles.htm} (100%)
+ rename data/uni_data/{UniversityofCaliforniaSanDiego .htm => UniversityofCaliforniaSanDiego.htm} (100%)
+ rename data/uni_data/{UniversityofIllinoisUrbanaChampaign .htm => UniversityofIllinoisUrbanaChampaign.htm} (100%)
+ rename data/uni_data/{UniversityofTexasAustin .htm => UniversityofTexasAustin.htm} (100%)
+ rename data/uni_data/{UniversityofWisconsinMadison .htm => UniversityofWisconsinMadison.htm} (100%)
+ create mode 100644 dev/Course Module/CourseExtractCode/.ipynb_checkpoints/CSV with Course Names Final-checkpoint.ipynb
+ create mode 100644 dev/Course Module/CourseExtractCode/CSV with Course Names Final.ipynb
+ create mode 100644 dev/Course Module/CourseExtractCode/Courses With Fnalized Program Names.csv
+ create mode 100644 dev/Course Module/WebPages/UW_hcde.htm
+ create mode 100644 dev/Course Module/WebPages/berkeley_datascience.htm
+ create mode 100644 dev/Course Module/WebPages/berkeley_eecs.htm
+ create mode 100644 dev/Course Module/WebPages/berkeley_ischool.htm
+ create mode 100644 dev/Course Module/WebPages/brown_cs.htm
+ create mode 100644 dev/Course Module/WebPages/brown_datascience.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_assurance.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_bida.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_cs.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_mism_16.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_mism_21.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_mism_one.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_msispm.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_msit.htm
+ create mode 100644 dev/Course Module/WebPages/cmu_software_design.htm
+ create mode 100644 dev/Course Module/WebPages/columbia_cs.htm
+ create mode 100644 dev/Course Module/WebPages/columbia_ds.htm
+ create mode 100644 dev/Course Module/WebPages/cornell_cs.htm
+ create mode 100644 dev/Course Module/WebPages/cornell_cs_2.htm
+ create mode 100644 dev/Course Module/WebPages/dartmouth_cs.htm
+ create mode 100644 dev/Course Module/WebPages/duke_cs.htm
+ create mode 100644 dev/Course Module/WebPages/gatech_analytics.htm
+ create mode 100644 dev/Course Module/WebPages/gatech_analytics_engineering.htm
+ create mode 100644 dev/Course Module/WebPages/gatech_cs.htm
+ create mode 100644 dev/Course Module/WebPages/gatech_hci.htm
+ create mode 100644 dev/Course Module/WebPages/gatech_security.htm
+ create mode 100644 dev/Course Module/WebPages/harvard_cs.htm
+ create mode 100644 dev/Course Module/WebPages/john_cs.htm
+ create mode 100644 dev/Course Module/WebPages/john_cybersecurity.htm
+ create mode 100644 dev/Course Module/WebPages/john_msis.htm
+ create mode 100644 dev/Course Module/WebPages/john_risk_mgmt.htm
+ create mode 100644 dev/Course Module/WebPages/maryland_cs.htm
+ create mode 100644 dev/Course Module/WebPages/maryland_hcim.htm
+ create mode 100644 dev/Course Module/WebPages/maryland_mim.htm
+ create mode 100644 dev/Course Module/WebPages/maryland_mlis.htm
+ create mode 100644 dev/Course Module/WebPages/mit_business_analytics.htm
+ create mode 100644 dev/Course Module/WebPages/nwes_analytics.htm
+ create mode 100644 dev/Course Module/WebPages/nwes_cs.htm
+ create mode 100644 dev/Course Module/WebPages/nwes_design.htm
+ create mode 100644 dev/Course Module/WebPages/nwes_msis.htm
+ create mode 100644 dev/Course Module/WebPages/nwes_msit.htm
+ create mode 100644 dev/Course Module/WebPages/nyu_cs.htm
+ create mode 100644 dev/Course Module/WebPages/nyu_mot.htm
+ create mode 100644 dev/Course Module/WebPages/princeton_cs.htm
+ create mode 100644 dev/Course Module/WebPages/stanford_cs.htm
+ create mode 100644 dev/Course Module/WebPages/ucla_cs.htm
+ create mode 100644 dev/Course Module/WebPages/ucla_datascience.htm
+ create mode 100644 dev/Course Module/WebPages/ucla_mlis.htm
+ create mode 100644 dev/Course Module/WebPages/ucsd_cs.htm
+ create mode 100644 dev/Course Module/WebPages/uiuc_cs.htm
+ create mode 100644 dev/Course Module/WebPages/uiuc_ischool.html
+ create mode 100644 dev/Course Module/WebPages/uiuc_lis.htm
+ create mode 100644 dev/Course Module/WebPages/umich_cs.htm
+ create mode 100644 dev/Course Module/WebPages/umich_eecs.htm
+ create mode 100644 dev/Course Module/WebPages/umich_information.htm
+ create mode 100644 dev/Course Module/WebPages/unc_chapel_cs.htm
+ create mode 100644 dev/Course Module/WebPages/unc_chapel_is.html
+ create mode 100644 dev/Course Module/WebPages/unc_chapel_lis.htm
+ create mode 100644 dev/Course Module/WebPages/unc_chapel_mlis.html
+ create mode 100644 dev/Course Module/WebPages/upenn_cs.htm
+ create mode 100644 dev/Course Module/WebPages/upenn_mcit.htm
+ create mode 100644 dev/Course Module/WebPages/use_cs.htm
+ create mode 100644 dev/Course Module/WebPages/ut_austin_msis.htm
+ create mode 100644 dev/Course Module/WebPages/utaustin_cs.htm
+ create mode 100644 dev/Course Module/WebPages/uw_datascience.htm
+ create mode 100644 dev/Course Module/WebPages/uw_datascience_ms.htm
+ create mode 100644 dev/Course Module/WebPages/uw_mhcid.htm
+ create mode 100644 dev/Course Module/WebPages/uw_msim.htm
+ create mode 100644 dev/Course Module/WebPages/uw_msis.htm
+ create mode 100644 dev/Course Module/WebPages/wisc_cs.htm
+ create mode 100644 dev/Course Module/WebPages/wisc_datascience.htm
+ create mode 100644 dev/Course Module/WebPages/wisc_lis.htm
+ create mode 100644 dev/Course Module/WebPages/yale_cs.htm
+ create mode 100644 dev/Matching Algorithm/.ipynb_checkpoints/Correlation and Normalization-checkpoint.ipynb
+ create mode 100644 dev/Matching Algorithm/Correlation and Normalization.ipynb
+ create mode 100644 dev/Matching Algorithm/University Quantitative Data.csv
+ mode change 100644 => 100755 dev/README.md
+ create mode 100755 dev/__init__.py
+ create mode 100644 dev/backend/Test/admission_rate_test.py
+ create mode 100644 dev/backend/Test/filter_city_test.py
+ create mode 100644 dev/backend/Test/filter_zip_test.py
+ create mode 100644 dev/backend/Test/gpa_filter_test.py
+ create mode 100644 dev/backend/Test/in_state_fees_test.py
+ create mode 100644 dev/backend/Test/multicriteria_test.py
+ create mode 100644 dev/backend/Test/overall_expenses_test.py
+ create mode 100644 dev/backend/Test/overall_rank_test.py
+ create mode 100644 dev/backend/Test/verbal_test.py
+ create mode 100644 dev/backend/database.py
+ create mode 100644 dev/backend/database_usage.txt
+ create mode 100644 dev/backend/filterSelection.py
+ create mode 100644 dev/backend/filters.py
+ create mode 100644 dev/backend/matchingAlgo.py
+ create mode 100644 dev/backend/multicriteria_test.py
+ create mode 100644 dev/backend/requirements.txt
+ create mode 100755 dev/entity/__init__.py
+ create mode 100644 dev/entity/program.py
+ create mode 100644 dev/entity/school.py
+ create mode 100755 dev/entity/university.py
+ create mode 100644 dev/matchingAlgo/correlation.R
+ create mode 100755 dev/utils/UniversityName.txt
+ create mode 100755 dev/utils/__init__.py
+ create mode 100755 dev/utils/geturls.py
+ create mode 100755 dev/utils/import_data.py
+ create mode 100644 dev/utils/json_builder.py
+ create mode 100755 dev/utils/program_scraper.py
+ create mode 100644 pm/.Rhistory
+ create mode 100644 pm/GradScout.mpp
+ create mode 100644 pm/MSIM_Capstone_StatusReport_Team14.docx
+ create mode 100644 pm/Project Plan_GradScout2.pdf
+ create mode 100644 pm/Project Plan_GradScoutv3.pdf
+ create mode 100644 pm/Project Plan_GradScoutv4.pdf
+ create mode 100644 pm/Project Plan_GradScoutv5.pdf
+ mode change 100644 => 100755 pm/README.md
+ create mode 100644 pm/Team14_Deliverable1.pdf
+ create mode 100644 pm/statusreport4_14.docx.docx
+ mode change 100644 => 100755 ux/README.md
+D-173-250-237-45:gradscout jyothimocherla$ 
+D-173-250-237-45:gradscout jyothimocherla$ 
+D-173-250-237-45:gradscout jyothimocherla$ git pull
+Already up-to-date.
+D-173-250-237-45:gradscout jyothimocherla$ 
+D-173-250-237-45:gradscout jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout
+D-173-250-237-45:gradscout jyothimocherla$ ls
+README.md	data		get-pip.py	ux
+__init__.py	dev		pm
+D-173-250-237-45:gradscout jyothimocherla$ cd dev
+D-173-250-237-45:dev jyothimocherla$ ls
+Course Module		__init__.py		matchingAlgo
+Matching Algorithm	backend			utils
+README.md		entity
+D-173-250-237-45:dev jyothimocherla$ cd backend/
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ ls
+Test			filterSelection.py	multicriteria_test.py
+database.py		filters.py		requirements.txt
+database_usage.txt	matchingAlgo.py
+D-173-250-237-45:backend jyothimocherla$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from filterSection import FilterSelection
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named filterSection
+>>> from filterSelection import FilterSelection
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 1, in <module>
+    from filters import Filters
+  File "filters.py", line 1, in <module>
+    from database import Firebase
+  File "database.py", line 4, in <module>
+    from firebase import firebase
+ImportError: No module named firebase
+>>> pwd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pwd' is not defined
+>>> ^D
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ ls
+Test			filterSelection.py	matchingAlgo.py
+database.py		filterSelection.pyc	multicriteria_test.py
+database.pyc		filters.py		requirements.txt
+database_usage.txt	filters.pyc
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ pip install requests==1.1.0
+Collecting requests==1.1.0
+  Downloading requests-1.1.0.tar.gz (337kB)
+    100% |████████████████████████████████| 337kB 1.8MB/s 
+Installing collected packages: requests
+  Running setup.py install for requests ... error
+    Complete output from command /usr/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/pg/3vz6fkf11xq3zjrc_zb8_j2h0000gn/T/pip-build-0puDwp/requests/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/pg/3vz6fkf11xq3zjrc_zb8_j2h0000gn/T/pip-uwb3Bd-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/requests
+    copying requests/__init__.py -> build/lib/requests
+    copying requests/adapters.py -> build/lib/requests
+    copying requests/api.py -> build/lib/requests
+    copying requests/auth.py -> build/lib/requests
+    copying requests/certs.py -> build/lib/requests
+    copying requests/compat.py -> build/lib/requests
+    copying requests/cookies.py -> build/lib/requests
+    copying requests/exceptions.py -> build/lib/requests
+    copying requests/hooks.py -> build/lib/requests
+    copying requests/models.py -> build/lib/requests
+    copying requests/sessions.py -> build/lib/requests
+    copying requests/status_codes.py -> build/lib/requests
+    copying requests/structures.py -> build/lib/requests
+    copying requests/utils.py -> build/lib/requests
+    creating build/lib/requests/packages
+    copying requests/packages/__init__.py -> build/lib/requests/packages
+    creating build/lib/requests/packages/charade
+    copying requests/packages/charade/__init__.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/big5freq.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/big5prober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/chardistribution.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/charsetgroupprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/charsetprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/codingstatemachine.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/compat.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/constants.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/escprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/escsm.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/eucjpprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/euckrfreq.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/euckrprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/euctwfreq.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/euctwprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/gb2312freq.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/gb2312prober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/hebrewprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/jisfreq.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/jpcntx.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langbulgarianmodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langcyrillicmodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langgreekmodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langhebrewmodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langhungarianmodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/langthaimodel.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/latin1prober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/mbcharsetprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/mbcsgroupprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/mbcssm.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/sbcharsetprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/sbcsgroupprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/sjisprober.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/universaldetector.py -> build/lib/requests/packages/charade
+    copying requests/packages/charade/utf8prober.py -> build/lib/requests/packages/charade
+    creating build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/__init__.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/_collections.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/connectionpool.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/exceptions.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/filepost.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/poolmanager.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/request.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/response.py -> build/lib/requests/packages/urllib3
+    copying requests/packages/urllib3/util.py -> build/lib/requests/packages/urllib3
+    creating build/lib/requests/packages/urllib3/packages
+    copying requests/packages/urllib3/packages/__init__.py -> build/lib/requests/packages/urllib3/packages
+    copying requests/packages/urllib3/packages/ordered_dict.py -> build/lib/requests/packages/urllib3/packages
+    copying requests/packages/urllib3/packages/six.py -> build/lib/requests/packages/urllib3/packages
+    creating build/lib/requests/packages/urllib3/packages/ssl_match_hostname
+    copying requests/packages/urllib3/packages/ssl_match_hostname/__init__.py -> build/lib/requests/packages/urllib3/packages/ssl_match_hostname
+    running egg_info
+    writing requests.egg-info/PKG-INFO
+    writing top-level names to requests.egg-info/top_level.txt
+    writing dependency_links to requests.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'requests.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'requests.egg-info/SOURCES.txt'
+    copying requests/cacert.pem -> build/lib/requests
+    running install_lib
+    creating /Library/Python/2.7/site-packages/requests
+    error: could not create '/Library/Python/2.7/site-packages/requests': Permission denied
+    
+    ----------------------------------------
+Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/pg/3vz6fkf11xq3zjrc_zb8_j2h0000gn/T/pip-build-0puDwp/requests/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/pg/3vz6fkf11xq3zjrc_zb8_j2h0000gn/T/pip-uwb3Bd-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/var/folders/pg/3vz6fkf11xq3zjrc_zb8_j2h0000gn/T/pip-build-0puDwp/requests/
+D-173-250-237-45:backend jyothimocherla$ sudo pip install requests==1.1.0
+Password:
+The directory '/Users/jyothimocherla/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/jyothimocherla/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting requests==1.1.0
+  Downloading requests-1.1.0.tar.gz (337kB)
+    100% |████████████████████████████████| 337kB 2.0MB/s 
+Installing collected packages: requests
+  Running setup.py install for requests ... done
+Successfully installed requests-1.1.0
+D-173-250-237-45:backend jyothimocherla$ sudo pip install python-firebase
+The directory '/Users/jyothimocherla/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/jyothimocherla/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting python-firebase
+  Downloading python-firebase-1.2.tar.gz
+Requirement already satisfied: requests>=1.1.0 in /Library/Python/2.7/site-packages (from python-firebase)
+Installing collected packages: python-firebase
+  Running setup.py install for python-firebase ... done
+Successfully installed python-firebase-1.2
+D-173-250-237-45:backend jyothimocherla$ from filterSelection import FilterSelection
+from: can't read /var/mail/filterSelection
+D-173-250-237-45:backend jyothimocherla$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from filterSelection import FilterSelection
+>>> filter = FilterSelection(state="CA")
+>>> common, unique, matches = filter.filter_programs()
+>>> import pprint
+>>> common
+set([0, 16, 18, 19, 53, 17])
+>>> unique
+[0, 16, 17, 18, 19, 53]
+>>> pprint.pprint(matches)
+{0: 1, 16: 1, 17: 1, 18: 1, 19: 1, 53: 1}
+>>> filter = FilterSelection(state="CA", fees_out_of_state="20000")
+>>> common, unique, matches = filter.filter_programs()
+>>> common
+set([])
+>>> unique
+[0, 50, 16, 17, 18, 19, 52, 53, 28, 29, 30]
+>>> pprint.pprint(matches)
+{0: 1, 16: 1, 17: 1, 18: 1, 19: 1, 28: 1, 29: 1, 30: 1, 50: 1, 52: 1, 53: 1}
+>>> ^D
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ cd ..
+D-173-250-237-45:dev jyothimocherla$ cd ..
+D-173-250-237-45:gradscout jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout
+D-173-250-237-45:gradscout jyothimocherla$ git pull
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 5 (delta 4), reused 5 (delta 4), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+From https://github.com/sanathkumarbs/gradscout
+   4971f29..257d6c2  master     -> origin/master
+Updating 4971f29..257d6c2
+Fast-forward
+ dev/backend/filterSelection.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+D-173-250-237-45:gradscout jyothimocherla$ cd dev/
+D-173-250-237-45:dev jyothimocherla$ cd backend/
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ pwd
+/Users/jyothimocherla/Documents/Winter 2017/Capstone/gradscout/dev/backend
+D-173-250-237-45:backend jyothimocherla$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from filterSelection import FilterSelection
+>>> filter = FilterSelection(overall_rank=10)
+>>> common, unique, matches = filter.filter_programs()
+>>> import pprint
+>>> common
+set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+>>> unique
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> matches
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1}
+>>> filter = FilterSelection(overall_rank=3)
+>>> common, unique, matches = filter.filter_programs()
+>>> import pprint
+>>> common
+set([0, 1, 2, 3])
+>>> filter = FilterSelection(usnews=10)
+>>> common, unique, matches = filter.filter_programs()
+>>> common
+set([0, 1, 2, 3, 4, 5, 6, 7, 8, 15, 23, 24, 25, 26])
+>>> unique
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 15, 23, 24, 25, 26]
+>>> matches
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 15: 1, 23: 1, 24: 1, 25: 1, 26: 1}
+>>> common
+set([0, 1, 2, 3, 4, 5, 6, 7, 8, 15, 23, 24, 25, 26])
+>>> 
+>>> 
+>>> common
+set([0, 1, 2, 3, 4, 5, 6, 7, 8, 15, 23, 24, 25, 26])
+>>> 
+>>> for item in common:
+...     print 
+KeyboardInterrupt
+>>> 
+>>> 
+>>> from database import Firebase
+>>> 
+>>> firebase = Firebase()
+
+>>> 
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+>>> filter = FilterSelection(usnews="10")
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...             firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 81.74, u'usnews': 15, u'overall': 68, u'times': 14, u'forbes': 29, u'usnews_score': 85, u'cwur': 10}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 55.16, u'usnews': 11, u'overall': 99, u'times': 38, u'forbes': 17, u'usnews_score': 90, u'cwur': 33}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 66.6, u'usnews': 27, u'overall': 103, u'times': 16, u'forbes': 44, u'usnews_score': 74, u'cwur': 16}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 67.59, u'usnews': 44, u'overall': 197, u'times': 22, u'forbes': 117, u'usnews_score': 63, u'cwur': 14}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+>>> 
+>>> filter = FilterSelection(usnews=10)
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+>>> filter = FilterSelection(times=10)
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+>>> filter = FilterSelection(times="10")
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 81.74, u'usnews': 15, u'overall': 68, u'times': 14, u'forbes': 29, u'usnews_score': 85, u'cwur': 10}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 55.16, u'usnews': 11, u'overall': 99, u'times': 38, u'forbes': 17, u'usnews_score': 90, u'cwur': 33}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 66.6, u'usnews': 27, u'overall': 103, u'times': 16, u'forbes': 44, u'usnews_score': 74, u'cwur': 16}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 67.59, u'usnews': 44, u'overall': 197, u'times': 22, u'forbes': 117, u'usnews_score': 63, u'cwur': 14}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+>>> filter = FilterSelection(forbes=10)
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+>>> filter = FilterSelection(forbes="10")
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 66.14, u'usnews': 12, u'overall': 59, u'times': 15, u'forbes': 15, u'usnews_score': 89, u'cwur': 17}
+{u'cwur_score': 81.74, u'usnews': 15, u'overall': 68, u'times': 14, u'forbes': 29, u'usnews_score': 85, u'cwur': 10}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 91.35, u'usnews': 20, u'overall': 71, u'times': 6, u'forbes': 40, u'usnews_score': 78, u'cwur': 5}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 75.23, u'usnews': 24, u'overall': 92, u'times': 10, u'forbes': 46, u'usnews_score': 75, u'cwur': 12}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 51.74, u'usnews': 14, u'overall': 99, u'times': 26, u'forbes': 8, u'usnews_score': 87, u'cwur': 51}
+{u'cwur_score': 55.16, u'usnews': 11, u'overall': 99, u'times': 38, u'forbes': 17, u'usnews_score': 90, u'cwur': 33}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 66.6, u'usnews': 27, u'overall': 103, u'times': 16, u'forbes': 44, u'usnews_score': 74, u'cwur': 16}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 57.4, u'usnews': 30, u'overall': 131, u'times': 29, u'forbes': 47, u'usnews_score': 71, u'cwur': 25}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 53.04, u'usnews': 24, u'overall': 146, u'times': 17, u'forbes': 63, u'usnews_score': 75, u'cwur': 42}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 66.11, u'usnews': 36, u'overall': 150, u'times': 19, u'forbes': 77, u'usnews_score': 66, u'cwur': 18}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 64.04, u'usnews': 44, u'overall': 155, u'times': 23, u'forbes': 69, u'usnews_score': 63, u'cwur': 19}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 59.83, u'usnews': 44, u'overall': 161, u'times': 21, u'forbes': 72, u'usnews_score': 63, u'cwur': 24}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 63.38, u'usnews': 54, u'overall': 167, u'times': 18, u'forbes': 75, u'usnews_score': 61, u'cwur': 20}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 51.75, u'usnews': 34, u'overall': 193, u'times': 20, u'forbes': 89, u'usnews_score': 67, u'cwur': 50}
+{u'cwur_score': 67.59, u'usnews': 44, u'overall': 197, u'times': 22, u'forbes': 117, u'usnews_score': 63, u'cwur': 14}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 60.17, u'usnews': 56, u'overall': 197, u'times': 25, u'forbes': 93, u'usnews_score': 60, u'cwur': 23}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+{u'cwur_score': 52.99, u'usnews': 60, u'overall': 218, u'times': 33, u'forbes': 82, u'usnews_score': 59, u'cwur': 43}
+>>> filter = FilterSelection(usnews=10.9)
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+{u'cwur_score': 70.44, u'usnews': 10, u'overall': 101, u'times': 12, u'forbes': 66, u'usnews_score': 91, u'cwur': 13}
+>>> filter = FilterSelection(usnews=9.9)
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_rank(id)
+... 
+{u'cwur_score': 98.25, u'usnews': 5, u'overall': 10, u'times': 2, u'forbes': 1, u'usnews_score': 95, u'cwur': 2}
+{u'cwur_score': 100, u'usnews': 2, u'overall': 11, u'times': 4, u'forbes': 4, u'usnews_score': 98, u'cwur': 1}
+{u'cwur_score': 88.72, u'usnews': 1, u'overall': 16, u'times': 5, u'forbes': 3, u'usnews_score': 100, u'cwur': 7}
+{u'cwur_score': 97.12, u'usnews': 7, u'overall': 18, u'times': 3, u'forbes': 5, u'usnews_score': 94, u'cwur': 3}
+{u'cwur_score': 85.83, u'usnews': 3, u'overall': 25, u'times': 8, u'forbes': 6, u'usnews_score': 97, u'cwur': 8}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 94.12, u'usnews': 5, u'overall': 36, u'times': 11, u'forbes': 16, u'usnews_score': 95, u'cwur': 4}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 77.6, u'usnews': 8, u'overall': 39, u'times': 9, u'forbes': 11, u'usnews_score': 92, u'cwur': 11}
+{u'cwur_score': 61.32, u'usnews': 8, u'overall': 69, u'times': 13, u'forbes': 26, u'usnews_score': 92, u'cwur': 22}
+>>> filter = FilterSelection(state=9.9)
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> filter = FilterSelection(state="WA")
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_location(id)
+... 
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+>>> filter = FilterSelection(state=WA)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'WA' is not defined
+>>> filter = FilterSelection(state="WA","CA")
+  File "<stdin>", line 1
+SyntaxError: non-keyword arg after keyword arg
+>>> filter = FilterSelection(state=("WA","CA"))
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> filter = FilterSelection(state=("Seattle"))
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> filter = FilterSelection(state="Seattle")
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> filter = FilterSelection(city="Seattle")
+>>> common, unique, matches = filter.filter_programs()
+>>> for id in common:
+...     firebase.get_program_location(id)
+... 
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+{u'city': u'Seattle', u'region_id': 8, u'zip': 98195, u'lon': -122.313115, u'state': u'WA', u'lat': 47.656213, u'region_name': u'Far West'}
+>>> filter = FilterSelection(city="Seattle", "Cambridge")
+  File "<stdin>", line 1
+SyntaxError: non-keyword arg after keyword arg
+>>> filter = FilterSelection(city="Seattle", "Cambridge")
+  File "<stdin>", line 1
+SyntaxError: non-keyword arg after keyword arg
+>>> filter = FilterSelection(state=("WA","CA"))
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> filter = FilterSelection(city=("Seattle","Cambridge"))
+>>> common, unique, matches = filter.filter_programs()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "filterSelection.py", line 85, in filter_programs
+    self.unique_programs = list(self.matches.keys())
+AttributeError: 'NoneType' object has no attribute 'keys'
+>>> firebase.get_program_count()
+60
+>>> for id in range(0,59):
+...     fees=firebase.get_program_fees(id)
+...     if fees["in_state"]>fees["out_of_state"]:
+...             print(id)
+...             print(fees)
+... 
+18
+{u'out_of_state': 32650, u'in_state': 62854}
+19
+{u'out_of_state': 32650, u'in_state': 62854}
+49
+{u'out_of_state': 42912, u'in_state': 58896}
+50
+{u'out_of_state': 16830, u'in_state': 34860}
+51
+{u'out_of_state': 20178, u'in_state': 41808}
+52
+{u'out_of_state': 17952, u'in_state': 37184}
+>>> filter = FilterSelection(fees_out_of_state=40000)
+>>> common, unique, matches = filter.filter_programs()
+>>> common
+set([18, 19, 27, 28, 29, 30, 41, 42, 45, 47, 50, 51, 52, 53, 54, 55, 59])
+>>> for id in common:
+...     firebase.get_program_fees(id)
+... 
+{u'out_of_state': 32650, u'in_state': 62854}
+{u'out_of_state': 32650, u'in_state': 62854}
+{u'out_of_state': 21673, u'in_state': 10733}
+{u'out_of_state': 14409, u'in_state': 5803}
+{u'out_of_state': 14409, u'in_state': 5803}
+{u'out_of_state': 14409, u'in_state': 5803}
+{u'out_of_state': 38000, u'in_state': 26000}
+{u'out_of_state': 37019, u'in_state': 23667}
+{u'out_of_state': 39160, u'in_state': 39160}
+{u'out_of_state': 34412, u'in_state': 34412}
+{u'out_of_state': 16830, u'in_state': 34860}
+{u'out_of_state': 20178, u'in_state': 41808}
+{u'out_of_state': 17952, u'in_state': 37184}
+{u'out_of_state': 31732, u'in_state': 16630}
+{u'out_of_state': 27438, u'in_state': 14040}
+{u'out_of_state': 39860, u'in_state': 22044}
+{u'out_of_state': 38940, u'in_state': 18060}
+>>> filter = FilterSelection(fees_out_of_state>40000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fees_out_of_state' is not defined
+>>> filter = FilterSelection(fees_out_of_state=40000)
+>>> filter = FilterSelection(fees_out_of_state=25000)
+>>> common, unique, matches = filter.filter_programs()
+>>> common
+set([50, 51, 52, 27, 28, 29, 30])
+>>> for id in common:
+...     firebase.get_program_fees(id)
+... 
+{u'out_of_state': 16830, u'in_state': 34860}
+{u'out_of_state': 20178, u'in_state': 41808}
+{u'out_of_state': 17952, u'in_state': 37184}
+{u'out_of_state': 21673, u'in_state': 10733}
+{u'out_of_state': 14409, u'in_state': 5803}
+{u'out_of_state': 14409, u'in_state': 5803}
+{u'out_of_state': 14409, u'in_state': 5803}
+>>> 
