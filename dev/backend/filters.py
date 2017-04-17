@@ -230,7 +230,7 @@ class Filters(object):
 
         # return list(set(books_list)&set(filtered_list));
 
-    def filter_overall_expense(self, param):
+    def filter_overall_expenses(self, param):
 
         overall_list = []
 
