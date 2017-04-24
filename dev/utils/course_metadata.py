@@ -242,7 +242,8 @@ class Classify(object):
 
         vocab - list
         """
-        cv = CountVectorizer(analyzer=self.bigrams_per_line, vocabulary=vocab)
+        cv = CountVectorizer(vocabulary=vocab)
+        # cv = CountVectorizer(analyzer=self.bigrams_per_line, vocabulary=vocab)
         result = cv.fit_transform(self.corpus_values).toarray()
         return result
 
