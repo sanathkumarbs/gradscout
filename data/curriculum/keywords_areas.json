@@ -21,7 +21,6 @@
 				"database",
 				"data",
 				"design",
-				"info",
 				"information"
 	],
 	"business_intelligence" : [
@@ -45,7 +44,6 @@
 				"database",
 				"data",
 				"design",
-				"info",
 				"information",
 				"visualization"
 	],
@@ -74,12 +72,10 @@
 				"database",
 				"data",
 				"design",
-				"info",
 				"information",
 				"visualization"
 	],
 	"hcde" : [
-				"hcde",
 				"material",
 				"requirement",
 				"requir",
@@ -102,7 +98,6 @@
 				"internet",
 				"comput",
 				"design",
-				"info",
 				"information",
 				"visualization"
 	],
@@ -137,7 +132,6 @@
 				"presentation",
 				"architecture",
 				"strategy",
-				"info",
 				"information"
 	],
 	"info_assurance_cyber_security": [
@@ -163,7 +157,6 @@
 				"presentation",
 				"architecture",
 				"strategy",
-				"info",
 				"information"
 	],
 	"information_architecture" : [
@@ -187,7 +180,6 @@
 				"presentation",
 				"architecture",
 				"strategy",
-				"info",
 				"information"
 	],
 	"computer_networks" : [
