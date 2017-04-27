@@ -19,7 +19,6 @@
 				"stat",
 				"strategy",
 				"database",
-				"data",
 				"design",
 				"information"
 	],
@@ -27,19 +26,14 @@
 				"business",
 				"analytics",
 				"user",
-				"human",
 				"implementation",
-				"machine",
 				"intelligence",
 				"presentation",
 				"process",
-				"internet",
 				"processing",
 				"comput",
-				"architecture",
 				"analysis",
 				"management",
-				"stat",
 				"strategy",
 				"database",
 				"data",
@@ -47,35 +41,24 @@
 				"information",
 				"visualization"
 	],
-	"datascience_analytics" : [
-				"computational",
+	"data_science_analytics" : [
+				"big",
+				"statistical",
 				"learn",
-				"web",
-				"network",
 				"artificial",
 				"algorithm",
-				"linear",
-				"complexity",
-				"engineering",
-				"math",
-				"business",
 				"analytics",
-				"implementation",
 				"machine",
-				"intelligence",
 				"process",
-				"internet",
 				"processing",
 				"comput",
 				"analysis",
 				"stat",
-				"database",
 				"data",
-				"design",
-				"information",
-				"visualization"
+				"visualization",
+				"mining"
 	],
-	"hcde" : [
+	"human_center_design_engineering" : [
 				"material",
 				"requirement",
 				"requir",
@@ -86,7 +69,6 @@
 				"experience",
 				"mobile",
 				"interaction",
-				"computer",
 				"research",
 				"context",
 				"user",
@@ -94,8 +76,6 @@
 				"presentation",
 				"architecture",
 				"strategy",
-				"web",
-				"internet",
 				"comput",
 				"design",
 				"information",
@@ -134,7 +114,7 @@
 				"strategy",
 				"information"
 	],
-	"info_assurance_cyber_security": [
+	"information_assurance_cyber_security": [
 				"security",
 				"intelligence",
 				"internet",
@@ -157,7 +137,8 @@
 				"presentation",
 				"architecture",
 				"strategy",
-				"information"
+				"information",
+				"cyber"
 	],
 	"information_architecture" : [
 				"database",
@@ -189,8 +170,6 @@
 				"develop",
 				"software",
 				"linear",
-				"engineering",
-				"computer",
 				"design",
 				"distribut",
 				"security",
@@ -200,7 +179,7 @@
 				"privacy",
 				"architecture"
 	],
-	"web_app_development" : [
+	"web_application_development" : [
 				"process",
 				"processing",
 				"material",
@@ -222,12 +201,10 @@
 				"operating",
 				"object",
 				"develop",
-				"software",
-				"engineering",
-				"computer",
 				"design",
 				"security",
-				"privacy"
+				"privacy",
+				"application"
 	],
 	"software_engineering" : [
 				"vision",
@@ -260,8 +237,6 @@
 				"object",
 				"develop",
 				"software",
-				"engineering",
-				"computer",
 				"design",
 				"security"
 	],
@@ -283,9 +258,6 @@
 				"database",
 				"operating",
 				"develop",
-				"software",
-				"engineering",
-				"computer",
 				"security"
 	]
 }

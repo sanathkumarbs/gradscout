@@ -14,6 +14,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 stemmer = PorterStemmer()
 lemmatiser = WordNetLemmatizer()
+firebase = Firebase()
 
 STOPWORDS = set(stopwords.words('english'))
 
@@ -28,12 +29,12 @@ class GetData(object):
         course_data_file = (
             "/Users/bagursreenivasamurth/Dev/gradscout/data/curriculum/cur_data.json")
 
-        self.cur_data = self._read_json_data(cur_data_file)
+        self.cur_json_data = self._read_json_data(cur_data_file)
         self.course_data = self._read_json_data(course_data_file)
 
     def get_data(self):
         """Return the loaded data."""
-        return self.cur_data, self.course_data
+        return self.cur_json_data, self.course_data
 
     def _read_json_data(self, filepath):
         json_file = open(filepath, 'r').read()
@@ -195,14 +196,24 @@ class Classify(object):
             scores = self.analyze(vocab)
             for index in xrange(0, len(scores)):
                 program = self.corpus_keys[index]
+                pid = re.search('\d+', program).group(0)
                 score = scores[index]
-                if self.classify(score):
-                    if program not in self.classification:
-                        self.classification[program] = [area]
-                    else:
-                        areas = self.classification[program]
-                        areas.append(area)
-                        self.classification[program] = areas
+                confidence = self.classify(score)
+
+                result = self.check_confidence(
+                    confidence, area, vocab, program)
+
+                result = result * 100
+
+                updated_confidence = round(result, 2)
+
+                if pid not in self.classification:
+                    self.classification[pid] = [(area, updated_confidence)]
+                else:
+                    areas = self.classification[pid]
+                    res = (area, updated_confidence)
+                    areas.append(res)
+                    self.classification[pid] = areas
 
     def classify(self, score):
         """
@@ -212,17 +223,51 @@ class Classify(object):
         """
         total = len(score)
         count = 0
-        score_threshold = 2
-        classification_threshold = int(math.floor(total / 3))
+        score_threshold = 1
+        # classification_threshold = int(math.floor(total / 4))
 
         for item in score:
             if item > score_threshold:
                 count += 1
 
-        if count >= classification_threshold:
-            return True
-        else:
-            return False
+        confidence = (float(count) / float(total))
+
+        return confidence
+
+    def check_confidence(self, confidence, area, vocab, program):
+        updated_confidence = float(confidence)
+
+        pid = re.search('\d+', program).group(0)
+        program_details = firebase.get_program_details(pid)
+        program_name = program_details['name']
+
+        program_keys = program_name.split()
+        area_keys = area.split('_')
+
+        test = []
+        test.extend(area_keys)
+        test.extend(vocab)
+
+        confidence_boost = False
+        boost = "high"
+
+        lower_programkeys = [element.lower() for element in program_keys]
+        lower_test = [element.lower() for element in test]
+
+        for program_key in lower_programkeys:
+            if program_key in lower_test:
+                    confidence_boost = True
+            common_keys = ['computer', 'engineering', 'information', 'science']
+            if program_key in common_keys:
+                boost = "low"
+
+        if confidence_boost:
+            if boost != "low":
+                updated_confidence += 0.30
+            else:
+                updated_confidence += 0.15
+
+        return updated_confidence
 
     def get_vocab(self, area):
         """Get the area keywords for each area of specalization."""
@@ -277,8 +322,6 @@ if __name__ == '__main__':
     # Getting all the classifications
     classifications = classifier.get_classification()
 
-    firebase = Firebase()
-
     for key, areas in classifications.items():
         pid = re.search('\d+', key).group(0)
         program_details = firebase.get_program_details(pid)
@@ -287,4 +330,9 @@ if __name__ == '__main__':
         print '-' * 30
         print 'Program ID:', pid
         print 'Program Name:', program_name
-        print 'Areas:', areas
+        for area in areas:
+            name = str(area[0])
+            percent = area[1] * 100
+            print 'Area: %s     Confidence: %s' % (name, percent)
+
+    print 'Total Programs: ', len(classifications.keys())
