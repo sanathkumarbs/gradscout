@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Flask App v1."""
+"""data.gradscout.co Flask REST API v1"""
 
 from flask import Flask, jsonify, abort, make_response, request, url_for
 from database import Firebase
@@ -335,4 +335,4 @@ def make_public_task(task):
     return new_task
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
