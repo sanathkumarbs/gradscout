@@ -1,0 +1,7 @@
+from recommend import Recommend
+
+
+match=Recommend(rank="10",location=[u'west', u'mid_west', u'south'],aoi=[u'business_intelligence', u'management_consulting', u'computer_networks', u'distributed_systems'],budget='20000')
+
+match.recommend_programs()
+

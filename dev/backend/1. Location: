@@ -1,0 +1,64 @@
+1. Location:
+	
+	region=["west", "mid_west"]
+
+	Western U.S. : "west"
+	Mid Western U.S. : "mid_west"
+	Southern U.S. : "south"
+	North Eastern U.S. : "north_east"
+
+
+2. Areas of Interest:
+
+	Business Intelligence : 'business_intelligence'
+
+	Data Science and Analytics : 'data_science_analytics'
+
+	Human-Computer Interaction, Human-Centered/UX Design: 'human_center_design_engineering'
+
+	Management and Consulting : 'management_consulting'
+
+	Information Assurance and Cyber Security : 'information_assurance_cyber_security'
+
+	Information Architecture : 'information_architecture'
+
+	Library Science :  'library_science'
+
+	Computer Systems and Computer Networks : 'computer_networks'
+
+	Machine Learning, Artificial Intelligence and Robotics : ????????
+
+	Computer Vision : ?????????
+
+	Web and Mobile Application Development : 'web_application_development'
+
+	Software Engineering : 'software_engineering'
+  
+	Distributed Systems : 'distributed_systems'
+
+
+3.	Maximum Budget:
+
+	 'in_state'
+
+     'out_of_state'
+     
+
+4.  Ranking:
+
+		'times'
+
+		'usnews'
+
+		'forbes'
+
+		'cwur'
+     
+     
+     
+     
+     
+     
+    
+     
+     
