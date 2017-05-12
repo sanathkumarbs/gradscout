@@ -1,0 +1,89 @@
+.nav.social-links {
+    > li {
+        border-radius: 50%;
+        margin: 0px 15px 3px 0px;
+
+        > a {
+            padding: 0px;
+
+            &:active, &:focus, &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+
+    i {
+        background-color: $color-gray;
+        border-radius: 50%;
+        color: rgba($color-black, .6);
+        font-size: 12px;
+        height: 24px;
+        line-height: 26px;
+        text-align: center;
+        transition: background-color .15s linear;
+        width: 24px;
+
+        &.fa-facebook {
+            background-color: $color-facebook;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-facebook, 5%);
+            }
+        }
+
+        &.fa-twitter {
+            background-color: $color-twitter;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-twitter, 5%);
+            }
+        }
+
+        &.fa-google-plus {
+            background-color: $color-google-plus;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-google-plus, 5%);
+            }
+        }
+
+        &.fa-dribbble {
+            background-color: $color-dribbble;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-dribbble, 5%);
+            }
+        }
+
+        &.fa-linkedin {
+            background-color: $color-linkedin;
+            color: #fff;
+
+            &:hover { 
+                background-color: darken($color-linkedin, 5%);
+            }
+        }
+
+        &.fa-instagram {
+            background-color: $color-instagram;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-instagram, 5%);
+            }
+        }
+
+        &.fa-pinterest-p {
+            background-color: $color-pinterest;
+            color: #fff;
+
+            &:hover {
+                background-color: darken($color-pinterest, 5%);
+            }
+        }
+    }
+}

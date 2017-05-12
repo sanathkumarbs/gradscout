@@ -1,0 +1,123 @@
+.detail-gallery {
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .owl-carousel .owl-stage {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .owl-next, .owl-prev {
+        @extend .btn, .btn-primary;
+        line-height: 1;
+        padding: 0px;
+        position: absolute;
+        transition: all linear .15s;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        top: 50%;
+
+        i {
+            background-color: transparent;
+            font-size: 18px;
+            height: auto;
+            margin: 0px;
+            padding: 3px 0px;
+            transition: all linear .15s;
+        }
+
+        &:hover {
+            background-color: $color-secondary;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .owl-next {
+        right: 14px;
+        padding: 5px 9px 4px 10px;
+    }
+
+    .owl-prev {
+        left: 14px;
+        padding: 5px 10px 4px 9px;
+    }
+
+    .detail-gallery-index {
+        background-color: #fff;
+        margin: 0px;
+        position: relative;
+        padding: 10px 50px;
+
+        .owl-stage-outer {
+            cursor: pointer;
+        }
+    }
+
+    .detail-gallery-preview {
+        position: relative;
+    }
+
+    .detail-gallery-list-item {
+        display: none;
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+        transition: all linear .15s;
+        width: 100%;
+
+        a {
+            border-bottom: none;
+            display: block;
+            height: 70px;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                max-width: none;
+                min-width: 100%;
+                width: auto;
+            }
+
+            @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+                height: 50px;
+            }
+
+            @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+                height: 40px;
+            }
+
+            @media (max-width: $screen-xs-max) {
+                height: 60px;
+            }
+        }
+    }
+
+    .owl-item .detail-gallery-list-item {
+        img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            opacity: .6;
+            transition: all linear .15s;
+        }
+
+        &.active, &:hover {
+            img {
+                -webkit-filter: grayscale(0%);
+                opacity: 1;
+                filter: grayscale(0%);
+            }
+        }
+    }
+
+    .owl-item {
+        .detail-gallery-list-item {
+            display: inline-block;
+        }
+    }
+}

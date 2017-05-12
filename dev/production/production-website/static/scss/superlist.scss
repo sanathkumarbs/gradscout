@@ -1,0 +1,450 @@
+/*------------------------------------------------------------------
+
+[Table of contents]
+
+1. Bootstrap Library
+2. Variables
+3. Buttons
+4. Common classes
+5. Forms
+6. Header
+7. Header Navigation
+8. Header Statusbar
+9. Footer
+10. Widgets
+11. Pagination
+12. Map
+13. Homepage Video
+14. Homepage Slider
+15. Homepage Image
+16. Social Buttons
+17. Fullscreen classes
+18. User
+19. Listing Cards
+20. Partners
+21. Pricing
+22. Posts
+23. Post Detail
+24. Events
+25. Filter
+26. Invoice
+27. FAQ
+28. Categories
+29. Promotion
+30. Listing Detail
+31. Listing Detail Gallery
+32. Testimonials
+33. Reviews
+34. Comments
+35. Admin
+36. Colorbox
+
+*/
+
+$icon-font-path: '../../assets/libraries/bootstrap-sass/fonts/bootstrap/';
+
+/*------------------------------------------------------------------
+[ 1. Bootstrap Library ]
+*/
+@import '../libraries/bootstrap-sass/stylesheets/bootstrap';
+
+/*------------------------------------------------------------------
+[ 2. Variables ]
+*/
+@import 'helpers/variables';
+
+/*------------------------------------------------------------------
+[ 3. Buttons ]
+*/
+@import 'helpers/buttons';
+
+/*------------------------------------------------------------------
+[ 4. Common classes ]
+*/
+@import 'helpers/commons';
+
+/*------------------------------------------------------------------
+[ 5. Forms ]
+*/
+@import 'helpers/forms';
+
+/*------------------------------------------------------------------
+[ 6. Header ]
+*/
+@import 'helpers/header';
+
+/*------------------------------------------------------------------
+[ 7. Header Navigation ]
+*/
+@import 'helpers/header_nav_user';
+
+/*------------------------------------------------------------------
+[ 8. Header Statusbar ]
+*/
+@import 'helpers/header_statusbar';
+
+/*------------------------------------------------------------------
+[ 9. Footer ]
+*/
+@import 'helpers/footer';
+
+/*------------------------------------------------------------------
+[ 10. Widgets ]
+*/
+@import 'helpers/widgets';
+
+/*------------------------------------------------------------------
+[ 11. Pagination ]
+*/
+@import 'helpers/pagination';
+
+/*------------------------------------------------------------------
+[ 12. Map ]
+*/
+@import 'helpers/map';
+
+/*------------------------------------------------------------------
+[ 13. Homepage Video ]
+*/
+@import 'helpers/hero_video';
+
+/*------------------------------------------------------------------
+[ 14. Homepage Slider ]
+*/
+@import 'helpers/hero_slider';
+
+/*------------------------------------------------------------------
+[ 15. Homepage Image ]
+*/
+@import 'helpers/hero_image';
+
+/*------------------------------------------------------------------
+[ 16. Social Buttons ]
+*/
+@import 'helpers/social';
+
+/*------------------------------------------------------------------
+[ 17. Fullscreen classes ]
+*/
+@import 'helpers/fullscreen';
+
+/*------------------------------------------------------------------
+[ 18. User ]
+*/
+@import 'helpers/users';
+
+/*------------------------------------------------------------------
+[ 19. Listing Cards ]
+*/
+@import 'helpers/card';
+
+/*------------------------------------------------------------------
+[ 20. Partners ]
+*/
+@import 'helpers/partners';
+
+/*------------------------------------------------------------------
+[ 21. Pricing ]
+*/
+@import 'helpers/pricing';
+
+/*------------------------------------------------------------------
+[ 22. Posts ]
+*/
+@import 'helpers/posts';
+
+/*------------------------------------------------------------------
+[ 23. Post Detail ]
+*/
+@import 'helpers/posts_detail';
+
+/*------------------------------------------------------------------
+[ 24. Events ]
+*/
+@import 'helpers/events';
+
+/*------------------------------------------------------------------
+[ 25. Filter ]
+*/
+@import 'helpers/filter';
+
+/*------------------------------------------------------------------
+[ 26. Invoice ]
+*/
+@import 'helpers/invoice';
+
+/*------------------------------------------------------------------
+[ 27. FAQ ]
+*/
+@import 'helpers/faq';
+
+/*------------------------------------------------------------------
+[ 28. Categories ]
+*/
+@import 'helpers/categories';
+
+/*------------------------------------------------------------------
+[ 29. Promotion ]
+*/
+@import 'helpers/promotion';
+
+/*------------------------------------------------------------------
+[ 30. Listing Detail ]
+*/
+@import 'helpers/detail';
+
+/*------------------------------------------------------------------
+[ 31. Listing Detail Gallery ]
+*/
+@import 'helpers/detail_gallery';
+
+/*------------------------------------------------------------------
+[ 32. Testimonials ]
+*/
+@import 'helpers/testimonials';
+
+/*------------------------------------------------------------------
+[ 33. Reviews ]
+*/
+@import 'helpers/reviews';
+
+/*------------------------------------------------------------------
+[ 34. Comments ]
+*/
+@import 'helpers/comments';
+
+/*------------------------------------------------------------------
+[ 35. Admin ]
+*/
+@import 'helpers/admin';
+
+/*------------------------------------------------------------------
+[ 36. Colorbox ]
+*/
+@import 'helpers/colorbox';
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: $color-gray-darker;
+    font-family: 'Nunito';
+    font-size: 14px;
+    height: 100%;
+    overflow-x: hidden; 
+    width: 100%;
+
+    &.listing-map {
+        overflow-y: hidden;
+    }
+}
+
+a {
+    color: $color-primary;
+    transition: color .15s linear;
+
+    &:hover {
+        color: darken($color-primary, 5%);
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-black;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+ol {
+    li {
+        margin-bottom: 15px;
+    }
+}
+
+.page-wrapper {
+    background-color: $color-gray;
+    display: table;
+    height: 100%;
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.main {
+    display: table-row;
+    height: 100%;
+}
+
+.main-inner {
+    padding: 80px 0px;
+}
+
+.box-icon {
+    border: 2px solid rgba(#fff, .4);
+    border-radius: 50%;
+    color: $color-primary-light;
+    float: left;
+    font-size: 34px;
+    height: 72px;
+    line-height: 70px;
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+    width: 72px;
+}
+
+.box-content {
+    display: table-cell;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 25px 0px;
+    }
+
+    p {
+        color: rgba(#fff, .8);
+        margin: 0px;
+    }
+}
+
+.caution {
+    text-align: center;
+
+    h1 {
+        color: $color-primary;
+        font-size: 200px;
+        font-weight: 700;
+        margin: 0px 0px 30px 0px;
+    }
+
+    h2 {
+        color: $color-black;
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+.special {
+    background-image: url('../img/tmp/product-4.jpg');
+    background-size: cover;
+    background-position: center center;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    &:after {
+        background-color: rgba(0, 0, 0, 0.35);
+        bottom: 0px;
+        content: '';
+        left: 0px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    a {
+        border: 1px solid #fff;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+        left: 50%;
+        padding: 6px 15px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        transition: all linear .12s;
+        white-space: nowrap;
+        z-index: 2;
+
+        &:hover {
+            background-color: #fff;
+            border-color: #fff;
+            color: $color-black-light;
+        }
+    }
+}
+
+.message {
+    background-color: #fff;
+    border-left: 4px solid $color-secondary;
+    margin: 0px 0px 50px 0px;
+    padding: 30px;
+
+    h1 {
+        color: $color-gray-dark;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: $color-black-light;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 34px;
+        margin: 20px 0px 0px 0px;
+
+        a {
+            border-bottom: 1px solid $color-primary;
+            transition: all .15s linear;
+
+            &:hover {
+                border-bottom-color: darken($color-primary, 5%);
+            }
+        }
+    }
+
+    @media (max-width: $screen-xs-max) {
+        p {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}

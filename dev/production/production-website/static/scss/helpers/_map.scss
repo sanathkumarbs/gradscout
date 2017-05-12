@@ -1,0 +1,197 @@
+#map {
+    height: 650px;
+}
+
+.marker {
+    background-color: $color-primary;
+    background-image: linear-gradient(lighten($color-primary, 10%), $color-primary);
+    border-radius: 4px 4px 4px 0px;
+    height: 38px;
+    display: block;
+    position: relative;
+    top: 0px;
+    transition: top .15s linear;
+    width: 38px;
+
+    &:before {
+        background-color: rgba(black, .13);
+        border-radius: 50%;
+        bottom: -13px;
+        content: '';
+        height: 8px;
+        left: 0px;
+        position: absolute;
+        right: 0px;
+        transition: all .15s linear;
+
+        .map-dark & {
+            background-color: rgba(white, .05);
+        }
+    }
+
+    &:after {
+        bottom: -4px;
+        border: 4px solid transparent;
+        border-bottom-color: $color-primary;
+        content: '';
+        display: block;
+        height: 0px;
+        left: -4px;
+        position: absolute;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        width: 0px;
+    }
+
+    &:hover {
+        top: -4px;
+
+        &:before {
+            bottom: -17px;
+            left: 4px;
+            right: 4px;
+        }
+    }
+}
+
+.marker-inner {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 26px;
+    line-height: 27px;
+    margin: 0px 0px 0px 6px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 6px;
+    width: 26px;
+}
+
+.clusterer {
+    background-color: $color-secondary;
+    background-image: radial-gradient($color-secondary, lighten($color-secondary, 30%));
+    border-radius: 50%;
+    color: $color-black;
+    font-size: 10px;
+    font-weight: 700;
+    height: 44px;
+    padding: 9px;
+    text-align: center;
+    width: 44px;
+}
+
+.clusterer-inner {
+    background-color: rgba(#fff, .9);
+    border-radius: 50%;
+    height: 26px;
+    line-height: 28px;
+    width: 26px;
+}
+
+.infobox {
+    background-color: rgba(black, .2);
+    padding: 4px;
+
+    .map-dark & {
+        background-color: rgba(white, .1);
+    }
+}
+
+.infobox-inner {
+    background-color: #fff;
+    padding: 15px 30px;
+
+    a {
+        border-bottom: 1px solid $color-gray-medium;
+        color: $color-gray-darker;
+        transition: all .15s linear;
+
+        &:hover {
+            border-color: $color-primary;
+            color: $color-primary;
+        }
+    }
+
+    dl {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    dt {
+        color: $color-primary;
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 2px;
+    }
+
+    dd {
+        display: block;
+        margin-bottom: 7px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    .rating {
+        .fa {
+            color: $color-yellow;
+            margin: 0px 4px 0px 0px;
+        }
+    }
+
+    .close {
+        background-color: rgba(black, .2);
+        border: 0px;
+        border-radius: 50%;
+        height: 26px;
+        margin: 2px 2px 0px 0px;
+        opacity: 1;
+        padding: 3px;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        top: 0px;
+        text-shadow: none;
+        transform: translateX(50%) translateY(-50%);
+        width: 26px;
+
+        .map-dark & {
+            background-color: rgba(white, .1);
+        }
+
+        i {
+            background-color: #fff;
+            border-radius: 50%;
+            color: $color-black-light;
+            display: block;
+            font-size: 11px;
+            line-height: 19px;
+            height: 20px;
+            width: 20px;
+        }
+
+        &:hover {
+            color: transparent;
+        }
+    }
+}
+
+#map-canvas {
+    height: 300px;
+    margin: 0px 0px 30px 0px;
+
+    .form-control {
+        right: 42px !important;
+        top: 20px !important;
+        width: 300px !important;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .gm-style {
+        position: static !important;
+    }
+}

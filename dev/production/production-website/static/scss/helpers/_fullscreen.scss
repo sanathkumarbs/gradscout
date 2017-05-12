@@ -1,0 +1,50 @@
+.fullscreen-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.fullscreen-scroll {
+    display: table-cell;
+    padding: 0px;
+    width: 60%;
+}
+
+.fullscreen-scroll-inner {
+    background-image: linear-gradient(to left, rgba(black, .2), transparent 30px);
+    height: 100%;
+    overflow: auto;
+    overflow-y:scroll;
+    max-height:100vh;
+}
+
+.fullscreen-scroll-padding {
+    padding: 30px 20px;
+}
+
+.fullscreen-map {
+    display: table-cell;
+    width: 40%;
+}
+
+@media screen and (max-width:700px) {
+    .listing-map #fullscreen-map {
+        display: none;
+    }
+
+    .filter-sort {
+        width: 100%;
+        text-align: center;
+        padding: 32px 0 0 0;
+    }
+
+    .fullscreen-scroll-padding > h2.page-title:first-child {
+        text-align: center;
+        margin-bottom: 80px !important;
+        border-bottom: none !important;
+    }
+
+    .filter {
+        text-align: center;
+    }
+}

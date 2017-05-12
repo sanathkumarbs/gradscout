@@ -1,0 +1,40 @@
+$color-primary: #3498db;
+$color-primary-light: lighten($color-primary, 12%);
+$color-secondary: #FF8359;
+
+$color-black: #363636;
+$color-black-light: #444;
+
+$color-yellow: #ffd925;
+$color-red: #d81814;
+$color-green: #8dc63f;
+
+$color-gray: #f7f8f9;
+$color-gray-light: #fafafa;
+$color-gray-lighter: #fdfdfd;
+$color-gray-medium: #e9e9e9;
+$color-gray-dark: #b6b7b8;
+$color-gray-darker: rgba($color-black, .6);
+
+$color-danger: #d9534f;
+$color-warning: #fab95f;
+$color-success: #6bd072;
+$color-info: #67bbe5;
+
+// Brand colors
+$color-facebook: #365397;
+$color-twitter: #00a9f1;
+$color-google-plus: #e0452c;
+$color-youtube: #ff3333;
+$color-vimeo: #48b6ed;
+$color-pinterest: #ce1a19;
+$color-dribbble: #ed4584;
+$color-skype: #00acf4;
+$color-instagram: #396d9a;
+$color-tumblr: #304c68;
+$color-linkedin: #287bbc;
+$color-tripadvisor: #589442;
+
+// Bootstrap colors
+$code-bg: $color-gray-light;
+$code-color: $color-gray-dark;

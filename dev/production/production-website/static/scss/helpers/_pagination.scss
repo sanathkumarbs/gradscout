@@ -1,0 +1,32 @@
+.pager {
+    margin: 60px 0px 0px 0px;
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    li {
+        margin: 0px 4px;
+
+        a {
+            border-color: $color-gray;
+            color: $color-gray-darker;
+            padding: 6px 15px;
+            transition: all .15s linear;
+
+            &:hover {
+                background-color: $color-secondary;
+                color: #fff;
+            }
+        }
+
+        &.active {
+            a {
+                background-color: $color-primary;
+                border-color: $color-primary;
+                color: #fff;
+            }
+        }
+    }
+}

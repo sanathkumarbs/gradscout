@@ -1,0 +1,642 @@
+.cards-wrapper {
+    margin-bottom: -30px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0px 0px 30px 0px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    &.card-tall {
+        height: 630px;
+    }
+
+    &:before {
+        background: -webkit-linear-gradient(top, rgba($color-black, 0) 0%, rgba($color-black, 0.7) 50%);
+        background: linear-gradient(to bottom, rgba($color-black, 0) 0%, rgba($color-black, 0.7) 50%);
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        transition: all ease .35s;
+        width: 100%;
+    }
+
+    &:after {
+        background-color: rgba(black, .3);
+        bottom: 0px;
+        content: '';
+        left: 0px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    &:hover {
+        &:before {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+        }
+
+        .card-content {
+            padding-top: 0px;
+        }
+
+        .card-meta {
+            opacity: 1;
+            height: 40px;
+        }
+
+        .card-actions {
+            opacity: 1;
+        }
+    }
+}
+
+.card-background {
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.card-content {
+    left: 50%;
+    padding: 0px 30px;
+    padding-top: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transition: all ease .35s;
+    width: 100%;
+    z-index: 2;
+
+    h2 {
+        color: #fff;
+        font-weight: 300;
+        margin: 0px;
+        margin-bottom: 5px;
+
+        a {
+            color: #fff;
+            text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.card-rating {
+    color: $color-yellow;
+    font-size: 15px;
+    transition: all ease .35s;
+
+    i {
+        margin: 0px 2px;
+    }
+}
+
+.card-meta {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all ease .35s;
+}
+
+.card-actions {
+    color: #fff;
+    opacity: 0;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease .35s;
+
+    .fa {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 32px;
+        margin: 0px 6px;
+        padding-top: 8px;
+        transition: all ease .2s;
+        width: 32px;
+
+        &:hover {
+            background-color: #fff;
+            color: $color-black;
+        }
+
+        &.marked {
+            background-color: #fff;
+            color: $color-black;
+
+            &.fa-heart-o:before {
+                color: $color-red;
+                content: "\f004";
+            }
+
+            &.fa-bookmark-o:before {
+                color: $color-primary;
+                content: "\f02e";
+            }
+        }
+    }
+
+    .fa-search {
+        font-size: 18px;
+        height: 40px;
+        padding-top: 9px;
+        width: 40px;
+    }
+}
+
+.card-label {
+    background-color: $color-secondary;
+    color: #fff;
+    left: 50%;
+    font-size: 13px;
+    padding: 3px 15px;
+    position: absolute;
+    top: 0px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 2;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.cards-simple-wrapper {
+    margin-bottom: -30px;
+}
+
+.card-simple {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-backface-visiblity: hidden;
+    margin-bottom: 30px;
+    overflow: hidden;
+    -webkit-transform: translateZ(0px);
+
+    &:hover {
+        .card-simple-background:before {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+            -webkit-backface-visiblity: hidden;
+        }
+
+        .card-simple-label {
+            margin-top: -25px;
+        }
+
+        .card-simple-content {
+            padding-top: 0px;
+            transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -webkit-backface-visiblity: hidden;
+        }
+
+        .card-simple-rating {
+            opacity: 1;
+            transition-delay: .05s;
+            -webkit-backface-visiblity: hidden;
+        }
+
+        .card-simple-actions {
+            opacity: 1;
+            transition-delay: .1s;
+            -webkit-backface-visiblity: hidden;
+        }
+    }
+}
+
+.card-simple-background {
+    height: 200px;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: -webkit-linear-gradient(top, rgba($color-black, 0) 0%, rgba($color-black, 0.7) 75%);
+        background: linear-gradient(to bottom, rgba($color-black, 0) 0%, rgba($color-black, 0.7) 75%);
+        content: '';
+        opacity: 0;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        transition: all ease .35s;
+    }
+
+    &:after {
+        background-color: rgba(black, .3);
+        bottom: 0px;
+        content: '';
+        display: block;
+        left: 0px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+}
+
+.card-simple-label {
+    background-color: $color-secondary;
+    color: #fff;
+    left: 50%;
+    font-size: 13px;
+    padding: 3px 15px;
+    position: absolute;
+    top: 0px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transition: all ease .35s;
+    z-index: 2;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.card-simple-content {
+    left: 50%;
+    padding-top: 85px; //30px + 55px (rating + actions height)
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transition: all ease .35s;
+    width: 100%;
+    z-index: 2;
+
+    h2 {
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        margin: 0px;
+        overflow: hidden;
+        padding: 0px 20px;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        a {
+            color: #fff;
+            text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.card-simple-rating {
+    color: $color-yellow;
+    margin-top: 10px;
+    opacity: 0;
+    font-size: 15px;
+    text-align: center;
+    transition: all ease .35s;
+
+    i {
+        margin-right: 2px;
+    }
+}
+
+.card-simple-actions {
+    color: #fff;
+    margin-top: 20px;
+    opacity: 0;
+    text-align: center;
+    transition: all ease .35s;
+
+    .fa {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 32px;
+        margin: 0px 6px;
+        padding-top: 8px;
+        transition: all ease .2s;
+        width: 32px;
+
+        &:hover {
+            background-color: #fff;
+            color: $color-black;
+        }
+    }
+
+    .fa-search {
+        font-size: 18px;
+        height: 40px;
+        padding-top: 9px;
+        width: 40px;
+    }
+}
+
+.card-simple-price {
+    background-color: $color-primary;
+    bottom: 0px;
+    color: #fff;
+    font-size: 13px;
+    left: 50%;
+    padding: 3px 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.card-row {
+    background-color: #fff;
+    margin: 0px 0px 30px 0px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.card-row-inner {
+    display: table;
+    width: 100%;
+}
+
+.card-row-image, .card-row-body, .card-row-properties {
+    display: table-cell;
+    vertical-align: top;
+
+    @media (max-width: $screen-md-max) {
+        display: block;
+    }
+}
+
+.card-row-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    width: 262px;
+
+    @media (max-width: $screen-md-max) {
+        width: 100%;
+    }
+}
+
+.card-row-body {
+    padding: 30px;
+}
+
+.card-row-properties {
+    padding: 30px 30px 30px 30px;
+    width: 260px;
+
+    @media (max-width: $screen-md-max) {
+        padding: 0px 30px 30px 30px;
+        width: 100%;
+    }
+}
+
+.card-row-title {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+
+    a {
+        color: $color-black;
+    }
+}
+
+.card-row-properties {
+    dl {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    dd {
+        float: left;
+        line-height: 36px;
+    }
+
+    dt {
+        border-bottom: 1px dashed $color-gray-medium;
+        line-height: 36px;
+        text-align: right;
+
+        &:last-child {
+            border-bottom: 0px;
+        }
+    }
+}
+
+.card-row-rating {
+    color: $color-yellow;
+}
+
+.card-row-label {
+    background-color: $color-secondary;
+    color: #fff;
+    left: 50%;
+    font-size: 13px;
+    padding: 3px 15px;
+    position: absolute;
+    top: 0px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 2;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.card-row-price {
+    background-color: $color-primary;
+    bottom: 0px;
+    color: #fff;
+    font-size: 13px;
+    left: 50%;
+    padding: 3px 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.cards-system {
+    @extend .clearfix;
+    margin: 0px -15px -30px -15px;
+}
+
+.card-system {
+    float: left;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 15px;
+    width: 50%;
+
+    @media (max-width: $screen-sm-max) {
+        width: 100%;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1500px) {
+        width: 100%;
+    }
+}
+
+.card-system-inner {
+    @extend .clearfix;
+    background-color: rgba(black, .02)
+}
+
+.card-system-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 137px;
+    position: relative;
+    width: 137px;
+
+    a {
+        bottom: 0px;
+        display: block;
+        left: 0px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        height: 120px;
+        float: none;
+        width: 100%;
+    }
+}
+
+.card-system-content {
+    margin-left: 157px;
+
+    @media (max-width: $screen-xs-max) {
+        margin: 0px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    h2 {
+        color: $color-black;
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 20px 0px 0px 0px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        a {
+            color: $color-black;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    h3 {
+        color: $color-gray-darker;
+        font-size: 12px;
+        margin: 7px 0px 30px 0px !important;
+    }
+}
+
+.card-small {
+    @include clearfix;
+
+    background-color: #fff;
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+}
+
+.card-small-image {
+    float: left;
+
+    img {
+        width: 80px;
+    }
+}
+
+.card-small-content {
+    margin-left: 90px;
+
+    h3 {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        a {
+            color: $color-black-light;
+        }
+    }
+
+    h4 {
+        font-size: 11px;
+        margin: 5px 0px 0px 0px;
+
+        a {
+            color: $color-gray-darker;
+        }
+    }
+}
+
+.card-small-price {
+    color: $color-primary;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 7px 0px 0px 0px;
+}

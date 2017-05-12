@@ -1,0 +1,348 @@
+label {
+    color: $color-black-light;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid $color-gray-medium;
+    height: 40px;
+    line-height: 20px;
+
+    &:active, &:focus {
+        border: 2px solid $color-gray-medium;
+        box-shadow: none;
+        outline: 0px;
+    }
+}
+
+.form-horizontal .control-label {
+    padding-top: 12px;
+}
+
+.form-horizontal .checkbox {
+    margin-top: 7px;
+    padding-top: 0px;
+}
+
+.form-inline {
+    .form-group {
+        margin-right: 30px;
+
+        label {
+            margin-right: 8px;
+        }
+
+        input[type=checkbox] + label, input[type=radio] + label {
+            display: inline-block;
+        }
+
+        &.input-rating input[type=radio] + label {
+            vertical-align: -3px;
+            margin-right: 0px;
+            margin-top: 5px;
+        }
+    }
+
+    h6 {
+        display: inline;
+        margin-right: 8px;
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    i {
+        margin-right: 10px;
+    }
+}
+
+.required {
+    color: $color-red;
+}
+
+.textarea-resize {
+    border: 7px solid $color-primary;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    float: right;
+    margin-top: -14px;
+    position: relative;
+    pointer-events: none;
+}
+
+// Radios & Checkboxes
+input[type=checkbox], input[type=radio] {
+    display:none;
+}
+
+input[type=checkbox] + label, input[type=radio] + label {
+    display: block;
+    padding-left: 25px !important;
+    position: relative;
+
+    &:hover:before {
+        border-color: $color-primary;
+    }
+}
+
+input[type=checkbox] + label:before, input[type=radio] + label:before {
+    background-color: #fff;
+    border: 2px solid $color-gray-dark;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    line-height: 1;
+    margin-left: -25px;
+    position: absolute;
+    top: 2px;
+    transition: all linear .1s;
+    width: 14px;
+}
+
+input[type=checkbox] + label:after {
+    color: #fff;
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 0px;
+    -webkit-font-smoothing: antialiased;
+    left: 6px;
+    position: absolute;
+    top: 7px;
+    transition: all linear .1s;
+}
+
+input[type=checkbox]:checked + label:before {
+    border-width: 7px;
+    border-color: $color-primary;
+}
+
+input[type=checkbox]:checked + label:after {
+    font-size: 11px;
+    left: 2px;
+    top: 2px;
+}
+
+input[type=radio] + label:before {
+    border-radius: 50%;
+    content: "";
+}
+
+input[type=radio]:checked + label:before {
+    border-color: $color-primary;
+    border-width: 5px;
+}
+
+.input-rating {
+    input[type=radio] {
+        display: none;
+    }
+
+    input[type=radio] + label {
+        display: inline-block;
+        margin-left: -4px;
+        padding-left: 0px !important;
+        padding-right: 0px;
+        width: 24px;
+
+        &:first-of-type {
+            margin-left: 0px;
+        }
+    }
+
+    input[type=radio] + label:before {
+        background-color: transparent;
+        border: none;
+        color: $color-yellow;
+        content: "\f006";
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased;
+        height: 14px;
+        line-height: 1;
+        margin-left: 0px;
+        position: static;
+        text-align: center;
+        top: 2px;
+        transition: none;
+        width: 14px;
+    }
+
+    input[type=radio]:checked + label:before,
+    input[type=radio] + label.marked:before,
+    input[type=radio] + label.filled:before,
+    input[type=radio] + label.hovered.filled:before {
+        content: "\f005";
+    }
+
+    input[type=radio] + label.hovered:before {
+        content: "\f006";
+    }
+}
+
+input[type=file] {
+    border: 2px dashed $color-gray-medium;
+    line-height: 1;
+    max-width: 100%;
+    min-width: 50%;
+    padding: 15px;
+}
+
+.bootstrap-select {
+    width: 100% !important;
+
+    .dropdown-toggle {
+        background-color: #fff !important;
+        border: 2px solid $color-gray-medium !important;
+        height: 40px;
+
+        &:after {
+            display: none;
+        }
+
+        &:active, &:focus, &:hover {
+            background-color: #fff !important;
+            border: 2px solid $color-gray-medium !important;
+            box-shadow: none !important;
+            outline: 0px !important;
+        }
+    }
+
+    &:active, &:focus {
+        border: 0px !important;
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+
+    &.open {
+        box-shadow: none !important;
+        outline: 0px !important;
+
+        .dropdown-toggle {
+            box-shadow: none !important;
+            outline: 0px !important;
+        }
+    }
+}
+
+div.dropdown-menu {
+    border: 2px solid $color-gray-medium;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: -2px;
+    padding: 0px;
+}
+
+ul.dropdown-menu {
+    li {
+        &:active, &:focus {
+            box-shadow: none;
+        }
+
+        a {
+            color: $color-gray-darker;
+            padding: 8px 15px;
+            transition: background-color .15s linear;
+
+            &:hover {
+                color: $color-gray-darker;
+            }
+
+            &:focus {
+                box-shadow: none;
+                outline: 0px;
+            }
+        }
+    }
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+
+    .input-group-addon {
+        background-color: transparent;
+        border-color: $color-gray-medium;
+        border-radius: 0px;
+        border-width: 2px;
+        color: $color-primary;
+        text-align: center;
+        width: 44px
+    }
+}
+
+.file-input {
+    .form-control {
+        height: 37px;
+        line-height: 37px;
+    }
+
+    .file-caption-name {
+        font-size: 13px;
+        line-height: 14px;
+
+        .kv-caption-icon {
+            color: $color-primary;
+            margin-top: -2px;
+        }
+    }
+
+    @media (max-width: $screen-xs-max) {
+        .btn {
+            font-size: 12px;
+        }
+
+        .form-control {
+            float: none;
+            margin: 0px 0px 10px 0px !important;
+        }
+
+        .input-group {
+            display: block;
+        }
+
+        .input-group-btn {
+            display: block;
+        }
+    }
+}
+
+.file-preview {
+    border-color: $color-gray;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.file-preview-image {
+    @media (max-width: $screen-xs-max) {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.file-preview-frame {
+    border-color: $color-gray;
+    box-shadow: none;
+    transition: background-color .15s linear;
+
+    &:hover {
+        background-color: $color-gray;
+        box-shadow: none !important;
+    }
+}
+
+.fileinput-upload-button {
+    @extend .btn-primary;
+}
+
+.fileinput-remove-button {
+    @extend .btn-danger;
+}

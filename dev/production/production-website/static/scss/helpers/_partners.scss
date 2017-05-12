@@ -1,0 +1,41 @@
+.partners {
+    @extend .clearfix;
+    padding: 40px 0px;
+
+    a {
+        display: inline-block;
+        float: left;
+        opacity: .8;
+        vertical-align: middle;
+        text-align: center;
+        transition: all .15s linear;
+        vertical-align: middle;
+        width: 20%;
+
+        &:hover {
+            opacity: 1 !important;
+        }
+
+        @media (max-width: $screen-xs-max) {
+            margin: 0px 0px 30px 0px;
+            width: 100%;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    img {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        max-height: 40px;
+        max-width: 80%;
+    }
+
+    &:hover {
+        a {
+            opacity: .55;
+        }
+    }
+}

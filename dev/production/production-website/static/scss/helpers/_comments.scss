@@ -1,0 +1,130 @@
+.comment {
+    margin: 0px 0px 30px 0px;
+
+    &.last {
+        margin-bottom: 0px;
+    }
+}
+
+.comment-image {
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 80px;
+
+    img {
+        height: auto;
+        width: 80px;
+    }
+}
+
+.comment-inner {
+    background-color: #fff;
+    border: 2px solid $color-gray;
+    margin: 0px 0px 0px 120px;
+    padding: 20px;
+    position: relative;
+
+    &:before {
+        border: 20px solid transparent;
+        border-right-color: $color-gray;
+        content: '';
+        display: block;
+        left: -42px;
+        position: absolute;
+        top: 20px;
+    }
+
+    &:after {
+        border: 19px solid transparent;
+        border-right-color: #fff;
+        content: '';
+        display: block;
+        left: -38px;
+        position: absolute;
+        top: 21px;
+    }
+}
+
+.comment-header {
+    border-bottom: 1px solid $color-gray;
+    margin: 12px 0px 25px 0px;
+    overflow: hidden;
+    padding: 0px 0px 25px 0px;
+
+    h2 {
+        border-bottom: none;
+        float: left;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 2px 0px 0px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    .separator {
+        color: darken($color-gray, 15%);
+        font-size: 8px;
+        margin: 0px 15px 0px 20px;
+        vertical-align: 3px;
+    }
+}
+
+.comment-content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.comment-content {
+    display: table-cell;
+}
+
+.comment-reply {
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+    position: relative;
+
+    i {
+        color: $color-secondary;
+        font-size: 10px;
+        margin-right: 5px;
+        vertical-align: 2px;
+    }
+
+    a {
+        color: $color-gray-dark;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+}
+
+.comment {
+    &:first-child .comment-children  {
+        margin-top: 30px;
+    }
+
+    .comment-children {
+        margin-left: 40px;
+    }
+}
+
+.add-comment {
+    .form-allowed-tags {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+
+        code {
+            font-size: 10px;
+        }
+    }
+
+    button {
+        margin-top: 12px;
+    }
+}

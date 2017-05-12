@@ -1,0 +1,67 @@
+.header-statusbar {
+    background-color: $color-black;
+    color: #fff;
+    padding: 30px 30px 30px 25px;
+
+    .breadcrumb {
+        background-color: transparent;
+        border-radius: 0px;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+
+        a {
+            color: $color-primary-light;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        vertical-align: middle;
+    }
+}
+
+.header-statusbar-inner {
+    display: table;
+    width: 100%;
+}
+
+.header-statusbar-left, .header-statusbar-right {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-statusbar-right {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.header-statusbar-search {
+    display: inline-block;
+    margin: 0px 0px 0px 60px;
+    position: relative;
+
+    .form-control {
+        background-color: transparent;
+        border: 2px solid rgba(white, .15);
+        width: 320px;
+
+        &:focus{
+            border-color: rgba(white, .2);
+            color: #fff;
+        }
+    }
+
+    &:after {
+        color: rgba(white, .4);
+        content: '\f002';
+        display: block;
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 14px;
+        top: 11px;
+    }
+}

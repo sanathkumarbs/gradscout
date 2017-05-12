@@ -1,0 +1,48 @@
+.promotion {
+    @extend .clearfix;
+
+    background-color: $color-primary;
+    border-bottom: 3px solid darken($color-primary, 5%);
+    margin-bottom: 80px;
+    padding: 30px;
+    position: relative;
+
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        margin: 10px 0px 0px 0px;
+    }
+
+    h2 {
+        color: rgba(black, .4);
+        font-size: 16px;
+        margin: 8px 0px 0px 0px;
+    }
+}
+
+.promotion-icon {
+    color: #fff;
+    float: left;
+    height: 70px;
+    margin: 0px 30px 0px 0px;
+
+    i {
+        font-size: 80px;
+    }
+}
+
+.promotion-btn {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+    @media (max-width: $screen-sm-max) {
+        left: auto;
+        display: block;
+        position: relative;
+        right: auto;
+    }
+}

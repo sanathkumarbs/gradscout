@@ -1,0 +1,219 @@
+.review {
+    margin: 0px 0px 30px 0px;
+
+    &.last {
+        margin-bottom: 0px;
+    }
+
+    .report {
+        color: $color-gray-dark;
+        opacity: 0;
+        transition: all linear .15s;
+
+        .separator {
+            font-size: 8px;
+            margin: 0px 20px;
+            vertical-align: 3px;
+        }
+
+        i {
+            cursor: pointer;
+            transition: all linear .15s;
+            vertical-align: 1px;
+
+            &:hover {
+                color: $color-black-light;
+            }
+        }
+    }
+
+    &:hover {
+        .report {
+            opacity: 1;
+        }
+    }
+}
+
+.review-image {
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 80px;
+
+    img {
+        height: auto;
+        width: 80px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        width: 60px;
+
+        img {
+            width: 60px;
+        }
+    }
+}
+
+.review-inner {
+    background-color: #fff;
+    border: 2px solid $color-gray;
+    margin: 0px 0px 0px 120px;
+    padding: 20px;
+    position: relative;
+
+    &:before {
+        border: 20px solid transparent;
+        border-right-color: $color-gray;
+        content: '';
+        display: block;
+        left: -42px;
+        position: absolute;
+        top: 20px;
+    }
+
+    &:after {
+        border: 19px solid transparent;
+        border-right-color: #fff;
+        content: '';
+        display: block;
+        left: -38px;
+        position: absolute;
+        top: 21px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        margin: 0px 0px 0px 80px;
+
+        &:after, &:before {
+            display: none;
+        }
+    }
+}
+
+.review-title {
+    border-bottom: 1px solid $color-gray;
+    margin: 12px 0px 25px 0px;
+    overflow: hidden;
+    padding: 0px 0px 25px 0px;
+
+    h2 {
+        border-bottom: none;
+        float: left;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 2px 0px 0px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+    }
+}
+
+.review-overall-rating {
+    color: $color-yellow;
+    float: right;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+
+    .overall-rating-title {
+        color: $color-gray-dark;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 8px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        float: none;
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+.review-content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.review-content {
+    display: table-cell;
+    padding: 0px 20px 0px 35px;
+
+    @media (max-width: $screen-xs-max) {
+        display: block;
+        padding-right: 0px;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    .review-pros {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+
+        &:before {
+            background-color: $color-primary;
+            border-radius: 2px;
+            color: #fff;
+            content: "\f067";
+            font-family: fontawesome;
+            -webkit-font-smoothing: antialiased;
+            height: 21px;
+            left: 20px;
+            margin-top: 3px;
+            position: absolute;
+            padding-left: 1px;
+            padding-top: 2px;
+            text-align: center;
+            width: 21px;
+        }
+    }
+
+    .review-cons {
+        &:before {
+            background-color: $color-gray-dark;
+            border-radius: 2px;
+            color: #fff;
+            content: "\f068";
+            font-family: fontawesome;
+            -webkit-font-smoothing: antialiased;
+            height: 20px;
+            left: 20px;
+            margin-top: 3px;
+            position: absolute;
+            padding-top: 2px;
+            text-align: center;
+            width: 20px;
+        }
+    }
+}
+
+.review-rating {
+    display: table-cell;
+    width: 105px;
+
+    @media (max-width: $screen-xs-max) {
+        display: block;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 35px;
+        width: 100%;
+    }
+
+    dl {
+        dt {
+            color: $color-gray-dark;
+            font-weight: 300;
+        }
+
+        dd {
+            margin-bottom: 10px;
+            //color: $color-gray-dark;
+        }
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+}

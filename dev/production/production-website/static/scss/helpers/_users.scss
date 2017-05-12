@@ -1,0 +1,133 @@
+.user-photo {
+    background-color: #fff;
+    border: 2px dashed $color-gray-medium;
+    padding: 15px;
+    position: relative;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.user-photo-action {
+    background-color: rgba(white, .85);
+    bottom: 15px;
+    color: $color-black;
+    left: 15px;
+    padding: 8px 0px;
+    position: absolute;
+    text-align: center;
+    right: 15px;
+}
+
+.users {
+    background-color: #fff;
+    margin: 0px 0px 50px 0px;
+    padding: 30px;
+
+    table {
+        margin: 0px;
+    }
+
+    tr {
+        &:first-child {
+            td {
+                border-top: 0px !important;
+            }
+        }
+    }
+
+    tr {
+        td {
+            border-top: 1px solid $color-gray !important;
+        }
+
+        &:hover {
+            img {
+                border-color: $color-primary;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 16px;
+        margin: 5px 0px 0px 0px;
+        padding: 0px;
+
+        a {
+            color: $color-black;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    h3 {
+        color: $color-gray-dark;
+        font-size: 12px;
+        margin: 5px 0px 0px 0px !important;
+        padding: 0px;
+    }
+
+    .btn {
+        margin-top: 7px;
+    }
+}
+
+.user {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+
+    .notification {
+        background-color: rgba($color-red, .9);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 9px;
+        min-height: 12px;
+        padding: 5px 6px;
+        position: absolute;
+        right: -4px;
+        top: -4px;
+    }
+
+    img {
+        border: 2px solid $color-gray;
+        border-radius: 50%;
+        height: 44px;
+        padding: 2px;
+        transition: all .15s linear;
+        width: 44px;
+
+        &:hover {
+            border-color: $color-primary;
+        }
+    }
+}
+
+.user.user-md {
+    img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .notification {
+        min-height: 14px;
+        padding: 6px 7px;
+    }
+}
+
+.user.user-lg {
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .notification {
+        min-height: 16px;
+        padding: 7px 8px;
+        min-width: 13px;
+    }
+}

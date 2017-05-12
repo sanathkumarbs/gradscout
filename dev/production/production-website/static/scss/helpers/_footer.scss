@@ -1,0 +1,106 @@
+.footer {
+    color: #fff;
+    display: table-row;
+    height: 1px;
+
+    a {
+        color: $color-primary-light;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+}
+
+.footer-top {
+    background-color: $color-black-light;
+    color: #fff;
+    font-size: 13px;
+    padding: 40px 0px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0px 0px 30px 0px;
+    }
+
+    p {
+        margin: 0px;
+    }
+
+    .nav.social-links {
+        > li {
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    @media (max-width: $screen-xs-max) {
+        .col-sm-4 {
+            margin: 50px 0px;
+        }
+    }
+}
+
+.footer-bottom {
+    @extend .clearfix;
+
+    background-color: $color-black;
+    color: #fff;
+    font-size: 13px;
+    padding: 35px 0px;
+
+    .nav {
+        > li {
+            > a {
+                border-radius: 0px;
+                color: #fff;
+                padding: 0px 20px;
+
+                &:hover {
+                    background-color: transparent;
+                    color: $color-secondary;
+                }
+            }
+
+            &:last-child {
+                a {
+                    padding-right: 0px;
+                }
+            }
+
+            @media (max-width: $screen-xs-max) {
+                border-bottom: 1px solid rgba(white, .08);
+                display: block;
+                float: none;
+                padding: 10px 8px;
+
+                a {
+                    padding: 0px;
+                }
+
+                &:last-child {
+                    border-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+.footer-bottom-left {
+    float: left;
+
+    @media (max-width: $screen-xs-max) {
+        float: none;
+    }
+}
+
+.footer-bottom-right {
+    float: right;
+
+    @media (max-width: $screen-xs-max) {
+        float: none;
+        margin-top: 30px;
+    }
+}

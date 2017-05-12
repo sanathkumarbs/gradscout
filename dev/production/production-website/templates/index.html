@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/mainstyling.css" rel="stylesheet" type="text/css" >
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/GS2_Favicon.png">
+
+    <title>GradScout - Find your perfect graduate program</title>
+</head>
+
+
+<body class="">
+
+<div class="page-wrapper">
+    
+    <header class="header header-transparent">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo-white.png" alt="gradscout logo">
+                        <span>GradScout</span>
+                    </a>
+                </div><!-- /.header-logo -->
+                <div class="header-content">
+                    <div class="header-top">
+                        <div class="header-search">
+                            <input type="text" class="form-control" aria-label="Search for..." placeholder="Search for...">
+                        </div><!-- /.header-search -->
+<!--                <div class="header-content"> -->
+                    <div class="header-bottom">
+                        
+                         <div class="header-action">
+
+                        </div><!-- /.header-action --> 
+
+                        <ul class="header-nav-primary nav nav-pills collapse navbar-collapse">
+    <li class="active">
+        <a href="#">Graduate Programs <!--<i class="fa fa-chevron-down"></i>--></a>
+
+
+    </li>
+
+    <li >
+        <a href="#">Students <!--<i class="fa fa-chevron-down"></i>--></a>
+
+    </li>
+
+    
+
+    <li >
+        <a href="#">Blog <!--<i class="fa fa-chevron-down"></i>--></a>
+
+
+    </li>
+
+   
+
+    <li >
+        <a href="#">Contact <!--<i class="fa fa-chevron-down"></i>--></a>
+
+    </li>
+</ul>
+
+<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav-primary">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+                    </div><!-- /.header-bottom -->
+                </div><!-- /.header-content -->
+            </div><!-- /.header-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.header-wrapper -->
+</header><!-- /.header -->
+
+
+
+
+    <div class="main">
+        <div class="main-inner">
+            <div class="content">
+                <div class="mt-150">
+    <div class="hero-image">
+    <div class="hero-image-inner" style="
+    background-image: url('./assets/img/tmp/background_image_1.jpeg"); >
+        <div class="hero-image-content">
+
+            
+
+
+            <div class="container">
+                <h1>Find your perfect <br>graduate program</h1>
+
+                <p>Tell us what you are looking for and we will <br> tell you which programs to apply to.</p>
+
+<!--                <a href="listing-row.html" class="btn btn-primary btn-lg">View Listings</a> -->
+<!--                <a href="listing-submit.html" class="btn btn-secondary btn-lg">Submit</a>--><!--Removing submit button temporarily-->
+            </div><!-- /.container -->
+        </div><!-- /.hero-image-content -->
+
+        <div class="hero-image-form-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12"> 
+                        <form class="clearfix" method="post" action="/results">
+                            <h2 class="center">Start Scouting</h2>
+
+<!--                            <div class="hero-image-keyword form-group">
+                                <input type="text" class="form-control" placeholder="Program">
+                            </div><!-- /.form-group -->
+                            <div class="col-lg-3">
+                                <div class="hero-image-location form-group">
+                                <select class="form-control" id="location" name="location[]" title="Location" aria-label="Location" multiple>
+                                    <option value="west">Western U.S.</option>
+                                    <option value="mid_west">Mid Western U.S.</option>
+                                    <option value="south">Southern U.S.</option>
+                                    <option value="north_east">North Eastern U.S.</option>
+                                    
+                                </select>
+                            </div><!-- /.form-group -->
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-category form-group">
+                                <select class="form-control" id="aoi" name="aoi[]" title="Areas of Interest" aria-label="Areas of Interest" multiple>
+                                    <option value="business_intelligence">Business Intelligence</option>
+                                    <option value="data_science_analytics">Machine Learning, Data Science and Analytics</option>
+                                    <option value="human_center_design_engineering">Human-Computer Interaction, Human-Centered/UX Design</option>
+                                    <option value="management_consulting">Management and Consulting</option>
+                                    <option value="information_assurance_cyber_security">Information Assurance and Cyber Security
+</option>
+                                    <option value="information_architecture">Information Architecture</option>
+                                    <option value="library_science">Library Science</option>
+                                    <option value="computer_networks">Computer Systems and Computer Networks</option>
+                                    <option value="web_application_development">Web and Mobile Application Development
+</option>
+                                    <option value="software_engineering">Software Engineering</option>
+                                    <option value="distributed_systems">Distributed Systems</option>
+                                </select>
+                            </div><!-- /.form-group -->
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-price form-group">
+                                <select class="form-control" id="budget" name="budget" title="Maximum Budget" aria-label="Maximum Budget">
+                                    <option value="20000">$20000 per year</option>
+                                    <option value="30000">$30000 per year</option>
+                                    <option value="40000">$40000 per year</option>
+                                    <option value="50000">$50000 per year</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-rank form-group">
+                                <select class="form-control" id="ranking" name="ranking" title="Ranking" aria-label="Ranking">
+                                    <option value="10">Top 10 ranks</option>
+                                    <option value="20">Top 20 ranks</option>
+                                    <option value="30">Top 30 ranks</option>
+                                    <option value="40">Top 40 ranks</option>
+                                </select>
+                            </div> 
+
+                            </div>                            
+<!--                            <div class="hero-image-price form-group">
+                                <input type="text" class="form-control" placeholder="Max. Price">
+                            </div><!-- /.form-group -->
+
+<div class="col-lg-4 col-lg-offset-4">
+<button type="submit" class="btn btn-primary btn-block" aria-label="Search" >Search</button>
+
+</div>
+                              
+                        </form>  
+
+
+
+    
+                    </div><!-- /.col-* -->
+
+
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.hero-image-form-wrapper -->
+    </div><!-- /.hero-image-inner -->
+</div><!-- /.hero-image -->
+
+</div>
+
+<div class="container">
+    <div class="block background-white fullwidth pt0 pb0">
+
+
+    </div>
+
+    <div class="page-header">
+    <h2>Best Colleges &amp; Programs</h2>
+    <p>List of the most popular colleges that students apply to. <br>Check out what they have to offer.</p>
+</div><!-- /.page-header -->
+
+<div class="cards-simple-wrapper">
+    <div class="row">
+        
+
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Stanford_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Stanford University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Harvard_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Harvard University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        
+
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/University_Washington.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">University of <br>Washington</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Princeton_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Princeton University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Massachusetts_Institute_of_Technology.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Massachusetts Institute of Technology</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Yale_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Yale University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Columbia_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Columbia University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+            
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/Cornell_University.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="#">Cornell University</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                                <a href="#" class="fa fa-search"></a>
+                                <a href="#" class="fa fa-heart-o"></a>
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                        
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+        
+    </div><!-- /.row -->
+</div><!-- /.cards-simple-wrapper -->
+    
+
+    <div class="block background-white fullwidth mt80">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="posts">
+    
+
+            </div><!-- /.col-* -->
+        </div><!-- /.row -->
+    </div><!-- /.block -->
+
+    <div class="block background-black-light fullwidth">
+        <div class="row">
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-list-alt"></i>
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>Tell us your requirements</h2>
+                <p>What kind of curriculum, career prospects, student life are you looking for?</p>
+
+            </div><!-- /.box-content -->
+        </div>
+    </div><!-- /.col-sm-4 -->
+
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-search"></i>
+                
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>We will match them with graduate programs</h2>
+                <p>Our dedicated team of developers are implementing awesome features.</p>
+
+            </div><!-- /.box-content -->
+        </div>
+    </div><!-- /.col-sm-4 -->
+
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-graduation-cap"></i>
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>Apply to the perfect program</h2>
+                <p>We list only verifiend places and events to provide best content.</p>
+
+            </div><!-- /.box-content -->
+        </div>
+    </div><!-- /.col-sm-4 -->
+</div><!-- /.row -->
+
+    </div><!-- /.block -->
+
+    </div>
+
+    <div class="block background-white fullwidth">
+        <div class="page-header">
+
+
+
+    <h2>Student Stories</h2>
+    <p>Read what our users says about our services.</p>
+</div><!-- /.page-header -->
+
+
+
+
+
+
+    </div> 
+
+    <div class="page-header">
+    <h2>Fair Pricing</h2>
+    <p>GradScout offers best pricing options for students to find their perfect graduate program.</p>
+</div><!-- /.page-header -->
+
+<div class="pricings">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="pricing">
+                <div class="pricing-title">Basic</div><!-- /.pricing-title -->
+<!--                <div class="pricing-subtitle">For Personal Use</div><!-- /.pricing-subtitle --> 
+                <div class="pricing-price"><span class="pricing-currency"></span>It's free!<span class="pricing-period"></span></div><!-- /.pricing-price -->
+                <a href="#" class="btn-primary">Get Started</a>
+                <hr>
+                <ul class="pricing-list">
+                    <li><span></span>Get the top five graduate programs that best suit your profile</li>
+                    <li><span></span>Connect with upto 10 students who have used our program</li>
+                    <li><span></span><strong></strong></li>
+                </ul><!-- /.pricing-list -->
+                <hr>
+<!--                <a href="#" class="pricing-action">Full List of Features</a> -->
+            </div><!-- /.pricing -->
+        </div><!-- /.col-* -->
+
+        <div class="col-sm-4">
+            <div class="pricing">
+                <div class="pricing-title">Medium</div><!-- /.pricing-title -->
+<!--                <div class="pricing-subtitle">Best for Companies</div><!-- /.pricing-subtitle -->
+                <div class="pricing-price"><span class="pricing-currency">$</span>10.00 <span class="pricing-period">per month</span></div><!-- /.pricing-price -->
+                <a href="#" class="btn-primary">Get Started</a>
+                <hr>
+                <ul class="pricing-list">
+                    <li><span></span>Get the top five graduate programs that best suit your profile</li>
+                    <li><span></span>Connect with upto 10 students who have used our program</li>
+                    <li><span></span>Weekly subscriptions to college news</li>
+                </ul><!-- /.pricing-list -->
+                <hr>
+<!--                <a href="#" class="pricing-action">Full List of Features</a> -->
+            </div><!-- /.pricing -->
+        </div><!-- /.col-* -->
+
+        <div class="col-sm-4">
+            <div class="pricing">
+                <div class="pricing-title">Unlimited</div><!-- /.pricing-title -->
+<!--                <div class="pricing-subtitle">Entrepreneurs</div><!-- /.pricing-subtitle -->
+                <div class="pricing-price"><span class="pricing-currency">$</span>20.00 <span class="pricing-period">one time pay</span></div><!-- /.pricing-price -->
+                <a href="#" class="btn-primary">Get Started</a>
+                <hr>
+                <ul class="pricing-list">
+                    <li><span></span>Get the top five graduate programs that best suit your profile</li>
+                    <li><span></span>Connect with upto 10 students who have used our program</li>
+                    <li><span></span>Weekly subscriptions to college news</li>
+                    <li><span></span>Resume workshop</li>
+                    <li><span></span>Assistance with Applications</li>
+                </ul><!-- /.pricing-list -->
+                <hr>
+<!--                <a href="#" class="pricing-action">Full List of Features</a> -->
+            </div><!-- /.pricing -->
+        </div><!-- /.col-* -->
+    </div><!-- /.row -->
+</div><!-- /.pricings -->
+
+
+
+    <div class="block background-white fullwidth mt80 mb-80">
+
+
+    </div>
+
+
+    <div class="block background-secondary fullwidth mt80 mb-80 pt60 pb60">
+        <div class="row">
+    <div class="col-sm-12">
+        <div class="contact-info-wrapper">
+            <h2>Do You Have Any Questions?</h2>
+
+            <div class="contact-info">
+                <span class="contact-info-item">
+                    <i class="fa fa-at"></i>
+                    <span>info.gradscout@gmail.com</span>
+                </span><!-- /.contact-info-item -->
+
+                <span class="contact-info-item">
+                    <i class="fa fa-phone"></i>
+                    <span>+123-456-789</span>
+                </span><!-- /.contact-info-item -->
+            </div><!-- /.contact-info-->
+        </div><!-- /.contact-info-wrapper -->
+    </div><!-- /.col-* -->
+</div><!-- /.row -->
+
+    </div>
+</div><!-- /.container -->
+
+            </div><!-- /.content -->
+        </div><!-- /.main-inner -->
+    </div><!-- /.main -->
+
+    <footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>Our Mission</h2>
+
+                    <p>GradScout aims to provide aspiring graduate applicants with a platform to select the best programs and colleges that suit their preferences, customized to their requirements and area of interest.</p>
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-4">
+                    <h2>Contact Information</h2>
+
+                    <p>
+                        1851 NE Grant Ln, Seattle, WA 98105<br>
+                        +1-123-456-789, <a href="#">info.gradscout@gmail.com</a>
+                    </p>
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-4">
+                    <h2>Stay Connected</h2>
+
+                    <ul class="social-links nav nav-pills">
+                        <li><a href="https://twitter.com/GradScoutInfo"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/gradscout/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    </ul><!-- /.header-nav-social -->
+                </div><!-- /.col-* -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer-top -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-left">
+                &copy; 2017 All rights reserved. Created by <a href="#">GradScout</a>.
+            </div><!-- /.footer-bottom-left -->
+
+            <div class="footer-bottom-right">
+                <ul class="nav nav-pills">
+                    <li><a href="homepage.html">Graduate Programs</a></li>
+                    <li><a href="pricing.html">Students</a></li>
+                    <li><a href="terms-conditions.html">Blog</a></li>
+                    <li><a href="contact-1.html">Contact</a></li>
+                </ul><!-- /.nav -->
+            </div><!-- /.footer-bottom-right -->
+        </div><!-- /.container -->
+    </div>
+</footer><!-- /.footer -->
+
+</div><!-- /.page-wrapper -->
+
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="assets/js/map.js" type="text/javascript"></script>
+
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js" type="text/javascript"></script>
+
+<script src="assets/libraries/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+
+<script src="assets/libraries/flot/jquery.flot.min.js" type="text/javascript"></script>
+<script src="assets/libraries/flot/jquery.flot.spline.js" type="text/javascript"></script>
+
+<script src="assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing" type="text/javascript"></script>
+
+<script type="text/javascript" src="assets/libraries/jquery-google-map/infobox.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-google-map/markerclusterer.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-google-map/jquery-google-map.js"></script>
+
+<script type="text/javascript" src="assets/libraries/owl.carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
+
+<script src="assets/js/superlist.js" type="text/javascript"></script>
+
+</body>
+</html>
