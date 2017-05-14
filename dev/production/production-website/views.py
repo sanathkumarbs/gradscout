@@ -5,12 +5,16 @@ from flask import Flask, render_template, request, jsonify
 from flask import json, send_from_directory
 from backend.filterSelection import FilterSelection
 from backend.recommend import Recommend
+from backend.database import Firebase
 
 # Define the WSGI application object
 app = Flask(__name__, template_folder='templates')
 
 # Configurations
 app.config.from_object('config')
+
+# Access to database
+firebase = Firebase()
 
 
 @app.route('/')
@@ -28,13 +32,13 @@ def set_serializer(obj):
 def results():
     copied = request.form
     user_pref = copied.to_dict(flat=False)
-    print user_pref
     matches = get_recommendation(user_pref)
     print matches
-    sample = {'image': 'IMAGE', 'url': 'URL', 'programname': 'PNAME', 'universityname': 'UNAME',
-              'blurb': 'BLURB', 'score': 'SCORE', 'outofstate': 'OUTOFSTATE', 'instate': 'INSTATE'}
-    sample_res = [sample]
-    return render_template('results.html', results=sample_res)
+    result = build_result(matches)
+    # sample = {'image': 'IMAGE', 'url': 'URL', 'programname': 'PNAME', 'universityname': 'UNAME',
+    #           'blurb': 'BLURB', 'score': 'SCORE', 'outofstate': 'OUTOFSTATE', 'instate': 'INSTATE'}
+    # sample_res = [sample]
+    return render_template('results.html', results=result)
     usnews_val = int(request.args.get('usnews'))
     filters = FilterSelection(usnews=usnews_val)
     common, unique, matches = filters.filter_programs()
@@ -56,6 +60,48 @@ def get_recommendation(user_pref):
     matches = match.recommend_programs()
 
     return matches
+
+
+def build_result(matches):
+    result = []
+
+    for match in matches:
+        result_element = build_result_element(match)
+        result.append(result_element)
+
+    return result
+
+
+def source_content(program_id, score):
+    schema = {'image': None,
+              'url': None,
+              'programname': None,
+              'universityname': None,
+              'blurb': None,
+              'score': None,
+              'outofstate': None,
+              'instate': None}
+
+    program = firebase.get_program_details(program_id)
+    fees = firebase.get_program_fees(program_id)
+
+    schema['image'] = 'Placeholder'
+    schema['url'] = program['website']
+    schema['programname'] = program['name']
+    schema['universityname'] = firebase.get_program_university(program_id)['name']
+    schema['blurb'] = 'Placeholder'
+    schema['score'] = score
+    schema['outofstate'] = fees['in_state']
+    schema['instate'] = fees['out_of_state']
+
+    return schema
+
+
+def build_result_element(match):
+    program_id = match[0]
+    score = match[1]
+    schema = source_content(program_id, score)
+    return schema
 
 
 @app.route('/results/assets/<path:path>')

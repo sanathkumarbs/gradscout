@@ -4,3 +4,13 @@
 
 pip install requests==1.1.0
 pip install python-firebase
+pip --no-cache-dir install pandas
+
+# importing matplotlib on macos
+$ cd ~/.matplotlib
+$ nano matplotlibrc
+
+# matplotlib on ubuntu server
+sudo apt-get install python-tk
+
+python -mpip install statsmodels --no-cache-dir

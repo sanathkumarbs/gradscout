@@ -12,6 +12,7 @@ class Firebase(object):
         self.firebase = firebase.FirebaseApplication(
             'https://gradscout-40fed.firebaseio.com/', None)
         self.data = self._get_data()
+        self.uni_data = self._get_unidata()
 
     def _get_data(self):
         """Get complete data for quicker cached access.
@@ -23,6 +24,16 @@ class Firebase(object):
             program_dict (dict): Python Dict of Complete Program Details
         """
         endpoint = "/programs/"
+        result = self.firebase.get(endpoint, None)
+        return result
+
+    def _get_unidata(self):
+        """Get complete universities data for quicker cached access.
+
+        Returns:
+            uni_dict (dict): Python Dict of Complete Universities Details
+        """
+        endpoint = "/universities/"
         result = self.firebase.get(endpoint, None)
         return result
 
@@ -450,5 +461,22 @@ class Firebase(object):
         except KeyError:
             endpoint = "/programs/" + str(program_id) \
                 + '/areaofinterest/web_application_development'
+            result = self.firebase.get(endpoint, None)
+        return result
+
+    def get_university_thumbnail(self, uni_id):
+        """Get the filepath to the University's thumbnail.
+
+        Args:
+            uni_id (int): Unique ID for University
+
+        Returns:
+            path (string): Filepath to the University's thumbnail.
+        """
+        result = None
+        try:
+            result = self.uni_data[int(uni_id)].get('thumbnail')
+        except KeyError:
+            endpoint = "/universities/" + str(uni_id) + '/thumbnail'
             result = self.firebase.get(endpoint, None)
         return result
