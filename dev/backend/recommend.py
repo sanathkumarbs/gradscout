@@ -1,5 +1,5 @@
 from filters import Filters
-from matchingAlgorithm import MatchingAlgo
+from recommendAlgo import RecommendationAlgorithm
 from database import Firebase
 import pandas as pd
 """
@@ -94,7 +94,7 @@ class Recommend(object):
     def filter_programs(self):
         """Filter the programs."""
         # Deploy Filter Selection
-        specializations, user_selected_criteria = self.run_selected_filters()
+        specializations, user_selected_criteria, result_size = self.run_selected_filters()
 
         # Getting all the unique programs
         self.unique_programs = list(self.matches.keys())
@@ -118,9 +118,7 @@ class Recommend(object):
             common = []
             common = common.extend(range(0, self.count - 1))
 
-        return (common, self.unique_programs, self.matches, specializations, user_selected_criteria)
-
-
+        return (common, self.unique_programs, self.matches, specializations, user_selected_criteria, result_size)
 
 
 
@@ -139,8 +137,6 @@ class Recommend(object):
                 self.matches[program] = 1
 
 
-
-
     def run_selected_filters(self):
         specializations=[]
         user_selected_criteria=[]
@@ -148,31 +144,21 @@ class Recommend(object):
 #Based on the UI Options
 
         if self.rank is not None:
-            matching_programs = self.filters.filter_rank_usnews(self.rank)
-            self.update_results(matching_programs)
-            matching_programs = self.filters.filter_rank_cwur(self.rank)
-            self.update_results(matching_programs)
-            matching_programs = self.filters.filter_rank_forbes(self.rank)
-            self.update_results(matching_programs)
-            matching_programs = self.filters.filter_rank_times(self.rank)
-            self.update_results(matching_programs)
-            rank_list=["usnews","cwur","forbes","times"]
-            user_selected_criteria.extend(rank_list)
+            result_size = self.rank
+        else:
+            self.rank=15
+            result_size=self.rank
+            #matching_programs = self.filters.filter_rank_absolute(self.rank)
+            #self.update_results(matching_programs)
+            #rank_list=["usnews","cwur","forbes","times"]
+
 
 
         if self.budget is not None:
-            matching_programs = self.filters.filter_fees_out_state(self.budget)
+            matching_programs = self.filters.filter_budget(self.budget)
             self.update_results(matching_programs)
-            matching_programs = self.filters.filter_fees_in_state(self.budget)
-            self.update_results(matching_programs)
-            matching_programs = self.filters.filter_boarding(self.budget)
-            self.update_results(matching_programs)
-            matching_programs = self.filters.filter_books(self.budget)
-            self.update_results(matching_programs)
-            user_selected_criteria.append("in_state")
-            user_selected_criteria.append("out_of_state")
-            user_selected_criteria.append("boarding")
-            user_selected_criteria.append("books")
+            budget_list=["in_state", "out_of_state", "other", "boarding", "books"]
+            user_selected_criteria.extend(budget_list)
 
 
         if self.aoi is not None:
@@ -183,136 +169,8 @@ class Recommend(object):
             matching_programs = self.filters.filter_location_region(self.location)
             self.update_results(matching_programs)
 
+        return specializations, user_selected_criteria, result_size
 
-
-
-
-
-
-        """Individual filters."""
-        if self.overall_rank is not None:
-            matching_programs = self.filters.filter_rank_overall(self.overall_rank)
-            self.update_results(matching_programs)
-
-        if self.usnews is not None:
-            matching_programs = self.filters.filter_rank_usnews(self.usnews)
-            self.update_results(matching_programs)
-
-        if self.cwur is not None:
-            matching_programs = self.filters.filter_rank_cwur(self.cwur)
-            self.update_results(matching_programs)
-
-        if self.forbes is not None:
-            matching_programs = self.filters.filter_rank_forbes(self.forbes)
-            self.update_results(matching_programs)
-
-        if self.times is not None:
-            matching_programs = self.filters.filter_rank_times(self.times)
-            self.update_results(matching_programs)
-
-
-
-        if self.state is not None:
-            matching_programs = self.filters.filter_location_state(self.state)
-            self.update_results(matching_programs)
-
-        if self.city is not None:
-            matching_programs = self.filters.filter_location_city(self.city)
-            self.update_results(matching_programs)
-
-        if self.zipcode is not None:
-            matching_programs = self.filters.filter_location_zip(self.zipcode)
-            self.update_results(matching_programs)
-
-
-
-        if self.in_state is not None:
-            matching_programs = self.filters.filter_fees_in_state(
-                self.in_state)
-            self.update_results(matching_programs)
-            
-        if self.out_of_state is not None:
-            matching_programs = self.filters.filter_fees_out_state(
-                self.out_of_state)
-            self.update_results(matching_programs)   
-
-        if self.gpa is not None:
-            matching_programs = self.filters.filter_gpa(self.gpa)
-            self.update_results(matching_programs)
-
-        if self.verbal is not None:
-            matching_programs = self.filters.filter_gre_verbal(self.verbal)
-            self.update_results(matching_programs)
-
-        if self.quant is not None:
-            matching_programs = self.filters.filter_gre_quant(self.quant)
-            self.update_results(matching_programs)
-
-        if self.boarding is not None:
-            matching_programs = self.filters.filter_boarding(self.boarding)
-            self.update_results(matching_programs)
-
-        if self.books is not None:
-            matching_programs = self.filters.filter_books(self.books)
-            self.update_results(matching_programs)
-
-        if self.overall_expenses is not None:
-            matching_programs = self.filters.filter_overall_expenses(
-                self.overall_expenses)
-            self.update_results(matching_programs)
-
-        if self.admission_rate is not None:
-            matching_programs = self.filters.filter_admission_rate(
-                self.admission_rate)
-            self.update_results(matching_programs)
-
-        return specializations, user_selected_criteria
-
-        
-
-
-
-
-    def get_user_criteria(self):
-        if self.rank is not None:
-            self.user_selected_criteria.extend("usnews")
-            self.user_selected_criteria.extend("forbes")
-            self.user_selected_criteria.extend("times")
-            self.user_selected_criteria.extend("cwur")
-
-        if self.in_state is not None:
-            self.user_selected_criteria.extend("in_state")
-            self.user_selected_criteria.extend("out_of_state")
-            self.user_selected_criteria.extend("boarding")
-            self.user_selected_criteria.extend("books")
-            self.user_selected_criteria.extend("admission_rate")
-
-        if self.gpa is not None:
-            self.user_selected_criteria.extend("gpa")
-
-        if self.verbal is not None:
-            self.user_selected_criteria.extend("verbal")
-
-        if self.quant is not None:
-            self.user_selected_criteria.extend("quant")
-
-        if self.aoi is not None:
-            self.specializations_list.extend(aoi)
-        else:
-            self.specializations_list=['information_assurance_cyber_security',
-                          'business_intelligence',
-                          'computer_networks',
-                         'web_application_development',
-                          'library_science',
-                          'management_consulting',
-                          'human_center_design_engineering',
-                          'information_architecture',
-                          'software_engineering',
-                         'data_science_analytics',
-                          'distributed_systems']
-    
-
-        return (self.user_selected_criteria, self.specializations_list)
 
     #Getting the json list after the filtering
     def get_filtered_json(self, program_list):
@@ -350,9 +208,9 @@ class Recommend(object):
      'boarding',
      'books',
      'other',
-        'length',
-        'cwur',
-        'forbes',
+
+      'cwur',
+      'forbes',
      'times',
      'usnews']]
         df["program_id"] = program_list
@@ -360,27 +218,26 @@ class Recommend(object):
 
 
 
-
-
     def recommend_programs(self):
 
-        set_list, program_list, program_dict, specializations, user_selected_criteria = self.filter_programs()
+        set_list, program_list, program_dict, specializations, user_selected_criteria, result_size = self.filter_programs()
+
+        program_list.sort()
+
+        list(set_list).sort()
+
 
         json_list = self.get_filtered_json(program_list)
 
         df = self.construct_dataframe(json_list, program_list)
 
-        #user_selected_criteria=["forbes","out_of_state"]
 
-        #specializations_list=['information_assurance_cyber_security',
-                        #  'business_intelligence',
-                        #  'computer_networks']
 
-        #user_selected_criteria, specializations_list=self.get_user_criteria()
+        match=RecommendationAlgorithm(df, set_list, program_list, program_dict, specializations, user_selected_criteria, result_size)
 
-        match=MatchingAlgo(df, program_list, specializations, user_selected_criteria)
+        recommendations= match.rank_programs()
 
-        recommendations = match.rank_programs()
+
 
         return recommendations
         

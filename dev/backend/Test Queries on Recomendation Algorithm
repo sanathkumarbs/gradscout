@@ -1,0 +1,89 @@
+Test Queries on Recomendation Algorithm:
+
+1. 	from recommend import Recommend
+	obj=Recommend(rank=7, location=["west"], aoi=['software_engineering','business_intelligence'], budget=50000)
+	obj.recommend_programs()
+
+	set([44, 45, 47, 48, 18, 19, 53])
+
+	[(19, 100.0), 
+	(18, 93.6947888807845), 
+	(44, 56.23632385120351), 
+	(48, 54.46956803630765), 
+	(53, 51.94100008104385), 
+	(47, 46.49485371586029),
+	(45, 43.220682389172545)]
+
+
+2. 	from recommend import Recommend
+	obj=Recommend(rank=10, location=["west","mid_west"], budget=10000, aoi=['software_engineering', 'human_center_design_engineering'])
+	obj.recommend_programs()
+
+	set([])
+
+	[(16, 100.0), 
+	(17, 93.64879453040662), 
+	(0, 87.17164447643036), 
+	(12, 79.8668585822238), 
+	(19, 76.52033105433608), 
+	(10, 76.19647355163728), 
+	(13, 68.94566390788053), 
+	(18, 68.74775098956458), 
+	(9, 63.691975530766456), 
+	(11, 63.152213026268434)]
+
+
+3.  obj=Recommend(rank=10, location=["west"], budget=20000, 		aoi=['data_science_analytics', 			
+	'human_center_design_engineering'])
+	obj.recommend_programs()
+
+	set([])
+
+	[(16, 100.0), 
+
+	(17, 96.23588456712672), 
+	(0, 89.33500627352574), 
+	(19, 75.94102885821832), 
+	(18, 65.46424090338772), 
+	(53, 26.47427854454203), 
+	(44, 19.651819322459225), 
+	(48, 18.601003764115436), 
+	(47, 16.813048933500628), 
+	(45, 13.45671267252196)]
+
+
+4.	obj=Recommend(rank=10, location=["west"], budget=30000, 	
+	aoi=['information_assurance_cyber_security'])
+	obj.recommend_programs()
+
+	set([])
+
+	[(16, 100.0),
+	(17, 92.08427389014298), 
+	(0, 89.45071482317533), 
+	(18, 80.43641835966892), 
+	(19, 80.07524454477051), 
+	(28, 48.83370955605719), 
+	(29, 44.25884123401053), 
+	(27, 42.603461249059436), 
+	(30, 41.64033107599698), 
+	(52, 38.13393528969149)]
+
+
+5.  obj=Recommend(rank=10, location=["west"], budget=40000, 	
+	aoi=['information_assurance_cyber_security'])
+	obj.recommend_programs()
+
+	set([18, 19, 53])
+	
+	[(18, 100.0), 
+	(19, 99.61627014581734), 
+	(53, 55.14965464313125), 
+	(16, 47.8894858019954), 
+	(17, 43.3077513430545), 
+	(0, 41.43514965464314), 
+	(28, 23.530314658480435), 
+	(55, 22.118188795088262), 
+	(29, 21.59631619339985), 
+	(27, 21.12816577129701)]
+
