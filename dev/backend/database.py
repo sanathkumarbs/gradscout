@@ -480,3 +480,20 @@ class Firebase(object):
             endpoint = "/universities/" + str(uni_id) + '/thumbnail'
             result = self.firebase.get(endpoint, None)
         return result
+
+    def get_university_career(self, uni_id):
+        """Get the career rating for the University.
+
+        Args:
+            uni_id (int): Unique ID for University
+
+        Returns:
+            path (string): Get the career rating for the University.
+        """
+        result = None
+        try:
+            result = self.uni_data[int(uni_id)].get('career')
+        except KeyError:
+            endpoint = "/universities/" + str(uni_id) + '/career'
+            result = self.firebase.get(endpoint, None)
+        return result
