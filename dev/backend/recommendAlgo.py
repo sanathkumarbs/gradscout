@@ -16,7 +16,7 @@ class RecommendationAlgorithm(object):
         self.set_list = set_list
         self.user_specializations = user_specializations
         self.user_selected_criteria=user_selected_criteria
-        self.result_size=result_size
+        self.result_size=int(result_size)
 
 
     def filter_dataframe(self):
