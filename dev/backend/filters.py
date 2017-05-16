@@ -8,7 +8,42 @@ class Filters(object):
         self.firebase = Firebase()
         self.count = self.firebase.get_program_count()
 
+
+    def filter_rank(self, param):
+        param=int(param)
+        rank_list=[]
+        for pid in range(0, self.count):
+            res = self.firebase.get_program_rank(pid)
+            if res['cwur'] <= param:
+                rank_list.append(pid)
+
+            if res['usnews'] <= param:
+                rank_list.append(pid)
+
+            if res['forbes'] <= param:
+                rank_list.append(pid)
+
+            if res['times'] <= param:
+                rank_list.append(pid)
+
+        rank_final=set(rank_list)
+
+        return list(rank_final)
+
+
+    def filter_rank_absolute(self, param):
+        param=int(param)
+        rank_list=[]
+        for pid in range(0, self.count):
+            res = self.firebase.get_program_rank(pid)
+            if res['cwur'] <= param and res['usnews'] <= param and res['forbes'] <= param and res['times'] <= param:
+                rank_list.append(pid)
+
+        return rank_list
+
+
     def filter_rank_overall(self, param):
+        param=int(param)
         overall_list = []
         for pid in range(0, param + 1):
             res = self.firebase.get_program_rank(pid)
@@ -19,6 +54,7 @@ class Filters(object):
     def filter_rank_usnews(self, param):
 
         usnews_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_rank(pid)
@@ -30,6 +66,7 @@ class Filters(object):
     def filter_rank_cwur(self, param):
 
         cwur_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_rank(pid)
@@ -41,6 +78,8 @@ class Filters(object):
     def filter_rank_forbes(self, param):
 
         forbes_list = []
+        param=int(param)
+
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_rank(pid)
@@ -52,6 +91,7 @@ class Filters(object):
     def filter_rank_times(self, param):
 
         times_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_rank(pid)
@@ -67,11 +107,11 @@ class Filters(object):
     def filter_location_state(self, param):
 
         state_list = []
-
-        for pid in range(0, self.count):
-            res = self.firebase.get_program_location(pid)
-            if res['state'] == param:
-                state_list.append(pid)
+        for each in param:
+            for pid in range(0, self.count):
+                res = self.firebase.get_program_location(pid)
+                if res['state'] == each:
+                    state_list.append(pid)
 
         return state_list
 
@@ -81,10 +121,11 @@ class Filters(object):
 
         city_list = []
 
-        for pid in range(0, self.count):
-            res = self.firebase.get_program_location(pid)
-            if res['city'] == param:
-                city_list.append(pid)
+        for each in param:
+            for pid in range(0, self.count):
+                res = self.firebase.get_program_location(pid)
+                if res['city'] == param:
+                    city_list.append(pid)
 
         return city_list
 
@@ -105,14 +146,28 @@ class Filters(object):
 
     def filter_location_region(self, param):
 
-        region_list = []
+        region_list=[]
 
-        for pid in range(0, self.count):
-            res = self.firebase.get_program_location(pid)
-            if res['region_name'] == param:
-                region_list.append(pid)
+        region_dict={
+
+        "north_east":["CT", "ME", "MA", "NH", "RI", "VT"],
+        "south":["DE", "DC", "MD","AL", "AR", "FL", "GA", "KY", "LA", "MS", "NC", "SC", "TN", "VA", "WV"],
+        "mid_west":["IL", "IN", "MI", "OH", "WI","IA", "KS", "MN", "MO", "NE", "ND", "SD"],
+        "west":["AZ", "NM", "CO", "ID", "MT", "UT", "WY","AK", "CA", "HI", "NV", "OR", "WA"]
+        
+                }
+
+        for each in param:
+            states_list=region_dict[each]
+            for every_state in states_list:
+                for pid in range(0, self.count):
+                    res = self.firebase.get_program_location(pid)
+                    if res['state'] == every_state:
+                        region_list.append(pid)
 
         return region_list
+
+
 
         # return list(set(resion_list)&set(filtered_list));
 
@@ -123,6 +178,7 @@ class Filters(object):
     def filter_fees_in_state(self, param):
 
         fees_in_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_fees(pid)
@@ -136,6 +192,7 @@ class Filters(object):
     def filter_fees_out_state(self, param):
 
         fees_out_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_fees(pid)
@@ -144,8 +201,36 @@ class Filters(object):
 
         return fees_out_list
 
-        # return list(set(fees_out_list)&set(filtered_list));
+        # return list(set(fees_out_list)&set(filtered_list));6
 
+
+    def filter_budget(self, budget):
+
+        budget_list = []
+        budget=int(budget)
+
+        for pid in range(0, self.count):
+            res1 = self.firebase.get_program_details(pid)
+            duration=float(res1['length'])
+
+            res2 = self.firebase.get_program_fees(pid)
+            total_out_of_state_fees = float(res2['out_of_state'])
+            if duration > 12:
+                yearly_out_of_state=float(12.0/duration)*total_out_of_state_fees
+            else:
+                yearly_out_of_state = total_out_of_state_fees
+
+
+            res3 = self.firebase.get_program_living(pid)
+            total_living = float(res3['overall'])
+
+            total_cost_per_year = yearly_out_of_state + total_living
+
+            if total_cost_per_year<budget:
+                budget_list.append(pid)
+
+
+        return budget_list
 
 # 4. Score
 
@@ -154,6 +239,7 @@ class Filters(object):
     def filter_gpa(self, param):
 
         gpa_list = []
+        param=float(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_acad(pid)
@@ -167,6 +253,7 @@ class Filters(object):
     def filter_gre_verbal(self, param):
 
         verbal_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_acad(pid)
@@ -184,6 +271,7 @@ class Filters(object):
     def filter_gre_quant(self, param):
 
         quant_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_acad(pid)
@@ -207,6 +295,7 @@ class Filters(object):
     def filter_boarding(self, param):
 
         boarding_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_living(pid)
@@ -220,6 +309,7 @@ class Filters(object):
     def filter_books(self, param):
 
         books_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_living(pid)
@@ -233,6 +323,7 @@ class Filters(object):
     def filter_overall_expenses(self, param):
 
         overall_list = []
+        param=int(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_living(pid)
@@ -251,6 +342,7 @@ class Filters(object):
     def filter_admission_rate(self, param):
 
         admission_list = []
+        param=float(param)
 
         for pid in range(0, self.count):
             res = self.firebase.get_program_admission_rate(pid)
@@ -261,22 +353,11 @@ class Filters(object):
 
         # return list(set(admission_list)&set(filtered_list));
 
-    '''
-    def filter_courses(param):
 
-        course_list=[]
-        courses=param.split(" ")
-
-        for pid in range(0, self.count):
-            res=firebase.get_program_courses(pid)
-            for each in courses:
-                if each in res:
-                    course_list.append(pid)
-
-
-        return list(set(course_list)&set(filtered_list));
+   
 
 
 
 
-    '''
+    
+    
