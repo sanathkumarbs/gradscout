@@ -1,0 +1,167 @@
+Z512 - Information Systems Design (3 cr.)
+Z515 - Information Architecture (3 cr.)
+Z516 - Human-Computer Interaction (3 cr.)
+Z556 - Systems Analysis and Design (3 cr.)
+Z633 - Indexing (3 cr.)
+Z690 - Capstone in Information Architecture (3 cr.)
+Coursework must be completed within three (3) years of entering the certificate program. No credits may be transferred from another graduate or undergraduate program in order to satisfy the requirement for 18 credit hours of coursework. The student must maintain a GPA of 3.2 on a 4.0 scale with a minimum course grade of B. Any course in which the student earns a grade of less than B must be repeated to remain in the certificate program.
+
+Elective Courses
+
+If a student has completed equivalent graduate coursework in one or more of the required content areas prior to admission to the program, this coursework may be applied to satisfy content requirements for the certificate. The student may then select from a list of elective courses to meet the 18 credit hours of coursework required for the certificate.
+
+Z503 - Representation and Organization (3 cr.)
+Z511 - Database Design (3 cr.)
+Z513 - Organizational Informatics (3 cr.)
+Z517 - Web Programming (3 cr.)
+Z519 - Evaluation of Information Systems (3 cr.)
+Z520 - Information Seeking and Use (3 cr.)
+Z561 - User Interface Design for Information Systems (3 cr.)
+Z603 - Workshop in Library and Information Science (1-3 cr.)
+Z604 - Topics in Library and Information Science (3 cr.)
+Z634 - Metadata (3 cr.)
+Z635 (new course, developed from L697) - Ontologies (3 cr.)
+Z636 (new course, developed from L597) - Semantic Web (3 cr.)
+Z637 - Information Visualization (3 cr.)
+Z643 - The Information Industry (1-3 cr.)
+Z661 - Concepts and Contemporary Issues in Human-Computer Interaction (3 cr.)
+CSCI A548 Mastering the World Wide Web (3 cr.)
+CSCI B659 Topics in Artificial Intelligence: Web mining (3 cr.)
+BUS S531 Advanced Web Applications Development (3 cr.)
+
+
+his career pathway concentrates on the theories and supporting techniques related to the design, building, and management of  information systems and Web applications. These include:
+
+Design and development of user-centered information systems in a variety of information environments
+User interactions with information structures
+Computer/network mediated interaction with users
+Web applications
+Web site design, content creation and administration
+Web-programming languages
+Students in this career path will develop skills and expertise to improve the user's experience when interacting with information systems via web interfaces. Work in information systems and design requires more than just the acquisition of a practical skill set. It is the ability to tailor technologies to various information communities. It also requires an understanding of users’ information needs and knowledge about the information-seeking behaviors of the audience.
+
+Employment Opportunities
+
+Opportunities exist in all types of libraries as well as information agencies, library automation system vendors, and Web design companies. Sometimes the whole job will focus on technology; sometimes part of the job will consist of designing, building, and maintaining Web content. Students who concentrate in this specialization may work as:
+
+systems librarians
+database coordinators
+database developers
+data mining and analytics consultants
+emerging technologies librarians
+information architects
+intelligence analysts
+knowledge integration librarians
+project managers
+reference tool developers
+systems analysts
+technology coordinators and trainers
+usability/usage analysts
+user experience designers
+virtual services managers
+Web 2.0 developers
+Web content managers
+Web designers
+Web project managers
+Web technologists
+Core Theory and Knowledge
+
+Ability to analyze and determine library computing requirements, develop new means of delivering service, coordinate and implement new electronic services, and support ongoing services
+Communicate ideas to peers as well as clientele without the overuse of technical jargon
+Identify specific needs for technologies in information search and management
+Match needs in specific situations with the functions and applications of emerging technologies
+Utilize data mining software tools for usage and analytics research
+Understand computing fundamentals (data structures, operating systems, usability issues, Web site design and creation, Web programming/scripting languages, Web 2.0 tools)
+Understand the principles of user-centric design and style, as well as how to choose appropriate interaction methods for particular circumstances and populations
+Recommended Coursework
+
+Required Courses:
+
+INFO 203 Online Learning: Tools and Strategies for Success
+INFO 200 Information Communities
+INFO 202 Information Retrieval System Design
+INFO 204 Information Professions
+INFO 285 Research Methods in Library and Information Science
+INFO 289 or INFO 299 Culminating Experience
+Note: For this career path, INFO 202 is the most important course. If you are not comfortable with the material and format of INFO 202, then this is not the career for you.
+
+Foundation Courses:
+
+INFO 240 Information Technology Tools and Applications (Web Programming and Design)
+INFO 242 Database Management
+INFO 246 Information Technology Tools and Applications: Advanced
+Particularly Web 2.0, PHP, MySQL, JavaScript/jQuery, XML, Drupal, Information Visualization, Text/Data Mining, Big Data Analytics and Management, Information Architecture,Linux, Python, Data Security, Networking [See current topics. Select class number then topics]
+INFO 251 Web Usability
+INFO 294 Professional Experience: Internships
+Recommended Courses:
+
+INFO 241 Automated Library Services
+INFO 243 Systems Analysis
+INFO 247 Vocabulary Design
+INFO 282 Seminar in Library Management
+Section on project management
+INFO 287 Seminar in Information Science
+Particularly virtual services, designing mobile apps, cybersecurity,, and sections on specific current technologies
+
+CSE 143 Computer Programming II
+CSE 373 Data Structures and Algorithms
+INFO 340 Database Management and Information Retrieval
+INFO 343 Web Technologies
+INFO 360 Design Thinking
+INFO 380 Information Systems Analysis and Management
+INFO 450 Information Ethics and Policy
+INFO 470 Research Methods
+INFO 481 Project Management
+INFO 490 Capstone Project I
+INFO 491 Capstone Project II
+
+Information Architecture Courses
+
+The UX Conference Courses
+The UX Conference offers courses about a broad range of web and application design topics. Most courses are also available as in-house training. Each course counts toward UX Certification.
+
+Information Architecture
+Organize and structure information to improve findability and discoverability
+
+How to structure and organize your site...before delving into design
+Choosing hierarchy models, organizational schemes, label names
+Dealing with metadata, taxonomy and search 
+Methods for designing, documenting, and evaluating your IA
+Navigation Design
+Menu styles and UI components for effective navigation
+
+How to approach navigation design...after you've structured your content and features
+Key navigation evaluation and design criteria
+Components that support structure, communicate accurate mental maps, visualize paths and provide nodes
+What works and what doesn't as observed in testing
+
+Information Architecture
+Organize and structure information to improve findability and discoverability
+The Information Architecture (IA), or organization, of a website or application is critical, because it determines whether or not users are successful in finding desired information and completing tasks. This course introduces the core components of a good IA, as well as essential IA design methods and strategies.
+
+"In just one day, this course provided me with actionable items I will use to both improve and add onto the IA of my company's website. The course also gave me a new perspective on how to analyze my website and the most important aspects I should focus on improving."
+Laura Normile
+HD Supply Facilities Maintenance
+
+Topics Covered
+How to explain why information architecture (IA) is important for your website or application
+Why a good IA can save your company time and money during and after development
+Return on investment (ROI) of information architecture
+Essential logic and concepts you need to build a useful, usable, and extensible information architecture
+Five components of information architecture
+Structure types: Hierarchy, linear, and web
+Organization schemes: Topic, task, format, audience, alphabet, time, geographical, attributes, tags, and popularity
+Label names: Being specific vs. concise
+Search: Designing search for content to be found
+Logic: Taxonomy and metadata, when and why they're needed
+Documenting information architecture
+Content inventories
+Site maps
+Evaluating information architecture
+Identifying issues and potential solutions
+Measuring baseline performance
+Testing structure, schemes, and labels
+Designing information architecture
+Mental models and scenarios
+Domain modeling and task flow sketching
+Card sorting method

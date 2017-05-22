@@ -1,0 +1,290 @@
+Human Computer Interaction Courses
+
+The UX Conference Courses
+The UX Conference offers courses about a broad range of web and application design topics. Most courses are also available as in-house training. Each course counts toward UX Certification.
+
+UX Basic Training
+Be an effective UX professional: Know the lingo and sell the process
+
+Understand the purpose and roles of UX professionals throughout a project lifecycle
+Know when to apply which research methods and how to use the data to improve design
+Assess your organization’s commitment to UX
+Learn tips for promoting UX as a competitive advantage
+User Interface Principles Every Designer Must Know
+Learn key human-computer interaction (HCI) research findings, and how to apply them to UX design problems
+
+Examine the most relevant concepts from the Human-Computer Interaction (HCI) field and learn to apply the principles to specific design problems
+Be able to explain why certain designs work better in particular circumstances
+Design better interfaces from the start by knowing human limitations and easing the load on the user
+Interaction Design: 3-Day Course
+UX pioneer Bruce "Tog" Tognazzini teaches principles, processes, and techniques of Human-Computer Interaction (HCI).
+
+Get the confidence gained from having a solid foundation in every aspect of HCI whether you’re just arriving from graphic design, psychology, or another entry discipline, or started picking up HCI some time ago along the way.
+Achieve a deep understanding of the entire life-cycle of design by actually experiencing it through five in-depth hands-on exercises
+Practice the methodology Tog helped develop at Apple, still in use there today, that results in products that are smooth, exciting, and just simply work.
+Get the knowledge you need of information theory, human psychology, physiology and other aspects of HCI science, you’ll be prepared to make intelligent, informed, and effective design decisions
+Learn the trick to “selling” your designs with a minimal amount of stress and effort so you can spend your time doing the work you love. (Managers: This means your designer will be a lot more productive.)
+
+Introduction to User Experience Design
+Georgia Institute of Technology
+
+Interaction Design
+8-course Specialization·University of California, San Diego
+
+Human-Centered Design: an Introduction
+University of California, San Diego
+
+User Interface Design
+5-course Specialization·University of Minnesota
+
+Introduction to UI Design
+University of Minnesota
+
+User Experience: Research & Prototyping
+University of California, San Diego
+
+Interaction Design Capstone Project
+University of California, San Diego
+
+Usable Security
+University of Maryland, College Park
+
+Cybersecurity
+5-course Specialization·University of Maryland, College Park
+
+Responsive Website Development and Design
+6-course Specialization·University of London, Goldsmiths, University of London
+
+Responsive Web Design
+University of London, Goldsmiths, University of London
+
+Graphic Design
+5-course Specialization·California Institute of the Arts
+
+Design Thinking for Innovation
+University of Virginia
+
+Web Design for Everybody (Basics of Web Development and Coding)
+5-course Specialization·University of Michigan
+
+Design and Make Infographics (Project-Centered Course)
+Michigan State University
+
+Designing, Running, and Analyzing Experiments
+University of California, San Diego
+
+Game Design and Development
+5-course Specialization·Michigan State University
+
+Game Design: Art and Concepts
+5-course Specialization·California Institute of the Arts
+
+Digital Manufacturing & Design Technology
+10-course Specialization·The State University of New York, University at Buffalo
+
+Competitive Strategy and Organization Design
+Intro to UX & Design Thinking
+Explain course expectations in terms of pre-work, homework, projects, office hours, Schoology, etc.
+Define the elements of User Experience Design.
+Develop basic skills in creative problem solving, innovation, and human-centered design through a fast-paced design thinking activity.
+Sketch out potential design solutions to the problem you have defined.
+Practice adapting to rapidly changing stakeholder requirements.
+Create a paper prototype of your proposed solution.
+Present designs and justify design decisions.
+User Research
+Describe the skills required to conduct and recruit for an effective user interview.
+Define contextual inquiry and articulate its benefits.
+Prepare unbiased interview questions.
+
+
+1. Introduction to UX and Design Thinking
+Describe UX design and the design thinking process
+Apply the first stage of the design thinking process to a given problem
+2. User Research
+Explain user-centered design and strategies for conducting effective user research
+
+3. User Personas
+Create effective user personas and user stories based on user goals and needs
+
+4. Information Architecture
+Explore how users navigate sites and processes and how information is structured
+
+5. Wireframing and Prototyping
+Create effective prototypes and wireframes that support user goals
+
+6. Usability Testing
+Utilize best practices in usability testing to create a testing plan
+
+7. Presenting Your Work
+Present your design process and solution to stakeholders in a clear, engaging manner
+
+8. What's Next?
+Draft a personal design profile to map out a path for continuing design education
+
+8 immersion 6cb6f8849d47be0a7f4fafc3f48cea93a8308559948c2b7651a238d1090744f0
+ACHIEVEMENT 1
+Thinking Like a UXer
+The title says it all. You’ll begin this course by getting into the mindset of a UX designer. You’ll also get hands-on practice applying Design Thinking and competitive analysis to your own course project.
+
+1. The Role of the UX Designer
+Discuss the role of a UX designer
+
+2. A History of User Experience Design
+Explain the origins of the user interface, user experience design, and human-computer interaction
+
+3. Human Needs & Motivations
+Identify human needs and motivations
+
+4. User-Centered Design Process
+Discuss the user-centered design process
+
+5. Design Thinking
+Apply design thinking to project planning and kick-off
+
+6. Understanding the Problem
+Create a product- or service-specific problem statement
+
+7. Competitive Analysis
+Examine competitors to create an informative analysis
+
+8. Lean UX vs. Agile UX
+Differentiate Lean and Agile UX
+
+9. Business Requirements
+Distinguish user needs, pain points, and business requirements
+
+10. User Stories
+Translate business requirements into user stories
+
+User personas 7f429c795438d6ffd3215b5bb3c956f7d1fa0f5fd1f3c63fb5adfd01052902e7
+ACHIEVEMENT 2
+Understanding the User
+Through user research and analysis, you’ll create user personas and a user journey map as well as conduct a thorough task analysis for your product. Lastly, you’ll define an actionable mobile strategy for your product.
+
+1. Research Methods
+Compare user research methods
+
+2. Surveys & Interviews
+Discuss the process of conducting surveys and interviews
+
+3. User Research Analysis
+Analyze user needs and pain points
+
+4. User Personas
+Create user personas informed by research
+
+5. Mental Models & User Journeys
+Discuss mental models and then create a journey map informed by qualitative research
+
+6. Task Analysis & User Flows
+Select important user stories from the journey map and then create user flows for each of those tasks
+
+7. Mobile-First Design
+Discuss key components of mobile-first design and how to apply them
+
+8. Content Auditing
+Analyze content from an existing site or app to inform information architecture
+
+Information architecture 0bac6fdbc1333c96cd47cc2c0966f5fb783f2e9974e3b51b14f47fc587fdb49d
+ACHIEVEMENT 3
+Foundational Design
+To successfully illustrate the technical articulation of your product’s information architecture, you’ll create a visually appealing and portfolio-ready site map. You’ll also begin prototyping your product.
+
+1. IA Principles & Frameworks
+Discuss the principles, frameworks, and historical context of information architecture
+
+2. Refining Your Site Map With Card Sorting
+Use the card sorting method to better design the information architecture of your application
+
+3. Navigation for Mobile & Desktop
+Implement navigation for mobile and desktop apps
+
+4. Design Patterns for Mobile & Desktop
+Compare desktop and mobile design patterns
+
+5. Usability Heuristics & Interaction Design
+Identify examples of heuristics of usability in practice and apply heuristics to interaction design
+
+6. Low-Fidelity Prototyping: Paper & Sketches
+Create low-fidelity paper prototypes for desktop and mobile
+
+7. Rapid Prototyping: User Onboarding
+Apply the process of rapid prototyping to user onboarding
+
+8. Mid-Fidelity Wireframes & Prototyping
+Create mid-fidelity wireframes
+
+9. High-Fidelity Wireframes & Clickable Prototypes
+Create clickable prototypes
+
+User testing 117cfcaf7dba71a1e4ad7f1b7bdfa699429f66a4aeadee8a8199164458327fcd
+ACHIEVEMENT 4
+Usability Testing
+It’s time to put your design to the (usability) test. Here, you’ll conduct usability testing for both mobile and desktop from start to finish, working with test subjects, analyzing test results, making improvements, and planning future tests.
+
+1. Best Practices for Working with Human Test Subjects
+Discuss best practices for recruitment and usability testing with human subjects
+2. Usability Test Methods
+3. Usability Test Plan
+4. Usability Test Script
+5. Conducting Usability Tests
+6. Usability Test Results and Planning for Future Tests
+7. Reporting Findings and Making Recommendations
+8. A/B & Preference Testing
+Visual design cdb749b942098a3abd07e488b5f3796448dd211811b7a4d84ca86bd7e7663e7b
+ACHIEVEMENT 5
+Refining the Design
+Here, you’ll explore the foundations of visual design, experiment with responsive frameworks, and ready your design documentation for dev handoff.
+
+1. Visual Design Principles
+Apply Gestalt psychology and visual design principles to a prototype
+Incorporate aspects of visual perception in organizing visual information
+2. Emotional Design for User Engagement
+Discuss design strategies to develop emotional engagement
+
+3. Grids & Spacing Fundamentals
+Practice UI fundamentals for layout and visual organization
+Discuss HTML requirements and responsive design
+4. Responsive Frameworks: Bootstrap and Foundation
+Discuss responsive frameworks including Bootstrap and Foundation
+
+5. HTML Basics
+Analyze the grid, framework, and semantic code
+Discuss prototyping with HTML5, CSS3, and JavaScript
+Examine HTML requirements
+6. Alternatives to HTML: Native Platforms
+Examine native code and languages such as Swift
+Discuss design and prototyping implications for native products
+7. Design Documentation
+Create design documentation for your project(s)
+Discuss the selection and creation of style guides
+8. Design Language Systems
+Examine current design language systems
+Create a design language system or vocabulary for your project
+9. Design Deliverables
+Prepare deliverables for a design hand-off
+
+10. Design Collaboration
+Compile tips and techniques for collaborative design
+
+Production ready product d6238dcd1dc3cb5f443d95191d7aba49dcd961d3f7bd95a9a97b498b621e1cb3
+ACHIEVEMENT 6
+End-to-End Design
+This is where you’ll compile all your design iterations up to this point and make final fixes to your design. You’ll also work on addressing user accessibility issues, publishing your online portfolio, and creating a video demo of your work.
+
+1. Iteration 1: Polishing the Design
+2. Iteration 2: Accessibility
+3. Final Iteration
+4. Designing for Good
+5. Online Portfolios
+6. Joining UX Communities
+7. Video Presentation
+Specialization Courses
+Continue refining your skills as a UX professional and build out your UX portfolio with new projects by specializing in one of the topics below.
+
+UI FOR UX DESIGNERS
+
+Want to create beautiful designs? This specialization will focus on helping the already certified UX designer (you) take the visual aspect of your designs to the next level. In this course, you will dive into styling design elements and creating responsive interfaces, producing elegant, functional wireframes. You will finish with high-fidelity mockups ready to be sent to developers.
+FRONTEND BASICS FOR DESIGNERS
+
+Design and code your own portfolio website using front-end coding to showcase your design projects. The additional technical skills and a one-of-a-kind portfolio will make you stand out to employers in tech.

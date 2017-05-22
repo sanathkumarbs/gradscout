@@ -1,0 +1,231 @@
+Communicating, Problem Solving, and Leading in Cybersecurity (6 Credits, CBR 600)
+Cyberspace and Cybersecurity Foundations (6 Credits, CST 610)
+Prevention of Cyber Attack Methodologies (6 Credits, CST 620)
+Advanced Cyber Exploitation and Mitigation Methodologies (6 Credits, CST 630)
+Digital Forensics Technology and Practices (6 Credits, CST 640)
+Capstone in Cybersecurity (6 Credits, CYB 670)
+Use protocol analyzers, intrusion detection systems, intrusion prevention systems, network mapping tools, network scanning tools, encryption/decryption tools, digital forensics tools, and password exploitation tools
+Perform ethical hacking and vulnerability assessments
+Foundations of Privacy
+Engineering Privacy in Software
+Information Security
+Privacy Policy Law and Technology
+Secure Coding
+Applied Information Assurance
+Information Security Risk Management
+Information Security Policy and Management
+Introduction to Cyber Intelligence
+Network Security and Management
+Intro to Software Reverse Engineering
+Host Based Forensics
+Network Forensics
+Web Application Security & Performance
+Cyber Forensics and Incident Response
+Introduction to Privacy Engineering: from Policy to Code to Quality to Value
+Elements of Web Security
+Elements of Browser Security
+Cybersecurity Research Seminar
+Introduction to Computer and Network Security
+Secure Programming
+Information Security and Privacy
+Introduction to Computer and Network Security and Applied Cryptography
+Theoretical Cryptography
+Formal Foundations of Software Security
+Social Engineering
+Software Security Engineering
+Engineering Runtime Malware Analysis
+Introduction to Computer Security
+Introduction to Information Security
+Introduction to Hardware Security
+Wireless network security
+Mobile Security
+Introduction to Computer Security
+Network Security
+Software Security
+Applied Cryptography
+Malware, Defense, and Vulnerability Analysis
+Usable Privacy and Security
+Cybersecurity and the Future of the Internet
+Data Privacy
+Web Application Security
+Analytical Social Science and National Security
+Cybersecurity Policy
+Introduction to Information Security
+Information Security Compliance and Training
+Information Security Policy and Governance
+Software and Security
+Cryptography
+Introduction to Information Security Management
+Internet Security
+Network and Internet Security
+Cybersecurity in Critical Infrastructure
+Privacy in the Digital Age
+Defensive Hacking
+Network Security Analysis
+Information Warfare
+Information Assurance Policy
+Network Situational Awareness
+Introduction to Information Security Training and Awareness
+Ethical Penetration Testing
+Network Defenses
+ Cybercrime Law and Investigations
+– Database and Distributed Systems Security
+– Foundations of Information System Security
+– Information Technology Fundamentals
+– Managing Cybersecurity Operations
+– Network Security Protocols
+– Scripting and Programming
+– Systems Analysis and Integration
+– Web Security
+cyber investigators
+special agents with federal agencies
+digital forensic analysts
+eDiscovery specialists
+lab managers
+educators
+information security (INFOSEC) specialists
+cyber incident analyst responders
+cybersecurity analysts
+computer security
+network security analysts
+information assurance consultants
+forensic computing product research and development
+
+FCM 710 Architecture of Secure Operating Systems
+FCM 742 Network Security
+CRJ/FCM 752 Law and High Technology Crime
+FCM 753 Digital Forensics Applications
+FCM 760 Forensic Management of Digital Evidence
+
+Forensic and Security Electives (Take at least three)         Subtotal: 9 credits
+FCM 700 Theoretical Foundations of Computing Security
+FCM/FOS 705 Mathematical Statistics for Forensic Science
+FCM 740 Data Communications and Forensics Security
+FCM 745 Network Forensics
+
+Criminal Justice Electives (Take at least one)                    Subtotal: 3 credits
+CRJ 708 Law, Evidence and Ethics
+CRJ/FCM 727 Cybercriminology
+CRJ 733 Constitutional Law
+CRJ/PAD 750 Security of Information and Technology
+Assess enterprise security risks and formulate recommendations
+Understand the challenges associated with secure operating systems, secure applications, secure networking, cryptography, and key management
+Protect pre-existing infrastructure, detect intrusions and abuses, and respond to attacks
+Manage the complexities of securing data, networks, and systems
+Develop, engineer, and operate secure information systems
+Develop security policy that drives technology decisions
+Examine the legal, social, regulatory, ethical, and technical issues involved with securing information systems and critical infrastructures
+Cybersecurity master’s degrees go by a number of titles, including:
+
+ Information Systems
+ Information Technology – Internet Security
+ Cybersecurity
+ Information Security and Assurance
+ Information Technology/Cybersecurity
+Master of Information Technology in Information Assurance and Security
+ Cybersecurity Policy
+ Computer and Information Security
+ Cyber Security Engineering
+Master of Engineering in Cybersecurity
+Master of Business Administration– Cybersecurity
+Many programs allow students to choose a concentration in areas that include:
+
+Cyber investigations
+Network security administration
+Secure embedded systems
+Digital forensics
+Data management systems security
+Systems security administration
+Systems security engineering
+ZEIT8020 Computer Network Operations (6 UOC)
+ZEIT8021 INFAss (6 UOC)
+ZEIT8022 Identity and Access Management (6 UOC)
+ZEIT8023 WiMobSec (6 UOC)
+Elective Courses
+ZEIT8024 Software Security Lifecycle (6 UOC)
+ZEIT8025 AppSoftSec (6 UOC)
+ZEIT8026 NSPM (6 UOC)
+ZEIT8027 CICSS (6 UOC)
+ZEIT8028 Computer Forensics (6 UOC)
+ZEIT8029 NWMobile&DevForensics (6 UOC)
+ZEIT8030 BDDAS (6 UOC)
+ZEIT8104 Cyber-Security (6 UOC)
+ZEIT8106 Cryptography (6 UOC)
+ZEIT8137 Systems and Network Admin (6 UOC)
+ZEIT8146 Intrusion Detection Systems (6 UOC)
+
+The online Master of Engineering in cybersecurity policy and compliance at GW is designed for students who are working professionals—blending live class sessions with coursework that can be completed around other obligations. Students who are employed full-time will be able to apply the skills they learn on the job as they complete their online cybersecurity courses.
+The program requires a minimum of 30 credit hours of graduate-level coursework. The program consists of four computer science courses and six others, focusing on policy, management, compliance and risk management—a blend that is designed to develop a well-rounded skillset in graduates. Even for those working full-time, all cybersecurity courses can be completed in roughly 2.5 years.
+Upon graduation, M.Eng(CPC) students will be able to:
+Implement appropriate forensic analysis of cyber incidents, and use predictive analytics modeling to forecast cyberattacks, to devise solutions that go beyond traditional IT practitioners’ practices to delineate specific and actionable cyber intelligence.
+Formulate short- and long-term cybersecurity strategies and policies for their enterprises by identifying compliance laws and applying the industry’s best practices.
+Design an organization’s mobility solution that integrates mobile device management and the industry’s best practices.
+Develop and implement a comprehensive cybersecurity situational awareness procedure for an organization to safeguard sensitive data and sustain fundamental operations.
+Implement methods of mitigating risk by managing threat vulnerabilities and exploits.
+M.Eng(CPC) Required Courses
+CSCI 6012 Cybersecurity and Privacy (3 credits)
+Overview of cybersecurity and privacy, including cryptography, authentication, malware, viruses, network security, anonymity, privacy and online privacy, risk management. Common cyberattacks and techniques for detection and defense. Policy and legal perspectives for managing cybersecurity missions supporting private sector and government. Cyber technologies as applied to the stability of global information and communications infrastructure; government cybersecurity policies.
+CSCI 6532 Information Policy (3 credits)
+Roles, issues, and impacts of computer-based information systems in national and international arenas, focusing on privacy, equity, freedom of speech, intellectual property, and access to personal and governmental information. Professional responsibilities, ethics, and common and best practices in information use.
+EMSE 6540 Management of Information and Systems Security (3 credits)
+Development and management of effective security systems. Includes information, personnel, and physical security. Emphasis on risk analysis for information protection.
+CSCI 6013 Security in Mobile Computing (3 credits)
+Relationship between security strategic plan and business strategic plan. Mobile Device Solutions (MDS) to access enterprise corporate data. Bring Your Own Device (BYOD) paradigm. Mobile Device Management (MDM) best practices, policies, network controls to identify countermeasures and risk mitigation strategies against common threats. Overview of mobile security solutions for classified processing and communications. Prerequisite: CSCI 6012.
+CSCI 6534 Information Security in Government (3 credits)
+Information assurance policies and standards in the federal government as mandated by legislation; security processes following NIST standards; technical tests and validation methods used in the federal government; review of federal threats and vulnerabilities; and government positions in information assurance.
+ECE 6132 Secure Cloud Computing (3 credits)
+Security and privacy issues in cloud computing systems. Confidentiality, integrity, and availability of data and computations. Examination of cloud computing models, threat models, outsourcing, and security issues. Practical applications of secure cloud computing.
+EMSE 6542 Cybersecurity Risk Management and Compliance (3 credits)
+Cybersecurity threats and other risks to an organization’s core business relative to people, processes, data, facilities, technology. Risk-based planning and risk management of cybersecurity at the enterprise level. Creating risk assessment and modeling approaches to cybersecurity issues that enable an enterprise to build security structures, sustain healthy cybersecurity posture, satisfy compliance with risk frameworks such as NIST’s. Prerequisite: EMSE 6540.
+EMSE 6543 Managing the Protection of Information Assets and Systems (3 credits)
+Advanced topics in protection of information assets and systems, including authentication, asset control, security models and kernels, physical security, personnel security, operational security, administrative security, security configuration management, and resource control. Prerequisite: EMSE 6540.
+EMSE 6544 Auditing, Monitoring, and Intrusion Detection for Information Security Managers (3 credits)
+Methods for detecting problems with unauthorized activity in information systems and management challenges associated with those activities. Prerequisite: EMSE 6540.
+EMSE 6546 Cybercrime for Information Security Managers (3 credits)
+Legal issues regarding information security actions related to and in response to criminal activity, including industrial espionage, back-hacking, cracking, and cyberterrorism. Transnational issues, cybercrime treaties and conventions, and cyberwar issues.
+Information Assurance and Cybersecurity
+
+Protecting the most important digital information assets
+According to the Department of Homeland Security, cyber intrusions and attacks have increased dramatically over the last decade, exposing sensitive personal and business information, disrupting critical operations, and imposing high costs on the economy. Anyone connected to the internet is vulnerable.
+
+iSchool research is identifying new ways to protect critical public and private information infrastructure; helping organizations monitor potential security risks; and developing courses and real-world simulations to educate information assurance and cybersecurity professionals.
+
+Applicability
+The iSchool’s expertise and research in information assurance and cyber security can assist organizations in the following ways:
+
+Risk assessment and management
+Developing security policies and rights management systems
+Identifying security awareness issues within organizations and recommending processes to overcome them
+Implementing or integrating security tools and applications
+Assessing software and information architecture for security
+Assessing network security
+Implementing intrusion detection, forensics and timely response processes
+Protecting privacy and increasing awareness
+Implementing next generation infrastructure and applications
+Detection of emerging opinions and opinion leaders in emerging media
+Projects and Research
+
+Next Generation Honeypots
+Honey Pot Systems are decoy servers or systems setup to gather information regarding an attacker or intruder into your system. The iSchool is assessing the use of virtualization in networks and incorporating deception techniques into the next generation of honey pots.
+
+The Uncertainty and Leadership Detection Project
+The Institute for National Security Education and Research (INSER) focuses on using natural language processing tools to examine emerging online communities and identify existing and potential leaders.
+
+The Trust and Suspicion Project
+INSER team is able to characterize the levels of trust and suspicion about online activities in collaborative team members, particularly information security professionals. The goal is to increase understanding about the interactions between professionals around security awareness and risk assessment.
+TCSL 510               Principles of Cybersecurity 
+TCSL 520               Business Essentials
+
+Winter 2018
+TCSL 540               Leadership and Team Dynamics
+TCSL 550               Networking and Internet Security
+
+Spring 2018
+TCSL 530               Information Assurance, Risk Management and Security Strategies
+TCSL 560               Strategic Organization Change
+
+Summer 2018
+TCSL 570               Cybersecurity Management
+TCSL 580               Project Management
+
+

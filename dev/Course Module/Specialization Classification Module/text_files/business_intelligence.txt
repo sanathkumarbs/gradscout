@@ -1,0 +1,52 @@
+Business Intelligence:
+
+
+Course #	Course Name	Credit Hrs.
+BUS& 101	Introduction to Business	5
+BUSIT 103	SQL Fundamentals	5
+BUSIT 105	Introduction to Business Intelligence	5
+BUSIT 115	Data Mining I	5
+BUSIT 209	Data Visualization	5
+Choose 5 credits from the following:	5
+BA 240	Statistical Analysis (5 Cr)
+
+	Credit Hrs.
+CMST 340	Applied Organizational Communication	5
+ISIT 330	Business Intelligence Applications	5
+ISIT 334	Data Visualization	5
+Choose 15 credits from the following:	15
+ISIT 337	Predictive Analytics (5 Cr)
+ISIT 338	Data Analyst Techniques (5 Cr)
+ISIT 434	Web Analytics (5 Cr)
+ISIT 436	Performance Management (5 Cr)
+
+
+Course #	Course Name	Credit Hrs.
+CMST 340	Applied Organizational Communication	5
+ISIT 330	Business Intelligence Applications	5
+ISIT 332	Data Warehousing	5
+ISIT 334	Data Visualization	5
+ISIT 336	Dimensional Modeling	5
+ISIT 432	Data Repositories for Analytics
+
+MIS 501: Fundamentals of Object-Oriented Programming
+MIS 507A: Software Design and Integration
+MIS 513: Business Foundations for IT
+MIS 515: Information Security in Public and Private Sectors
+MIS 516: Information Security Risk Management
+MIS 517: Systems Security Management
+MIS 531: Enterprise Data Management
+MIS 541: Information Systems Analysis and Design
+MIS 545: Data Mining for Business Intelligence
+MIS 578: Project Management
+MIS 587: Business IntelligenceC
+MIS 696H: Master's Project Report
+
+
+Data Mining
+Data Warehouse Design and Implementation
+Decision Support Systems
+Database Tools
+Balanced Scorecards and Performance Dashboards
+Predictive Analytics
+Data Pre-Processing and Exploration

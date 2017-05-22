@@ -1,0 +1,346 @@
+CME 302	Numerical Linear Algebra	3
+CME 305	Discrete Mathematics and Algorithms	3
+CME 307	Optimization	3
+CME 308	Stochastic Methods in Engineering	3
+or	 
+CME 309
+Randomized Algorithms and Probabilistic Analysis
+STATS 200	Introduction to Statistical Inference	3
+STATS 203	Introduction to Regression Models and Analysis of Variance	3
+or STATS 305A	Introduction to Statistical Modeling
+STATS 315A	Modern Applied Statistics: Learning	2-3
+STATS 315B	Modern Applied Statistics: Data Mining
+BIOE 214	Representations and Algorithms for Computational Molecular Biology	3-4
+BIOMEDIN 215	Data Driven Medicine	3
+BIOS 221/STATS 366	Modern Statistics for Modern Biology	3
+CS 224W	Social and Information Network Analysis	3-4
+CS 229	Machine Learning	3-4
+CS 246	Mining Massive Data Sets	3-4
+CS 347	Parallel and Distributed Data Management	3
+CS 448	Topics in Computer Graphics	3-4
+ENERGY 240	Geostatistics	2-3
+OIT 367	Business Intelligence from Big Data	3
+PSYCH 204A	Human Neuroimaging Methods	3
+STATS 290	Paradigms for Computing with Data
+Advanced Scientific Programming; take 3 units	 
+CME 212	Advanced Software Development for Scientists and Engineers	3
+Parallel Computing/HCP courses: (3 units)	 
+CME 213	Introduction to parallel computing using MPI, openMP, and CUDA	3
+CME 323	Distributed Algorithms and Optimization	3
+CME 342	Parallel Methods in Numerical Analysis	3
+CS 149	Parallel Computing	3-4
+CS 315A	Parallel Computer Architecture and Programming	3
+CS 316	Advanced Multi-Core Systems
+
+Integrative Data Science  (Required)
+DS 501. Introduction to Data Science (3 credits)
+
+Mathematical Analytics 3 credits (Select one)
+DS 502. Statistical Methods for Data Science (3 credits)
+MA 542. Regression Analysis
+MA 554. Applied Multivariate Analysis
+
+Data Access and Management 3 credits (Select one)
+CS 542. Database Management Systems (3 credits)
+MIS571. Database Applications Development
+DS 503. Big Data Management (3 credits)
+CS 561. Advanced Topics in Database Systems
+
+Data Analytics and Mining 3 credits (Select one)
+CS 548. Knowledge Discovery and Data Mining (3 credits)
+DS 504. Big Data Analytics (3 credits)
+CS 539. Machine Learning
+
+Business Intelligence and Case Studies 3 credits (Select one)
+MIS 584. Business Intelligence
+MKT 568. Data Mining Business Applications
+Integrative Data Science (3 credits)
+Data Analytics and Mining (3 credits)
+Data Access and Management (3 credits)
+Mathematical Analytics (3 credits)
+Business Intelligence and Case Studies (3 credits)
+
+Intro to Data Science / UW Videos
+
+Topics: Python NLP on Twitter API, Distributed Computing Paradigm, MapReduce/Hadoop & Pig Script, SQL/NoSQL, Relational Algebra, Experiment design, Statistics, Graphs, Amazon EC2, Visualization.
+Data Science / Harvard Videos & Course
+
+Topics: Data wrangling, data management, exploratory data analysis to generate hypotheses and intuition, prediction based on statistical methods such as regression and classification, communication of results through visualization, stories, and summaries.
+Data Science with Open Source Tools Book $27
+
+Topics: Visualizing Data, Estimation, Models from Scaling Arguments, Arguments from Probability Models, What you Really Need to Know about Classical Statistics, Data Mining, Clustering, PCA, Map/Reduce, Predictive Analytics
+Example Code in: R, Python, Sage, C, Gnu Scientific Library
+A Note About Direction
+
+This is an introduction geared toward those with at least a minimum understanding of programming, and (perhaps obviously) an interest in the components of Data Science (like statistics and distributed computing). Out of personal preference and need for focus, I geared the original curriculum toward Python tools and resources. R resources can be found here.
+
+Math
+
+★ What are some good resources for learning about numerical analysis? / Quora
+
+Linear Algebra & Programming
+
+Linear Algebra Khan Academy / Videos
+Linear Algebra / Levandosky Stanford / Book $10
+Linear Programming (Math 407) University of Washington / Course
+The Manga Guide to Linear Algebra Book $19
+Convex Optimization
+
+Convex Optimization / Boyd Stanford / Lectures
+Statistics
+
+Statistics I Princeton / Coursera
+Stats in a Nutshell Book $29
+Think Stats: Probability and Statistics for Programmers Digital & Book $25
+Think Bayes Digital & Book $25
+Differential Equations & Calculus
+
+Differential Equations in Data Science Python Tutorial
+Problem Solving
+
+Problem-Solving Heuristics "How To Solve It" Polya / Book $10
+Computing
+
+Get your environment up and running with the Data Science Toolbox
+
+Algorithms
+
+Algorithms Design & Analysis I Stanford / Coursera
+Algorithm Design, Kleinberg & Tardos Book $125
+Distributed Computing Paradigms
+
+*See Intro to Data Science UW / Lectures on MapReduce
+Intro to Hadoop and MapReduce Cloudera / Udacity Course *includes select free excerpts of Hadoop: The Definitive Guide Book $29
+Databases
+
+Introduction to Databases Stanford / Online Course
+SQL School Mode Analytics / Tutorials
+SQL Tutorials SQLZOO / Tutorials
+Data Mining
+
+Mining Massive Data Sets / Stanford Coursera & Digital & Book $58
+Mining The Social Web Book $30
+Introduction to Information Retrieval / Stanford Digital & Book $56
+OSDSM Specialization: Web Scraping & Crawling
+
+Machine Learning
+
+Foundational & Theoretical
+
+Machine Learning Ng Stanford / Coursera & Stanford CS 229
+A Course in Machine Learning UMD / Digital Book
+The Elements of Statistical Learning / Stanford Digital & Book $80 & Study Group
+Machine Learning Caltech / Edx
+Practical
+
+Programming Collective Intelligence Book $27
+Machine Learning for Hackers ipynb / digital book
+Intro to scikit-learn, SciPy2013 youtube tutorials
+Probabilistic Modeling
+
+Probabilistic Programming and Bayesian Methods for Hackers Github / Tutorials
+Probabilistic Graphical Models Stanford / Coursera
+Deep Learning (Neural Networks)
+
+Neural Networks Andrej Karpathy / Python Walkthrough
+Neural Networks U Toronto / Coursera
+Deep Learning for Natural Language Processing CS224d Stanford
+Social Network & Graph Analysis
+
+Social and Economic Networks: Models and Analysis / Stanford / Coursera
+Social Network Analysis for Startups Book $22
+Natural Language Processing
+
+From Languages to Information / Stanford CS147 Materials
+NLP with Python (NLTK library) Digital, Book $36
+How to Write a Spelling Correcter / Norvig (Tutorial)[http://norvig.com/spell-correct.html]
+Data Analysis
+
+One of the "unteachable" skills of data science is an intuition for analysis. What constitutes valuable, achievable, and well-designed analysis is extremely dependent on context and ends at hand.
+
+Big Data Analysis with Twitter UC Berkeley / Lectures
+Exploratory Data Analysis Tukey / Book $81
+in Python
+Data Analysis in Python Tutorial
+Python for Data Analysis Book $24
+An Example Data Science Process ipynb
+Data Communication and Design
+
+Visualization
+
+Data Visualization and Communication
+
+The Truthful Art: Data, Charts, and Maps for Communication Cairo / Book $21
+Theoretical Design of Information
+
+Envisioning Information Tufte / Book $36
+The Visual Display of Quantitative Information Tufte / Book $27
+Applied Design of Information
+
+Information Dashboard Design: Displaying Data for At-a-Glance Monitoring Stephen Few / Book $29
+Theoretical Courses / Design & Visualization
+
+Data Visualization University of Washington / Slides & Resources
+Berkeley's Viz Class UC Berkeley / Course Docs
+Rice University's Data Viz class Rice University / Slides
+Practical Visualization Resources
+
+D3 Library / Scott Murray Blog / Tutorials
+Interactive Data Visualization for the Web / Scott Murray Online Book & Book $26
+OSDSM Specialization: Data Journalism
+
+Python (Learning)
+
+Learn Python the Hard Way Digital & Book $23
+Python Class / Google
+Think Python Digital & Book $34
+Python (Libraries)
+
+Installing Basic Packages Python, virtualenv, NumPy, SciPy, matplotlib and IPython & Using Python Scientifically
+
+Command Line Install Script for Scientific Python Packages
+
+numpy Tutorial / Stanford CS231N
+Pandas Cookbook (data structure library)
+More Libraries can be found in the "awesome machine learning" repo & in related specializations
+
+Data Structures & Analysis Packages
+
+Flexible and powerful data analysis / manipulation library with labeled data structures objects, statistical functions, etc pandas & Tutorials Python for Data Analysis / Book
+Machine Learning Packages
+
+scikit-learn - Tools for Data Mining & Analysis
+Networks Packages
+
+networkx - Network Modeling & Viz
+Statistical Packages
+
+PyMC - Bayesian Inference & Markov Chain Monte Carlo sampling toolkit
+Statsmodels - Python module that allows users to explore data, estimate statistical models, and perform statistical tests
+PyMVPA - Multivariate Pattern Analysis in Python
+Natural Language Processing & Understanding
+
+NLTK - Natural Language Toolkit
+Gensim - Python library for topic modeling, document indexing and similarity retrieval with large corpora. Target audience is the natural language processing (NLP) and information retrieval (IR) community.
+Data APIs
+
+twython - Python wrapper for the Twitter API
+Visualization Packages
+
+matplotlib - well-integrated with analysis and data manipulation packages like numpy and pandas
+Seaborn - a high-level statistical visualization package built on top of matplotlib
+iPython Data Science Notebooks
+Data Science in IPython Notebooks (Linear Regression, Logistic Regression, Random Forests, K-Means Clustering)
+A Gallery of Interesting IPython Notebooks - Pandas for Data Analysis
+
+10-701 Introduction to Machine Learning or 10-715 Advanced Introduction to Machine Learning
+10-702 Statistical Machine Learning
+36-705 Intermediate Statistics
+Students also take any two of the following Menu Core courses:
+10-703 Deep Reinforcement Learning or 10-707 Topics in Deep Learning
+10-708 Probabilistic Graphical Models
+10-725 Convex Optimization
+15-750 Algorithms or 15-853 Algorithms in the Real World
+15-780 Graduate Artificial Intelligence
+15-826 Multimedia Databases and Data Mining
+36-752 Advanced Probability
+
+ What is Machine Learning?
+ Supervised Learning Introduction
+ Unsupervised Learning Introduction
+ Installing Octave
+
+II. LINEAR REGRESSION I
+
+ Supervised Learning Introduction(1.2x)(1.5x)
+ Model Representation(1.2x)(1.5x)
+ Cost Function(1.2x)(1.5x)
+ Gradient Descent(1.2x)(1.5x)
+ Gradient Descent for Linear Regression(1.2x)(1.5x)
+ Vectorized Implementation(1.2x)(1.5x)
+ Exercise 2
+
+III. LINEAR REGRESSION II
+
+ Feature Scaling(1.2x)(1.5x)
+ Learning Rate(1.2x)(1.5x)
+ Features and Polynomial Regression(1.2x)(1.5x)
+ Normal Equations(1.2x)(1.5x)
+ Exercise 3
+
+IV. LOGISTIC REGRESSION
+
+ Classification(1.2x)(1.5x)
+ Model(1.2x)(1.5x)
+ Optimization Objective I(1.2x)(1.5x)
+ Optimization Objective II(1.2x)(1.5x)
+ Gradient Descent(1.2x)(1.5x)
+ Newton's Method I(1.2x)(1.5x)
+ Newton's Method II(1.2x)(1.5x)
+ Gradient Descent vs Newton's Method(1.2x)(1.5x)
+ Exercise 4
+
+V. REGULARIZATION
+
+ The Problem Of Overfitting(1.2x)(1.5x)
+ Optimization Objective(1.2x)(1.5x)
+ Common Variations(1.2x)(1.5x)
+ Regularized Linear Regression(1.2x)(1.5x)
+ Regularized Logistic Regression(1.2x)(1.5x)
+ Exercise 5
+
+VI. NAIVE BAYES
+
+ Generative Learning Algorithms(1.2x)(1.5x)
+ Text Classification(1.2x)(1.5x)
+
+Supervised Learning, Discriminative Algorithms
+    Generative Algorithms
+Support Vector Machines
+Learning Theory
+  5     Regularization and Model Selection
+  6     Online Learning and the Perceptron Algorithm. (optional reading)
+  7a     Unsupervised Learning, k-means clustering.
+  7b     Mixture of Gaussians
+  8     The EM Algorithm
+  9     Factor Analysis
+  10     Principal Components Analysis
+  11     Independent Components Analysis
+  12     Reinforcement Learning and Control
+ 
+
+
+  1    Binary classification with +/-1 labels.
+  2    Boosting algorithms and weak learning.
+Matlab code to generate plots (.m)   Functional after implementing stump_booster.m in PS2.
+  3    The representer theorem.
+  4    Hoeffding's inequality.
+ 
+
+
+  1    Linear Algebra Review and Reference
+  2    Probability Theory Review
+  3  Files for the Matlab tutorial: sigmoid.m, logistic_grad_ascent.m, matlab_session.m
+  4     Convex Optimization Overview, Part I
+  5     Convex Optimization Overview, Part II
+  6     Hidden Markov Models
+  7    The Multivariate Gaussian Distribution
+  8    More on Gaussian Distribution
+
+
+
+
+DCSE 590v: Computer Vision Computer Vision seminar
+CSE 590w: Accessibility Research Seminar The seminar is for students and faculty members to explore research in accessible computing for people with disabilities in the context of human-computer interaction (HCI). The seminar consists of short student presentations of current research results, followed by discussion and critical evaluations the research.
+CSE 590y: Security Seminar Security Seminar
+CSE 590z: Theory Seminar These are the two regular CS theory seminars. CSE 590Z is the main theory seminar. It often has talks by invited speakers as well as presentations of recent research papers by graduate students. CSE 590ZZ is usually more casual and often discusses work in progress, or other theory research by people in the department.
+CSE 590zpl: High Performance Scientific Computing in ZPL ZPL is a new scientific programming language suitable for computations previously written in Fortran, C, etc. CSE590-ZPL is a class designed for scientists and engineers who are NOT computer scientists, but who want to learn how to use modern languages and supercomputers effectively for scientific computation.
+CSE 599c: Topics in Data Management Systems Topics in Data Management Systems
+CSE 599g: Selected Topics in Computer Security Selected Topics in Computer Security
+CSE 599j: Human System and Control for Neurobotics Human System and Control for Neurobotics
+CSE 599n: Systems Applications of Maching Learning Techniques Systems Applications of Maching Learning Techniques
+CSE 599o: Context-Aware Mobile Computing Context-Aware Mobile Computing
+CSE 599q: Topics in Multicore Programmability Topics in Multicore Programmability
+CSE 599t: Probabilistic and Statistical Databases Probabilistic and Statistical Databases
+CSE 599u: Advanced Topics in Ubiquitous Computing Advanced Topics in Ubiquitous Computing
+CSE 599w: Operating Systems and the Web Operating Systems and the Web

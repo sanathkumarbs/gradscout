@@ -1,0 +1,472 @@
+
+
+Full Stack Web Development
+6-course Specialization·The Hong Kong University of Science and Technology
+
+Web Design for Everybody (Basics of Web Development and Coding)
+5-course Specialization·University of Michigan
+
+Ruby on Rails Web Development
+6-course Specialization·Johns Hopkins University
+
+Game Design and Development
+5-course Specialization·Michigan State University
+
+Responsive Website Development and Design
+6-course Specialization·University of London, Goldsmiths, University of London
+
+iOS App Development with Swift
+4-course Specialization·University of Toronto
+
+Android App Development
+5-course Specialization·Vanderbilt University
+
+iOS Development for Creative Entrepreneurs
+6-course Specialization·University of California, Irvine
+
+Build Your First Android App (Project-Centered Course)
+CentraleSupélec
+
+HTML, CSS and JavaScript
+
+
+The Hong Kong University of Science and Technology
+
+How To Create a Website in a Weekend! (Project-Centered Course)
+The State University of New York
+
+Programming Foundations with JavaScript, HTML and CSS
+Duke University
+
+Programming Languages, Part A
+University of Washington
+
+Introduction to Web Development
+University of California, Davis
+
+
+Programming Mobile Applications for Android Handheld Systems: Part 1
+University of Maryland, College Park
+
+HTML, CSS, and Javascript for Web Developers
+Johns Hopkins University
+
+Introduction to HTML5
+University of Michigan
+
+Front-End Web UI Frameworks and Tools
+The Hong Kong University of Science and Technology
+
+Server-side Development with NodeJS
+The Hong Kong University of Science and Technology
+
+Front-End JavaScript Frameworks: AngularJS
+The Hong Kong University of Science and Technology
+
+Control of Mobile Robots
+Georgia Institute of Technology
+
+Single Page Web Applications with AngularJS
+Johns Hopkins University
+
+Java for Android
+Vanderbilt University
+
+Getting started with Augmented Reality
+Institut Mines-Télécom
+
+Interactivity with JavaScript
+University of Michigan
+
+Responsive Website Basics: Code with HTML, CSS, and JavaScript
+University of London, Goldsmiths, University of London
+
+Introduction to CSS3
+University of Michigan
+
+Multiplatform Mobile App Development with Web Technologies
+The Hong Kong University of Science and Technology
+
+Ruby on Rails: An Introduction
+Johns Hopkins University
+
+Web Application Development: Basic Concepts
+University of New Mexico
+
+Introduction To Swift Programming
+University of Toronto
+
+Programming Mobile Applications for Android Handheld Systems: Part 2
+University of Maryland, College Park
+
+Advanced Styling with Responsive Design
+University of Michigan
+
+Responsive Web Design
+University of London, Goldsmiths, University of London
+
+CODAPPS: Coding mobile apps for entrepreneurs
+emlyon business school
+
+Programming Languages, Part C
+University of Washington
+
+Programming Languages, Part B
+University of Washington
+
+Web Application Development with JavaScript and MongoDB
+University of London, Goldsmiths, University of London
+
+Android App Components - Intents, Activities, and Broadcast Receivers
+Vanderbilt University
+
+Foundations of Objective-C App Development
+University of California, Irvine
+
+Introduction to Meteor.js Development
+University of London, Goldsmiths, University of London
+
+Rails with Active Record and Action Pack
+Johns Hopkins University
+
+Ruby on Rails Web Services and Integration with MongoDB
+Johns Hopkins University
+
+iOS App Development Basics
+University of Toronto
+
+Responsive Website Tutorial and Examples
+University of London, Goldsmiths, University of London
+
+Android App Components - Services, Local IPC, and Content Providers
+Vanderbilt University
+
+Smartphone Emerging Technologies
+Yonsei University
+
+Engineering Maintainable Android Apps
+Vanderbilt University
+
+App Design and Development for iOS
+University of Toronto
+
+Best Practices for iOS User Interface Design
+University of California, Irvine
+
+Networking and Security in iOS Applications
+University of California, Irvine
+
+Toward the Future of iOS Development with Swift
+University of California, Irvine
+
+Interfaz de usuario en iOS
+Tecnológico de Monterrey
+
+Interactuando con el hardware del dispositivo iOS
+Tecnológico de Monterrey
+
+Responsive Website Development and Design Capstone
+University of London, Goldsmiths, University of London
+
+Build Your Own iOS App
+University of Toronto
+
+Full Stack Web Development Specialization Capstone Project
+The Hong Kong University of Science and Technology
+
+Web Design for Everybody Capstone
+University of Michigan
+
+Capstone: Photo Tourist Web Application
+Johns Hopkins University
+
+Capstone MOOC for "Android App Development"
+Vanderbilt University
+
+iOS Project: Transreality Game
+University of California, Irvine
+Android and iOS App Development Training
+Mobile App Distribution and Promotion
+Multimedia Graphic Design and Art Direction
+Video Game Design for Web and Mobile Devices
+Mobile App Usability and UI/UX Design Training
+Professional Mobile Developer Portfolio Creation
+Learn to Program in Java, Objective-C, PHP, MySQL & JavaScript
+CS 546 Human Computer Interfaces
+CS 645 Advanced Web Application Development
+CS 646 Android Mobile Application Development
+AAS - IT: Programming and Software Development
+This program imparts the skills and knowledge to develop complete software solutions for websites, mobile devices, modern business systems and applications. Students will learn a variety of marketable programming languages, such as HTML, CSS, Javascript, HTML5, Java, VB .Net and Objective-C. Multimedia graphic design courses round out the multiplatform software development curriculum.
+
+Program Highlights:
+
+Design, Develop and Debug Software Systems and Applications
+Mobile App Development using Java, Objective-C, C# and HTML5
+Web Design and Development using HTML, CSS and JavaScript
+User-Interface (UI) & User-Experience (UX) Design Training
+Use the Adobe Suite to Design Multimedia Graphics & Effects
+Professional Software Developer Resume and Portfolio Creation
+OVERVIEWREQUIRED COURSESCAREERSSTART NOW
+Design Your Custom Plan! Download Annual Schedule
+
+REQUIRED COURSES
+MS in Information And Communications Technology with a concentration in Mobile Application Development requires completion of 48 credit hours (12 courses)
+
+Core courses - 16 qtr. hrs 
+ 
+ 4510 - Advanced Website Design and Management
+ 4576 - Native Application Development on Mobile Devices
+ 4580 - Mobile Application Development with Web Standards
+ 4515 - Usability Design For Websites 
+ OR 
+ 4555 - Introduction to Animate CC 
+ OR 
+ 4561 - Web Development with PHP 
+ OR 
+ 4570 - Web Scripting with JavaScript 
+Elective courses - 16 qtr. hrs (Choose 4)
+Electives may be chosen from among all courses in Information And Communications Technology programs. You may also select courses from other University College graduate programs with approval from the academic director. 
+
+Your academic advisor will help you select electives that align with your career and personal goals, and your advisor will obtain any necessary approvals from the academic director.
+
+Popular electives for students pursuing Information And Communications Technology programs include:
+
+ 4100 - Principles of Project Management
+ 4300 - Web Enabled Information Systems
+ 4305 - Object-Oriented Methods
+ 4310 - Client-Server Applications
+ 4315 - Object-Oriented Programming
+COMM 4324 - Web Analytics
+ 4351 - .NET Programming with C#
+ 4361 - Java Programming
+ 4370 - Python Programming
+ 4400 - Database Administration
+ 4405 - Database Design & Programming
+ 4505 - Website Design and Management
+ 4515 - Usability Design For Websites
+ 4520 - User Experience: A Human-Centered Approach to Product Design
+ 4540 - XML & Data in Application Development
+ 4555 - Introduction to Animate CC
+ 4560 - Web Graphics Production
+ 4561 - Web Development with PHP
+ 4570 - Web Scripting with JavaScript
+ 4585 - Web Development with Ruby on Rails
+ 4605 - Principles of Information Security
+ 4680 - Principles of Cryptography
+ 4695 - Application Security
+ 4840 - Next Generation Wireless Networks and Services
+
+Fall Offerings
+CS 545 Introduction to Web Application Development
+CS 547 Programming and Scripting Languages for Web Applications (intermittent offering)
+CS 646 iPad/iPhone Mobile Application Development
+CS 648 Emerging Web and Mobile Technologies
+
+
+ Fundamental Programming ConceptsSummer 15 (ITH)Summer 16 (ITH)Summer 17 (ITH)
+1110: Introduction to Computing Using PythonSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
+1112: Introduction to Computing Using MATLABFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+1114: Introduction to Computing Using MATLAB and RoboticsNot Offered Recently
+1115: Introduction to Computational Science and Engineering Using Matlab Graphical User InterfacesNot Offered Recently
+1130: Transition to Object-Oriented ProgrammingSpring 15 (ITH)Spring 16 (ITH)
+1132: Transition to MATLABFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+1133: Transition to PythonFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+1142: Introduction to MATLABSpring 16 (ITH)Fall 16 (ITH)Spring 17 (ITH)
+1300: Introductory Design and Programming for the WebFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+1610: Computing in the ArtsFall 14 (ITH)Summer 16 (ITH)Summer 17 (ITH)
+1620: Visual Imaging in the Electronic AgeFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+1710: Introduction to Cognitive ScienceSummer 16 (ITH)Spring 17 (ITH)Summer 17 (ITH)
+1810: Topics in the Analysis and Transmission of Knowledge and InformationNot Offered Recently
+1998: Freshmen and Nontechnical Team ProjectsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+2024: C++ ProgrammingFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+2043: UNIX Tools and ScriptingSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+2048: Introduction to iPhone and Apple Watch DevelopmentFall 16 (ITH)Fall 16 (NYC)Fall 17 (ITH)
+2049: Intermediate iPhone DevelopmentSpring 16 (ITH)Spring 16 (NYC)Spring 17 (ITH)
+2110: Object-Oriented Programming and Data StructuresSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
+2111: Programming PracticumFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+2112: Object-Oriented Design and Data Structures - HonorsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+2300: Intermediate Design and Programming for the WebSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+2770: Excursions in Computational SustainabilitySpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+2800: Discrete StructuresFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+2850: NetworksFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+3110: Data Structures and Functional ProgrammingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+3152: Introduction to Computer Game ArchitectureSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+3220: Introduction to Scientific ComputationNot Offered Recently
+3300: Data-Driven Web ApplicationsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+3410: Computer System Organization and ProgrammingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+3420: Embedded SystemsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+3758: Autonomous Mobile RobotsSpring 15 (ITH)Spring 17 (ITH)
+4090: Teaching Experience in Computer ScienceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4110: Programming Languages and LogicsFall 14 (ITH)Fall 16 (ITH)
+4120: Introduction to CompilersSpring 16 (ITH)
+4121: Practicum in CompilersSpring 16 (ITH)
+4152: Advanced Topics in Computer Game ArchitectureSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+4154: Analytics-driven Game DesignFall 14 (ITH)Fall 15 (ITH)Fall 17 (ITH)
+4210: Numerical Analysis and Differential EquationsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+4220: Numerical Analysis: Linear and Nonlinear ProblemsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+4300: Language and InformationSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+4320: Introduction to Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4321: Practicum in Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4410: Operating SystemsSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
+4411: Practicum in Operating SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4420: Computer ArchitectureFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+4620: Introduction to Computer GraphicsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+4621: Computer Graphics PracticumFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+4654: Virtual Reality DesignSpring 16 (ITH)
+4670: Introduction to Computer VisionSpring 15 (ITH)Spring 16 (ITH)
+4700: Foundations of Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4701: Practicum in Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4732: Social and Ethical Issues in AISpring 17 (ITH)
+4740: Natural Language ProcessingFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+4744: Computational LinguisticsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+4750: Foundations of RoboticsFall 16 (ITH)Fall 17 (ITH)
+4752: Robotic ManipulationSpring 15 (ITH)Fall 15 (ITH)
+4754: Human Robot Interaction - Research and DesignSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+4758: Robot LearningNot Offered Recently
+4775: Computational Genetics and GenomicsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+4780: Machine Learning for Intelligent SystemsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+4786: Machine Learning for Data ScienceSpring 16 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+4810: Introduction to Theory of ComputingSpring 16 (ITH)Fall 17 (ITH)
+4812: Quantum Information ProcessingFall 16 (ITH)
+4814: Introduction to Computational ComplexityFall 15 (ITH)
+4820: Introduction to Analysis of AlgorithmsSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
+4830: Introduction to CryptographyFall 15 (ITH)Spring 17 (ITH)
+4840: Algorithms for MarketsNot Offered Recently
+4850: Mathematical Foundations for the Information AgeSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+4852: Networks II: Market DesignSpring 15 (ITH)Spring 16 (ITH)
+4860: Applied LogicSpring 15 (ITH)Fall 15 (ITH)Fall 16 (ITH)
+4998: Team ProjectsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+4999: Independent Reading and ResearchFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+5091: Conversations in the StudioSpring 16 (NYC)Fall 16 (NYC)Spring 17 (NYC)
+5092: Startup IdeasFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
+5093: Product ManagementSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
+5094: Blockchains, Cryptocurrencies, and Smart ContractsSpring 17 (NYC)
+5110: Programming Languages and LogicsFall 14 (ITH)Fall 16 (ITH)
+5114: Network Programming LanguagesFall 17 (ITH)
+5120: Introduction to CompilersSpring 16 (ITH)
+5121: Practicum in CompilersSpring 16 (ITH)
+5150: Software EngineeringFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+5152: Open-Source Software EngineeringSpring 15 (ITH)Spring 17 (ITH)
+5153: Games for ImpactSpring 17 (NYC)
+5220: Applications of Parallel ComputersFall 15 (ITH)Fall 17 (ITH)
+5223: Numerical Analysis: Linear and Nonlinear ProblemsSpring 15 (ITH)Spring 16 (ITH)
+5300: The Architecture of Large - Scale Information SystemsSpring 15 (ITH)Spring 16 (ITH)
+5304: Data Science in the WildSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
+5306: Crowdsourcing and Human ComputationSpring 16 (ITH)Fall 17 (ITH)
+5320: Introduction to Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+5321: Practicum in Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+5356: Startup Systems Design and EngineeringFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
+5412: Cloud ComputingSpring 15 (ITH)Spring 16 (ITH)
+5413: High Performance Systems and NetworkingFall 14 (ITH)Spring 17 (ITH)
+5414: Distributed Computing PrinciplesFall 16 (ITH)Fall 17 (ITH)
+5420: Advanced Computer ArchitectureFall 14 (ITH)Fall 15 (ITH)Fall 16 (ITH)
+5422: Physical ComputingFall 15 (NYC)Fall 16 (NYC)
+5430: System SecuritySpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+5431: Practicum in System SecuritySpring 16 (ITH)Spring 17 (ITH)
+5434: Defending Computer NetworksFall 14 (ITH)Fall 15 (ITH)
+5435: Security and Privacy Concepts in the WildFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
+5436: Privacy in the Digital AgeSpring 15 (NYC)Spring 17 (NYC)
+5437: Principals and Practice of CryptocurrenciesSpring 16 (ITH)
+5438: Security and Privacy: Practice and Case StudiesSpring 16 (NYC)
+5450: Networked and Distributed ComputingSpring 17 (NYC)Fall 17 (NYC)
+5454: Mobile and Ubiquitous SystemsFall 14 (NYC)
+5460: Parallel and Distributed ComputingSpring 15 (NYC)Spring 16 (NYC)
+5540: Computational Techniques for Analyzing Clinical DataNot Offered Recently
+5555: Health Tech, Data, and SystemsSpring 15 (NYC)Fall 15 (NYC)
+5620: Introduction to Computer GraphicsFall 15 (ITH)Fall 15 (NYC)Spring 17 (ITH)
+5621: Computer Graphics PracticumFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
+5625: Interactive Computer GraphicsSpring 15 (ITH)Spring 16 (ITH)
+5643: Physically Based Animation for Computer GraphicsSpring 15 (ITH)
+5660: Signal ProcessingFall 14 (NYC)Fall 15 (NYC)Fall 16 (NYC)
+5670: Introduction to Computer VisionSpring 16 (ITH)Spring 16 (NYC)Spring 17 (NYC)
+5682: HCI and DesignSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
+5722: Heuristic Methods for OptimizationFall 14 (ITH)
+5724: Evolutionary ComputationFall 14 (ITH)
+5727: Optimization MethodsSpring 16 (NYC)Fall 16 (NYC)Fall 17 (NYC)
+5740: Natural Language ProcessingFall 16 (ITH)Spring 17 (NYC)Fall 17 (ITH)
+5750: Foundations of RoboticsFall 16 (ITH)Fall 17 (ITH)
+5752: Robotic ManipulationSpring 15 (ITH)Fall 15 (ITH)
+5761: Hybrid SystemsNot Offered Recently
+5780: Machine Learning for Intelligent SystemsFall 15 (ITH)Fall 16 (ITH)Spring 17 (ITH)
+5785: Applied Machine LearningFall 16 (NYC)Spring 17 (NYC)Fall 17 (NYC)
+5786: Machine Learning for Data ScienceSpring 16 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+5830: CryptographySpring 16 (NYC)Spring 17 (ITH)Spring 17 (NYC)
+5831: Security Protocols and PrivacyNot Offered Recently
+5840: Algorithms for MarketsNot Offered Recently
+5846: Decision Theory ISpring 17 (ITH)
+5854: Networks and MarketsFall 16 (NYC)Fall 17 (NYC)
+5860: Introduction to Formal MethodsFall 14 (ITH)
+5998: Master of Engineering InternshipFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+5999: Master of Engineering ProjectSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
+6110: Advanced Programming LanguagesSpring 16 (ITH)Spring 17 (ITH)Spring 17 (NYC)
+6112: Foundations of ConcurrencyNot Offered Recently
+6113: Language-Based SecurityNot Offered Recently
+6114: Network Programming LanguagesFall 17 (ITH)
+6115: Certified Software SystemsSpring 15 (ITH)Fall 17 (ITH)
+6116: Programming Languages and Logics LaboratoryNot Offered Recently
+6117: Category Theory for Computer ScientistsFall 14 (ITH)
+6118: Types and SemanticsNot Offered Recently
+6180: Introduction to Constructive Type TheoryFall 17 (ITH)
+6210: Matrix ComputationsFall 15 (ITH)Fall 16 (ITH)
+6220: Data-Sparse Matrix ComputationsFall 17 (ITH)
+6320: Advanced Database SystemsFall 16 (ITH)
+6360: Educational TechnologySpring 15 (ITH)Spring 16 (ITH)Fall 16 (ITH)
+6410: Advanced SystemsFall 16 (NYC)Fall 17 (ITH)Fall 17 (NYC)
+6431: Security and Privacy TechnologiesFall 15 (NYC)Fall 16 (ITH)Fall 16 (NYC)
+6432: Distributed Consensus and BlockchainsFall 17 (ITH)
+6452: Datacenter Networks and ServicesNot Offered Recently
+6453: Big Data Systems: Trends and ChallengesSpring 17 (ITH)
+6455: Advanced Computer NetworkingFall 17 (ITH)
+6460: Peer-to-Peer SystemsNot Offered Recently
+6465: Emerging Cloud Technologies and Systems ChallengesFall 17 (ITH)
+6620: Advanced Interactive GraphicsNot Offered Recently
+6630: Realistic Image SynthesisFall 15 (ITH)
+6640: Computational PhotographyNot Offered Recently
+6644: Modeling the WorldFall 14 (ITH)
+6650: Computational MotionNot Offered Recently
+6670: Computer VisionSpring 15 (ITH)Spring 15 (NYC)
+6700: Advanced Artificial IntelligenceSpring 16 (ITH)Spring 17 (ITH)
+6702: Topics in Computational SustainabilityNot Offered Recently
+6740: Advanced Language TechnologiesSpring 16 (ITH)Spring 17 (ITH)
+6741: Structured Prediction for Natural Language ProcessingFall 16 (NYC)Fall 17 (ITH)Fall 17 (NYC)
+6742: Natural Language Processing and Social InteractionFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+6746: Language Processing for Computational Social ScienceNot Offered Recently
+6751: Introduction to Robotic Mobile ManipulationFall 14 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+6756: Advanced Topics in Robot Learning: 3D PerceptionNot Offered Recently
+6758: Robot LearningNot Offered Recently
+6764: Reasoning about KnowledgeSpring 15 (ITH)
+6766: Reasoning about UncertaintyFall 15 (ITH)
+6780: Advanced Machine LearningSpring 15 (ITH)Spring 15 (NYC)
+6782: Probabilistic Graphical ModelsNot Offered Recently
+6783: Machine Learning TheoryFall 14 (ITH)Fall 15 (ITH)
+6784: Advanced Topics in Machine LearningSpring 16 (NYC)Fall 16 (ITH)Fall 17 (ITH)
+6788: Advanced Topic ModelingFall 14 (ITH)Fall 16 (ITH)
+6810: Theory of ComputingSpring 16 (ITH)Spring 17 (ITH)
+6820: Analysis of AlgorithmsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
+6822: Advanced Topics in Theory of ComputingNot Offered Recently
+6825: The Science Base for the Information AgeFall 14 (ITH)
+6830: CryptographySpring 16 (NYC)Spring 17 (ITH)Spring 17 (NYC)
+6832: Applied CryptographySpring 16 (ITH)Fall 16 (ITH)
+6840: Algorithmic Game TheorySpring 17 (ITH)
+6850: The Structure of Information NetworksSpring 17 (ITH)
+6860: Logics of ProgramsFall 15 (ITH)
+6862: Automated Reasoning and Formal MethodsNot Offered Recently
+7090: Computer Science ColloquiumFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7190: Seminar in Programming LanguagesFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7192: Seminar in Programming Refinement LogicsFall 15 (ITH)Spring 16 (ITH)Fall 16 (ITH)
+7290: Seminar on Scientific Computing and NumericsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7390: Database SeminarFall 17 (ITH)
+7412: Scalable Distributed Consistency: Models and ApplicationsNot Offered Recently
+7490: Systems Research SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7493: Computer Security SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7594: Seminar on Computational Issues in Health and MedicineFall 14 (NYC)
+7670: Special Topics in Computer VisionFall 14 (ITH)Spring 15 (ITH)Fall 15 (ITH)
+7690: Computer Graphics SeminarFall 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
+7790: Seminar in Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7792: Special Topics in Machine LearningFall 16 (ITH)Spring 17 (ITH)Spring 17 (NYC)
+7794: Seminar in Natural Language UnderstandingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7796: Robotics SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7890: Seminar in Theory of Algorithms and ComputingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+7893: Cryptography SeminarSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
+7999: Independent ResearchSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
+9999: Thesis ResearchFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
