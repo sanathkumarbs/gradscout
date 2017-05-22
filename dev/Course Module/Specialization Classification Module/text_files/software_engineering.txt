@@ -1,207 +1,127 @@
-Fundamental Programming ConceptsSummer 15 (ITH)Summer 16 (ITH)Summer 17 (ITH)
-1110: Introduction to Computing Using PythonSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
-1112: Introduction to Computing Using MATLABFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-1114: Introduction to Computing Using MATLAB and RoboticsNot Offered Recently
-1115: Introduction to Computational Science and Engineering Using Matlab Graphical User InterfacesNot Offered Recently
-1130: Transition to Object-Oriented ProgrammingSpring 15 (ITH)Spring 16 (ITH)
-1132: Transition to MATLABFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-1133: Transition to PythonFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-1142: Introduction to MATLABSpring 16 (ITH)Fall 16 (ITH)Spring 17 (ITH)
-1300: Introductory Design and Programming for the WebFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-1610: Computing in the ArtsFall 14 (ITH)Summer 16 (ITH)Summer 17 (ITH)
-1620: Visual Imaging in the Electronic AgeFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-1710: Introduction to Cognitive ScienceSummer 16 (ITH)Spring 17 (ITH)Summer 17 (ITH)
-1810: Topics in the Analysis and Transmission of Knowledge and InformationNot Offered Recently
-1998: Freshmen and Nontechnical Team ProjectsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-2024: C++ ProgrammingFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-2043: UNIX Tools and ScriptingSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-2048: Introduction to iPhone and Apple Watch DevelopmentFall 16 (ITH)Fall 16 (NYC)Fall 17 (ITH)
-2049: Intermediate iPhone DevelopmentSpring 16 (ITH)Spring 16 (NYC)Spring 17 (ITH)
-2110: Object-Oriented Programming and Data StructuresSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
-2111: Programming PracticumFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-2112: Object-Oriented Design and Data Structures - HonorsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-2300: Intermediate Design and Programming for the WebSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-2770: Excursions in Computational SustainabilitySpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-2800: Discrete StructuresFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-2850: NetworksFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-3110: Data Structures and Functional ProgrammingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-3152: Introduction to Computer Game ArchitectureSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-3220: Introduction to Scientific ComputationNot Offered Recently
-3300: Data-Driven Web ApplicationsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-3410: Computer System Organization and ProgrammingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-3420: Embedded SystemsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-3758: Autonomous Mobile RobotsSpring 15 (ITH)Spring 17 (ITH)
-4090: Teaching Experience in Computer ScienceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4110: Programming Languages and LogicsFall 14 (ITH)Fall 16 (ITH)
-4120: Introduction to CompilersSpring 16 (ITH)
-4121: Practicum in CompilersSpring 16 (ITH)
-4152: Advanced Topics in Computer Game ArchitectureSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-4154: Analytics-driven Game DesignFall 14 (ITH)Fall 15 (ITH)Fall 17 (ITH)
-4210: Numerical Analysis and Differential EquationsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-4220: Numerical Analysis: Linear and Nonlinear ProblemsSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-4300: Language and InformationSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-4320: Introduction to Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4321: Practicum in Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4410: Operating SystemsSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
-4411: Practicum in Operating SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4420: Computer ArchitectureFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-4620: Introduction to Computer GraphicsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-4621: Computer Graphics PracticumFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-4654: Virtual Reality DesignSpring 16 (ITH)
-4670: Introduction to Computer VisionSpring 15 (ITH)Spring 16 (ITH)
-4700: Foundations of Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4701: Practicum in Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4732: Social and Ethical Issues in AISpring 17 (ITH)
-4740: Natural Language ProcessingFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-4744: Computational LinguisticsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-4750: Foundations of RoboticsFall 16 (ITH)Fall 17 (ITH)
-4752: Robotic ManipulationSpring 15 (ITH)Fall 15 (ITH)
-4754: Human Robot Interaction - Research and DesignSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-4758: Robot LearningNot Offered Recently
-4775: Computational Genetics and GenomicsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-4780: Machine Learning for Intelligent SystemsFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-4786: Machine Learning for Data ScienceSpring 16 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-4810: Introduction to Theory of ComputingSpring 16 (ITH)Fall 17 (ITH)
-4812: Quantum Information ProcessingFall 16 (ITH)
-4814: Introduction to Computational ComplexityFall 15 (ITH)
-4820: Introduction to Analysis of AlgorithmsSpring 17 (ITH)Summer 17 (ITH)Fall 17 (ITH)
-4830: Introduction to CryptographyFall 15 (ITH)Spring 17 (ITH)
-4840: Algorithms for MarketsNot Offered Recently
-4850: Mathematical Foundations for the Information AgeSpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-4852: Networks II: Market DesignSpring 15 (ITH)Spring 16 (ITH)
-4860: Applied LogicSpring 15 (ITH)Fall 15 (ITH)Fall 16 (ITH)
-4998: Team ProjectsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-4999: Independent Reading and ResearchFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-5091: Conversations in the StudioSpring 16 (NYC)Fall 16 (NYC)Spring 17 (NYC)
-5092: Startup IdeasFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
-5093: Product ManagementSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
-5094: Blockchains, Cryptocurrencies, and Smart ContractsSpring 17 (NYC)
-5110: Programming Languages and LogicsFall 14 (ITH)Fall 16 (ITH)
-5114: Network Programming LanguagesFall 17 (ITH)
-5120: Introduction to CompilersSpring 16 (ITH)
-5121: Practicum in CompilersSpring 16 (ITH)
-5150: Software EngineeringFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-5152: Open-Source Software EngineeringSpring 15 (ITH)Spring 17 (ITH)
-5153: Games for ImpactSpring 17 (NYC)
-5220: Applications of Parallel ComputersFall 15 (ITH)Fall 17 (ITH)
-5223: Numerical Analysis: Linear and Nonlinear ProblemsSpring 15 (ITH)Spring 16 (ITH)
-5300: The Architecture of Large - Scale Information SystemsSpring 15 (ITH)Spring 16 (ITH)
-5304: Data Science in the WildSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
-5306: Crowdsourcing and Human ComputationSpring 16 (ITH)Fall 17 (ITH)
-5320: Introduction to Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-5321: Practicum in Database SystemsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-5356: Startup Systems Design and EngineeringFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
-5412: Cloud ComputingSpring 15 (ITH)Spring 16 (ITH)
-5413: High Performance Systems and NetworkingFall 14 (ITH)Spring 17 (ITH)
-5414: Distributed Computing PrinciplesFall 16 (ITH)Fall 17 (ITH)
-5420: Advanced Computer ArchitectureFall 14 (ITH)Fall 15 (ITH)Fall 16 (ITH)
-5422: Physical ComputingFall 15 (NYC)Fall 16 (NYC)
-5430: System SecuritySpring 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-5431: Practicum in System SecuritySpring 16 (ITH)Spring 17 (ITH)
-5434: Defending Computer NetworksFall 14 (ITH)Fall 15 (ITH)
-5435: Security and Privacy Concepts in the WildFall 15 (NYC)Fall 16 (NYC)Fall 17 (NYC)
-5436: Privacy in the Digital AgeSpring 15 (NYC)Spring 17 (NYC)
-5437: Principals and Practice of CryptocurrenciesSpring 16 (ITH)
-5438: Security and Privacy: Practice and Case StudiesSpring 16 (NYC)
-5450: Networked and Distributed ComputingSpring 17 (NYC)Fall 17 (NYC)
-5454: Mobile and Ubiquitous SystemsFall 14 (NYC)
-5460: Parallel and Distributed ComputingSpring 15 (NYC)Spring 16 (NYC)
-5540: Computational Techniques for Analyzing Clinical DataNot Offered Recently
-5555: Health Tech, Data, and SystemsSpring 15 (NYC)Fall 15 (NYC)
-5620: Introduction to Computer GraphicsFall 15 (ITH)Fall 15 (NYC)Spring 17 (ITH)
-5621: Computer Graphics PracticumFall 14 (ITH)Fall 15 (ITH)Spring 17 (ITH)
-5625: Interactive Computer GraphicsSpring 15 (ITH)Spring 16 (ITH)
-5643: Physically Based Animation for Computer GraphicsSpring 15 (ITH)
-5660: Signal ProcessingFall 14 (NYC)Fall 15 (NYC)Fall 16 (NYC)
-5670: Introduction to Computer VisionSpring 16 (ITH)Spring 16 (NYC)Spring 17 (NYC)
-5682: HCI and DesignSpring 15 (NYC)Spring 16 (NYC)Spring 17 (NYC)
-5722: Heuristic Methods for OptimizationFall 14 (ITH)
-5724: Evolutionary ComputationFall 14 (ITH)
-5727: Optimization MethodsSpring 16 (NYC)Fall 16 (NYC)Fall 17 (NYC)
-5740: Natural Language ProcessingFall 16 (ITH)Spring 17 (NYC)Fall 17 (ITH)
-5750: Foundations of RoboticsFall 16 (ITH)Fall 17 (ITH)
-5752: Robotic ManipulationSpring 15 (ITH)Fall 15 (ITH)
-5761: Hybrid SystemsNot Offered Recently
-5780: Machine Learning for Intelligent SystemsFall 15 (ITH)Fall 16 (ITH)Spring 17 (ITH)
-5785: Applied Machine LearningFall 16 (NYC)Spring 17 (NYC)Fall 17 (NYC)
-5786: Machine Learning for Data ScienceSpring 16 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-5830: CryptographySpring 16 (NYC)Spring 17 (ITH)Spring 17 (NYC)
-5831: Security Protocols and PrivacyNot Offered Recently
-5840: Algorithms for MarketsNot Offered Recently
-5846: Decision Theory ISpring 17 (ITH)
-5854: Networks and MarketsFall 16 (NYC)Fall 17 (NYC)
-5860: Introduction to Formal MethodsFall 14 (ITH)
-5998: Master of Engineering InternshipFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-5999: Master of Engineering ProjectSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
-6110: Advanced Programming LanguagesSpring 16 (ITH)Spring 17 (ITH)Spring 17 (NYC)
-6112: Foundations of ConcurrencyNot Offered Recently
-6113: Language-Based SecurityNot Offered Recently
-6114: Network Programming LanguagesFall 17 (ITH)
-6115: Certified Software SystemsSpring 15 (ITH)Fall 17 (ITH)
-6116: Programming Languages and Logics LaboratoryNot Offered Recently
-6117: Category Theory for Computer ScientistsFall 14 (ITH)
-6118: Types and SemanticsNot Offered Recently
-6180: Introduction to Constructive Type TheoryFall 17 (ITH)
-6210: Matrix ComputationsFall 15 (ITH)Fall 16 (ITH)
-6220: Data-Sparse Matrix ComputationsFall 17 (ITH)
-6320: Advanced Database SystemsFall 16 (ITH)
-6360: Educational TechnologySpring 15 (ITH)Spring 16 (ITH)Fall 16 (ITH)
-6410: Advanced SystemsFall 16 (NYC)Fall 17 (ITH)Fall 17 (NYC)
-6431: Security and Privacy TechnologiesFall 15 (NYC)Fall 16 (ITH)Fall 16 (NYC)
-6432: Distributed Consensus and BlockchainsFall 17 (ITH)
-6452: Datacenter Networks and ServicesNot Offered Recently
-6453: Big Data Systems: Trends and ChallengesSpring 17 (ITH)
-6455: Advanced Computer NetworkingFall 17 (ITH)
-6460: Peer-to-Peer SystemsNot Offered Recently
-6465: Emerging Cloud Technologies and Systems ChallengesFall 17 (ITH)
-6620: Advanced Interactive GraphicsNot Offered Recently
-6630: Realistic Image SynthesisFall 15 (ITH)
-6640: Computational PhotographyNot Offered Recently
-6644: Modeling the WorldFall 14 (ITH)
-6650: Computational MotionNot Offered Recently
-6670: Computer VisionSpring 15 (ITH)Spring 15 (NYC)
-6700: Advanced Artificial IntelligenceSpring 16 (ITH)Spring 17 (ITH)
-6702: Topics in Computational SustainabilityNot Offered Recently
-6740: Advanced Language TechnologiesSpring 16 (ITH)Spring 17 (ITH)
-6741: Structured Prediction for Natural Language ProcessingFall 16 (NYC)Fall 17 (ITH)Fall 17 (NYC)
-6742: Natural Language Processing and Social InteractionFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-6746: Language Processing for Computational Social ScienceNot Offered Recently
-6751: Introduction to Robotic Mobile ManipulationFall 14 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-6756: Advanced Topics in Robot Learning: 3D PerceptionNot Offered Recently
-6758: Robot LearningNot Offered Recently
-6764: Reasoning about KnowledgeSpring 15 (ITH)
-6766: Reasoning about UncertaintyFall 15 (ITH)
-6780: Advanced Machine LearningSpring 15 (ITH)Spring 15 (NYC)
-6782: Probabilistic Graphical ModelsNot Offered Recently
-6783: Machine Learning TheoryFall 14 (ITH)Fall 15 (ITH)
-6784: Advanced Topics in Machine LearningSpring 16 (NYC)Fall 16 (ITH)Fall 17 (ITH)
-6788: Advanced Topic ModelingFall 14 (ITH)Fall 16 (ITH)
-6810: Theory of ComputingSpring 16 (ITH)Spring 17 (ITH)
-6820: Analysis of AlgorithmsFall 15 (ITH)Fall 16 (ITH)Fall 17 (ITH)
-6822: Advanced Topics in Theory of ComputingNot Offered Recently
-6825: The Science Base for the Information AgeFall 14 (ITH)
-6830: CryptographySpring 16 (NYC)Spring 17 (ITH)Spring 17 (NYC)
-6832: Applied CryptographySpring 16 (ITH)Fall 16 (ITH)
-6840: Algorithmic Game TheorySpring 17 (ITH)
-6850: The Structure of Information NetworksSpring 17 (ITH)
-6860: Logics of ProgramsFall 15 (ITH)
-6862: Automated Reasoning and Formal MethodsNot Offered Recently
-7090: Computer Science ColloquiumFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7190: Seminar in Programming LanguagesFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7192: Seminar in Programming Refinement LogicsFall 15 (ITH)Spring 16 (ITH)Fall 16 (ITH)
-7290: Seminar on Scientific Computing and NumericsFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7390: Database SeminarFall 17 (ITH)
-7412: Scalable Distributed Consistency: Models and ApplicationsNot Offered Recently
-7490: Systems Research SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7493: Computer Security SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7594: Seminar on Computational Issues in Health and MedicineFall 14 (NYC)
-7670: Special Topics in Computer VisionFall 14 (ITH)Spring 15 (ITH)Fall 15 (ITH)
-7690: Computer Graphics SeminarFall 15 (ITH)Spring 16 (ITH)Spring 17 (ITH)
-7790: Seminar in Artificial IntelligenceFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7792: Special Topics in Machine LearningFall 16 (ITH)Spring 17 (ITH)Spring 17 (NYC)
-7794: Seminar in Natural Language UnderstandingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7796: Robotics SeminarFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7890: Seminar in Theory of Algorithms and ComputingFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
-7893: Cryptography SeminarSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
-7999: Independent ResearchSpring 17 (NYC)Fall 17 (ITH)Fall 17 (NYC)
-9999: Thesis ResearchFall 16 (ITH)Spring 17 (ITH)Fall 17 (ITH)
+
+CSE 100: Fluency In Information Technology Introduces skills, concepts, and capabilities necessary to effectively use information technology. Includes logical reasoning, managing complexity, operation of computers and networks, and contemporary applications such as effective Web searching and database manipulation, ethical aspects, and social impacts of information technology. Offered: jointly with INFO 100.
+CSE 120: Computer Science Principles Introduces fundamental concepts of computer science and computational thinking. Includes logical reasoning, problem solving, data representation, abstraction, the creation of “digital artifacts” such as Web pages and programs, managing complexity, operation of computers and networks, effective Web searching, ethical, legal and social aspects of information technology.
+CSE 131: Science and Art of Digital Photography Covers the fundamentals of digital photography, including computational imaging; the elements of photographic composition and design; and the future of internet-enabled photography.
+CSE 142: Computer Programming I Basic programming-in-the-small abilities and concepts including procedural programming (methods, parameters, return, values), basic control structures (sequence, if/else, for loop, while loop), file processing, arrays, and an introduction to defining objects. Intended for students without prior programming experience. Offered: AWSpS.
+CSE 143: Computer Programming Ii Continuation of CSE 142. Concepts of data abstraction and encapsulation including stacks, queues, linked lists, binary trees, recursion, instruction to complexity and use of predefined collection classes. Prerequisite: CSE 142. Offered: AWSpS.
+CSE 154: Web Programming Covers languages, tools, and techniques for developing interactive and dynamic web pages. Topics include page styling, design, and layout; client and server side scripting; web security; and interacting with data sources such as databases. Prerequisite: minimum grade of 2.0 in either CSE 160, CSE 142, or CSE 143.
+CSE 160: Data Programming Introduction to computer programming. Assignments solve real data manipulation tasks from science, engineering, business, and the humanities. Concepts of computational thinking, problem-solving, data analysis, Python programming, control and data abstraction, file processing, and data visualization. Intended for students without prior programming experience. No credit if CSE 143 has been taken. (previously offered as CSE 140)
+CSE 190a: Women in CSE Seminar A one-credit seminar linked to one section of CSE 142. An exploration of the world of women in computer science & computer engineering. Through weekly group discussions, hands-on activities, and special guests, we will focus on the stories of women who are at different stages of their careers in Computer Science and Engineering. (Was CSE 490W, CSE 490E.)
+CSE 190b: Direct Admission Seminar Seminar for freshmen admitted to CSE through Direct Freshman Admission.
+CSE 311: Foundations Of Computing I Examines fundamentals of logic, set theory, induction, and algebraic structures with applications to computing; finite state machines; and limits of computability. Prerequisite: CSE 143; either MATH 126 or MATH 136.
+CSE 312: Foundations Of Computing Ii Examines fundamentals of enumeration and discrete probability; applications of randomness to computing; polynomial-time versus NP; and NP-completeness. Prerequisite: CSE 311.
+CSE 331: Software Design And Implementation Explores concepts and techniques for design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing; and event-driven programming (e.g., graphical user interface). Includes substantial project and software-team experience. Prerequisite: CSE 143.
+CSE 332: Data Structures and Parallelism Covers abstract data types and structures including dictionaries, balanced trees, hash tables, priority queues, and graphs; sorting; asymptotic analysis; fundamental graph algorithms including graph search, shortest path, and minimum spanning trees; concurrency and synchronization; and parallelism. Not available for credit for students who have completed CSE 373. Prerequisite: CSE 311
+CSE 333: Systems Programming Includes substantial programming experience in languages that expose machine characteristics and low-level data representation (e.g., C and C++); explicit memory management; interacting with operating-system services; and cache-aware programming. Prerequisite: CSE 351.
+CSE 341: Programming Languages Basic concepts of programming languages, including abstraction mechanisms, types, and scoping. Detailed study of several different programming paradigms, such as functional, object-oriented, and logic programming. No credit if CSE 413 has been taken. Prerequisite: CSE 143.
+CSE 344: Introduction To Data Management Introduces database management systems and writing applications that use such systems; data models (e.g., relational, semi-structured), query languages (e.g., SQL, XQuery), language bindings, conceptual modeling, transactions, security, database tuning, data warehousing, parallelism, and Web-data management. Prerequisite: CSE 311.
+CSE 351: The Hardware/software Interface Examines key computational abstraction levels below modern high-level languages; number representation, assembly language, introduction to C, memory management, the operating-system process model, high-level machine architecture including the memory hierarchy, and how high-level languages are implemented. Prerequisite: CSE 143.
+CSE 352: Hardware Design And Implementation Covers digital circuit design, processor design, and systems integration and embedded-systems issues. Include substantial hardware laboratory. Prerequisite: CSE 311; CSE 351.
+CSE 369: Introduction to Digital Design Introduces the implementation of digital logic and its specification and simulation. Covers Boolean algebra; combinational circuits including arithmetic circuits and regular structures; sequential circuits including finitestate-machines; and use of field-programmable gate arrays (FPGAs). Emphasizes simulation, high-level specification, and automatic synthesis techniques. Prerequisite: CSE 311.
+CSE 371: Design of Digital Circuits and Systems Provides a theoretical background in, and practical experience with, tools, and techniques for modeling complex digital systems with the Verilog hardware description language, maintaining signal integrity, managing power consumption, and ensuring robust intra- and inter-system communication. Prerequisite: either E E 205 or E E 215; either E E 271 or CSE 369. Offered: jointly with E E 371.
+CSE 373: Data Structures And Algorithms Fundamental algorithms and data structures for implementation. Techniques for solving problems by programming. Linked lists, stacks, queues, directed graphs. Trees: representations, traversals. Searching (hashing, binary search trees, multiway trees). Garbage collection, memory management. Internal and external sorting. Intended for non-majors. Not open for credit to students who have completed CSE 332. Prerequisite: CSE 143.
+CSE 374: Intermediate Programming Concepts And Tools Covers key software development concepts and tools not in introductory courses. Concepts of lower-level programming (C/C++) and explicit memory management; techniques and tools for individual and group software development; design, implementation, and testing strategies. Intended for non-majors. Cannot be taken for credit if credit received for CSE 333. Prerequisite: CSE 143.
+CSE 390a: System and Software Tools System and Software Tools: Unix/Linux command line interface (CLI), Shell scripting, compilation tools (makefiles), version control.
+CSE 390l: Leadership Seminar Series The UW CSE Leadership Seminar Series, CSE 390L, is a one-credit (CR/NC) seminar series, primarily targeted at undergraduates, that brings CSE alumni and friends to campus to describe how to be effective in a startup, small company, large company, or less common environment. Course requirements: Regular attendance, active participation, and some preparation on a wiki in advance of each course session.
+CSE 390t: Transfer Admit Seminar Covers critical differences between UW CSE life and other schools based on previous transfer students' experiences. Topics will include significant differences between lecture and homework styles at UW, academic planning (graduating on time, class planning), and preparing for internships/industry. Also covers fundamentals to be successful in CSE 311 while juggling an exceptionally heavy course load.
+CSE 391: System and Software Tools Introduction to tools commonly used in software development. Topics include using a command-line interface, writing scripts for file and string manipulation, managing user permissions, manipulating text with regular expressions, using build-management tools, and using version-control systems. Prerequisite: CSE 143. Credit/no-credit only.
+CSE 399: CSE Foreign Study Upper division computer science or computer engineering course, taken through an approved study abroad program, which there are no direct University of Washington equivalents. Credit/no credit only.
+CSE 401: Introduction To Compiler Construction Fundamentals of compilers and interpreters; symbol tables; lexical analysis, syntax analysis, semantic analysis, code generation, and optimizations for general purpose programming languages. No credit to students who have taken CSE 413. Prerequisite: CSE 332; CSE 351.
+CSE 403: Software Engineering Fundamentals of software engineering using a group project as the basic vehicle. Topics covered include the software crisis, managing complexity, requirements specification, architectural and detailed design, testing and analysis, software process, and tools and environments. Prerequisite: CSE 331; CSE 332; recommended: project experience in a work setting.
+CSE 410: Computer Systems Structure and components of hardware and software systems. Machine organization, including central processor and input-output architectures; assembly language programming; operating systems, including process, storage, and file management. Intended for non-majors. No credit to students who have completed CSE 351 or CSE 451. Prerequisite: CSE 373.
+CSE 413: Programming Languages & Their Implementation Basic concepts and implementation strategies for modern functional and object-oriented programming languages such as Scheme and Java. Intended for non-majors. No credit to students who have completed CSE 341 or CSE 401. Prerequisite: CSE 373.
+CSE 414: Introduction to Database Systems Introduces database management systems and writing applications that use such systems; data models, query languages, transactions, database tuning, data warehousing, and parallelism. Intended for non-majors. Not open for credit to students who have completed CSE 344. Prerequisite: minimum grade of 2.5 in CSE 143.
+CSE 415: Introduction To Artificial Intelligence Principles and programming techniques of artificial intelligence: LISP, symbol manipulation, knowledge representation, logical and probabilistic reasoning, learning, language understanding, vision, expert systems, and social issues. Intended for non-majors. Not open for credit to students who have completed CSE 473. Prerequisite: CSE 373.
+CSE 416: Introduction to Machine Learning Provides practical introduction to machine learning. Modules include regression, classification, clustering, retrieval, recommender systems, and deep learning, with a focus on an intuitive understanding grounded in real-world applications. Intelligent applications are designed and used to make predictions on large, complex datasets. Intended for non-majors. Prerequisite: CSE 143 or CSE 160; and STAT 311 or STAT 390 Offered: jointly with STAT 416.
+CSE 417: Algorithms And Computational Complexity Design and analysis of algorithms and data structures. Efficient algorithms for manipulating graphs and strings. Fast Fourier Transform. Models of computation, including Turing machines. Time and space complexity. NP-complete problems and undecidable problems. Intended for non-majors. Prerequisite: CSE 373.
+CSE 421: Introduction To Algorithms Techniques for design of efficient algorithms. Methods for showing lower bounds on computational complexity. Particular algorithms for sorting, searching, set manipulation, arithmetic, graph problems, pattern matching. Prerequisite: CSE 312; CSE 332.
+CSE 427: Computational Biology Algorithmic and analytic techniques underlying analysis of large-scale biological data sets such as DNA, RNA, and protein sequences or structures, expression and proteomic profiling. Hands-on experience with databases, analysis tools, and genome markers. Applications such as sequence alignment, BLAST, phylogenetics, and Markov models. Prerequisite: CSE 312; CSE 332.
+CSE 428: Computational Biology Capstone Designs and implements a software tool or software analysis for an important problem in computational molecular biology. Prerequisite: CSE 312; CSE 331; CSE 332; recommended: CSE 427.
+CSE 431: Introduction To Theory Of Computation Models of computation, computable and noncomputable functions, space and time complexity, tractable and intractable functions. Prerequisite: CSE 312.
+CSE 440: Intro To HCI: User Interface Design, Prototype, Evaluation Human-Computer Interaction (HCI) theory and techniques. Methods for designing, prototyping, and evaluating user interfaces to computing applications. Human capabilities, interface technology, interface design methods, and interface evaluation tools and techniques. Prerequisite: CSE 332.
+CSE 441: Advanced Hci: User Interface Dsgn, Prototype, Eval Human-Computer Interaction (HCI) theory and techniques. Advanced methods for designing, prototyping, and evaluating user interfaces to computing applications. Novel interface technology, advanced interface design methods, and prototyping tools. Prerequisite: CSE 440.
+CSE 442: Data Visualization Techniques for creating effective visualizations of data based on principles from graphic design, perceptual psychology, and statistics. Topics include visual encoding models, exploratory data analysis, visualization software, interaction techniques, graphical perception, color, animation, high-dimensional data, cartography, network visualization, and text visualization. Prerequisite: CSE 332.
+CSE 444: Database Systems Internals
+The relational data model and the SQL query language. Conceptual modeling: entity/relationships, normal forms. XML, XPath, and XQuery. Transactions: recovery and concurrency control. Implementation of a database system. A medium sized project using a rational database backend. Prerequisite: CSE 332; CSE 344.
+
+CSE 446: Machine Learning Methods for designing systems that learn from data and improve with experience. Supervised learning and predictive modeling: decision trees, rule induction, nearest neighbors, Bayesian methods, neural networks, support vector machines, and model ensembles. Unsupervised learning and clustering. Prerequisite: CSE 332; either STAT 390, STAT 391, or CSE 312.
+CSE 450: Animation Production Seminar Open to all students who have an interest in digital animation. Reviews and analyzes films, animated feature films, and television commercials. Emphasizes the technical and aesthetic basics of animation production in industry studio environments.
+CSE 451: Introduction To Operating Systems Principles of operating systems. Process management, memory management, auxiliary storage management, resource allocation. No credit to students who have completed CSE 410 or E E 474. Prerequisite: CSE 351; CSE 332; CSE 333.
+CSE 452: Introduction to Distributed Systems Covers abstractions and implementation techniques in the construction of distributed systems, including cloud computing, distributed storage systems, and distributed caches. Prerequisite: CSE 451.
+CSE 454: Advanced Internet And Web Services Design of Internet search engines, including spider architecture, inverted indices, frequency rankings, latent semantic indexing, hyperlink analysis, and refinement interfaces. Construction of scalable and secure web services. Datamining webserver logs to provide personalized and user-targeted services. Large project. Prerequisite: CSE 332; CSE 351; either CSE 331 or CSE 352; recommended: completion of all required 300-level and several 400-level CSE courses.
+CSE 455: Computer Vision Introduction to image analysis and interpreting the 3D world from image data. Topics may include segmentation, motion estimation, image mosaics, 3D-shape reconstruction, object recognition, and image retrieval. Prerequisite: CSE 333; CSE 332; recommended: MATH 308; STAT 391.
+CSE 456: Story Design For Computer Animation Animation principles and production for story development and design. Design, development, and production of several storyreels, which are a tool for the pre-production of animated features and shorts. Student use authoring tools to present finished work.
+CSE 457: Computer Graphics Introduction to computer image synthesis, modeling, and animation. Topics may include visual perception, displays and framebuffers, image processing, affine and projective transformations, hierarchical modeling, hidden surface elimination, shading, ray-tracing, anti-aliasing, texture mapping, curves, surfaces, particle systems, dynamics, character animation, and animation principles. Prerequisite: CSE 333; CSE 332; recommended: CSE 312; MATH 308.
+CSE 458: Computer Animation Introduction to basic principles of computer generated animation. Focus on the modeling and lighting of animated characters. Students from art, CSE, and music team up on projects to be built on commercially-available modeling and lighting packages. Prerequisite: CSE 457; recommended: instructor permission.
+CSE 459: Pre-production For Collaborative Animation Pre-production of collaboratively designed animated shorts. In-depth analysis of classical and computer generated works. Character design and pre-planning, model sheets, character rigging, storyreel and animatics, character motion, design for multiple characters, and principles of animation as applied to character motion and effects. Prerequisite: CSE 458.
+CSE 460: Animation Capstone Apply the knowledge gained in previous animation courses to produce a short animated film. Topics include scene planning, digital cinematography, creature and hard surface modeling, animatics and basics of character animation, and rendering techniques. Prerequisite: CSE 458, CSE 459.
+CSE 461: Introduction To Computer Communication Networks 
+Fundamentals of Programming
+Data Structures
+Introduction to Algorithms
+Operating Systems
+Computer Architecture
+Programming Languages
+Human - Computer Interaction
+Discrete Mathematics
+Database Designing
+Math Requirements:[3]
+
+Probability & Statistics
+Calculus I
+Calculus II
+Calculus III
+Linear Algebra
+Boolean Algebra
+
+SE. 1.
+Apply mathematical induction and other techniques to prove mathematical results.
+CS. 25.
+Examine the logical validity of arguments and proofs as they apply to Boolean expressions.
+CS. 26.
+Illustrate the basic terminology and properties of graphs and trees.
+CS. 27.
+Perform binary and hexadecimal conversions of numbers.
+CS. 28.
+Perform computations using recursively defined functions and structures.
+SE. 5.
+Solve problems involving sets, relations, functions, and congruences.
+CS. 32.
+Use graphs and trees to solve problems algorithmically.
+SE. 6.
+Use methods of combinatorics to solve counting problems.
+Algorithmic strategies	2	brute-force; greedy; branch-and-bound; heuristics; pattern matching; string/text
+Basic algorithmic analysis	3	asymptotic analysis of upper and average complexity bounds; best, average, and worst case behaviors; big O and little o notations; standard complexity classes; empirical measurements of performance; time and space tradeoffs; recurrence relations
+Canonical data structures	7	stacks; queues; linked lists; hash tables; trees; graphs
+Concurrency	2	threads; scheduling, synchronization and timing; multi-threaded programs; race conditions
+Formal computing algorithms	8	efficiency of various sorting and searching algorithms; hashing; collision-avoidance strategies; binary search trees; depth- and breadth-first traversals; shortest-path algorithms; minimum spanning tree; transitive closure; topological sort
+Intermediate Human-Computer Interaction	2	universal principles; human-centered considerations; usability testing and verification; design trade-offs; secure user interfaces; standard API graphics
+Intermediate Recursion	7	recursive mathematical functions; divide-and-conquer, first-and-rest, and last-and-rest strategies; backtracking; recursion with linked lists, trees and graphs
+Professionalism	1	standards of professional behavior; professional computing societies and publications; professional responsibilities and liabilities; ACM Code of Conduct; career paths in computing
+Software and Information Assurance	3	conformance with assurance coding standards and practices, trustworthiness, and predictable execution testing; quality reviews; engineering and security tradeoffs; risks and liabilities of computer-based systems; fault prevention in software life-cycle stages; intentional and unintentional software security vulnerabilities
+Software engineering	4	standard approaches and implementation tools for analysis and design; software lifecycle stages, processes and documentation; Software Process Maturity Scale
+Software reuse	3	design patterns; parametric polymorphism (templates or generics); code libraries; container classes and iterators
+Course Objectives
+Global Impact
+An ability to analyze the global impact of computing on individuals, organizations, and society.
+
+Learning Outcomes
+CS. 3.
+Practice the tenets of ethics and professional behavior promoted by computing societies; accept the professional responsibilities and liabilities associated with software development. Lifelong Learning
+An ability to engage in continuous learning as well as research and assess new ideas and information to provide the capabilities for lifelong learning.
+
+Learning Outcomes
+CS. 4.
+Analyze the efficiency of recursive algorithms.
+CS. 11.
+Assess the appropriateness of using recursion to solve a given problem.
+CS. 12.
+Compare and contrast a range of searching and sorting algorithms and analyze time and space efficiencies.
+CS. 17.
+Create effective, efficient and secure software, reflecting standard principles of software engineering and software assurance.
+CS. 21.
+Design and construct programming solutions using a variety of recursive techniques.
+CS. 22.
+Design and develop reusable software using appropriate data structures and templates.
+CS. 33.
+Use standard analysis and design techniques to produce a team-developed, medium-sized, secure software application that is fully implemented and formally tested.

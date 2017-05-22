@@ -101,6 +101,19 @@ TOTAL HOURS FOR MLS DEGREE: 36 hours
 
 Concentrations
 
+The School of Information's Master or Arts in Library and Information Science program is accredited by the American Library Association (http://www.ala.org/).  The program focuses on information organization, digitial information, health sciences, law and culture.  Students prepare for careers in libraries, museums, archives, government and business information centers.  This degree program is a total of 37 units.
+
+Below are the current concentrations offered with the MA degree program.  Some concentrations are offered as a graduate certificate program.
+
+Academic Librarianship
+Archival Studies (Certificate)
+Digital Information Management (Certificate)
+Law Librarianship (Certificate)
+Legal Information and Scholarly Communication (Certificate)
+Medical and Community Health Information (Certificate)
+Public Librarianship
+Special Librarianship
+
 Students may choose to earn a concentration within the MLS degree. If opting to earn a concentration, students must complete 9 credit hours of prescribed coursework. A 9 credit hour concentration would apply towards the 14 credit hours of electives required for the MLS degree.
 
 Archives Studies
@@ -210,52 +223,32 @@ INFO 605	Introduction to Database Management
 INFO 608	Human-Computer Interaction	 
 INFO 622	Content Representation	 
 or INFO 662
-Metadata and Resource Description
-INFO 624	Information Retrieval Systems	 
-INFO 633	Information Visualization	 
-INFO 642	Managing Digital Projects	 
-INFO 658	Information Architecture	 
-INFO 740	Digital Reference Services	 
-INFO 753	Introduction to Digital Curation	 
-INFO 755	Electronic Records Management	 
+ent	 
 INFO 756	Digital Preservation	 
 Total Credits	15.0
- 
+ LIS 650 Management of Library & Information Centers (General Track)
+LIS 684 Administration of School Library Media Centers (School Library Media Specialist Track)
 
-YOUTH SERVICES
+LIS 601 Introduction to Reference & Information Services
+LIS 605 Metadata Creation for Information Organization
+LIS 610 Foundations of the Information Professions
+LIS 615 Collection Management
+LIS 663 Database Searching
 
-Required Courses	 
-INFO 649	Library Programming	3.0
-INFO 650	Public Library Service	3.0
-INFO 683	Resources for Children	3.0
-INFO 684	Resources for Young Adults	3.0
-Select one of the following courses:	3.0
-INFO 552
-Introduction to Web Design for Information Organizations	 
-INFO 665
-Collection Management	 
-INFO 682
-Storytelling	 
-INFO 688
-Instructional Role for the Information Specialist	 
-Total Credits	15.0
+LIS 647 Systems Analysis for Information Management
+LIS 671 Digital Librarianship
+LIS 672 Technology for Libraries & Information Centers
+LIS 678 Personalized Info Delivery: Info Filtering
+LIS 694 Special Topics in Information Technology
+ICS 616 Information Architecture and Web Design
+ICS 624 Advanced Data Management
+ICS 669 Social Computing
+ICS 686 Digital Video Information
+ICS 691 Topics in Software
+
 
 
 DIGITAL CURATION
 
-Core Required Courses	 
-INFO 560	Introduction to Archives I	3.0
-INFO 753	Introduction to Digital Curation	3.0
-INFO 756	Digital Preservation	3.0
-Select one from the following Technology courses:	3.0
-INFO 605	Introduction to Database Management	 
-INFO 633	Information Visualization	 
-INFO 642	Managing Digital Projects	 
-INFO 653	Digital Libraries	 
-INFO 658	Information Architecture	 
-INFO 755	Electronic Records Management	 
-Select one from the following Content add-value courses:	3.0
-INFO 555	Introduction to Geographic Information Systems	 
-INFO 622	Content Representation	 
-INFO 661	Cataloging Special Materials	 
+Core Re
 INFO 662	Metadata and Resource Description
