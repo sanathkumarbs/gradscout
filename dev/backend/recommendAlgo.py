@@ -212,7 +212,7 @@ class RecommendationAlgorithm(object):
                 #Finding the similarity as the spatial distance between two programs
                 result = 1 - spatial.distance.cosine(standard_normalized_score_list, sorted_list)
                 #Closer the distance to the one, closer it is to the generalized vector
-                recommendations[program] = (round(result*100, 2))
+                recommendations[program] = (round(result*100, 4))
 
 
 
@@ -230,7 +230,7 @@ class RecommendationAlgorithm(object):
             #Finding the similarity as the spatial distance between two programs
             result = 1 - spatial.distance.cosine(standard_normalized_score_list, sorted_list)
             #Closer the distance to the one, closer it is to the generalized vector
-            recommendations[program] = (round(result*100, 2))
+            recommendations[program] = round(result*100, 2)
 
         recommendations=sorted(recommendations.items(), key=lambda kv: kv[1], reverse=True)
 
@@ -255,7 +255,7 @@ class RecommendationAlgorithm(object):
         for key, val in dict_tuple.iteritems():
             temp=dict_tuple.get(key)
             temp=(temp-min_val)/denom*100
-            res_dict[key]=temp
+            res_dict[key]=round(temp,2)
 
         res_dict
 
