@@ -80,7 +80,8 @@ def source_content(program_id, score):
               'blurb': None,
               'score': None,
               'outofstate': None,
-              'instate': None}
+              'instate': None,
+	      'career': None}
 
     program = firebase.get_program_details(program_id)
     fees = firebase.get_program_fees(program_id)
@@ -95,6 +96,7 @@ def source_content(program_id, score):
     schema['score'] = score
     schema['outofstate'] = fees['in_state']
     schema['instate'] = fees['out_of_state']
+    schema['careers'] = firebase.get_university_career(uni_id)
 
     return schema
 
